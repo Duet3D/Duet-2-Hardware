@@ -54,7 +54,7 @@ MCP4461 mcp;
 #define E1_STEP 48
 #define E1_DIR 49
 #define E1_EN  47
-#define E1_STOP  Z_STOP //No E1 Stop defined
+#define E1_STOP 46
 
 
 //use to disable the axis endstop checking code so the motors step regardless
@@ -98,7 +98,7 @@ void setup() {
  pinMode(E1_STEP, OUTPUT);
  pinMode(E1_DIR, OUTPUT);
  pinMode(E1_EN, OUTPUT);
- //pinMode(E1_STOP, INPUT);
+ pinMode(E1_STOP, INPUT);
  
 //disable the steppers to begin
   digitalWrite(X_EN, HIGH);

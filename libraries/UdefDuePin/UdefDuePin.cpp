@@ -48,6 +48,9 @@ extern const PinDescription unDefPinDescription[]=
   { PIOA, PIO_PA0,         ID_PIOC, PIO_OUTPUT_0, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // PIN X2
   { PIOA, PIO_PA1,         ID_PIOC, PIO_OUTPUT_0, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // PIN X3
   { PIOA, PIO_PA7,         ID_PIOC, PIO_OUTPUT_0, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // PIN X4
+  { PIOC, PIO_PC8B_PWML3,   ID_PIOC, PIO_PERIPH_B, PIO_DEFAULT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM),   NO_ADC, NO_ADC, PWM_CH3,     NOT_ON_TIMER }, // PWM X5
+  { PIOC, PIO_PC9B_PWMH3,   ID_PIOC, PIO_PERIPH_B, PIO_DEFAULT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM),   NO_ADC, NO_ADC, PWM_CH3,     NOT_ON_TIMER }, // PWM X6
+  { PIOB, PIO_PB14B_PWMH2,  ID_PIOB, PIO_PERIPH_B, PIO_DEFAULT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM),   NO_ADC, NO_ADC, PWM_CH2,     NOT_ON_TIMER }, // PWM X7
   { NULL, 0, 0, PIO_NOT_A_PIN, PIO_DEFAULT, 0, NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }
 } ;
 
@@ -127,5 +130,79 @@ extern void digitalWriteUndefined( uint32_t ulPin, uint32_t ulVal )
   {
     PIO_SetOutput( unDefPinDescription[ulPin].pPort, unDefPinDescription[ulPin].ulPin, ulVal, 0, PIO_PULLUP ) ;
   }
+}
+
+/*
+digitalReadUndefined
+copied from the digitalRead function within wiring-digital.c file, part of the arduino core.
+Allows digital read of a non "Arduino Due" PIO pin that has been setup as input with pinModeUndefined
+*/
+extern int digitalReadUndefined( uint32_t ulPin )
+{
+	if ( unDefPinDescription[ulPin].ulPinType == PIO_NOT_A_PIN )
+    {
+        return LOW ;
+    }
+
+	if ( PIO_Get( unDefPinDescription[ulPin].pPort, PIO_INPUT, unDefPinDescription[ulPin].ulPin ) == 1 )
+    {
+        return HIGH ;
+    }
+
+	return LOW ;
+}
+
+static uint8_t PWMEnabled = 0;
+static uint8_t pinEnabled[PINS_COUNT];
+
+/*
+analog write helper functions
+*/
+void analogOutputUndefInit(void) {
+	for (uint8_t i=0; i<PINS_COUNT; i++)
+		pinEnabled[i] = 0;
+}
+
+/*
+analogWriteUndefined
+copied from the analogWrite function within wiring-analog.c file, part of the arduino core.
+Allows analog write to a non "Arduino Due" PWM pin. Note this does not support the other functions of
+the arduino analog write function such as timer counters and the DAC. Any hardware PWM pin that is defined as such
+within the unDefPinDescription[] struct should work, and non harware pin will default to digitalWriteUndefined
+*/
+
+void analogWriteUndefined(uint32_t ulPin, uint32_t ulValue) {
+	uint32_t attr = unDefPinDescription[ulPin].ulPinAttribute;
+  if ((attr & PIN_ATTR_PWM) == PIN_ATTR_PWM) {
+    if (!PWMEnabled) {
+      // PWM Startup code
+        pmc_enable_periph_clk(PWM_INTERFACE_ID);
+        PWMC_ConfigureClocks(PWM_FREQUENCY * PWM_MAX_DUTY_CYCLE, 0, VARIANT_MCK);
+        analogOutputUndefInit();
+      PWMEnabled = 1;
+    }
+    uint32_t chan = unDefPinDescription[ulPin].ulPWMChannel;
+    if (!pinEnabled[ulPin]) {
+      // Setup PWM for this pin
+      PIO_Configure(unDefPinDescription[ulPin].pPort,
+          unDefPinDescription[ulPin].ulPinType,
+          unDefPinDescription[ulPin].ulPin,
+          unDefPinDescription[ulPin].ulPinConfiguration);
+      PWMC_ConfigureChannel(PWM_INTERFACE, chan, PWM_CMR_CPRE_CLKA, 0, 0);
+      PWMC_SetPeriod(PWM_INTERFACE, chan, PWM_MAX_DUTY_CYCLE);
+      PWMC_SetDutyCycle(PWM_INTERFACE, chan, ulValue);
+      PWMC_EnableChannel(PWM_INTERFACE, chan);
+      pinEnabled[ulPin] = 1;
+    }
+
+    PWMC_SetDutyCycle(PWM_INTERFACE, chan, ulValue);
+    return;
+  }
+	// Defaults to digital write
+	pinModeUndefined(ulPin, OUTPUT);
+	if (ulValue < 128)
+		digitalWriteUndefined(ulPin, LOW);
+	else
+		digitalWriteUndefined(ulPin, HIGH);
 }
 

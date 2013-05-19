@@ -3,7 +3,7 @@ Test code for FET outputs on DUET 0.3
 Note on 0.3 the FETS come on automatically when 12V is applied (the driver fets invert
 the logic)
 
-Uses the Undefined Arduino Due Pins Library "UdefDuePin.h" to demonstrate PWM on
+Uses the Undefined Arduino Due Pins Library "SamNonDuePin" to demonstrate PWM on
 pins that are not defined as PWM within the DUE software but are on the SAM3X8E
 
 Note no setup of the pins is required as this is carried out within the analogWriteUndefined()
@@ -23,8 +23,8 @@ Finally I am using the option of defining the Arduino Undef pins with a X in fro
 this allows for easy distinguishing of them but is not required.
 */
 
-#include "Arduino.h";
-#include "UdefDuePin.h"
+#include "Arduino.h"
+#include "SamNonDuePin.h"
 
 #define E0_PWM X5  
 #define FAN0_PWM X6 
@@ -36,17 +36,17 @@ void setup() {
 void loop() {
   for (int i = 0 ; i<256 ;i++)
   { 
-    analogWriteUndefined(FAN0_PWM, i);
-    analogWriteUndefined(E0_PWM, i);
-    analogWriteUndefined(BED_PWM, i);
+    analogWriteNonDue(FAN0_PWM, i);
+    analogWriteNonDue(E0_PWM, i);
+    analogWriteNonDue(BED_PWM, i);
     delay(10);
   }
   delay(500); 
   for (int i = 255 ; i>=0 ;i--)
   { 
-    analogWriteUndefined(FAN0_PWM, i);
-    analogWriteUndefined(E0_PWM, i);
-    analogWriteUndefined(BED_PWM, i);
+    analogWriteNonDue(FAN0_PWM, i);
+    analogWriteNonDue(E0_PWM, i);
+    analogWriteNonDue(BED_PWM, i);
     delay(10);
   }
   delay(500);  

@@ -26,7 +26,7 @@ At this point it only implements pinMode and digitalWrite on pin PA5 and PC27
 Note the pin numbers of "0" and "1"
 */
 
-#include "UdefDuePin.h"
+#include "SamNonDuePin.h"
 
 //Example from the variant.cpp file
 /*
@@ -41,7 +41,7 @@ Note the pin numbers of "0" and "1"
 /*
  * Pins descriptions
  */
-extern const PinDescription unDefPinDescription[]=
+extern const PinDescription nonDuePinDescription[]=
 {
   { PIOA, PIO_PA5,         ID_PIOA, PIO_OUTPUT_0, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // PIN X0
   { PIOC, PIO_PC27,        ID_PIOC, PIO_OUTPUT_0, PIO_DEFAULT, PIN_ATTR_DIGITAL,                  NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }, // PIN X1
@@ -51,18 +51,24 @@ extern const PinDescription unDefPinDescription[]=
   { PIOC, PIO_PC8B_PWML3,   ID_PIOC, PIO_PERIPH_B, PIO_DEFAULT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM),   NO_ADC, NO_ADC, PWM_CH3,     NOT_ON_TIMER }, // PWM X5
   { PIOC, PIO_PC9B_PWMH3,   ID_PIOC, PIO_PERIPH_B, PIO_DEFAULT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM),   NO_ADC, NO_ADC, PWM_CH3,     NOT_ON_TIMER }, // PWM X6
   { PIOB, PIO_PB14B_PWMH2,  ID_PIOB, PIO_PERIPH_B, PIO_DEFAULT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM),   NO_ADC, NO_ADC, PWM_CH2,     NOT_ON_TIMER }, // PWM X7
+  { PIOA, PIO_PA20A_MCCDA,  ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,   NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // PIN_HSMCI_MCCDA_GPIO
+  { PIOA, PIO_PA19A_MCCK,  ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,   NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // PIN_HSMCI_MCCK_GPIO
+  { PIOA, PIO_PA21A_MCDA0,  ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,   NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // PIN_HSMCI_MCDA0_GPIO
+  { PIOA, PIO_PA22A_MCDA1,  ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,   NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // PIN_HSMCI_MCDA1_GPIO
+  { PIOA, PIO_PA23A_MCDA2,  ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,   NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // PIN_HSMCI_MCDA2_GPIO
+  { PIOA, PIO_PA24A_MCDA3,  ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,   NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }, // PIN_HSMCI_MCDA3_GPIO
   { NULL, 0, 0, PIO_NOT_A_PIN, PIO_DEFAULT, 0, NO_ADC, NO_ADC, NOT_ON_PWM, NOT_ON_TIMER }
 } ;
 
 
 /*
-pinModeUndefined
+pinModeNonDue
 copied from the pinMode function within wiring-digital.c file, part of the arduino core.
 Allows a non "Arduino Due" PIO pin to be setup.
 */
-extern void pinModeUndefined( uint32_t ulPin, uint32_t ulMode )
+extern void pinModeNonDue( uint32_t ulPin, uint32_t ulMode )
 {
-    if ( unDefPinDescription[ulPin].ulPinType == PIO_NOT_A_PIN )
+    if ( nonDuePinDescription[ulPin].ulPinType == PIO_NOT_A_PIN )
     {
         return ;
     }
@@ -71,33 +77,33 @@ extern void pinModeUndefined( uint32_t ulPin, uint32_t ulMode )
     {
         case INPUT:
             /* Enable peripheral for clocking input */
-            pmc_enable_periph_clk( unDefPinDescription[ulPin].ulPeripheralId ) ;
+            pmc_enable_periph_clk( nonDuePinDescription[ulPin].ulPeripheralId ) ;
             PIO_Configure(
-            	unDefPinDescription[ulPin].pPort,
+            	nonDuePinDescription[ulPin].pPort,
             	PIO_INPUT,
-            	unDefPinDescription[ulPin].ulPin,
+            	nonDuePinDescription[ulPin].ulPin,
             	0 ) ;
         break ;
 
         case INPUT_PULLUP:
             /* Enable peripheral for clocking input */
-            pmc_enable_periph_clk( unDefPinDescription[ulPin].ulPeripheralId ) ;
+            pmc_enable_periph_clk( nonDuePinDescription[ulPin].ulPeripheralId ) ;
             PIO_Configure(
-            	unDefPinDescription[ulPin].pPort,
+            	nonDuePinDescription[ulPin].pPort,
             	PIO_INPUT,
-            	unDefPinDescription[ulPin].ulPin,
+            	nonDuePinDescription[ulPin].ulPin,
             	PIO_PULLUP ) ;
         break ;
 
         case OUTPUT:
             PIO_Configure(
-            	unDefPinDescription[ulPin].pPort,
+            	nonDuePinDescription[ulPin].pPort,
             	PIO_OUTPUT_1,
-            	unDefPinDescription[ulPin].ulPin,
-            	unDefPinDescription[ulPin].ulPinConfiguration ) ;
+            	nonDuePinDescription[ulPin].ulPin,
+            	nonDuePinDescription[ulPin].ulPinConfiguration ) ;
 
             /* if all pins are output, disable PIO Controller clocking, reduce power consumption */
-            if ( unDefPinDescription[ulPin].pPort->PIO_OSR == 0xffffffff )
+            if ( nonDuePinDescription[ulPin].pPort->PIO_OSR == 0xffffffff )
             {
                 pmc_disable_periph_clk( g_APinDescription[ulPin].ulPeripheralId ) ;
             }
@@ -109,42 +115,42 @@ extern void pinModeUndefined( uint32_t ulPin, uint32_t ulMode )
 }
 
 /*
-digitalWriteUndefined
+digitalWriteNonDue
 copied from the digitalWrite function within wiring-digital.c file, part of the arduino core.
 Allows digital write to a non "Arduino Due" PIO pin that has been setup as output with pinModeUndefined
 */
 
-extern void digitalWriteUndefined( uint32_t ulPin, uint32_t ulVal )
+extern void digitalWriteNonDue( uint32_t ulPin, uint32_t ulVal )
 {
   /* Handle */
-  if ( unDefPinDescription[ulPin].ulPinType == PIO_NOT_A_PIN ) 
+  if ( nonDuePinDescription[ulPin].ulPinType == PIO_NOT_A_PIN ) 
  {
     return ;
   }
 
-  if ( PIO_GetOutputDataStatus( unDefPinDescription[ulPin].pPort, unDefPinDescription[ulPin].ulPin ) == 0 )
+  if ( PIO_GetOutputDataStatus( nonDuePinDescription[ulPin].pPort, nonDuePinDescription[ulPin].ulPin ) == 0 )
   {
-    PIO_PullUp( unDefPinDescription[ulPin].pPort, unDefPinDescription[ulPin].ulPin, ulVal ) ;
+    PIO_PullUp( nonDuePinDescription[ulPin].pPort, nonDuePinDescription[ulPin].ulPin, ulVal ) ;
   }
   else
   {
-    PIO_SetOutput( unDefPinDescription[ulPin].pPort, unDefPinDescription[ulPin].ulPin, ulVal, 0, PIO_PULLUP ) ;
+    PIO_SetOutput( nonDuePinDescription[ulPin].pPort, nonDuePinDescription[ulPin].ulPin, ulVal, 0, PIO_PULLUP ) ;
   }
 }
 
 /*
-digitalReadUndefined
+digitalReadNonDue
 copied from the digitalRead function within wiring-digital.c file, part of the arduino core.
 Allows digital read of a non "Arduino Due" PIO pin that has been setup as input with pinModeUndefined
 */
-extern int digitalReadUndefined( uint32_t ulPin )
+extern int digitalReadNonDue( uint32_t ulPin )
 {
-	if ( unDefPinDescription[ulPin].ulPinType == PIO_NOT_A_PIN )
+	if ( nonDuePinDescription[ulPin].ulPinType == PIO_NOT_A_PIN )
     {
         return LOW ;
     }
 
-	if ( PIO_Get( unDefPinDescription[ulPin].pPort, PIO_INPUT, unDefPinDescription[ulPin].ulPin ) == 1 )
+	if ( PIO_Get( nonDuePinDescription[ulPin].pPort, PIO_INPUT, nonDuePinDescription[ulPin].ulPin ) == 1 )
     {
         return HIGH ;
     }
@@ -153,41 +159,41 @@ extern int digitalReadUndefined( uint32_t ulPin )
 }
 
 static uint8_t PWMEnabled = 0;
-static uint8_t pinEnabled[PINS_COUNT];
+static uint8_t pinEnabled[PINS_C];
 
 /*
 analog write helper functions
 */
-void analogOutputUndefInit(void) {
-	for (uint8_t i=0; i<PINS_COUNT; i++)
+void analogOutputNonDueInit(void) {
+	for (uint8_t i=0; i<PINS_C; i++)
 		pinEnabled[i] = 0;
 }
 
 /*
-analogWriteUndefined
+analogWriteNonDue
 copied from the analogWrite function within wiring-analog.c file, part of the arduino core.
 Allows analog write to a non "Arduino Due" PWM pin. Note this does not support the other functions of
 the arduino analog write function such as timer counters and the DAC. Any hardware PWM pin that is defined as such
-within the unDefPinDescription[] struct should work, and non harware pin will default to digitalWriteUndefined
+within the unDefPinDescription[] struct should work, and non hardware PWM pin will default to digitalWriteUndefined
 */
 
-void analogWriteUndefined(uint32_t ulPin, uint32_t ulValue) {
-	uint32_t attr = unDefPinDescription[ulPin].ulPinAttribute;
+void analogWriteNonDue(uint32_t ulPin, uint32_t ulValue) {
+	uint32_t attr = nonDuePinDescription[ulPin].ulPinAttribute;
   if ((attr & PIN_ATTR_PWM) == PIN_ATTR_PWM) {
     if (!PWMEnabled) {
       // PWM Startup code
         pmc_enable_periph_clk(PWM_INTERFACE_ID);
         PWMC_ConfigureClocks(PWM_FREQUENCY * PWM_MAX_DUTY_CYCLE, 0, VARIANT_MCK);
-        analogOutputUndefInit();
+        analogOutputNonDueInit();
       PWMEnabled = 1;
     }
-    uint32_t chan = unDefPinDescription[ulPin].ulPWMChannel;
+    uint32_t chan = nonDuePinDescription[ulPin].ulPWMChannel;
     if (!pinEnabled[ulPin]) {
       // Setup PWM for this pin
-      PIO_Configure(unDefPinDescription[ulPin].pPort,
-          unDefPinDescription[ulPin].ulPinType,
-          unDefPinDescription[ulPin].ulPin,
-          unDefPinDescription[ulPin].ulPinConfiguration);
+      PIO_Configure(nonDuePinDescription[ulPin].pPort,
+          nonDuePinDescription[ulPin].ulPinType,
+          nonDuePinDescription[ulPin].ulPin,
+          nonDuePinDescription[ulPin].ulPinConfiguration);
       PWMC_ConfigureChannel(PWM_INTERFACE, chan, PWM_CMR_CPRE_CLKA, 0, 0);
       PWMC_SetPeriod(PWM_INTERFACE, chan, PWM_MAX_DUTY_CYCLE);
       PWMC_SetDutyCycle(PWM_INTERFACE, chan, ulValue);
@@ -199,10 +205,27 @@ void analogWriteUndefined(uint32_t ulPin, uint32_t ulValue) {
     return;
   }
 	// Defaults to digital write
-	pinModeUndefined(ulPin, OUTPUT);
+	pinModeNonDue(ulPin, OUTPUT);
 	if (ulValue < 128)
-		digitalWriteUndefined(ulPin, LOW);
+		digitalWriteNonDue(ulPin, LOW);
 	else
-		digitalWriteUndefined(ulPin, HIGH);
+		digitalWriteNonDue(ulPin, HIGH);
 }
 
+
+//initialise HSMCI pins
+void hsmciPinsinit()
+{
+  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPinConfiguration);
+  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].ulPinConfiguration);
+  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].ulPinConfiguration);
+  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].ulPinConfiguration);
+  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCDA2_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCDA2_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCDA2_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCDA2_GPIO].ulPinConfiguration);
+  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCDA3_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCDA3_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCDA3_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCDA3_GPIO].ulPinConfiguration);
+  //set pullups (not on clock!)
+  digitalWriteNonDue(PIN_HSMCI_MCCDA_GPIO, HIGH);
+  digitalWriteNonDue(PIN_HSMCI_MCDA0_GPIO, HIGH);
+  digitalWriteNonDue(PIN_HSMCI_MCDA1_GPIO, HIGH);
+  digitalWriteNonDue(PIN_HSMCI_MCDA2_GPIO, HIGH);
+  digitalWriteNonDue(PIN_HSMCI_MCDA3_GPIO, HIGH);
+}

@@ -10,10 +10,10 @@ extend the delays for larger microsteps.
 If the end stops are not connected by a NC switch or wire short then set the relavent endStopDisabled=true
 to disable the checking for them
 
-For the E0_En and Z_EN pins the "UdefDuePin" libaray allows access to pins that are not defined in the Arduino
+For the E0_En and Z_EN pins the "SamNonDuePin" libaray allows access to pins that are not defined in the Arduino
 Due software but are provided by the SAM3X8E, this library is still in development.
 
-As an example all the E0 pins are switched with this alternative method (even though only E0_EN needs to be).
+The E0 STEP and DIR pins are the CAN BUS pins on Due so the SamNonDuePin library is used to access them as standard I/O
 
 Three expansion header pins are assigned to E1_STEP,E1_DIR and E1_EN to demostrate communicating with off-board stepper drivers
 
@@ -21,7 +21,7 @@ Three expansion header pins are assigned to E1_STEP,E1_DIR and E1_EN to demostra
 #include "Arduino.h"
 #include <Wire.h>
 #include "MCP4461.h"
-#include "UdefDuePin.h"
+#include "SamNonDuePin.h"
 
 MCP4461 mcp;
 
@@ -43,13 +43,13 @@ MCP4461 mcp;
 
 #define Z_STEP 5
 #define Z_DIR 4
-#define Z_EN 1//Undefined pin PC27
+#define Z_EN X1//Sam pin PC27 not defined for Due
 #define Z_STOP 60
 
-#define E0_STEP 2 //68
-#define E0_DIR 3 //69
-#define E0_EN  0//undefined pin PA5
-#define E0_STOP 4 //31
+#define E0_STEP X2 //Sam pin configured for CAN on Due
+#define E0_DIR X3 //Sam pin configured for CAN on Due
+#define E0_EN  X0//Sam pin pin PA5 not defined for Due
+#define E0_STOP 31
 
 #define E1_STEP 48
 #define E1_DIR 49
@@ -87,13 +87,13 @@ void setup() {
  
  pinMode(Z_STEP, OUTPUT);
  pinMode(Z_DIR, OUTPUT);
- pinModeUndefined(Z_EN, OUTPUT);
+ pinModeNonDue(Z_EN, OUTPUT);
  pinMode(Z_STOP, INPUT);
  
- pinModeUndefined(E0_STEP, OUTPUT);
- pinModeUndefined(E0_DIR, OUTPUT);
- pinModeUndefined(E0_EN, OUTPUT);
- pinModeUndefined(E0_STOP, INPUT);
+ pinModeNonDue(E0_STEP, OUTPUT);
+ pinModeNonDue(E0_DIR, OUTPUT);
+ pinModeNonDue(E0_EN, OUTPUT);
+ pinMode(E0_STOP, INPUT);
  
  pinMode(E1_STEP, OUTPUT);
  pinMode(E1_DIR, OUTPUT);
@@ -103,8 +103,8 @@ void setup() {
 //disable the steppers to begin
   digitalWrite(X_EN, HIGH);
   digitalWrite(Y_EN, HIGH);
-  digitalWriteUndefined(Z_EN, HIGH);
-  digitalWriteUndefined(E0_EN, HIGH);
+  digitalWriteNonDue(Z_EN, HIGH);
+  digitalWriteNonDue(E0_EN, HIGH);
   digitalWrite(E1_EN, HIGH);
 
 }
@@ -114,36 +114,36 @@ void loop() {
   //enable the steppers
   digitalWrite(X_EN, LOW);
   digitalWrite(Y_EN, LOW);
-  digitalWriteUndefined(Z_EN, LOW);
-  digitalWriteUndefined(E0_EN, LOW);
+  digitalWriteNonDue(Z_EN, LOW);
+  digitalWriteNonDue(E0_EN, LOW);
   digitalWrite(E1_EN, LOW);
   
   //CW 
   digitalWrite(X_DIR, HIGH);
   digitalWrite(Y_DIR, HIGH);
   digitalWrite(Z_DIR, HIGH);
-  digitalWriteUndefined(E0_DIR, HIGH);
+  digitalWriteNonDue(E0_DIR, HIGH);
   digitalWrite(E1_DIR, HIGH);
   
   for (int i = 1 ; i<5000 ;i++) { 
     if(digitalRead(X_STOP) == 0 || XendStopDisabled) digitalWrite(X_STEP, HIGH);
     if(digitalRead(Y_STOP) == 0 || YendStopDisabled) digitalWrite(Y_STEP, HIGH);
     if(digitalRead(Z_STOP) == 0 || ZendStopDisabled) digitalWrite(Z_STEP, HIGH);
-    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteUndefined(E0_STEP, HIGH);
+    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteNonDue(E0_STEP, HIGH);
     if(digitalRead(E1_STOP) == 0 || E1endStopDisabled)  digitalWrite(E1_STEP, HIGH);
     delayMicroseconds(90);
     if(digitalRead(X_STOP) == 0 || XendStopDisabled) digitalWrite(X_STEP, LOW);
     if(digitalRead(Y_STOP) == 0 || YendStopDisabled) digitalWrite(Y_STEP, LOW);
     if(digitalRead(Z_STOP) == 0 || ZendStopDisabled) digitalWrite(Z_STEP, LOW);
-    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteUndefined(E0_STEP, LOW);
+    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteNonDue(E0_STEP, LOW);
     if(digitalRead(E1_STOP) == 0 || E1endStopDisabled)  digitalWrite(E1_STEP, LOW);
     delayMicroseconds(90);
   }
   //disable the steppers
   digitalWrite(X_EN, HIGH);
   digitalWrite(Y_EN, HIGH);
-  digitalWriteUndefined(Z_EN, HIGH);
-  digitalWriteUndefined(E0_EN, HIGH);
+  digitalWriteNonDue(Z_EN, HIGH);
+  digitalWriteNonDue(E0_EN, HIGH);
   digitalWrite(E1_EN, HIGH);
   
   delay(2000);
@@ -151,15 +151,15 @@ void loop() {
   //enable the steppers
   digitalWrite(X_EN, LOW);
   digitalWrite(Y_EN, LOW);
-  digitalWriteUndefined(Z_EN, LOW);
-  digitalWriteUndefined(E0_EN, LOW);
+  digitalWriteNonDue(Z_EN, LOW);
+  digitalWriteNonDue(E0_EN, LOW);
   digitalWrite(E1_EN, LOW);
  
   //CCW
   digitalWrite(X_DIR, LOW);
   digitalWrite(Y_DIR, LOW);
   digitalWrite(Z_DIR, LOW);
-  digitalWriteUndefined(E0_DIR, LOW);
+  digitalWriteNonDue(E0_DIR, LOW);
   digitalWrite(E1_DIR, LOW);
   
   for (int i = 1 ; i<5000 ;i++)
@@ -167,21 +167,21 @@ void loop() {
     if(digitalRead(X_STOP) == 0 || XendStopDisabled) digitalWrite(X_STEP, HIGH);
     if(digitalRead(Y_STOP) == 0 || YendStopDisabled) digitalWrite(Y_STEP, HIGH);
     if(digitalRead(Z_STOP) == 0 || ZendStopDisabled) digitalWrite(Z_STEP, HIGH);
-    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteUndefined(E0_STEP, HIGH);
+    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteNonDue(E0_STEP, HIGH);
     if(digitalRead(E1_STOP) == 0 || E1endStopDisabled)  digitalWrite(E1_STEP, HIGH);
     delayMicroseconds(100);
     if(digitalRead(X_STOP) == 0 || XendStopDisabled) digitalWrite(X_STEP, LOW);
     if(digitalRead(Y_STOP) == 0 || YendStopDisabled) digitalWrite(Y_STEP, LOW);
     if(digitalRead(Z_STOP) == 0 || ZendStopDisabled) digitalWrite(Z_STEP, LOW);
-    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteUndefined(E0_STEP, LOW);
+    if(digitalRead(E0_STOP) == 0 || E0endStopDisabled)  digitalWriteNonDue(E0_STEP, LOW);
     if(digitalRead(E1_STOP) == 0 || E1endStopDisabled)  digitalWrite(E1_STEP, LOW);
     delayMicroseconds(100);
   }
   //disable the steppers
   digitalWrite(X_EN, HIGH);
   digitalWrite(Y_EN, HIGH);
-  digitalWriteUndefined(Z_EN, HIGH);
-  digitalWriteUndefined(E0_EN, HIGH);
+  digitalWriteNonDue(Z_EN, HIGH);
+  digitalWriteNonDue(E0_EN, HIGH);
   digitalWrite(E1_EN, HIGH);
   delay(2000);
 }

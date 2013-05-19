@@ -21,13 +21,13 @@ Code from wiring-digital.c and wiring-analog.c from the arduino core.
 See undefined.cpp file for more info
 */
 
-#ifndef UDEFDDUEPIN_H
-#define UDEFDDUEPIN_H
+#ifndef SAM_NON_DUE_PIN_H
+#define SAM_NON_DUE_PIN_H
 
 #include "Arduino.h"
 
 // Number of pins defined in PinDescription array
-#define PINS_COUNT 8
+#define PINS_C 14
 
 //undefined pins constants so the undef pins can
 //be refered to a Xn rather than n
@@ -39,14 +39,22 @@ static const uint8_t X4  = 4;
 static const uint8_t X5  = 5;
 static const uint8_t X6  = 6;
 static const uint8_t X7  = 7;
+static const uint8_t PIN_HSMCI_MCCDA_GPIO  = 8;
+static const uint8_t PIN_HSMCI_MCCK_GPIO  = 9;
+static const uint8_t PIN_HSMCI_MCDA0_GPIO  = 10;
+static const uint8_t PIN_HSMCI_MCDA1_GPIO  = 11;
+static const uint8_t PIN_HSMCI_MCDA2_GPIO  = 12;
+static const uint8_t PIN_HSMCI_MCDA3_GPIO  = 13;
+
 
 // struct used to hold the descriptions for the "non arduino" pins.
 // from the Arduino.h files
-extern const PinDescription unDefPinDescription[] ;
-extern void pinModeUndefined( uint32_t ulPin, uint32_t ulMode );
-extern void digitalWriteUndefined( uint32_t ulPin, uint32_t ulVal );
-extern int digitalReadUndefined( uint32_t ulPin);
-extern void analogWriteUndefined(uint32_t ulPin, uint32_t ulValue);
-extern void analogOutputUndefInit(); 
-#endif /* UDEFDDUEPIN_H_ */
+extern const PinDescription nonDuePinDescription[] ;
+extern void pinModeNonDue( uint32_t ulPin, uint32_t ulMode );
+extern void digitalWriteNonDue( uint32_t ulPin, uint32_t ulVal );
+extern int digitalReadNonDue( uint32_t ulPin);
+extern void analogWriteNonDue(uint32_t ulPin, uint32_t ulValue);
+extern void analogOutputNonDue();
+extern void hsmciPinsinit();
+#endif /* SAM_NON_DUE_PIN_H */
 

@@ -699,7 +699,7 @@ bool hsmci_wait_end_of_write_blocks(void)
 		sr = HSMCI->HSMCI_SR;
 		if (sr & (HSMCI_SR_UNRE | HSMCI_SR_OVRE | \
 				HSMCI_SR_DTOE | HSMCI_SR_DCRCE)) {
-			printf("%s: DMA sr 0x%08x error\n\r",__func__, sr);
+			//printf("%s: DMA sr 0x%08x error\n\r",__func__, sr);
 			hsmci_reset();
 			// Disable DMA
 			dmac_channel_disable(DMAC, CONF_HSMCI_DMA_CHANNEL);
@@ -749,7 +749,7 @@ bool hsmci_wait_end_of_read_blocks(void)
 		sr = HSMCI->HSMCI_SR;
 		if (sr & (HSMCI_SR_UNRE | HSMCI_SR_OVRE | \
 				HSMCI_SR_DTOE | HSMCI_SR_DCRCE)) {
-			printf("%s: PDC sr 0x%08x error\n\r",__func__, sr);
+			//printf("%s: PDC sr 0x%08x error\n\r",__func__, sr);
 			HSMCI->HSMCI_PTCR = HSMCI_PTCR_RXTDIS | HSMCI_PTCR_TXTDIS;
 			hsmci_reset();
 			return false;
@@ -766,7 +766,7 @@ bool hsmci_wait_end_of_read_blocks(void)
 		sr = HSMCI->HSMCI_SR;
 		if (sr & (HSMCI_SR_UNRE | HSMCI_SR_OVRE | \
 				HSMCI_SR_DTOE | HSMCI_SR_DCRCE)) {
-			printf("%s: PDC sr 0x%08x last transfer error\n\r",
+			//printf("%s: PDC sr 0x%08x last transfer error\n\r",
 					__func__, sr);
 			hsmci_reset();
 			return false;
@@ -805,7 +805,7 @@ bool hsmci_wait_end_of_write_blocks(void)
 		if (sr &
 				(HSMCI_SR_UNRE | HSMCI_SR_OVRE | \
 				HSMCI_SR_DTOE | HSMCI_SR_DCRCE)) {
-			printf("%s: PDC sr 0x%08x error\n\r",
+			//printf("%s: PDC sr 0x%08x error\n\r",
 					__func__, sr);
 			hsmci_reset();
 			HSMCI->HSMCI_PTCR = HSMCI_PTCR_RXTDIS | HSMCI_PTCR_TXTDIS;
@@ -823,7 +823,7 @@ bool hsmci_wait_end_of_write_blocks(void)
 		sr = HSMCI->HSMCI_SR;
 		if (sr & (HSMCI_SR_UNRE | HSMCI_SR_OVRE | \
 				HSMCI_SR_DTOE | HSMCI_SR_DCRCE)) {
-			printf("%s: PDC sr 0x%08x last transfer error\n\r",__func__, sr);
+			//printf("%s: PDC sr 0x%08x last transfer error\n\r",__func__, sr);
 			hsmci_reset();
 			return false;
 		}

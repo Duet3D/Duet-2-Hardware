@@ -179,7 +179,7 @@ uint32_t sd_mmc_get_bus_clock(uint8_t slot);
  *
  * \return true, if write portected
  */
-//bool sd_mmc_is_write_protected(uint8_t slot);
+bool sd_mmc_is_write_protected(uint8_t slot);
 
 /**
  * \brief Initialize the read blocks of data from the card.

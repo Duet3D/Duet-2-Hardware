@@ -3664,7 +3664,7 @@ FRESULT f_mkfs (
 	switch (fmt) {	/* Determine system ID for partition table */
 	case FS_FAT12:	sys = 0x01; break;
 	case FS_FAT16:	sys = (n_vol < 0x10000) ? 0x04 : 0x06; break;
-	default: 		sys = 0x0C;
+	default: 		sys = 0x0C; break;
 	}
 
 	if (_MULTI_PARTITION && part) {

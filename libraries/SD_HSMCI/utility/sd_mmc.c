@@ -335,8 +335,7 @@ static bool mmc_spi_op_cond(void)
 	retry = 7150;
 	do {
 		if (!driver_send_cmd(MMC_SPI_CMD1_SEND_OP_COND, 0)) {
-			printf("%s: CMD1 SPI Fail - Busy retry %d\n\r",
-					__func__, (int)(7150 - retry));
+			//printf("%s: CMD1 SPI Fail - Busy retry %d\n\r",__func__, (int)(7150 - retry));
 			return false;
 		}
 		// Check busy flag
@@ -345,14 +344,14 @@ static bool mmc_spi_op_cond(void)
 			break;
 		}
 		if (retry-- == 0) {
-			printf("%s: CMD1 Timeout on busy\n\r", __func__);
+			//printf("%s: CMD1 Timeout on busy\n\r", __func__);
 			return false;
 		}
 	} while (1);
 
 	// Read OCR for SPI mode
 	if (!driver_send_cmd(SDMMC_SPI_CMD58_READ_OCR, 0)) {
-		printf("%s: CMD58 Fail\n\r", __func__);
+		//printf("%s: CMD58 Fail\n\r", __func__);
 		return false;
 	}
 	// Check OCR value
@@ -383,8 +382,7 @@ static bool mmc_mci_op_cond(void)
 	do {
 		if (!driver_send_cmd(MMC_MCI_CMD1_SEND_OP_COND,
 				SD_MMC_VOLTAGE_SUPPORT | OCR_ACCESS_MODE_SECTOR)) {
-			printf("%s: CMD1 MCI Fail - Busy retry %d\n\r",
-					__func__, (int)(4200 - retry));
+			//printf("%s: CMD1 MCI Fail - Busy retry %d\n\r",__func__, (int)(4200 - retry));
 			return false;
 		}
 		// Check busy flag
@@ -398,7 +396,7 @@ static bool mmc_mci_op_cond(void)
 			break;
 		}
 		if (retry-- == 0) {
-			printf("%s: CMD1 Timeout on busy\n\r", __func__);
+			//printf("%s: CMD1 Timeout on busy\n\r", __func__);
 			return false;
 		}
 	} while (1);
@@ -428,7 +426,7 @@ static bool sd_spi_op_cond(uint8_t v2)
 		// CMD55 - Indicate to the card that the next command is an
 		// application specific command rather than a standard command.
 		if (!driver_send_cmd(SDMMC_CMD55_APP_CMD, 0)) {
-			printf("%s: CMD55 Fail\n\r", __func__);
+			//printf("%s: CMD55 Fail\n\r", __func__);
 			return false;
 		}
 
@@ -439,7 +437,7 @@ static bool sd_spi_op_cond(uint8_t v2)
 		}
 		// Check response
 		if (!driver_send_cmd(SD_SPI_ACMD41_SD_SEND_OP_COND, arg)) {
-			printf("%s: ACMD41 Fail\n\r", __func__);
+			//printf("%s: ACMD41 Fail\n\r", __func__);
 			return false;
 		}
 		resp = driver_get_response();
@@ -448,15 +446,14 @@ static bool sd_spi_op_cond(uint8_t v2)
 			break;
 		}
 		if (retry-- == 0) {
-			printf("%s: ACMD41 Timeout on busy, resp32 0x%08x \n\r",
-					__func__, resp);
+			//printf("%s: ACMD41 Timeout on busy, resp32 0x%08x \n\r", __func__, resp);
 			return false;
 		}
 	} while (1);
 
 	// Read OCR for SPI mode
 	if (!driver_send_cmd(SDMMC_SPI_CMD58_READ_OCR, 0)) {
-		printf("%s: CMD58 Fail\n\r", __func__);
+		//printf("%s: CMD58 Fail\n\r", __func__);
 		return false;
 	}
 	if ((driver_get_response() & OCR_CCS) != 0) {
@@ -545,7 +542,7 @@ static bool sdio_op_cond(void)
 
 	// CMD5 - SDIO send operation condition (OCR) command.
 	if (!driver_send_cmd(SDIO_CMD5_SEND_OP_COND, 0)) {
-		printf("%s: CMD5 Fail\n\r", __func__);
+		//printf("%s: CMD5 Fail\n\r", __func__);
 		return true; // No error but card type not updated
 	}
 	resp = driver_get_response();
@@ -564,7 +561,7 @@ static bool sdio_op_cond(void)
 		// CMD5 - SDIO send operation condition (OCR) command.
 		if (!driver_send_cmd(SDIO_CMD5_SEND_OP_COND,
 				resp & SD_MMC_VOLTAGE_SUPPORT)) {
-			printf("%s: CMD5 Fail\n\r", __func__);
+			//printf("%s: CMD5 Fail\n\r", __func__);
 			return false;
 		}
 		resp = driver_get_response();
@@ -572,7 +569,7 @@ static bool sdio_op_cond(void)
 			break;
 		}
 		if (cmd5_retry-- == 0) {
-			printf("%s: CMD5 Timeout on busy\n\r", __func__);
+			//printf("%s: CMD5 Timeout on busy\n\r", __func__);
 			return false;
 		}
 	}
@@ -607,7 +604,7 @@ static bool sdio_get_max_speed(void)
 	addr_cis = 0; // Init all bytes, because the next function fill 3 bytes only
 	if (!sdio_cmd53(SDIO_CMD53_READ_FLAG, SDIO_CIA, SDIO_CCCR_CIS_PTR,
 			1, 3, true)) {
-		printf("%s: CMD53 Read CIS Fail\n\r", __func__);
+		//printf("%s: CMD53 Read CIS Fail\n\r", __func__);
 		return false;
 	}
 	if (!driver_start_read_blocks((uint8_t *)&addr_cis, 1)) {
@@ -623,7 +620,7 @@ static bool sdio_get_max_speed(void)
 	while (1) {
 		// Read a sample of CIA area
 		if (!sdio_cmd53(SDIO_CMD53_READ_FLAG, SDIO_CIA, addr, 1, 3, true)) {
-			printf("%s: CMD53 Read CIA Fail\n\r", __func__);
+			//printf("%s: CMD53 Read CIA Fail\n\r", __func__);
 			return false;
 		}
 		if (!driver_start_read_blocks(buf, 1)) {
@@ -633,28 +630,28 @@ static bool sdio_get_max_speed(void)
 			return false;
 		}
 		if (buf[0] == SDIO_CISTPL_END) {
-			printf("%s: CMD53 Tuple error\n\r", __func__);
+			//printf("%s: CMD53 Tuple error\n\r", __func__);
 			return false; // Tuple error
 		}
 		if (buf[0] == SDIO_CISTPL_FUNCE && buf[2] == 0x00) {
 			break; // Fun0 tuple found
 		}
 		if (buf[1] == 0) {
-			printf("%s: CMD53 Tuple error\n\r", __func__);
+			//printf("%s: CMD53 Tuple error\n\r", __func__);
 			return false; // Tuple error
 		}
 
 		// Next address
 		addr += (buf[1] + 2);
 		if (addr > (addr_cis + 256)) {
-			printf("%s: CMD53 Outoff CIS area\n\r", __func__);
+			//printf("%s: CMD53 Outoff CIS area\n\r", __func__);
 			return false; // Outoff CIS area
 		}
 	}
 
 	// Read all Fun0 tuple fields: fn0_blk_siz & max_tran_speed
 	if (!sdio_cmd53(SDIO_CMD53_READ_FLAG, SDIO_CIA, addr, 1, 6, true)) {
-		printf("%s: CMD53 Read all Fun0 Fail\n\r", __func__);
+		//printf("%s: CMD53 Read all Fun0 Fail\n\r", __func__);
 		return false;
 	}
 	if (!driver_start_read_blocks(buf, 1)) {
@@ -720,7 +717,7 @@ static bool sdio_cmd52_set_bus_width(void)
 		return false;
 	}
 	sd_mmc_card->bus_width = 4;
-	printf("%d-bit bus width enabled.\n\r", (int)sd_mmc_card->bus_width);
+	//printf("%d-bit bus width enabled.\n\r", (int)sd_mmc_card->bus_width);
 	return true;
 }
 
@@ -806,7 +803,7 @@ static bool sd_cm6_set_high_speed(void)
 	}
 
 	if (driver_get_response() & CARD_STATUS_SWITCH_ERROR) {
-		printf("%s: CMD6 CARD_STATUS_SWITCH_ERROR\n\r", __func__);
+		//printf("%s: CMD6 CARD_STATUS_SWITCH_ERROR\n\r", __func__);
 		return false;
 	}
 	if (SD_SW_STATUS_FUN_GRP1_RC(switch_status)
@@ -815,7 +812,7 @@ static bool sd_cm6_set_high_speed(void)
 		return true;
 	}
 	if (SD_SW_STATUS_FUN_GRP1_BUSY(switch_status)) {
-		printf("%s: CMD6 SD_SW_STATUS_FUN_GRP1_BUSY\n\r", __func__);
+		//printf("%s: CMD6 SD_SW_STATUS_FUN_GRP1_BUSY\n\r", __func__);
 		return false;
 	}
 	// CMD6 function switching period is within 8 clocks
@@ -862,11 +859,11 @@ static bool mmc_cmd6_set_bus_width(uint8_t bus_width)
 	}
 	if (driver_get_response() & CARD_STATUS_SWITCH_ERROR) {
 		// No supported, it is not a protocol error
-		printf("%s: CMD6 CARD_STATUS_SWITCH_ERROR\n\r", __func__);
+		//printf("%s: CMD6 CARD_STATUS_SWITCH_ERROR\n\r", __func__);
 		return false;
 	}
 	sd_mmc_card->bus_width = bus_width;
-	printf("%d-bit bus width enabled.\n\r", (int)sd_mmc_card->bus_width);
+	//printf("%d-bit bus width enabled.\n\r", (int)sd_mmc_card->bus_width);
 	return true;
 }
 
@@ -889,7 +886,7 @@ static bool mmc_cmd6_set_high_speed(void)
 	}
 	if (driver_get_response() & CARD_STATUS_SWITCH_ERROR) {
 		// No supported, it is not a protocol error
-		printf("%s: CMD6 CARD_STATUS_SWITCH_ERROR\n\r", __func__);
+		//printf("%s: CMD6 CARD_STATUS_SWITCH_ERROR\n\r", __func__);
 		return false;
 	}
 	sd_mmc_card->high_speed = 1;
@@ -1156,7 +1153,7 @@ static bool sd_mmc_cmd13(void)
 			}
 		}
 		if (nec_timeout-- == 0) {
-			printf("%s: CMD13 Busy timeout\n\r", __func__);
+			//printf("%s: CMD13 Busy timeout\n\r", __func__);
 			return false;
 		}
 	} while (1);
@@ -1411,7 +1408,7 @@ static bool sd_mmc_spi_card_init(void)
 	sd_mmc_card->type = CARD_TYPE_SD;
 	sd_mmc_card->version = CARD_VER_UNKNOWN;
 	sd_mmc_card->rca = 0;
-	printf("Start SD card install\n\r");
+	//printf("Start SD card install\n\r");
 
 	// Card need of 74 cycles clock minimum to start
 	driver_send_clock();
@@ -1432,7 +1429,7 @@ static bool sd_mmc_spi_card_init(void)
 		// Try to get the SD card's operating condition
 		if (!sd_spi_op_cond(v2)) {
 			// It is not a SD card
-			printf("Start MMC Install\n\r");
+			//printf("Start MMC Install\n\r");
 			sd_mmc_card->type = CARD_TYPE_MMC;
 			return sd_mmc_spi_install_mmc();
 		}
@@ -1796,14 +1793,14 @@ sd_mmc_err_t sd_mmc_check(uint8_t slot)
 	// Initialization of the card requested
 	if (sd_mmc_is_spi()? sd_mmc_spi_card_init()
 			: sd_mmc_mci_card_init()) {
-		printf("SD/MMC card ready\n\r");
+		//printf("SD/MMC card ready\n\r");
 		sd_mmc_card->state = SD_MMC_CARD_STATE_READY;
 		sd_mmc_deselect_slot();
 		// To notify that the card has been just initialized
 		// It is necessary for USB Device MSC
 		return SD_MMC_INIT_ONGOING;
 	}
-	printf("SD/MMC card initialization failed\n\r");
+	//printf("SD/MMC card initialization failed\n\r");
 	sd_mmc_card->state = SD_MMC_CARD_STATE_UNUSABLE;
 	sd_mmc_deselect_slot();
 	return SD_MMC_ERR_UNUSABLE;
@@ -1905,8 +1902,7 @@ sd_mmc_err_t sd_mmc_init_read_blocks(uint8_t slot, uint32_t start,
 	if (sd_mmc_is_mci()) {
 		resp = driver_get_response();
 		if (resp & CARD_STATUS_ERR_RD_WR) {
-			printf("%s: Read blocks %02d resp32 0x%08x CARD_STATUS_ERR_RD_WR\n\r",
-					__func__, (int)SDMMC_CMD_GET_INDEX(cmd), resp);
+			//printf("%s: Read blocks %02d resp32 0x%08x CARD_STATUS_ERR_RD_WR\n\r",__func__, (int)SDMMC_CMD_GET_INDEX(cmd), resp);
 			sd_mmc_deselect_slot();
 			return SD_MMC_ERR_COMM;
 		}
@@ -1990,8 +1986,7 @@ sd_mmc_err_t sd_mmc_init_write_blocks(uint8_t slot, uint32_t start,
 	if (sd_mmc_is_mci()) {
 		resp = driver_get_response();
 		if (resp & CARD_STATUS_ERR_RD_WR) {
-			printf("%s: Write blocks %02d r1 0x%08x CARD_STATUS_ERR_RD_WR\n\r",
-					__func__, (int)SDMMC_CMD_GET_INDEX(cmd), resp);
+			//printf("%s: Write blocks %02d r1 0x%08x CARD_STATUS_ERR_RD_WR\n\r",__func__, (int)SDMMC_CMD_GET_INDEX(cmd), resp);
 			sd_mmc_deselect_slot();
 			return SD_MMC_ERR_COMM;
 		}

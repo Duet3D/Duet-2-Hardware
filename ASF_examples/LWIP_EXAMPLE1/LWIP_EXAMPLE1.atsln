@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LWIP_EXAMPLE1", "LWIP_EXAMPLE1\LWIP_EXAMPLE1.cproj", "{58A29F5A-3F83-4B27-966D-A357F2F795AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58A29F5A-3F83-4B27-966D-A357F2F795AE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{58A29F5A-3F83-4B27-966D-A357F2F795AE}.Debug|ARM.Build.0 = Debug|ARM
+		{58A29F5A-3F83-4B27-966D-A357F2F795AE}.Release|ARM.ActiveCfg = Release|ARM
+		{58A29F5A-3F83-4B27-966D-A357F2F795AE}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

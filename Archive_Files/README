@@ -5,3 +5,11 @@ These files consist of test programs for Arduino IDE, Eclipse and Atmel Studio F
 Quite a lot of these programs and bits of code were designed to work on older versions of the DUET and may not work with the current version.
 Tony Lock
 blog.think3dprint3d.com
+
+--------------------
+
+Duet test arduino code in \test_sketches, libraries for duet specific peripherals in \libraries (now out of date)
+
+The LwIP example has only been tested in Atmel Studio 6 and is adapted from the SAM3X-EK example
+in the Atmel Studio Framework. It sets up a basic TCP/IP stack which responds to ping and serves
+a single webpage on 192.168.0.100

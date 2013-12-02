@@ -1,0 +1,7 @@
+Note about the archive files specifically.
+
+These files consist of test programs for Arduino IDE, Eclipse and Atmel Studio Framework. They are mainly based on example code from ASF, along with some original work by Tony@think3dprint3d.com. Where not specified they are licensed under the GPL v3.0 (but the vast majority has specified licenses from ASP or elsewhere).
+
+Quite a lot of these programs and bits of code were designed to work on older versions of the DUET and may not work with the current version.
+Tony Lock
+blog.think3dprint3d.com

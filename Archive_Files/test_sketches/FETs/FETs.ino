@@ -15,7 +15,7 @@ the following pins are connected:
 E0_PWM    PIO_PC8B_PWML3   // Undefined pin 5
 FAN0_PWM  PIO_PC2B_PWML0   // Undefined pin 6
 BED_PWM   Arduino digital pin 6
-E1_PWM  PIO_PC6B_PWML2   // Undefined pin 6
+E1_PWM  PIO_PC6B_PWML2   // Undefined pin 7
 E2_PWM  Arduino digital pin 9
 E3_PWM  Arduino digital pin 8
 E4_PWM  Arduino digital pin 7

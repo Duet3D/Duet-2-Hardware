@@ -1,0 +1,46 @@
+EESchema-DOCLIB  Version 2.0  Date: 10/04/2013 21:39:21
+#
+$CMP A4403
+D Switching Regulator (adjustable)
+K POWER REGUL
+F regulator\lm1578a.pdf
+$ENDCMP
+#
+$CMP A4982SLPTR
+D DMOS Microstepping Driver
+$ENDCMP
+#
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP LM1117MP-3.3
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
+$ENDCMP
+#
+$CMP LM2594
+D Switching Regulator (adjustable)
+K POWER REGUL
+F regulator\lm1578a.pdf
+$ENDCMP
+#
+$CMP RJ45+MAG
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP SP2525A
+D Switching Regulator (adjustable)
+K POWER REGUL
+F regulator\lm1578a.pdf
+$ENDCMP
+#
+$CMP SS3P4
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

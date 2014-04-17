@@ -14,10 +14,10 @@ The expansion board 0.1 is on the same I2C bus with pin A1 high so its addres is
 
 #define EXPANSION  //if an expansion board is connected, do not define if not connected.
 
-MCP4461 mcp_duet(0x2C);
+MCP4461 mcp_duet;
 
 #ifdef EXPANSION
-MCP4461 mcp_exp(0x2E);
+MCP4461 mcp_exp;
 #endif
 
 void setup()
@@ -25,9 +25,9 @@ void setup()
   SerialUSB.begin(115200);
   while (!SerialUSB) {}
   SerialUSB.println("Initialising Library ");
-  mcp_duet.begin();
+  mcp_duet.begin(); //only call begin once in the entire execution, this begins the I2C comms on that channel for all objects
   #ifdef EXPANSION
-  mcp_exp.begin();
+  mcp_exp.setMCP4461Address(0x2E);
   #endif
 }
 

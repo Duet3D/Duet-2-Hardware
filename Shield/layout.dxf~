@@ -41,10 +41,6 @@ $INSUNITS
  70
 4
   9
-$DIMSTYLE
-  2
-Standard
-  9
 $DIMEXO
  40
 0.625
@@ -8741,7 +8737,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8769,9 +8765,49 @@ AcDbAlignedDimension
 100
 AcDbRotatedDimension
   0
-LEADER
+MTEXT
   5
 16A
+100
+AcDbEntity
+100
+AcDbMText
+  8
+dims
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+51911.0
+ 20
+43048.0
+ 30
+0.0
+ 40
+2.0
+ 41
+100.0
+ 71
+1
+ 72
+0
+  1
+Inner face of \Pconnector shells
+  7
+standard
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+LEADER
+  5
+16B
   8
 dims
  62
@@ -8811,126 +8847,6 @@ Standard
  20
 43046.0
   0
-MTEXT
-  5
-16B
-100
-AcDbEntity
-100
-AcDbMText
-  8
-dims
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-51911.0
- 20
-43048.0
- 30
-0.0
- 40
-2.0
- 41
-100.0
- 71
-1
- 72
-2
-  1
-Inner face of \Pconnector shells -\Pstepper connectors \Palong this line
-  7
-standard
- 50
-0.0
- 73
-0
- 44
-1.0
-  0
-MTEXT
-  5
-16C
-100
-AcDbEntity
-100
-AcDbMText
-  8
-dims
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-51962.2088083477137843
- 20
-42936.989390079776058
- 30
-0.0
- 40
-2.0
- 41
-100.0
- 71
-1
- 72
-0
-  1
-+/-3
-  7
-standard
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
-MTEXT
-  5
-16D
-100
-AcDbEntity
-100
-AcDbMText
-  8
-shield mount pins
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-51994.4016941744848737
- 20
-42952.0536853553712717
- 30
-0.0
- 40
-2.0
- 41
-100.0
- 71
-1
- 72
-0
-  1
-Do not cover mounting\Pholes reset switches and\PDuet pins (red).
-  7
-standard
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
 ENDSEC
   0
 SECTION
@@ -8969,7 +8885,7 @@ E
   3
 AcDbVariableDictionary
 350
-16E
+16C
   0
 DICTIONARY
   5
@@ -9433,7 +9349,7 @@ Layout2
   0
 DICTIONARY
   5
-16E
+16C
 100
 AcDbDictionary
 281
@@ -9441,15 +9357,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-170
+16E
   3
 HIDETEXT
 350
-16F
+16D
   0
 DICTIONARYVAR
   5
-16F
+16D
 100
 DictionaryVariables
 280
@@ -9459,7 +9375,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-170
+16E
 100
 DictionaryVariables
 280

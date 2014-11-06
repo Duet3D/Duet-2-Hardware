@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/07/2014 15:49:20
+EESchema Schematic File Version 2  date Thu 06 Nov 2014 10:06:04 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FE
-LIBS:Duet0.7-cache
+LIBS:Shield-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 4 7
 Title "Duet"
-Date "19 jul 2014"
+Date "5 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -45,6 +45,62 @@ Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 2600 1500 2    60   Input ~ 0
+TWCK0
+Text GLabel 2600 1350 2    60   Input ~ 0
+TWD0
+Wire Wire Line
+	2600 1500 1850 1500
+Wire Wire Line
+	1850 1500 1850 1450
+Wire Wire Line
+	2600 8100 1850 8100
+Wire Wire Line
+	1850 8100 1850 8050
+Wire Wire Line
+	2600 7800 1850 7800
+Wire Wire Line
+	1850 7800 1850 7750
+Wire Wire Line
+	2600 7500 1850 7500
+Wire Wire Line
+	1850 7500 1850 7450
+Wire Wire Line
+	2600 7200 1850 7200
+Wire Wire Line
+	1850 7200 1850 7150
+Wire Wire Line
+	2600 6900 1850 6900
+Wire Wire Line
+	1850 6900 1850 6850
+Wire Wire Line
+	2600 6150 1850 6150
+Wire Wire Line
+	1850 6150 1850 6100
+Wire Wire Line
+	2600 5550 1850 5550
+Wire Wire Line
+	1850 5550 1850 5500
+Wire Wire Line
+	2600 3900 1850 3900
+Wire Wire Line
+	1850 3900 1850 3850
+Wire Wire Line
+	2600 3600 1850 3600
+Wire Wire Line
+	1850 3600 1850 3550
+Wire Wire Line
+	2600 3300 1850 3300
+Wire Wire Line
+	1850 3300 1850 3250
+Wire Wire Line
+	2600 3000 1850 3000
+Wire Wire Line
+	1850 3000 1850 2950
+Wire Wire Line
+	2600 2850 1850 2850
+Wire Wire Line
+	1850 2850 1850 2800
 Wire Wire Line
 	9450 6350 9450 6500
 Wire Wire Line
@@ -88,19 +144,19 @@ Wire Wire Line
 Wire Wire Line
 	4450 3300 4650 3300
 Wire Wire Line
-	1850 1900 1600 1900
+	1600 1900 1850 1900
 Wire Wire Line
 	1850 1600 1600 1600
 Wire Wire Line
-	1850 1300 1600 1300
+	1600 1300 1850 1300
 Wire Wire Line
 	1600 1000 1850 1000
 Wire Wire Line
-	1850 5650 1600 5650
+	1600 5650 1850 5650
 Wire Wire Line
 	1600 7900 1850 7900
 Wire Wire Line
-	1600 6100 1850 6100
+	1850 6100 1600 6100
 Wire Wire Line
 	1600 5800 1850 5800
 Wire Wire Line
@@ -116,11 +172,11 @@ Wire Wire Line
 Wire Wire Line
 	1850 3850 1600 3850
 Wire Wire Line
-	1600 3550 1850 3550
+	1850 3550 1600 3550
 Wire Wire Line
-	1600 3250 1850 3250
+	1850 3250 1600 3250
 Wire Wire Line
-	1600 2950 1850 2950
+	1850 2950 1600 2950
 Wire Wire Line
 	1600 2650 1850 2650
 Wire Wire Line
@@ -434,7 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 2350 1850 2350
 Wire Wire Line
-	1600 2800 1850 2800
+	1850 2800 1600 2800
 Wire Wire Line
 	1600 3100 1850 3100
 Wire Wire Line
@@ -452,13 +508,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 5200 1850 5200
 Wire Wire Line
-	1600 5500 1850 5500
+	1850 5500 1600 5500
 Wire Wire Line
 	1850 5950 1600 5950
 Wire Wire Line
 	1600 6250 1850 6250
 Wire Wire Line
-	1600 8050 1850 8050
+	1850 8050 1600 8050
 Wire Wire Line
 	1600 2500 1850 2500
 Wire Wire Line
@@ -470,7 +526,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 2050 1600 2050
 Wire Wire Line
-	1600 7750 1850 7750
+	1850 7750 1600 7750
 Wire Wire Line
 	1850 7450 1600 7450
 Wire Wire Line
@@ -482,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6550 1850 6550
 Wire Wire Line
-	1600 6850 1850 6850
+	1850 6850 1600 6850
 Wire Wire Line
 	1600 7300 1850 7300
 Wire Wire Line
@@ -537,6 +593,106 @@ Wire Wire Line
 	9350 6350 9350 6250
 Wire Wire Line
 	9350 6250 9450 6250
+Wire Wire Line
+	1850 1900 1850 1950
+Wire Wire Line
+	1850 1950 2600 1950
+Wire Wire Line
+	1850 4150 1850 4200
+Wire Wire Line
+	1850 4200 2600 4200
+Wire Wire Line
+	1850 3100 1850 3150
+Wire Wire Line
+	1850 3150 2600 3150
+Wire Wire Line
+	1850 3400 1850 3450
+Wire Wire Line
+	1850 3450 2600 3450
+Wire Wire Line
+	1850 3700 1850 3750
+Wire Wire Line
+	1850 3750 2600 3750
+Wire Wire Line
+	1850 4000 1850 4050
+Wire Wire Line
+	1850 4050 2600 4050
+Wire Wire Line
+	1850 5650 1850 5700
+Wire Wire Line
+	1850 5700 2600 5700
+Wire Wire Line
+	1850 6250 1850 6300
+Wire Wire Line
+	1850 6300 2600 6300
+Wire Wire Line
+	1850 7000 1850 7050
+Wire Wire Line
+	1850 7050 2600 7050
+Wire Wire Line
+	1850 7300 1850 7350
+Wire Wire Line
+	1850 7350 2600 7350
+Wire Wire Line
+	1850 7600 1850 7650
+Wire Wire Line
+	1850 7650 2600 7650
+Wire Wire Line
+	1850 7900 1850 7950
+Wire Wire Line
+	1850 7950 2600 7950
+Wire Wire Line
+	1850 1300 1850 1350
+Wire Wire Line
+	1850 1350 2600 1350
+Text GLabel 2600 8100 2    60   Input ~ 0
+E4_STOP
+Text GLabel 2600 7950 2    60   Input ~ 0
+E3_STOP
+Text GLabel 2600 7800 2    60   Input ~ 0
+E2_STOP
+Text GLabel 2600 7650 2    60   Input ~ 0
+E4_EN
+Text GLabel 2600 7500 2    60   Input ~ 0
+E4_DIR
+Text GLabel 2600 7350 2    60   Input ~ 0
+E4_STEP
+Text GLabel 2600 7200 2    60   Input ~ 0
+E3_EN
+Text GLabel 2600 7050 2    60   Input ~ 0
+E3_DIR
+Text GLabel 2600 6900 2    60   Input ~ 0
+E3_STEP
+Text GLabel 2600 6300 2    60   Input ~ 0
+E4_THERMISTOR
+Text GLabel 2600 6150 2    60   Input ~ 0
+E3_THERMISTOR
+Text GLabel 2600 5700 2    60   Input ~ 0
+E2_THERMISTOR
+Text GLabel 2600 5550 2    60   Input ~ 0
+E1_THERMISTOR
+Text GLabel 2600 4200 2    60   Input ~ 0
+E2_EN
+Text GLabel 2600 4050 2    60   Input ~ 0
+E4_PWM
+Text GLabel 2600 3900 2    60   Input ~ 0
+E3_PWM
+Text GLabel 2600 3750 2    60   Input ~ 0
+E2_PWM
+Text GLabel 2600 3600 2    60   Input ~ 0
+E2_DIR
+Text GLabel 2600 3450 2    60   Input ~ 0
+E2_STEP
+Text GLabel 2600 3300 2    60   Input ~ 0
+E1_PWM
+Text GLabel 2600 3150 2    60   Input ~ 0
+E1_EN
+Text GLabel 2600 3000 2    60   Input ~ 0
+E1_DIR
+Text GLabel 2600 2850 2    60   Input ~ 0
+E1_STEP
+Text GLabel 2600 1950 2    60   Input ~ 0
+E1_STOP
 $Comp
 L CONN_10 J11
 U 1 1 53C7AAE8

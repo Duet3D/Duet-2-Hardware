@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/07/2014 15:49:20
+EESchema Schematic File Version 2  date Thu 06 Nov 2014 10:06:04 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FE
-LIBS:Duet0.7-cache
+LIBS:Shield-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 6 7
 Title "Duet"
-Date "19 jul 2014"
+Date "5 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -84,18 +84,9 @@ Wire Wire Line
 Wire Wire Line
 	2600 2850 2250 2850
 Wire Wire Line
-	10950 2900 10950 2850
-Wire Wire Line
-	10950 2850 10550 2850
-Wire Wire Line
 	6750 2900 6750 2850
 Wire Wire Line
 	6750 2850 6350 2850
-Wire Wire Line
-	9950 2100 9950 1800
-Connection ~ 9950 3500
-Wire Wire Line
-	10100 3500 9850 3500
 Wire Wire Line
 	5750 2600 5750 3500
 Connection ~ 7400 4300
@@ -109,8 +100,6 @@ Wire Wire Line
 Connection ~ 3300 4300
 Wire Wire Line
 	7400 1800 7400 1850
-Wire Wire Line
-	11300 2400 11300 2500
 Connection ~ 7400 2950
 Wire Wire Line
 	7400 2950 7100 2950
@@ -125,17 +114,6 @@ Wire Wire Line
 Connection ~ 3150 5600
 Wire Wire Line
 	2750 5600 3550 5600
-Wire Wire Line
-	11600 3100 11600 2200
-Wire Wire Line
-	10550 3850 10550 4300
-Wire Wire Line
-	10550 3150 10550 2600
-Connection ~ 10550 2850
-Wire Wire Line
-	11600 2200 12150 2200
-Wire Wire Line
-	10550 1800 10550 2100
 Wire Wire Line
 	6350 1800 6350 2100
 Wire Wire Line
@@ -169,14 +147,6 @@ Wire Wire Line
 	2750 7100 3550 7100
 Wire Wire Line
 	2750 7100 2750 6900
-Wire Notes Line
-	9250 1250 12750 1250
-Wire Notes Line
-	9250 1250 9250 4750
-Wire Notes Line
-	9250 4750 12750 4750
-Wire Notes Line
-	12750 4750 12750 1250
 Wire Notes Line
 	8550 4750 8550 1250
 Wire Notes Line
@@ -223,20 +193,7 @@ Wire Wire Line
 	3000 2950 3300 2950
 Connection ~ 3300 2950
 Wire Wire Line
-	11600 3800 11600 4450
-Wire Wire Line
 	7100 2400 7100 2500
-Wire Wire Line
-	11300 1900 11300 1850
-Wire Wire Line
-	11300 1850 11600 1850
-Wire Wire Line
-	11300 2900 11300 3000
-Wire Wire Line
-	11300 3000 11600 3000
-Connection ~ 11600 3000
-Wire Wire Line
-	11600 1850 11600 1800
 Wire Wire Line
 	3300 1800 3300 1850
 Wire Wire Line
@@ -247,21 +204,12 @@ Connection ~ 5750 3500
 Wire Wire Line
 	5750 1800 5750 2100
 Wire Wire Line
-	10550 4300 11600 4300
-Connection ~ 11600 4300
-Wire Wire Line
-	9950 2600 9950 3500
-Wire Wire Line
 	3300 4300 1650 4300
 Connection ~ 2250 4300
 Wire Wire Line
 	6750 3400 6750 3450
 Wire Wire Line
 	6750 3450 6950 3450
-Wire Wire Line
-	10950 3400 10950 3450
-Wire Wire Line
-	10950 3450 11150 3450
 Wire Wire Line
 	2600 3400 2600 3450
 Wire Wire Line
@@ -324,15 +272,6 @@ F 1 "220R" V 2600 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
-U 1 1 53B06825
-P 10950 3150
-F 0 "R25" V 11030 3150 50  0000 C CNN
-F 1 "220R" V 10950 3150 50  0000 C CNN
-	1    10950 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R23
 U 1 1 53B0680C
 P 6750 3150
@@ -349,15 +288,6 @@ F 0 "J27" H 1750 4550 60  0000 C CNN
 F 1 "TP" H 1500 4550 60  0000 C CNN
 	1    1650 4300
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R79
-U 1 1 522617BB
-P 9950 2350
-F 0 "R79" V 10030 2350 50  0000 C CNN
-F 1 "100k" V 9950 2350 50  0000 C CNN
-	1    9950 2350
-	-1   0    0    1   
 $EndComp
 $Comp
 L R R78
@@ -379,67 +309,12 @@ F 1 "100k" V 1650 2350 50  0000 C CNN
 $EndComp
 Text GLabel 3150 7200 3    60   Input ~ 0
 VSSA
-$Comp
-L LED D8
-U 1 1 50905423
-P 11300 2700
-F 0 "D8" H 11300 2800 50  0000 C CNN
-F 1 "LED" H 11300 2600 50  0000 C CNN
-	1    11300 2700
-	0    1    1    0   
-$EndComp
-Text GLabel 9950 1800 1    60   Input ~ 0
-+3.3V
-$Comp
-L IPD036N04L TR6
-U 1 1 50905422
-P 11450 3450
-F 0 "TR6" H 11900 3550 70  0000 C CNN
-F 1 "IPD036N04L" H 11950 3350 60  0000 C CNN
-	1    11450 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BSH105 TR5
-U 1 1 50905421
-P 10400 3500
-F 0 "TR5" H 10303 3750 70  0000 C CNN
-F 1 "BSH105" H 10253 3203 60  0000 C CNN
-	1    10400 3500
-	1    0    0    -1  
-$EndComp
-Text GLabel 12150 2200 2    60   Input ~ 0
-FAN0-
-$Comp
-L GND #PWR056
-U 1 1 5090541F
-P 11600 4450
-F 0 "#PWR056" H 11600 4450 30  0001 C CNN
-F 1 "GND" H 11600 4380 30  0001 C CNN
-	1    11600 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R24
-U 1 1 5090541E
-P 10550 2350
-F 0 "R24" V 10630 2350 50  0000 C CNN
-F 1 "470R" V 10550 2350 50  0000 C CNN
-	1    10550 2350
-	1    0    0    -1  
-$EndComp
-Text GLabel 9850 3500 0    60   Input ~ 0
-FAN0_PWM
-Text GLabel 11600 1800 1    60   Input ~ 0
-V_IN
-Text GLabel 10550 1800 1    60   Input ~ 0
-+5V
 Text GLabel 6350 1800 1    60   Input ~ 0
 +5V
 Text GLabel 7400 1800 1    60   Input ~ 0
 V_IN
 Text GLabel 5600 3500 0    60   Input ~ 0
-E0_PWM
+E2_PWM
 $Comp
 L R R22
 U 1 1 50905417
@@ -459,7 +334,7 @@ F 1 "GND" H 7400 4380 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7450 2200 2    60   Input ~ 0
-E0-
+E2-
 $Comp
 L BSH105 TR3
 U 1 1 50905414
@@ -496,15 +371,6 @@ P 7100 2150
 F 0 "R67" V 7180 2150 50  0000 C CNN
 F 1 "4k7" V 7100 2150 50  0000 C CNN
 	1    7100 2150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R68
-U 1 1 50905410
-P 11300 2150
-F 0 "R68" V 11380 2150 50  0000 C CNN
-F 1 "4k7" V 11300 2150 50  0000 C CNN
-	1    11300 2150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -568,9 +434,9 @@ F 1 "4K7" V 2682 5962 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4400 6400 2    60   Input ~ 0
-BED_THERMISTOR
+E2_THERMISTOR
 Text GLabel 1950 6400 0    60   Input ~ 0
-E0_THERMISTOR
+E1_THERMISTOR
 $Comp
 L IPD036N04L TR2
 U 1 1 5065705B
@@ -591,14 +457,12 @@ F 1 "BSH105" H 1953 3203 60  0000 C CNN
 $EndComp
 Text Notes 1150 5250 0    60   ~ 0
 THERMISTOR INPUTS
-Text Notes 9300 1400 0    60   ~ 0
-FAN MOSFET CONTROL
 Text Notes 5100 1400 0    60   ~ 0
-E0 MOSFET CONTROL
+E2 MOSFET CONTROL
 Text Notes 1000 1400 0    60   ~ 0
-BED MOSFET CONTROL
+E1 MOSFET CONTROL
 Text GLabel 3300 2200 2    60   Input ~ 0
-BED-
+E1-
 $Comp
 L GND #PWR058
 U 1 1 5064BB75
@@ -618,7 +482,7 @@ F 1 "470R" V 2250 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1500 3500 0    60   Input ~ 0
-BED_PWM
+E1_PWM
 Text GLabel 3300 1800 1    60   Input ~ 0
 V_IN
 Text GLabel 2250 1800 1    60   Input ~ 0

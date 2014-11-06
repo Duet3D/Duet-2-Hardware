@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 13/07/2014 12:00:17
+EESchema Schematic File Version 2  date Thu 06 Nov 2014 10:06:04 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FE
-LIBS:Duet0.7-cache
+LIBS:Shield-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 2 7
 Title "Duet"
-Date "13 jul 2014"
+Date "5 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -1697,13 +1697,13 @@ $EndComp
 Text GLabel 13000 5150 1    39   Input ~ 0
 +3.3V
 Text GLabel 14050 9150 0    39   Output ~ 0
-E0_STOP
+E4_STOP
 Text GLabel 12150 9150 0    39   Output ~ 0
-Z_STOP
+E3_STOP
 Text GLabel 14050 6550 0    39   Output ~ 0
-X_STOP
+E1_STOP
 Text GLabel 12150 6550 0    39   Output ~ 0
-Y_STOP
+E2_STOP
 Text GLabel 13000 7800 1    39   Input ~ 0
 +3.3V
 $Comp
@@ -1788,7 +1788,7 @@ F 1 "100u" H 2650 1525 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13200 9150 2    39   Output ~ 0
-Z_STOP_CONN
+E3_STOP_CONN
 $Comp
 L R_SMALL R58
 U 1 1 5065980C
@@ -1826,9 +1826,9 @@ F 1 "100R" V 14432 9162 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 15050 9150 2    39   Output ~ 0
-E0_STOP_CONN
+E4_STOP_CONN
 Text GLabel 13200 6550 2    39   Output ~ 0
-Y_STOP_CONN
+E2_STOP_CONN
 $Comp
 L R_SMALL R57
 U 1 1 506596A6
@@ -1866,7 +1866,7 @@ F 1 "100R" V 14482 6562 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 15100 6550 2    39   Output ~ 0
-X_STOP_CONN
+E1_STOP_CONN
 $Comp
 L R_SMALL R51
 U 1 1 50658494
@@ -1890,33 +1890,33 @@ Endstops.
 Text Notes 13100 950  2    60   ~ 0
 Digital Current Limit Control
 Text Notes 5700 6200 2    60   ~ 0
-Z-Axis Stepper Driver
+E3 Stepper Driver
 Text Notes 11000 6200 2    60   ~ 0
-Extruder Stepper Driver
+E4 Stepper Driver
 Text Notes 11000 1000 2    60   ~ 0
-Y-Axis Stepper Driver
+E2 Stepper Driver
 Text Notes 5700 1000 2    60   ~ 0
-X-Axis Stepper Driver
+E1 Stepper Driver
 Text GLabel 5400 9250 2    60   UnSpc ~ 0
-Z_REF
+E3_REF
 Text GLabel 10650 9250 2    60   UnSpc ~ 0
-E0_REF
+E4_REF
 Text GLabel 10650 4050 2    60   UnSpc ~ 0
-Y_REF
+E2_REF
 Text GLabel 5400 4050 2    60   UnSpc ~ 0
-X_REF
+E1_REF
 Text GLabel 12100 2500 0    60   Input ~ 0
 TWD0
 Text GLabel 12150 2350 0    60   Input ~ 0
 TWCK0
 Text GLabel 12950 2050 0    60   UnSpc ~ 0
-Y_REF
+E2_REF
 Text GLabel 12150 2750 0    60   UnSpc ~ 0
-X_REF
+E1_REF
 Text GLabel 15300 2750 2    60   UnSpc ~ 0
-E0_REF
+E4_REF
 Text GLabel 14650 2050 2    60   UnSpc ~ 0
-Z_REF
+E3_REF
 $Comp
 L GND #PWR017
 U 1 1 50620C89
@@ -1929,13 +1929,13 @@ $EndComp
 Text GLabel 13750 1150 1    60   Input ~ 0
 +3.3V
 Text GLabel 2250 3750 0    60   Output ~ 0
-X_EN
+E1_EN
 Text GLabel 7500 3750 0    60   Output ~ 0
-Y_EN
+E2_EN
 Text GLabel 7500 8950 0    60   Output ~ 0
-E0_EN
+E4_EN
 Text GLabel 2250 8950 0    60   Output ~ 0
-Z_EN
+E3_EN
 $Comp
 L GND #PWR018
 U 1 1 505A09C9
@@ -2044,29 +2044,29 @@ Text GLabel 3600 6600 1    60   Input ~ 0
 Text GLabel 3400 6350 1    60   Input ~ 0
 V_IN
 Text GLabel 2250 8450 0    60   Input ~ 0
-Z_STEP
+E3_STEP
 Text GLabel 2250 8600 0    60   Input ~ 0
-Z_DIR
+E3_DIR
 Text GLabel 5250 8100 2    60   Output ~ 0
-Z_MOT_1A
+E3_MOT_1A
 Text GLabel 5250 7950 2    60   Output ~ 0
-Z_MOT_1B
+E3_MOT_1B
 Text GLabel 5250 8450 2    60   Output ~ 0
-Z_MOT_2A
+E3_MOT_2A
 Text GLabel 5250 8600 2    60   Output ~ 0
-Z_MOT_2B
+E3_MOT_2B
 Text GLabel 10500 8600 2    60   Output ~ 0
-E0_MOT_2B
+E4_MOT_2B
 Text GLabel 10500 8450 2    60   Output ~ 0
-E0_MOT_2A
+E4_MOT_2A
 Text GLabel 10500 7950 2    60   Output ~ 0
-E0_MOT_1B
+E4_MOT_1B
 Text GLabel 10500 8100 2    60   Output ~ 0
-E0_MOT_1A
+E4_MOT_1A
 Text GLabel 7500 8600 0    60   Input ~ 0
-E0_DIR
+E4_DIR
 Text GLabel 7500 8450 0    60   Input ~ 0
-E0_STEP
+E4_STEP
 Text GLabel 8650 6350 1    60   Input ~ 0
 V_IN
 Text GLabel 8850 6600 1    60   Input ~ 0
@@ -2283,29 +2283,29 @@ Text GLabel 8850 1400 1    60   Input ~ 0
 Text GLabel 8650 1150 1    60   Input ~ 0
 V_IN
 Text GLabel 7500 3250 0    60   Input ~ 0
-Y_STEP
+E2_STEP
 Text GLabel 7500 3400 0    60   Input ~ 0
-Y_DIR
+E2_DIR
 Text GLabel 10500 2900 2    60   Output ~ 0
-Y_MOT_1A
+E2_MOT_1A
 Text GLabel 10500 2750 2    60   Output ~ 0
-Y_MOT_1B
+E2_MOT_1B
 Text GLabel 10500 3250 2    60   Output ~ 0
-Y_MOT_2A
+E2_MOT_2A
 Text GLabel 10500 3400 2    60   Output ~ 0
-Y_MOT_2B
+E2_MOT_2B
 Text GLabel 5250 3400 2    60   Output ~ 0
-X_MOT_2B
+E1_MOT_2B
 Text GLabel 5250 3250 2    60   Output ~ 0
-X_MOT_2A
+E1_MOT_2A
 Text GLabel 5250 2750 2    60   Output ~ 0
-X_MOT_1B
+E1_MOT_1B
 Text GLabel 5250 2900 2    60   Output ~ 0
-X_MOT_1A
+E1_MOT_1A
 Text GLabel 2250 3400 0    60   Input ~ 0
-X_DIR
+E1_DIR
 Text GLabel 2250 3250 0    60   Input ~ 0
-X_STEP
+E1_STEP
 Text GLabel 3400 1150 1    60   Input ~ 0
 V_IN
 Text GLabel 3600 1400 1    60   Input ~ 0

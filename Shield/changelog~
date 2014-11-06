@@ -1,0 +1,11 @@
+Duet Shield Changelog
+
+5/11/14
+
+1. Copied Duet 0.7 design (AB)
+2. Renamed files Shield instead of Duet 0.7 (AB)
+3. Added Expansion Board global names to Expansion connector (AB)
+4. Modified global signals on the stepper sheet to X->E1, Y->E2, Z->E3, E0->E4 (AB)
+5. Modified global signals on the heater sheet to BED->E1, E0->E2 (AB)
+
+

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Nov 2014 10:06:04 GMT
+EESchema Schematic File Version 2  date Thu 06 Nov 2014 13:12:34 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 2 7
 Title "Duet"
-Date "5 nov 2014"
+Date "6 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -46,17 +46,83 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	4950 8400 4950 8500
+Wire Wire Line
+	4950 8400 4800 8400
+Connection ~ 4350 8150
+Wire Wire Line
+	4400 8150 4350 8150
+Wire Wire Line
+	4950 7900 4950 7950
+Wire Wire Line
+	4950 7900 4750 7900
+Wire Wire Line
+	4750 7900 4750 7850
+Wire Wire Line
+	10200 8700 10200 8600
+Wire Wire Line
+	10200 8700 10000 8700
+Wire Wire Line
+	10200 8400 10200 8500
+Wire Wire Line
+	10200 8400 10050 8400
+Wire Wire Line
+	10200 8150 10200 8050
+Wire Wire Line
+	10200 8150 10050 8150
+Wire Wire Line
+	10200 7900 10200 7950
+Wire Wire Line
+	10200 7900 10000 7900
+Wire Wire Line
+	10000 7900 10000 7850
+Wire Wire Line
+	10200 3500 10200 3400
+Wire Wire Line
+	10200 3500 10050 3500
+Wire Wire Line
+	10200 3200 10200 3300
+Wire Wire Line
+	10200 3200 10050 3200
+Wire Wire Line
+	10200 2950 10200 2850
+Wire Wire Line
+	10200 2950 10050 2950
+Wire Wire Line
+	10200 2700 10200 2750
+Wire Wire Line
+	10200 2700 10000 2700
+Wire Wire Line
+	10000 2700 10000 2650
+Wire Wire Line
+	4950 3500 4950 3400
+Wire Wire Line
+	4950 3500 4800 3500
+Wire Wire Line
+	4950 3200 4950 3300
+Wire Wire Line
+	4950 3200 4800 3200
+Connection ~ 4350 2950
+Wire Wire Line
+	4400 2950 4350 2950
+Wire Wire Line
+	4950 2700 4950 2750
+Wire Wire Line
+	4950 2700 4800 2700
+Wire Wire Line
+	4800 2700 4800 2600
+Wire Wire Line
 	4350 8600 4150 8600
 Wire Wire Line
 	4150 8600 4150 8500
 Wire Wire Line
 	10500 8100 10350 8100
 Wire Wire Line
-	5250 7950 4950 7950
+	4950 7950 5250 7950
 Wire Wire Line
 	5250 2900 5100 2900
 Wire Wire Line
-	10500 2750 10200 2750
+	10200 2750 10500 2750
 Wire Wire Line
 	4900 7800 4900 7750
 Wire Wire Line
@@ -70,19 +136,19 @@ Wire Wire Line
 Wire Wire Line
 	5250 8600 4950 8600
 Wire Wire Line
-	4350 7950 4300 7950
+	4300 7950 4350 7950
 Wire Wire Line
 	4300 7950 4300 8050
 Wire Wire Line
 	5050 3100 5050 3050
 Wire Wire Line
-	4350 3400 4300 3400
+	4300 3400 4350 3400
 Wire Wire Line
 	4150 3000 4350 3000
 Wire Wire Line
 	4350 3000 4350 2850
 Wire Wire Line
-	9600 3400 9550 3400
+	9550 3400 9600 3400
 Wire Wire Line
 	10500 3100 10500 3050
 Wire Wire Line
@@ -131,7 +197,7 @@ Wire Wire Line
 	4900 2550 5050 2550
 Connection ~ 5050 2850
 Wire Wire Line
-	4950 2850 5100 2850
+	5100 2850 4950 2850
 Connection ~ 5050 2750
 Wire Wire Line
 	5100 2850 5100 2900
@@ -185,7 +251,7 @@ Wire Wire Line
 	4900 7750 5050 7750
 Connection ~ 5050 8050
 Wire Wire Line
-	4950 8050 5100 8050
+	5100 8050 4950 8050
 Connection ~ 5050 7950
 Wire Wire Line
 	5100 8050 5100 8100
@@ -970,7 +1036,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 8800 5050 8850
 Wire Wire Line
-	10500 3400 10200 3400
+	10200 3400 10500 3400
 Wire Wire Line
 	9550 2750 9600 2750
 Wire Wire Line
@@ -980,7 +1046,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3150 4350 3300
 Wire Wire Line
-	5250 3400 4950 3400
+	4950 3400 5250 3400
 Wire Wire Line
 	5050 3050 5250 3050
 Wire Wire Line
@@ -990,7 +1056,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 8200 4150 8200
 Wire Wire Line
-	10500 8600 10200 8600
+	10200 8600 10500 8600
 Wire Wire Line
 	10300 8850 10300 8800
 Wire Wire Line
@@ -998,21 +1064,211 @@ Wire Wire Line
 Wire Wire Line
 	9600 8350 9400 8350
 Wire Wire Line
-	9600 7950 9400 7950
+	9400 7950 9600 7950
 Wire Wire Line
 	9400 7950 9400 8050
 Wire Wire Line
 	10350 2900 10500 2900
 Wire Wire Line
-	5250 2750 4950 2750
+	4950 2750 5250 2750
 Wire Wire Line
 	5100 8100 5250 8100
 Wire Wire Line
-	10500 7950 10200 7950
+	10200 7950 10500 7950
 Wire Wire Line
 	4150 8350 4350 8350
 Wire Wire Line
 	4350 8350 4350 8500
+Wire Wire Line
+	4400 2600 4350 2600
+Wire Wire Line
+	4350 2600 4350 2750
+Wire Wire Line
+	4950 2850 4950 2950
+Wire Wire Line
+	4950 2950 4800 2950
+Wire Wire Line
+	4400 3200 4350 3200
+Connection ~ 4350 3200
+Wire Wire Line
+	4350 3400 4350 3500
+Wire Wire Line
+	4350 3500 4400 3500
+Wire Wire Line
+	9600 2750 9600 2650
+Wire Wire Line
+	9650 2950 9600 2950
+Connection ~ 9600 2950
+Wire Wire Line
+	9650 3200 9600 3200
+Connection ~ 9600 3200
+Wire Wire Line
+	9650 3500 9600 3500
+Wire Wire Line
+	9600 3500 9600 3400
+Wire Wire Line
+	9600 7950 9600 7850
+Wire Wire Line
+	9650 8150 9600 8150
+Connection ~ 9600 8150
+Wire Wire Line
+	9650 8400 9600 8400
+Connection ~ 9600 8400
+Wire Wire Line
+	9600 8600 9600 8700
+Wire Wire Line
+	4350 7950 4350 7850
+Wire Wire Line
+	4800 8150 4950 8150
+Wire Wire Line
+	4950 8150 4950 8050
+Wire Wire Line
+	4400 8400 4350 8400
+Connection ~ 4350 8400
+$Comp
+L SJ SJ?
+U 1 1 545B6581
+P 4550 8700
+F 0 "SJ?" H 4650 8850 50  0000 C CNN
+F 1 "MS1" H 4650 8551 40  0000 C CNN
+	1    4550 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B657C
+P 4600 8400
+F 0 "SJ?" H 4700 8550 50  0000 C CNN
+F 1 "MS1" H 4700 8251 40  0000 C CNN
+	1    4600 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B6579
+P 4600 8150
+F 0 "SJ?" H 4700 8300 50  0000 C CNN
+F 1 "MS1" H 4700 8001 40  0000 C CNN
+	1    4600 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B6566
+P 4550 7850
+F 0 "SJ?" H 4650 8000 50  0000 C CNN
+F 1 "MS1" H 4650 7701 40  0000 C CNN
+	1    4550 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B651E
+P 9800 8700
+F 0 "SJ?" H 9900 8850 50  0000 C CNN
+F 1 "MS1" H 9900 8551 40  0000 C CNN
+	1    9800 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B651C
+P 9850 8400
+F 0 "SJ?" H 9950 8550 50  0000 C CNN
+F 1 "MS1" H 9950 8251 40  0000 C CNN
+	1    9850 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B6517
+P 9850 8150
+F 0 "SJ?" H 9950 8300 50  0000 C CNN
+F 1 "MS1" H 9950 8001 40  0000 C CNN
+	1    9850 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B6510
+P 9800 7850
+F 0 "SJ?" H 9900 8000 50  0000 C CNN
+F 1 "MS1" H 9900 7701 40  0000 C CNN
+	1    9800 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B64D4
+P 9850 3500
+F 0 "SJ?" H 9950 3650 50  0000 C CNN
+F 1 "MS1" H 9950 3351 40  0000 C CNN
+	1    9850 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B64D0
+P 9850 3200
+F 0 "SJ?" H 9950 3350 50  0000 C CNN
+F 1 "MS1" H 9950 3051 40  0000 C CNN
+	1    9850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B64CA
+P 9850 2950
+F 0 "SJ?" H 9950 3100 50  0000 C CNN
+F 1 "MS1" H 9950 2801 40  0000 C CNN
+	1    9850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B64BB
+P 9800 2650
+F 0 "SJ?" H 9900 2800 50  0000 C CNN
+F 1 "MS1" H 9900 2501 40  0000 C CNN
+	1    9800 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B62DB
+P 4600 3500
+F 0 "SJ?" H 4700 3650 50  0000 C CNN
+F 1 "MS1" H 4700 3351 40  0000 C CNN
+	1    4600 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B62D5
+P 4600 3200
+F 0 "SJ?" H 4700 3350 50  0000 C CNN
+F 1 "MS1" H 4700 3051 40  0000 C CNN
+	1    4600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B62D0
+P 4600 2950
+F 0 "SJ?" H 4700 3100 50  0000 C CNN
+F 1 "MS1" H 4700 2801 40  0000 C CNN
+	1    4600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L SJ SJ?
+U 1 1 545B617B
+P 4600 2600
+F 0 "SJ?" H 4700 2750 50  0000 C CNN
+F 1 "MS1" H 4700 2451 40  0000 C CNN
+	1    4600 2600
+	0    1    1    0   
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 53B05215

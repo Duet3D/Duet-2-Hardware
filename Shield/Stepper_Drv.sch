@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Nov 2014 13:12:34 GMT
+EESchema Schematic File Version 2  date Thu 06 Nov 2014 16:31:39 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
-Sheet 2 7
+Sheet 2 4
 Title "Duet"
 Date "6 nov 2014"
 Rev "0.7"

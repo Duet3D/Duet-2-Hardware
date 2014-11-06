@@ -15,6 +15,11 @@ Duet Shield Changelog
 8. NB The Duet 0.7 replaces AD12 with VSSA on the expansion header.  Put back to AD12 for Duet 0.6 compatibility.  Also CTS1 & RTS1. 
 9. Added global names PROBE-SIG and PROBE-TRIG for clarity. (AB)
 10. Added E0 feedthrough for motor, stop, heater, and thermistor. (AB)
+11. Added E1 and E2 6-pin connectors (AB)
+12. Added 36-way ribbon header for all five extruder steppers. (AB)
+13. Added 4 way step pulse header for timing diagnostics (AB)
+14. Added EXPANSION2 connector.  NB AD12 and AD14 are shared with the probe. (AB)
+
 
 
 

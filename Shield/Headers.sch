@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Nov 2014 16:31:39 GMT
+EESchema Schematic File Version 2  date Fri 07 Nov 2014 11:38:16 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 3 4
 Title "Duet"
-Date "6 nov 2014"
+Date "7 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -45,26 +45,22 @@ Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7000 6650 0    60   Input ~ 0
+Text GLabel 7000 6650 0    60   BiDi ~ 0
 AD14
-Text GLabel 7000 6350 0    60   Input ~ 0
+Text GLabel 7000 6350 0    60   BiDi ~ 0
 AD12
 $Comp
-L GND #PWR?
+L GND #PWR030
 U 1 1 545BA028
 P 7000 9200
-F 0 "#PWR?" H 7000 9200 30  0001 C CNN
+F 0 "#PWR030" H 7000 9200 30  0001 C CNN
 F 1 "GND" H 7000 9130 30  0001 C CNN
 	1    7000 9200
 	1    0    0    -1  
 $EndComp
 Connection ~ 7000 9050
 Wire Wire Line
-	7000 9200 7000 9050
-Wire Wire Line
-	7000 9050 7000 8900
-Wire Wire Line
-	7000 8900 7000 8750
+	7000 9200 7000 8750
 Wire Wire Line
 	7000 9050 7200 9050
 Wire Wire Line
@@ -178,21 +174,15 @@ Wire Wire Line
 Wire Wire Line
 	4650 6900 4650 7000
 Wire Wire Line
-	7500 950  7500 1800
-Wire Wire Line
-	7500 1800 7500 2750
+	7500 950  7500 2750
 Wire Wire Line
 	13900 3050 14100 3050
 Wire Wire Line
 	14100 2550 13400 2550
 Wire Wire Line
-	14100 2350 13900 2350
+	14100 2350 13400 2350
 Wire Wire Line
-	13900 2350 13400 2350
-Wire Wire Line
-	14100 2150 13900 2150
-Wire Wire Line
-	13900 2150 13400 2150
+	14100 2150 13400 2150
 Wire Wire Line
 	14100 2250 13900 2250
 Wire Wire Line
@@ -222,13 +212,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 2600 5450 2600
 Wire Wire Line
-	6150 2400 5950 2400
+	6150 2400 5450 2400
 Wire Wire Line
-	5950 2400 5450 2400
-Wire Wire Line
-	6150 2200 5950 2200
-Wire Wire Line
-	5950 2200 5450 2200
+	6150 2200 5450 2200
 Wire Wire Line
 	6150 2300 5950 2300
 Wire Wire Line
@@ -258,9 +244,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1050 6150 1050
 Wire Wire Line
-	12050 5950 12050 5700
-Wire Wire Line
-	12050 5700 12050 4500
+	12050 5950 12050 4500
 Wire Wire Line
 	14100 5450 14050 5450
 Wire Wire Line
@@ -360,9 +344,7 @@ Wire Wire Line
 Wire Wire Line
 	12800 1650 13050 1650
 Wire Wire Line
-	12900 750  13050 750 
-Wire Wire Line
-	13050 750  13150 750 
+	12900 750  13150 750 
 Wire Wire Line
 	13950 1700 13100 1700
 Wire Wire Line
@@ -380,9 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 1600 13150 1450
 Wire Wire Line
-	14050 1000 13050 1000
-Wire Wire Line
-	13050 1000 12900 1000
+	14050 1000 12900 1000
 Wire Wire Line
 	14050 1200 12850 1200
 Wire Wire Line
@@ -724,13 +704,9 @@ Wire Wire Line
 Wire Wire Line
 	1850 6450 2600 6450
 Wire Wire Line
-	5450 950  5950 950 
+	5450 950  6150 950 
 Wire Wire Line
-	5950 950  6150 950 
-Wire Wire Line
-	5450 1150 5950 1150
-Wire Wire Line
-	5950 1150 6150 1150
+	5450 1150 6150 1150
 Wire Wire Line
 	6150 1350 5450 1350
 Wire Wire Line
@@ -738,14 +714,10 @@ Wire Wire Line
 Wire Wire Line
 	13950 3250 13900 3250
 Wire Wire Line
-	12150 5550 12150 4350
-Wire Wire Line
-	12150 4350 12150 3650
+	12150 5550 12150 3650
 Connection ~ 12150 4350
 Wire Wire Line
-	7400 1900 7400 2900
-Wire Wire Line
-	7400 2900 7400 3150
+	7400 1900 7400 3150
 Wire Wire Line
 	4650 7100 4600 7100
 Wire Wire Line
@@ -791,75 +763,75 @@ Wire Wire Line
 Connection ~ 7000 8900
 Text GLabel 7000 8600 0    60   Input ~ 0
 VSSA
-Text GLabel 7000 8450 0    60   Input ~ 0
-SPIO_MIS0
+Text GLabel 7000 8450 0    60   BiDi ~ 0
+SPI0_MISO
 Text GLabel 7000 8300 0    60   Input ~ 0
 +3.3V
-Text GLabel 7000 8150 0    60   Input ~ 0
-SPIO_SPCK
-Text GLabel 7000 8000 0    60   Input ~ 0
-SPIO_MOSI
-Text GLabel 7000 7850 0    60   Input ~ 0
+Text GLabel 7000 8150 0    60   BiDi ~ 0
+SPI0_SPCK
+Text GLabel 7000 8000 0    60   BiDi ~ 0
+SPI0_MOSI
+Text GLabel 7000 7850 0    60   Output ~ 0
 RESET
 $Comp
-L GND #PWR?
+L GND #PWR031
 U 1 1 545B9F87
 P 6050 7800
-F 0 "#PWR?" H 6050 7800 30  0001 C CNN
+F 0 "#PWR031" H 6050 7800 30  0001 C CNN
 F 1 "GND" H 6050 7730 30  0001 C CNN
 	1    6050 7800
 	1    0    0    -1  
 $EndComp
-Text GLabel 7000 7550 0    60   Input ~ 0
-SPIO_NPCS0
-Text GLabel 7000 7400 0    60   Input ~ 0
+Text GLabel 7000 7550 0    60   BiDi ~ 0
+SPI0_NPCS0
+Text GLabel 7000 7400 0    60   BiDi ~ 0
 TWCK1
-Text GLabel 7000 7250 0    60   Input ~ 0
+Text GLabel 7000 7250 0    60   BiDi ~ 0
 RTS1
-Text GLabel 7000 7100 0    60   Input ~ 0
+Text GLabel 7000 7100 0    60   BiDi ~ 0
 TWD1
-Text GLabel 7000 6950 0    60   Input ~ 0
+Text GLabel 7000 6950 0    60   BiDi ~ 0
 PB16
-Text GLabel 7000 6800 0    60   Input ~ 0
+Text GLabel 7000 6800 0    60   BiDi ~ 0
 PB15
-Text GLabel 7000 6500 0    60   Input ~ 0
+Text GLabel 7000 6500 0    60   BiDi ~ 0
 AD13
-Text GLabel 7000 6200 0    60   Input ~ 0
-SPIO_NPCS1
-Text GLabel 7000 6050 0    60   Input ~ 0
+Text GLabel 7000 6200 0    60   BiDi ~ 0
+SPI0_NPCS1
+Text GLabel 7000 6050 0    60   BiDi ~ 0
 PC4_PWML1
-Text GLabel 7000 5900 0    60   Input ~ 0
+Text GLabel 7000 5900 0    60   BiDi ~ 0
 RXD0
-Text GLabel 7000 5750 0    60   Input ~ 0
+Text GLabel 7000 5750 0    60   BiDi ~ 0
 TXD0
-Text GLabel 7000 5600 0    60   Input ~ 0
+Text GLabel 7000 5600 0    60   BiDi ~ 0
 RXD1
-Text GLabel 7000 5450 0    60   Input ~ 0
+Text GLabel 7000 5450 0    60   BiDi ~ 0
 TXD1
-Text GLabel 7000 5300 0    60   Input ~ 0
+Text GLabel 7000 5300 0    60   BiDi ~ 0
 UTXD
-Text GLabel 7000 5150 0    60   Input ~ 0
+Text GLabel 7000 5150 0    60   BiDi ~ 0
 URXD
-Text GLabel 7000 5000 0    60   Input ~ 0
+Text GLabel 7000 5000 0    60   BiDi ~ 0
 TWCK0
-Text GLabel 7000 4850 0    60   Input ~ 0
+Text GLabel 7000 4850 0    60   BiDi ~ 0
 TWD0
 Text GLabel 7000 4700 0    60   Input ~ 0
 +5V
 $Comp
-L CONN2X15 J?
+L CONN2X15 J6
 U 1 1 545B9DAB
 P 7600 7300
-F 0 "J?" H 7600 5400 60  0000 C CNN
+F 0 "J6" H 7600 5400 60  0000 C CNN
 F 1 "EXPANSION2" H 7600 10050 60  0000 C CNN
 	1    7600 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR032
 U 1 1 545B99C5
 P 10100 9050
-F 0 "#PWR?" H 10100 9050 30  0001 C CNN
+F 0 "#PWR032" H 10100 9050 30  0001 C CNN
 F 1 "GND" H 10100 8980 30  0001 C CNN
 	1    10100 9050
 	0    1    1    0   
@@ -872,31 +844,31 @@ Text GLabel 9550 8300 2    60   Output ~ 0
 E4_MOT_2A
 Text GLabel 9550 8000 2    60   Output ~ 0
 E4_MOT_1B
-Text GLabel 10100 8600 0    60   Input ~ 0
+Text GLabel 10100 8600 0    60   Output ~ 0
 E4_STOP_CONN
 Text GLabel 10100 8750 0    60   Input ~ 0
 +3.3V
 $Comp
-L GND #PWR?
+L GND #PWR033
 U 1 1 545B99BB
 P 10100 8900
-F 0 "#PWR?" H 10100 8900 30  0001 C CNN
+F 0 "#PWR033" H 10100 8900 30  0001 C CNN
 F 1 "GND" H 10100 8830 30  0001 C CNN
 	1    10100 8900
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR034
 U 1 1 545B99B0
 P 10100 7850
-F 0 "#PWR?" H 10100 7850 30  0001 C CNN
+F 0 "#PWR034" H 10100 7850 30  0001 C CNN
 F 1 "GND" H 10100 7780 30  0001 C CNN
 	1    10100 7850
 	0    1    1    0   
 $EndComp
 Text GLabel 10100 7700 0    60   Input ~ 0
 +3.3V
-Text GLabel 10100 7550 0    60   Input ~ 0
+Text GLabel 10100 7550 0    60   Output ~ 0
 E3_STOP_CONN
 Text GLabel 9550 6950 2    60   Output ~ 0
 E3_MOT_1B
@@ -914,31 +886,31 @@ Text GLabel 9550 6200 2    60   Output ~ 0
 E2_MOT_2A
 Text GLabel 9550 5900 2    60   Output ~ 0
 E2_MOT_1B
-Text GLabel 10100 6500 0    60   Input ~ 0
+Text GLabel 10100 6500 0    60   Output ~ 0
 E2_STOP_CONN
 Text GLabel 10100 6650 0    60   Input ~ 0
 +3.3V
 $Comp
-L GND #PWR?
+L GND #PWR035
 U 1 1 545B99A8
 P 10100 6800
-F 0 "#PWR?" H 10100 6800 30  0001 C CNN
+F 0 "#PWR035" H 10100 6800 30  0001 C CNN
 F 1 "GND" H 10100 6730 30  0001 C CNN
 	1    10100 6800
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR036
 U 1 1 545B9994
 P 10100 5750
-F 0 "#PWR?" H 10100 5750 30  0001 C CNN
+F 0 "#PWR036" H 10100 5750 30  0001 C CNN
 F 1 "GND" H 10100 5680 30  0001 C CNN
 	1    10100 5750
 	0    1    1    0   
 $EndComp
 Text GLabel 10100 5600 0    60   Input ~ 0
 +3.3V
-Text GLabel 10100 5450 0    60   Input ~ 0
+Text GLabel 10100 5450 0    60   Output ~ 0
 E1_STOP_CONN
 Text GLabel 9550 4850 2    60   Output ~ 0
 E1_MOT_1B
@@ -958,24 +930,24 @@ Text GLabel 9550 4100 2    60   Output ~ 0
 E0_MOT_2A
 Text GLabel 9550 3800 2    60   Output ~ 0
 E0_MOT_1B
-Text GLabel 10100 4400 0    60   Input ~ 0
+Text GLabel 10100 4400 0    60   Output ~ 0
 E0_STOP_CONN
 Text GLabel 10100 4550 0    60   Input ~ 0
 +3.3V
 $Comp
-L GND #PWR?
+L GND #PWR037
 U 1 1 545B9944
 P 10100 4700
-F 0 "#PWR?" H 10100 4700 30  0001 C CNN
+F 0 "#PWR037" H 10100 4700 30  0001 C CNN
 F 1 "GND" H 10100 4630 30  0001 C CNN
 	1    10100 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN2X18 J?
+L CONN2X18 J7
 U 1 1 545B9929
 P 10650 6400
-F 0 "J?" H 10650 3650 60  0000 C CNN
+F 0 "J7" H 10650 3650 60  0000 C CNN
 F 1 "MOTORS" H 10650 9150 60  0000 C CNN
 	1    10650 6400
 	1    0    0    -1  
@@ -991,10 +963,10 @@ E2_STEP
 Text GLabel 4550 6900 0    60   Input ~ 0
 E1_STEP
 $Comp
-L CONN_4 P?
+L CONN_4 P1
 U 1 1 545B95E6
 P 5000 7150
-F 0 "P?" V 4950 7150 50  0000 C CNN
+F 0 "P1" V 4950 7150 50  0000 C CNN
 F 1 "CONN_4" V 5050 7150 50  0000 C CNN
 	1    5000 7150
 	1    0    0    -1  
@@ -1002,10 +974,10 @@ $EndComp
 Text GLabel 7500 950  1    60   Input ~ 0
 +3.3V
 $Comp
-L GND #PWR?
+L GND #PWR038
 U 1 1 545B8A07
 P 7400 3150
-F 0 "#PWR?" H 7400 3150 30  0001 C CNN
+F 0 "#PWR038" H 7400 3150 30  0001 C CNN
 F 1 "GND" H 7400 3080 30  0001 C CNN
 	1    7400 3150
 	1    0    0    -1  
@@ -1013,10 +985,10 @@ $EndComp
 Text GLabel 13900 3250 0    60   Input ~ 0
 V_IN
 $Comp
-L CONN2 J?
+L CONN2 J13
 U 1 1 545B8894
 P 14450 3050
-F 0 "J?" H 14450 2950 40  0000 C CNN
+F 0 "J13" H 14450 2950 40  0000 C CNN
 F 1 "GND  V_IN" V 14600 3100 40  0000 C CNN
 	1    14450 3050
 	1    0    0    1   
@@ -1024,10 +996,10 @@ $EndComp
 Text GLabel 13900 3050 0    60   Input ~ 0
 FAN0-
 $Comp
-L CONN_6 J?
+L CONN_6 J11
 U 1 1 545B8869
 P 14450 2400
-F 0 "J?" V 14400 2400 60  0000 C CNN
+F 0 "J11" V 14400 2400 60  0000 C CNN
 F 1 "CONN_6" V 14500 2400 60  0000 C CNN
 	1    14450 2400
 	1    0    0    -1  
@@ -1036,15 +1008,15 @@ Text GLabel 13400 2150 0    60   Input ~ 0
 E0-
 Text GLabel 13400 2350 0    60   Input ~ 0
 V_IN
-Text GLabel 13400 2550 0    60   Input ~ 0
+Text GLabel 13400 2550 0    60   Output ~ 0
 E0_THERMISTOR
 Text GLabel 13400 2750 0    60   Input ~ 0
 VSSA
 $Comp
-L GND #PWR?
+L GND #PWR039
 U 1 1 545B85D0
 P 1600 10750
-F 0 "#PWR?" H 1600 10750 30  0001 C CNN
+F 0 "#PWR039" H 1600 10750 30  0001 C CNN
 F 1 "GND" H 1600 10680 30  0001 C CNN
 	1    1600 10750
 	1    0    0    -1  
@@ -1052,19 +1024,19 @@ $EndComp
 Text GLabel 1600 10500 0    60   Input ~ 0
 V_IN
 $Comp
-L CONN2 J?
+L CONN2 J4
 U 1 1 545B85CF
 P 2150 10500
-F 0 "J?" H 2150 10400 40  0000 C CNN
+F 0 "J4" H 2150 10400 40  0000 C CNN
 F 1 "GND  V_IN" V 2300 10550 40  0000 C CNN
 	1    2150 10500
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN2 J?
+L CONN2 J2
 U 1 1 545B85C7
 P 2150 10100
-F 0 "J?" H 2150 10000 40  0000 C CNN
+F 0 "J2" H 2150 10000 40  0000 C CNN
 F 1 "GND  V_IN" V 2300 10150 40  0000 C CNN
 	1    2150 10100
 	1    0    0    1   
@@ -1072,19 +1044,19 @@ $EndComp
 Text GLabel 1600 10100 0    60   Input ~ 0
 V_IN
 $Comp
-L GND #PWR?
+L GND #PWR040
 U 1 1 545B85C6
 P 1600 10350
-F 0 "#PWR?" H 1600 10350 30  0001 C CNN
+F 0 "#PWR040" H 1600 10350 30  0001 C CNN
 F 1 "GND" H 1600 10280 30  0001 C CNN
 	1    1600 10350
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_6 J?
+L CONN_6 J5
 U 1 1 545B8581
 P 6500 2450
-F 0 "J?" V 6450 2450 60  0000 C CNN
+F 0 "J5" V 6450 2450 60  0000 C CNN
 F 1 "CONN_6" V 6550 2450 60  0000 C CNN
 	1    6500 2450
 	1    0    0    -1  
@@ -1093,13 +1065,13 @@ Text GLabel 5450 2200 0    60   Input ~ 0
 E2-
 Text GLabel 5450 2400 0    60   Input ~ 0
 V_IN
-Text GLabel 5450 2600 0    60   Input ~ 0
+Text GLabel 5450 2600 0    60   Output ~ 0
 E2_THERMISTOR
 Text GLabel 5450 2800 0    60   Input ~ 0
 VSSA
 Text GLabel 5450 1550 0    60   Input ~ 0
 VSSA
-Text GLabel 5450 1350 0    60   Input ~ 0
+Text GLabel 5450 1350 0    60   Output ~ 0
 E1_THERMISTOR
 Text GLabel 5450 1150 0    60   Input ~ 0
 V_IN
@@ -1115,10 +1087,10 @@ F 1 "CONN_6" V 6550 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR041
 U 1 1 545B7245
 P 12050 5950
-F 0 "#PWR?" H 12050 5950 30  0001 C CNN
+F 0 "#PWR041" H 12050 5950 30  0001 C CNN
 F 1 "GND" H 12050 5880 30  0001 C CNN
 	1    12050 5950
 	1    0    0    -1  
@@ -1128,23 +1100,23 @@ Text GLabel 12150 3650 1    60   Input ~ 0
 Text Notes 14850 1950 0    60   ~ 0
 Feedthrough
 $Comp
-L CONN7 J?
+L CONN7 J15
 U 1 1 545B7174
 P 14450 5150
-F 0 "J?" H 14450 4850 50  0000 C CNN
+F 0 "J15" H 14450 4850 50  0000 C CNN
 F 1 "E0 MOT/STOP" V 14500 5150 40  0000 C CNN
 	1    14450 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 12950 5400 0    60   Input ~ 0
+Text GLabel 12950 5400 0    60   Output ~ 0
 E0_STOP_CONN
-Text GLabel 12950 5250 0    60   Output ~ 0
+Text GLabel 12950 5250 0    60   Input ~ 0
 E0_MOT_2B
-Text GLabel 12950 5100 0    60   Output ~ 0
+Text GLabel 12950 5100 0    60   Input ~ 0
 E0_MOT_2A
-Text GLabel 12950 4800 0    60   Output ~ 0
+Text GLabel 12950 4800 0    60   Input ~ 0
 E0_MOT_1B
-Text GLabel 12950 4950 0    60   Output ~ 0
+Text GLabel 12950 4950 0    60   Input ~ 0
 E0_MOT_1A
 Text GLabel 12950 3750 0    60   Output ~ 0
 E0_MOT_1A
@@ -1157,40 +1129,40 @@ E0_MOT_2B
 Text GLabel 12950 4200 0    60   Input ~ 0
 E0_STOP_CONN
 $Comp
-L CONN7 J?
+L CONN7 J14
 U 1 1 545B7167
 P 14450 3950
-F 0 "J?" H 14450 3650 50  0000 C CNN
+F 0 "J14" H 14450 3650 50  0000 C CNN
 F 1 "E0 MOT/STOP" V 14500 3950 40  0000 C CNN
 	1    14450 3950
 	1    0    0    -1  
 $EndComp
 Text GLabel 12850 1200 0    60   Input ~ 0
 E0_THERMISTOR
-Text GLabel 12800 1650 0    60   Input ~ 0
+Text GLabel 12800 1650 0    60   Output ~ 0
 FAN0-
 Text GLabel 12800 1800 0    60   Input ~ 0
 V_IN
 Text GLabel 12900 1000 0    60   Input ~ 0
 V_IN
-Text GLabel 12900 750  0    60   Input ~ 0
+Text GLabel 12900 750  0    60   Output ~ 0
 E0-
-Text GLabel 12850 1350 0    60   Input ~ 0
+Text GLabel 12850 1350 0    60   Output ~ 0
 VSSA
 $Comp
-L GND #PWR?
+L GND #PWR042
 U 1 1 545B7132
 P 13150 1600
-F 0 "#PWR?" H 13150 1600 30  0001 C CNN
+F 0 "#PWR042" H 13150 1600 30  0001 C CNN
 F 1 "GND" H 13150 1530 30  0001 C CNN
 	1    13150 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR043
 U 1 1 545B7131
 P 13150 1600
-F 0 "#PWR?" H 13150 1600 30  0001 C CNN
+F 0 "#PWR043" H 13150 1600 30  0001 C CNN
 F 1 "GND" H 13150 1530 30  0001 C CNN
 	1    13150 1600
 	1    0    0    -1  
@@ -1198,23 +1170,23 @@ $EndComp
 Text GLabel 13550 1450 0    60   Input ~ 0
 V_IN
 $Comp
-L CONN_10 J?
+L CONN_10 J10
 U 1 1 545B7130
 P 14400 1250
-F 0 "J?" V 14350 1250 60  0000 C CNN
+F 0 "J10" V 14350 1250 60  0000 C CNN
 F 1 "E0 HEAT/TEMP/FAN" V 14450 1250 60  0000 C CNN
 	1    14400 1250
 	1    0    0    -1  
 $EndComp
 Text GLabel 2600 6450 2    60   Input ~ 0
 PROBE-SIG
-Text GLabel 2600 6750 2    60   Input ~ 0
+Text GLabel 2600 6750 2    60   Output ~ 0
 PROBE-TRIG
 Text GLabel 4450 6250 3    60   Input ~ 0
 +3.3V
-Text GLabel 2600 1500 2    60   Input ~ 0
+Text GLabel 2600 1500 2    60   Output ~ 0
 TWCK0
-Text GLabel 2600 1350 2    60   Input ~ 0
+Text GLabel 2600 1350 2    60   Output ~ 0
 TWD0
 Text GLabel 2600 8100 2    60   Input ~ 0
 E4_STOP
@@ -1222,17 +1194,17 @@ Text GLabel 2600 7950 2    60   Input ~ 0
 E3_STOP
 Text GLabel 2600 7800 2    60   Input ~ 0
 E2_STOP
-Text GLabel 2600 7650 2    60   Input ~ 0
+Text GLabel 2600 7650 2    60   Output ~ 0
 E4_EN
-Text GLabel 2600 7500 2    60   Input ~ 0
+Text GLabel 2600 7500 2    60   Output ~ 0
 E4_DIR
-Text GLabel 2600 7350 2    60   Input ~ 0
+Text GLabel 2600 7350 2    60   Output ~ 0
 E4_STEP
-Text GLabel 2600 7200 2    60   Input ~ 0
+Text GLabel 2600 7200 2    60   Output ~ 0
 E3_EN
-Text GLabel 2600 7050 2    60   Input ~ 0
+Text GLabel 2600 7050 2    60   Output ~ 0
 E3_DIR
-Text GLabel 2600 6900 2    60   Input ~ 0
+Text GLabel 2600 6900 2    60   Output ~ 0
 E3_STEP
 Text GLabel 2600 6300 2    60   Input ~ 0
 E4_THERMISTOR
@@ -1242,25 +1214,25 @@ Text GLabel 2600 5700 2    60   Input ~ 0
 E2_THERMISTOR
 Text GLabel 2600 5550 2    60   Input ~ 0
 E1_THERMISTOR
-Text GLabel 2600 4200 2    60   Input ~ 0
+Text GLabel 2600 4200 2    60   Output ~ 0
 E2_EN
-Text GLabel 2600 4050 2    60   Input ~ 0
+Text GLabel 2600 4050 2    60   Output ~ 0
 E4_PWM
-Text GLabel 2600 3900 2    60   Input ~ 0
+Text GLabel 2600 3900 2    60   Output ~ 0
 E3_PWM
-Text GLabel 2600 3750 2    60   Input ~ 0
+Text GLabel 2600 3750 2    60   Output ~ 0
 E2_PWM
-Text GLabel 2600 3600 2    60   Input ~ 0
+Text GLabel 2600 3600 2    60   Output ~ 0
 E2_DIR
-Text GLabel 2600 3450 2    60   Input ~ 0
+Text GLabel 2600 3450 2    60   Output ~ 0
 E2_STEP
-Text GLabel 2600 3300 2    60   Input ~ 0
+Text GLabel 2600 3300 2    60   Output ~ 0
 E1_PWM
-Text GLabel 2600 3150 2    60   Input ~ 0
+Text GLabel 2600 3150 2    60   Output ~ 0
 E1_EN
-Text GLabel 2600 3000 2    60   Input ~ 0
+Text GLabel 2600 3000 2    60   Output ~ 0
 E1_DIR
-Text GLabel 2600 2850 2    60   Input ~ 0
+Text GLabel 2600 2850 2    60   Output ~ 0
 E1_STEP
 Text GLabel 2600 1950 2    60   Input ~ 0
 E1_STOP
@@ -1275,22 +1247,22 @@ F 1 "Probe" V 5150 5900 50  0000 C CNN
 $EndComp
 Text GLabel 4450 5950 0    60   Input ~ 0
 PROBE-TRIG
-Text GLabel 4400 5650 0    50   BiDi ~ 0
+Text GLabel 4400 5650 0    50   Output ~ 0
 PROBE-SIG
 $Comp
-L GND #PWR036
+L GND #PWR044
 U 1 1 53B0339C
 P 1600 9900
-F 0 "#PWR036" H 1600 9900 30  0001 C CNN
+F 0 "#PWR044" H 1600 9900 30  0001 C CNN
 F 1 "GND" H 1600 9830 30  0001 C CNN
 	1    1600 9900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L GND #PWR045
 U 1 1 53B0339B
 P 4300 5800
-F 0 "#PWR037" H 4300 5800 30  0001 C CNN
+F 0 "#PWR045" H 4300 5800 30  0001 C CNN
 F 1 "GND" H 4300 5730 30  0001 C CNN
 	1    4300 5800
 	1    0    0    -1  
@@ -1307,10 +1279,10 @@ F 1 "GND  V_IN" V 2300 9700 40  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR046
 U 1 1 5220B9D2
 P 1600 9100
-F 0 "#PWR039" H 1600 9100 30  0001 C CNN
+F 0 "#PWR046" H 1600 9100 30  0001 C CNN
 F 1 "GND" H 1600 9030 30  0001 C CNN
 	1    1600 9100
 	1    0    0    -1  
@@ -1402,17 +1374,17 @@ Text GLabel 1600 3250 0    50   BiDi ~ 0
 PC6_PWML2
 Text GLabel 1600 700  0    60   Output ~ 0
 +5V
-Text GLabel 1600 5800 0    60   Input ~ 0
+Text GLabel 1600 5800 0    60   BiDi ~ 0
 TWD1
-Text GLabel 1600 5950 0    60   Input ~ 0
+Text GLabel 1600 5950 0    60   BiDi ~ 0
 TWCK1
-Text GLabel 1600 2350 0    60   Input ~ 0
+Text GLabel 1600 2350 0    60   BiDi ~ 0
 RXD1
-Text GLabel 1600 2200 0    60   Input ~ 0
+Text GLabel 1600 2200 0    60   BiDi ~ 0
 TXD1
-Text GLabel 1600 1600 0    60   Input ~ 0
+Text GLabel 1600 1600 0    60   BiDi ~ 0
 URXD
-Text GLabel 1600 1750 0    60   Input ~ 0
+Text GLabel 1600 1750 0    60   BiDi ~ 0
 UTXD
 Text GLabel 1600 1150 0    60   Input ~ 0
 RESET
@@ -1436,7 +1408,7 @@ F 1 "Y MOT/STOP" V 9850 2350 40  0000 C CNN
 	1    9800 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 8850 0    60   Input ~ 0
+Text GLabel 1450 8850 0    60   Output ~ 0
 V_IN
 $Comp
 L CONN2 J23
@@ -1448,37 +1420,37 @@ F 1 "POWER IN" V 2300 9000 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR047
 U 1 1 5064C39B
 P 1100 950
-F 0 "#PWR042" H 1100 950 30  0001 C CNN
+F 0 "#PWR047" H 1100 950 30  0001 C CNN
 F 1 "GND" H 1100 880 30  0001 C CNN
 	1    1100 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 1450 0    60   Input ~ 0
+Text GLabel 1600 1450 0    60   BiDi ~ 0
 TWCK0
-Text GLabel 1600 1300 0    60   Input ~ 0
+Text GLabel 1600 1300 0    60   BiDi ~ 0
 TWD0
-Text GLabel 8300 2600 0    60   Input ~ 0
+Text GLabel 8300 2600 0    60   Output ~ 0
 E2_STOP_CONN
-Text GLabel 8300 1650 0    60   Input ~ 0
+Text GLabel 8300 1650 0    60   Output ~ 0
 E1_STOP_CONN
-Text GLabel 8300 2150 0    60   Output ~ 0
+Text GLabel 8300 2150 0    60   Input ~ 0
 E2_MOT_1A
-Text GLabel 8300 2000 0    60   Output ~ 0
+Text GLabel 8300 2000 0    60   Input ~ 0
 E2_MOT_1B
-Text GLabel 8300 2300 0    60   Output ~ 0
+Text GLabel 8300 2300 0    60   Input ~ 0
 E2_MOT_2A
-Text GLabel 8300 2450 0    60   Output ~ 0
+Text GLabel 8300 2450 0    60   Input ~ 0
 E2_MOT_2B
-Text GLabel 8300 1500 0    60   Output ~ 0
+Text GLabel 8300 1500 0    60   Input ~ 0
 E1_MOT_2B
-Text GLabel 8300 1350 0    60   Output ~ 0
+Text GLabel 8300 1350 0    60   Input ~ 0
 E1_MOT_2A
-Text GLabel 8300 1050 0    60   Output ~ 0
+Text GLabel 8300 1050 0    60   Input ~ 0
 E1_MOT_1B
-Text GLabel 8300 1200 0    60   Output ~ 0
+Text GLabel 8300 1200 0    60   Input ~ 0
 E1_MOT_1A
 Text GLabel 1600 1000 0    60   Output ~ 0
 +3.3V

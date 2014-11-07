@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Nov 2014 16:31:39 GMT
+EESchema Schematic File Version 2  date Fri 07 Nov 2014 11:38:16 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 4
 Title "Duet"
-Date "6 nov 2014"
+Date "7 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"

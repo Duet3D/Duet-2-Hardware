@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Nov 2014 16:31:39 GMT
+EESchema Schematic File Version 2  date Fri 07 Nov 2014 11:38:16 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 2 4
 Title "Duet"
-Date "6 nov 2014"
+Date "7 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -45,6 +45,11 @@ Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 14500 2500
+Wire Wire Line
+	4950 8700 4950 8600
+Wire Wire Line
+	4950 8700 4750 8700
 Wire Wire Line
 	4950 8400 4950 8500
 Wire Wire Line
@@ -112,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2700 4800 2600
 Wire Wire Line
-	4350 8600 4150 8600
+	4150 8600 4350 8600
 Wire Wire Line
 	4150 8600 4150 8500
 Wire Wire Line
@@ -134,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 8600 9600 8600
 Wire Wire Line
-	5250 8600 4950 8600
+	4950 8600 5250 8600
 Wire Wire Line
 	4300 7950 4350 7950
 Wire Wire Line
@@ -1125,146 +1130,148 @@ Wire Wire Line
 Wire Wire Line
 	4400 8400 4350 8400
 Connection ~ 4350 8400
+Wire Wire Line
+	4350 8600 4350 8700
 $Comp
-L SJ SJ?
+L SJ SJ10
 U 1 1 545B6581
 P 4550 8700
-F 0 "SJ?" H 4650 8850 50  0000 C CNN
+F 0 "SJ10" H 4650 8850 50  0000 C CNN
 F 1 "MS1" H 4650 8551 40  0000 C CNN
 	1    4550 8700
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ16
 U 1 1 545B657C
 P 4600 8400
-F 0 "SJ?" H 4700 8550 50  0000 C CNN
+F 0 "SJ16" H 4700 8550 50  0000 C CNN
 F 1 "MS1" H 4700 8251 40  0000 C CNN
 	1    4600 8400
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ15
 U 1 1 545B6579
 P 4600 8150
-F 0 "SJ?" H 4700 8300 50  0000 C CNN
+F 0 "SJ15" H 4700 8300 50  0000 C CNN
 F 1 "MS1" H 4700 8001 40  0000 C CNN
 	1    4600 8150
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ9
 U 1 1 545B6566
 P 4550 7850
-F 0 "SJ?" H 4650 8000 50  0000 C CNN
+F 0 "SJ9" H 4650 8000 50  0000 C CNN
 F 1 "MS1" H 4650 7701 40  0000 C CNN
 	1    4550 7850
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ19
 U 1 1 545B651E
 P 9800 8700
-F 0 "SJ?" H 9900 8850 50  0000 C CNN
+F 0 "SJ19" H 9900 8850 50  0000 C CNN
 F 1 "MS1" H 9900 8551 40  0000 C CNN
 	1    9800 8700
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ24
 U 1 1 545B651C
 P 9850 8400
-F 0 "SJ?" H 9950 8550 50  0000 C CNN
+F 0 "SJ24" H 9950 8550 50  0000 C CNN
 F 1 "MS1" H 9950 8251 40  0000 C CNN
 	1    9850 8400
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ23
 U 1 1 545B6517
 P 9850 8150
-F 0 "SJ?" H 9950 8300 50  0000 C CNN
+F 0 "SJ23" H 9950 8300 50  0000 C CNN
 F 1 "MS1" H 9950 8001 40  0000 C CNN
 	1    9850 8150
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ18
 U 1 1 545B6510
 P 9800 7850
-F 0 "SJ?" H 9900 8000 50  0000 C CNN
+F 0 "SJ18" H 9900 8000 50  0000 C CNN
 F 1 "MS1" H 9900 7701 40  0000 C CNN
 	1    9800 7850
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ22
 U 1 1 545B64D4
 P 9850 3500
-F 0 "SJ?" H 9950 3650 50  0000 C CNN
+F 0 "SJ22" H 9950 3650 50  0000 C CNN
 F 1 "MS1" H 9950 3351 40  0000 C CNN
 	1    9850 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ21
 U 1 1 545B64D0
 P 9850 3200
-F 0 "SJ?" H 9950 3350 50  0000 C CNN
+F 0 "SJ21" H 9950 3350 50  0000 C CNN
 F 1 "MS1" H 9950 3051 40  0000 C CNN
 	1    9850 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ20
 U 1 1 545B64CA
 P 9850 2950
-F 0 "SJ?" H 9950 3100 50  0000 C CNN
+F 0 "SJ20" H 9950 3100 50  0000 C CNN
 F 1 "MS1" H 9950 2801 40  0000 C CNN
 	1    9850 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ17
 U 1 1 545B64BB
 P 9800 2650
-F 0 "SJ?" H 9900 2800 50  0000 C CNN
+F 0 "SJ17" H 9900 2800 50  0000 C CNN
 F 1 "MS1" H 9900 2501 40  0000 C CNN
 	1    9800 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ14
 U 1 1 545B62DB
 P 4600 3500
-F 0 "SJ?" H 4700 3650 50  0000 C CNN
+F 0 "SJ14" H 4700 3650 50  0000 C CNN
 F 1 "MS1" H 4700 3351 40  0000 C CNN
 	1    4600 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ13
 U 1 1 545B62D5
 P 4600 3200
-F 0 "SJ?" H 4700 3350 50  0000 C CNN
+F 0 "SJ13" H 4700 3350 50  0000 C CNN
 F 1 "MS1" H 4700 3051 40  0000 C CNN
 	1    4600 3200
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ12
 U 1 1 545B62D0
 P 4600 2950
-F 0 "SJ?" H 4700 3100 50  0000 C CNN
+F 0 "SJ12" H 4700 3100 50  0000 C CNN
 F 1 "MS1" H 4700 2801 40  0000 C CNN
 	1    4600 2950
 	0    1    1    0   
 $EndComp
 $Comp
-L SJ SJ?
+L SJ SJ11
 U 1 1 545B617B
 P 4600 2600
-F 0 "SJ?" H 4700 2750 50  0000 C CNN
+F 0 "SJ11" H 4700 2750 50  0000 C CNN
 F 1 "MS1" H 4700 2451 40  0000 C CNN
 	1    4600 2600
 	0    1    1    0   
@@ -2043,7 +2050,7 @@ F 1 "100u" H 2650 1525 50  0000 L CNN
 	1    2650 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 13200 9150 2    39   Output ~ 0
+Text GLabel 13200 9150 2    39   Input ~ 0
 E3_STOP_CONN
 $Comp
 L R_SMALL R58
@@ -2081,9 +2088,9 @@ F 1 "100R" V 14432 9162 50  0000 C CNN
 	1    14500 9150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15050 9150 2    39   Output ~ 0
+Text GLabel 15050 9150 2    39   Input ~ 0
 E4_STOP_CONN
-Text GLabel 13200 6550 2    39   Output ~ 0
+Text GLabel 13200 6550 2    39   Input ~ 0
 E2_STOP_CONN
 $Comp
 L R_SMALL R57
@@ -2121,7 +2128,7 @@ F 1 "100R" V 14482 6562 50  0000 C CNN
 	1    14550 6550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15100 6550 2    39   Output ~ 0
+Text GLabel 15100 6550 2    39   Input ~ 0
 E1_STOP_CONN
 $Comp
 L R_SMALL R51
@@ -2153,25 +2160,25 @@ Text Notes 11000 1000 2    60   ~ 0
 E2 Stepper Driver
 Text Notes 5700 1000 2    60   ~ 0
 E1 Stepper Driver
-Text GLabel 5400 9250 2    60   UnSpc ~ 0
+Text GLabel 5400 9250 2    60   Input ~ 0
 E3_REF
-Text GLabel 10650 9250 2    60   UnSpc ~ 0
+Text GLabel 10650 9250 2    60   Input ~ 0
 E4_REF
-Text GLabel 10650 4050 2    60   UnSpc ~ 0
+Text GLabel 10650 4050 2    60   Input ~ 0
 E2_REF
-Text GLabel 5400 4050 2    60   UnSpc ~ 0
+Text GLabel 5400 4050 2    60   Input ~ 0
 E1_REF
 Text GLabel 12100 2500 0    60   Input ~ 0
 TWD0
 Text GLabel 12150 2350 0    60   Input ~ 0
 TWCK0
-Text GLabel 12950 2050 0    60   UnSpc ~ 0
+Text GLabel 12950 2050 0    60   Output ~ 0
 E2_REF
-Text GLabel 12150 2750 0    60   UnSpc ~ 0
+Text GLabel 12150 2750 0    60   Output ~ 0
 E1_REF
-Text GLabel 15300 2750 2    60   UnSpc ~ 0
+Text GLabel 15300 2750 2    60   Output ~ 0
 E4_REF
-Text GLabel 14650 2050 2    60   UnSpc ~ 0
+Text GLabel 14650 2050 2    60   Output ~ 0
 E3_REF
 $Comp
 L GND #PWR017
@@ -2184,13 +2191,13 @@ F 1 "GND" H 13750 3530 30  0001 C CNN
 $EndComp
 Text GLabel 13750 1150 1    60   Input ~ 0
 +3.3V
-Text GLabel 2250 3750 0    60   Output ~ 0
+Text GLabel 2250 3750 0    60   Input ~ 0
 E1_EN
-Text GLabel 7500 3750 0    60   Output ~ 0
+Text GLabel 7500 3750 0    60   Input ~ 0
 E2_EN
-Text GLabel 7500 8950 0    60   Output ~ 0
+Text GLabel 7500 8950 0    60   Input ~ 0
 E4_EN
-Text GLabel 2250 8950 0    60   Output ~ 0
+Text GLabel 2250 8950 0    60   Input ~ 0
 E3_EN
 $Comp
 L GND #PWR018

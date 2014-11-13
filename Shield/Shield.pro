@@ -1,6 +1,6 @@
-update=16/07/2014 23:14:32
+update=Fri 07 Nov 2014 16:25:35 GMT
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -66,6 +66,11 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=FE
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=1654
@@ -82,14 +87,9 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=50
-LastNetListRead=Duet0.5.net
+LastNetListRead=Shield.net
 [pcbnew/libraries]
+LibDir=
 LibName1=FE Footprints
 LibName2=Duet_logo_text_conv
 LibName3=connect
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

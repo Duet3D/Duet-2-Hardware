@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 07 Nov 2014 14:33:05 GMT
+EESchema Schematic File Version 2  date Thu 13 Nov 2014 23:27:25 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 3 4
 Title "Duet"
-Date "7 nov 2014"
+Date "13 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -45,6 +45,24 @@ Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN4 J19
+U 1 1 5465390C
+P 14450 2300
+F 0 "J19" H 14450 2050 50  0000 C CNN
+F 1 "E0 HEAT" V 14500 2300 50  0000 C CNN
+	1    14450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN2 J11
+U 1 1 5464EB0A
+P 14450 2550
+F 0 "J11" H 14450 2450 40  0000 C CNN
+F 1 "E0 TEMP" V 14600 2600 40  0000 C CNN
+	1    14450 2550
+	1    0    0    1   
+$EndComp
 Text GLabel 7000 6650 0    60   BiDi ~ 0
 AD14
 Text GLabel 7000 6350 0    60   BiDi ~ 0
@@ -995,15 +1013,6 @@ F 1 "FAN_0" V 14600 3100 40  0000 C CNN
 $EndComp
 Text GLabel 13900 3050 0    60   Input ~ 0
 FAN0-
-$Comp
-L CONN_6 J11
-U 1 1 545B8869
-P 14450 2400
-F 0 "J11" V 14400 2400 60  0000 C CNN
-F 1 "E0" V 14500 2400 60  0000 C CNN
-	1    14450 2400
-	1    0    0    -1  
-$EndComp
 Text GLabel 13400 2150 0    60   Input ~ 0
 E0-
 Text GLabel 13400 2350 0    60   Input ~ 0

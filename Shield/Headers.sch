@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 13 Nov 2014 23:27:25 GMT
+EESchema Schematic File Version 2  date Fri 14 Nov 2014 12:57:57 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 3 4
 Title "Duet"
-Date "13 nov 2014"
+Date "14 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -45,37 +45,12 @@ Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN4 J19
-U 1 1 5465390C
-P 14450 2300
-F 0 "J19" H 14450 2050 50  0000 C CNN
-F 1 "E0 HEAT" V 14500 2300 50  0000 C CNN
-	1    14450 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN2 J11
-U 1 1 5464EB0A
-P 14450 2550
-F 0 "J11" H 14450 2450 40  0000 C CNN
-F 1 "E0 TEMP" V 14600 2600 40  0000 C CNN
-	1    14450 2550
-	1    0    0    1   
-$EndComp
-Text GLabel 7000 6650 0    60   BiDi ~ 0
-AD14
-Text GLabel 7000 6350 0    60   BiDi ~ 0
-AD12
-$Comp
-L GND #PWR030
-U 1 1 545BA028
-P 7000 9200
-F 0 "#PWR030" H 7000 9200 30  0001 C CNN
-F 1 "GND" H 7000 9130 30  0001 C CNN
-	1    7000 9200
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	14800 1550 14700 1550
+Wire Wire Line
+	14700 1550 14700 1500
+Wire Wire Line
+	14700 1500 13900 1500
 Connection ~ 7000 9050
 Wire Wire Line
 	7000 9200 7000 8750
@@ -346,8 +321,6 @@ Wire Wire Line
 Wire Wire Line
 	13950 1600 13950 1700
 Wire Wire Line
-	14050 1500 13900 1500
-Wire Wire Line
 	13900 1500 13900 1550
 Wire Wire Line
 	14050 1300 14050 1350
@@ -385,8 +358,6 @@ Wire Wire Line
 	14050 1200 12850 1200
 Wire Wire Line
 	13750 1450 13750 1400
-Wire Wire Line
-	13750 1400 14050 1400
 Wire Wire Line
 	13900 1550 13250 1550
 Wire Wire Line
@@ -779,6 +750,70 @@ Wire Wire Line
 Wire Wire Line
 	6050 7700 6050 7800
 Connection ~ 7000 8900
+Wire Wire Line
+	13750 1400 14700 1400
+Wire Wire Line
+	14700 1400 14700 1350
+Wire Wire Line
+	14700 1350 14800 1350
+$Comp
+L CONN_3 K1
+U 1 1 5465FB61
+P 15150 1450
+F 0 "K1" V 15100 1450 50  0000 C CNN
+F 1 "CONN_3" V 15200 1450 40  0000 C CNN
+	1    15150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN2 J10
+U 1 1 5465FB2E
+P 14400 1700
+F 0 "J10" H 14400 1600 40  0000 C CNN
+F 1 "CONN2" V 14550 1750 40  0000 C CNN
+	1    14400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P2
+U 1 1 5465FB04
+P 14400 1050
+F 0 "P2" V 14350 1050 60  0000 C CNN
+F 1 "CONN_6" V 14450 1050 60  0000 C CNN
+	1    14400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN4 J19
+U 1 1 5465390C
+P 14450 2300
+F 0 "J19" H 14450 2050 50  0000 C CNN
+F 1 "E0 HEAT" V 14500 2300 50  0000 C CNN
+	1    14450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN2 J11
+U 1 1 5464EB0A
+P 14450 2550
+F 0 "J11" H 14450 2450 40  0000 C CNN
+F 1 "E0 TEMP" V 14600 2600 40  0000 C CNN
+	1    14450 2550
+	1    0    0    1   
+$EndComp
+Text GLabel 7000 6650 0    60   BiDi ~ 0
+AD14
+Text GLabel 7000 6350 0    60   BiDi ~ 0
+AD12
+$Comp
+L GND #PWR030
+U 1 1 545BA028
+P 7000 9200
+F 0 "#PWR030" H 7000 9200 30  0001 C CNN
+F 1 "GND" H 7000 9130 30  0001 C CNN
+	1    7000 9200
+	1    0    0    -1  
+$EndComp
 Text GLabel 7000 8600 0    60   Input ~ 0
 VSSA
 Text GLabel 7000 8450 0    60   BiDi ~ 0
@@ -1178,15 +1213,6 @@ F 1 "GND" H 13150 1530 30  0001 C CNN
 $EndComp
 Text GLabel 13550 1450 0    60   Input ~ 0
 V_IN
-$Comp
-L CONN_10 J10
-U 1 1 545B7130
-P 14400 1250
-F 0 "J10" V 14350 1250 60  0000 C CNN
-F 1 "E0 HEAT/TEMP/FAN" V 14450 1250 60  0000 C CNN
-	1    14400 1250
-	1    0    0    -1  
-$EndComp
 Text GLabel 2600 6450 2    60   Input ~ 0
 PROBE-SIG
 Text GLabel 2600 6750 2    60   Output ~ 0

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 13 Nov 2014 23:07:54 GMT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Fri 14 Nov 2014 12:56:28 GMT
 
 BeginCmp
 TimeStamp = /505779E3/53B05205;
@@ -459,7 +459,7 @@ BeginCmp
 TimeStamp = /50656780/545B8581;
 Reference = J5;
 ValeurCmp = E2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = PIN_ARRAY_6X1;
 EndCmp
 
 BeginCmp
@@ -473,7 +473,7 @@ BeginCmp
 TimeStamp = /50656780/545B9929;
 Reference = J7;
 ValeurCmp = MOTORS;
-IdModule  = PIN_ARRAY_7X1;
+IdModule  = PIN_ARRAY_18X2;
 EndCmp
 
 BeginCmp
@@ -491,10 +491,10 @@ IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/545B7130;
+TimeStamp = /50656780/5465FB2E;
 Reference = J10;
-ValeurCmp = E0_HEAT/TEMP/FAN;
-IdModule  = pin_array_10x1;
+ValeurCmp = CONN2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -556,7 +556,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50656780/5465390C;
 Reference = J19;
-ValeurCmp = CONN4;
+ValeurCmp = E0_HEAT;
 IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
@@ -586,6 +586,13 @@ TimeStamp = /50656780/53C6F476;
 Reference = J28;
 ValeurCmp = Probe;
 IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/5465FB61;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -649,6 +656,13 @@ TimeStamp = /50656780/545B95E6;
 Reference = P1;
 ValeurCmp = STEP;
 IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/5465FB04;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY_6X1;
 EndCmp
 
 BeginCmp

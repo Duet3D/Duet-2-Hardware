@@ -8599,46 +8599,6 @@ CONTINUOUS
  10
 51975.0
  20
-44962.0
- 30
-0.0
- 40
-2.0
- 41
-100.0
- 71
-1
- 72
-0
-  1
-E1_MOT
-  7
-standard
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
-MTEXT
-  5
-155
-100
-AcDbEntity
-100
-AcDbMText
-  8
-0
- 62
-256
-370
--1
-  6
-CONTINUOUS
- 10
-51975.0
- 20
 44971.0
  30
 0.0
@@ -8661,49 +8621,9 @@ standard
  44
 1.0
   0
-MTEXT
-  5
-156
-100
-AcDbEntity
-100
-AcDbMText
-  8
-0
- 62
-256
-370
--1
-  6
-CONTINUOUS
- 10
-51975.0
- 20
-44981.0
- 30
-0.0
- 40
-2.0
- 41
-100.0
- 71
-1
- 72
-0
-  1
-E0_MOT
-  7
-standard
- 50
-0.0
- 73
-1
- 44
-1.0
-  0
 LEADER
   5
-157
+155
   8
 0
  62
@@ -8745,7 +8665,7 @@ Standard
   0
 LEADER
   5
-158
+156
   8
 0
  62
@@ -8787,7 +8707,7 @@ Standard
   0
 LEADER
   5
-159
+157
   8
 0
  62
@@ -8829,7 +8749,7 @@ Standard
   0
 LEADER
   5
-15A
+158
   8
 0
  62
@@ -8871,7 +8791,7 @@ Standard
   0
 MTEXT
   5
-15B
+159
 100
 AcDbEntity
 100
@@ -8904,6 +8824,86 @@ Centres of Molex right-angled pin headers
 standard
  50
 90.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+15A
+100
+AcDbEntity
+100
+AcDbMText
+  8
+0
+ 62
+256
+370
+-1
+  6
+CONTINUOUS
+ 10
+51975.0
+ 20
+44981.0
+ 30
+0.0
+ 40
+2.0
+ 41
+100.0
+ 71
+1
+ 72
+0
+  1
+E0_MOT/STOP
+  7
+standard
+ 50
+0.0
+ 73
+1
+ 44
+1.0
+  0
+MTEXT
+  5
+15B
+100
+AcDbEntity
+100
+AcDbMText
+  8
+0
+ 62
+256
+370
+-1
+  6
+CONTINUOUS
+ 10
+51975.0
+ 20
+44962.0
+ 30
+0.0
+ 40
+2.0
+ 41
+100.0
+ 71
+1
+ 72
+0
+  1
+E1_MOT/STOP
+  7
+standard
+ 50
+0.0
  73
 1
  44

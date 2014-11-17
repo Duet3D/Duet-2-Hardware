@@ -1,4 +1,4 @@
-update=Fri 07 Nov 2014 16:25:35 GMT
+update=Mon 17 Nov 2014 15:37:32 GMT
 version=1
 last_client=pcbnew
 [general]
@@ -73,21 +73,23 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=1654
-PadDimH=1969
-PadDimV=1969
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=50
 LastNetListRead=Shield.net
+UseCmpFile=1
+PadDrill=4.201160000000
+PadDrillOvalY=4.201160000000
+PadSizeH=5.001260000000
+PadSizeV=5.001260000000
+PcbTextSizeV=2.032000000000
+PcbTextSizeH=1.524000000000
+PcbTextThickness=0.304800000000
+ModuleTextSizeV=1.524000000000
+ModuleTextSizeH=1.524000000000
+ModuleTextSizeThickness=0.304800000000
+SolderMaskClearance=0.254000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.381000000000
+BoardOutlineThickness=0.381000000000
+ModuleOutlineThickness=0.127000000000
 [pcbnew/libraries]
 LibDir=
 LibName1=FE Footprints

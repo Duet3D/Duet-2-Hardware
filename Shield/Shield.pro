@@ -1,6 +1,6 @@
-update=Mon Nov 17 21:34:09 2014
+update=Tue 18 Nov 2014 13:58:11 GMT
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 [cvpcb]
@@ -8,30 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=Shield.net
-UseCmpFile=1
-PadDrill=4.201160000000
-PadDrillOvalY=4.201160000000
-PadSizeH=5.001260000000
-PadSizeV=5.001260000000
-PcbTextSizeV=2.032000000000
-PcbTextSizeH=1.524000000000
-PcbTextThickness=0.304800000000
-ModuleTextSizeV=1.524000000000
-ModuleTextSizeH=1.524000000000
-ModuleTextSizeThickness=0.304800000000
-SolderMaskClearance=0.254000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.381000000000
-BoardOutlineThickness=0.381000000000
-ModuleOutlineThickness=0.127000000000
-[pcbnew/libraries]
-LibDir=
-LibName1=FE Footprints
-LibName2=Duet_logo_text_conv
-LibName3=connect
 [eeschema]
 version=1
 LibDir=./
@@ -67,3 +43,25 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=FE
+[pcbnew]
+version=1
+PadDrlX=320
+PadDimH=550
+PadDimV=550
+BoardThickness=630
+TxtPcbV=600
+TxtPcbH=600
+TxtModV=500
+TxtModH=500
+TxtModW=100
+VEgarde=100
+DrawLar=120
+EdgeLar=120
+TxtLar=120
+MSegLar=120
+LastNetListRead=Shield.net
+[pcbnew/libraries]
+LibDir=
+LibName1=FE Footprints
+LibName2=Duet_logo_text_conv
+LibName3=connect

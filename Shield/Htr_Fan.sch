@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 18 Nov 2014 11:30:17 GMT
+EESchema Schematic File Version 2  date Tue 18 Nov 2014 15:47:04 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,6 +46,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	7850 2900 7850 2950
+Wire Wire Line
+	7850 2950 8150 2950
+Wire Wire Line
+	3650 2500 3900 2500
+Wire Wire Line
 	1950 6400 2750 6400
 Wire Wire Line
 	4400 6400 3550 6400
@@ -55,15 +61,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2600 8150 2500
 Wire Wire Line
-	8150 2500 7950 2500
-Wire Wire Line
-	7950 2500 7950 2600
-Wire Wire Line
 	8150 2800 8150 3800
-Wire Wire Line
-	8150 2950 7950 2950
-Wire Wire Line
-	7950 2950 7950 2800
 Connection ~ 8150 2950
 Wire Wire Line
 	8050 1850 8050 2500
@@ -75,10 +73,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 1850 3800 2500
 Connection ~ 3900 2950
-Wire Wire Line
-	3700 2800 3700 2950
-Wire Wire Line
-	3700 2950 3900 2950
 Wire Wire Line
 	2600 2900 2600 2850
 Wire Wire Line
@@ -219,20 +213,31 @@ Wire Wire Line
 Wire Wire Line
 	3900 3800 3900 2800
 Wire Wire Line
-	3700 2600 3700 2500
-Wire Wire Line
-	3700 2500 3900 2500
-Wire Wire Line
 	3900 2500 3900 2600
 Wire Wire Line
 	7400 3800 8150 3800
+Wire Wire Line
+	3900 2950 3650 2950
+Wire Wire Line
+	3650 2950 3650 2900
+Wire Wire Line
+	8150 2500 7850 2500
 $Comp
-L CSMALL C93
-U 1 1 53B07241
-P 7950 2700
-F 0 "C93" H 7975 2750 30  0000 L CNN
-F 1 "0u1" H 7975 2650 30  0000 L CNN
-	1    7950 2700
+L C C12
+U 1 1 546B6738
+P 7850 2700
+F 0 "C12" H 7900 2800 50  0000 L CNN
+F 1 "0.1u" H 7900 2600 50  0000 L CNN
+	1    7850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 546B66F5
+P 3650 2700
+F 0 "C11" H 3700 2800 50  0000 L CNN
+F 1 "0.1u" H 3700 2600 50  0000 L CNN
+	1    3650 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -251,15 +256,6 @@ P 3900 2700
 F 0 "C92" H 3925 2775 50  0000 L CNN
 F 1 "100u" H 3900 2625 50  0000 L CNN
 	1    3900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C91
-U 1 1 53B071B4
-P 3700 2700
-F 0 "C91" H 3725 2750 30  0000 L CNN
-F 1 "0.1u" H 3725 2650 30  0000 L CNN
-	1    3700 2700
 	1    0    0    -1  
 $EndComp
 $Comp

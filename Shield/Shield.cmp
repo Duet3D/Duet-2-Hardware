@@ -1,4 +1,88 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 18 Nov 2014 11:05:18 GMT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 18 Nov 2014 15:42:02 GMT
+
+BeginCmp
+TimeStamp = /505779E3/546B6771;
+Reference = C1;
+ValeurCmp = 0u1;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6876;
+Reference = C2;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B687C;
+Reference = C3;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6884;
+Reference = C4;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6889;
+Reference = C5;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6793;
+Reference = C6;
+ValeurCmp = 0u1;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6811;
+Reference = C7;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6818;
+Reference = C8;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B684F;
+Reference = C9;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /505779E3/546B6855;
+Reference = C10;
+ValeurCmp = 47n;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/546B66F5;
+Reference = C11;
+ValeurCmp = 0.1u;
+IdModule  = C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/546B6738;
+Reference = C12;
+ValeurCmp = 0.1u;
+IdModule  = C_0603;
+EndCmp
 
 BeginCmp
 TimeStamp = /505779E3/509EB16A;
@@ -197,14 +281,14 @@ IdModule  = PIN_ARRAY_6X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/546A7A08;
+TimeStamp = /50656780/546B2D1C;
 Reference = J6;
 ValeurCmp = SPADE1;
 IdModule  = SPADE-4910;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/546A7875;
+TimeStamp = /50656780/546B2D22;
 Reference = J7;
 ValeurCmp = SPADE1;
 IdModule  = SPADE-4910;
@@ -278,13 +362,6 @@ TimeStamp = /50656780/5465390C;
 Reference = J19;
 ValeurCmp = E0_HEAT;
 IdModule  = PIN_ARRAY_4x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/508859F9;
-Reference = J23;
-ValeurCmp = POWER_IN;
-IdModule  = TERM_2-WAY_6.35mm;
 EndCmp
 
 BeginCmp

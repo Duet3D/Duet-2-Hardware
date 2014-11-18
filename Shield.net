@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 18 Nov 2014 11:29:48 GMT
+# EESchema Netlist Version 1.1 created  Tue 18 Nov 2014 11:14:53 GMT
 (
  ( /505779E3/545B64D4 $noname  SJ22 MS1 {Lib=SJ}
   (    1 N-000033 )
@@ -294,16 +294,6 @@
   (    1 N-000021 )
   (    2 GND )
  )
- ( /50656780/546B2D22 $noname  J7 SPADE1 {Lib=SPADE1}
-  (    1 GND )
-  (    2 GND )
-  (    3 GND )
- )
- ( /50656780/546B2D1C $noname  J6 SPADE1 {Lib=SPADE1}
-  (    1 V_IN )
-  (    2 V_IN )
-  (    3 V_IN )
- )
  ( /50656780/5465FB61 $noname  K1 E0_FAN {Lib=CONN_3}
   (    1 V_IN )
   (    2 ? )
@@ -462,6 +452,16 @@
   (    5 E2_STOP_CONN )
   (    6 +3.3V )
   (    7 GND )
+ )
+ ( /50656780/546A7875 $noname  J7 SPADE1 {Lib=SPADE1}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+ )
+ ( /50656780/546A7A08 $noname  J6 SPADE1 {Lib=SPADE1}
+  (    1 V_IN )
+  (    2 V_IN )
+  (    3 V_IN )
  )
  ( /50577A22/53B07240 $noname  C94 100u {Lib=C_POL}
   (    1 V_IN )
@@ -864,163 +864,163 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "" ""
- R37 2
  U9 11
+ R37 2
  U9 20
  U9 10
  U9 1
 Net 3 "GND" "GND"
- TR4 S
- J4 1
- U7 25
- R42 2
- C30 2
- R46 2
- R44 2
- C20 2
- R32 2
- R34 2
- R30 2
- J7 3
- C26 2
- J7 2
- J2 1
- C92 2
- C94 2
+ U9 8
+ C22 2
+ C32 2
+ U5 25
+ U5 24
+ U5 13
  C40 2
  C41 2
  U7 24
  U7 13
- J7 1
- C22 2
- C32 2
- J27 1
- U5 25
- TR2 S
- U5 24
- TR3 S
- U5 13
- TR1 S
- C55 2
- U9 18
- C77 1
- U9 8
- C75 1
- C56 2
- C14 2
- J15 7
+ U7 25
+ J4 1
  J1 2
+ J1 2
+ J14 7
+ J1 2
+ TR1 S
+ C94 2
+ C92 2
+ TR2 S
+ TR3 S
+ J27 1
+ TR4 S
+ J2 1
+ J9 7
+ J28 2
+ J1 2
+ J1 2
+ J1 2
+ J1 2
+ J24 1
+ J15 7
+ J8 7
+ J7 3
+ J7 2
+ J7 1
+ K1 3
+ C36 2
+ R44 2
+ R46 2
+ C30 2
+ R42 2
+ C26 2
+ R30 2
+ C20 2
+ R34 2
+ R32 2
  U9 3
  U9 4
- J1 2
  U9 7
  U9 13
- J1 2
- J1 2
- J1 2
- J1 2
  U9 16
- J1 2
- J28 2
- J24 1
- J14 7
- C36 2
- K1 3
- J9 7
- J8 7
+ C55 2
+ C14 2
+ C56 2
+ C75 1
+ C77 1
+ U9 18
 Net 4 "" ""
  U9 15
  R66 2
 Net 5 "" ""
- R69 1
  D9 1
+ R69 1
 Net 8 "E2_REF" "E2_REF"
- U9 2
  J17 1
+ U9 2
  U7 12
  C56 1
 Net 9 "E1_REF" "E1_REF"
- J3 1
  U9 9
- U5 12
+ J3 1
  C14 1
+ U5 12
 Net 10 "+3.3V" "+3.3V"
- J15 6
- J14 6
- R21 1
+ R77 2
+ R26 1
  R19 1
+ R21 1
+ J15 6
+ U7 10
+ C55 1
+ U7 5
+ U7 6
+ J14 6
+ U9 17
  J28 4
- C36 1
+ R72 2
  J8 6
- R38 1
- R39 1
  J9 6
- C26 1
- R27 1
- R66 1
- J1 3
- SJ1 2
+ R78 2
+ R50 1
+ R51 1
+ R37 1
  SJ2 1
+ R38 1
+ U5 6
  SJ2 2
  SJ4 1
  SJ4 2
  SJ3 1
  SJ3 2
  SJ1 1
- R69 2
- C55 1
- U9 17
- R37 1
- R72 2
- R78 2
- R77 2
- R51 1
- R50 1
- U7 6
- U5 6
- U5 10
+ C36 1
  U5 5
- R26 1
- U7 5
- U7 10
+ R39 1
+ SJ1 2
+ R27 1
+ C26 1
+ J1 3
+ R66 1
+ R69 2
+ U5 10
 Net 11 "" ""
- D12 1
  R72 1
+ D12 1
 Net 12 "E1_STOP_CONN" "E1_STOP_CONN"
- J9 5
  D12 2
+ J9 5
  R56 2
 Net 13 "" ""
- SJ11 2
  L1 1
  U5 15
+ SJ11 2
 Net 14 "" ""
+ L8 1
  U5 19
  SJ13 2
- L8 1
 Net 16 "E1_EN" "E1_EN"
- U5 23
  J1 17
+ U5 23
  R26 2
 Net 17 "" ""
  U7 17
  R46 1
 Net 18 "" ""
- U7 3
  C34 1
+ U7 3
 Net 19 "" ""
  C20 1
  U5 4
 Net 20 "" ""
- R30 1
  U5 8
+ R30 1
 Net 21 "" ""
  R32 1
  U5 20
 Net 23 "" ""
  U7 18
- SJ20 1
  L11 2
+ SJ20 1
 Net 24 "" ""
  SJ21 1
  L12 1
@@ -1029,17 +1029,17 @@ Net 26 "" ""
  C24 1
  U5 3
 Net 27 "" ""
+ U5 7
  U5 9
  R27 2
- U5 7
 Net 28 "E1_STEP" "E1_STEP"
- J1 15
  U5 11
+ J1 15
  P1 1
 Net 29 "E2_STEP" "E2_STEP"
- J1 19
- P1 2
  U7 11
+ P1 2
+ J1 19
 Net 30 "" ""
  U7 4
  C30 1
@@ -1058,131 +1058,131 @@ Net 34 "E2_DIR" "E2_DIR"
  U7 14
 Net 35 "" ""
  L11 1
- U7 15
  SJ17 1
+ U7 15
 Net 36 "TWD0" "TWD0"
- J1 5
  R51 2
  U9 6
+ J1 5
 Net 37 "CTS1" "CTS1"
+ C40 1
  R56 1
  J1 9
- C40 1
 Net 38 "" ""
- U5 17
  R34 1
+ U5 17
 Net 39 "" ""
- L8 2
  U5 22
+ L8 2
  SJ14 2
 Net 40 "E1_DIR" "E1_DIR"
  U5 14
  J1 16
 Net 41 "E2_EN" "E2_EN"
- U7 23
  R38 2
+ U7 23
  J1 24
 Net 42 "E2_STOP_CONN" "E2_STOP_CONN"
- D9 2
- J8 5
  R57 2
+ J8 5
+ D9 2
 Net 43 "E2_STOP" "E2_STOP"
- J1 48
- C41 1
  R57 1
+ C41 1
+ J1 48
 Net 44 "E2_MOT_1A" "E2_MOT_1A"
- L11 4
- J8 2
  SJ20 2
+ J8 2
+ L11 4
 Net 45 "E2_MOT_1B" "E2_MOT_1B"
- SJ17 2
  J8 1
+ SJ17 2
  L11 3
 Net 46 "E2_MOT_2B" "E2_MOT_2B"
+ J8 4
  L12 4
  SJ22 2
- J8 4
 Net 47 "E2_MOT_2A" "E2_MOT_2A"
+ SJ21 2
  J8 3
  L12 3
- SJ21 2
 Net 48 "" ""
  SJ12 2
  U5 18
  L1 2
 Net 49 "E1_MOT_2B" "E1_MOT_2B"
  J9 4
- L8 4
  SJ14 1
+ L8 4
 Net 50 "E1_MOT_2A" "E1_MOT_2A"
- J9 3
  SJ13 1
  L8 3
+ J9 3
 Net 52 "E1_MOT_1A" "E1_MOT_1A"
  J9 2
  L1 4
  SJ12 1
 Net 53 "E1_MOT_1B" "E1_MOT_1B"
- L1 3
- SJ11 1
  J9 1
+ SJ11 1
+ L1 3
 Net 54 "TWCK0" "TWCK0"
- J1 6
- U9 5
  R50 2
+ U9 5
+ J1 6
 Net 55 "" ""
+ R39 2
  U7 9
  U7 7
- R39 2
 Net 56 "V_IN" "V_IN"
- J5 4
+ U5 21
+ C24 2
+ U7 16
+ K1 1
+ C34 2
  P2 4
+ C92 1
+ J5 3
+ C94 1
+ J19 4
+ J19 3
+ P2 3
+ J10 2
+ C32 1
+ C22 1
+ J13 1
+ J5 4
+ R65 2
+ J2 2
+ U5 16
+ J4 2
+ R67 2
  J12 4
  J12 3
- J5 3
- J13 1
- P2 3
- J19 4
- K1 1
- J6 3
- J19 3
+ C77 2
+ C75 2
+ U7 21
+ J24 2
  J6 2
  J6 1
- J10 2
- J2 2
- J4 2
- J24 2
- R65 2
- R67 2
- C32 1
- C94 1
- U5 16
- U7 21
- C22 1
- U5 21
- U7 16
- C77 2
- C92 1
- C75 2
- C34 2
- C24 2
+ J6 3
 Net 57 "AD7" "AD7"
- J12 5
  R19 2
- C18 1
+ J12 5
  J1 33
+ C18 1
 Net 58 "" ""
  R23 1
  TR3 D
  R22 2
 Net 59 "E2_PWM" "E2_PWM"
- R78 1
  TR3 G
  J1 21
+ R78 1
 Net 60 "E1_PWM" "E1_PWM"
+ TR1 G
  R77 1
  J1 18
- TR1 G
 Net 61 "" ""
  R67 1
  D7 1
@@ -1192,6 +1192,8 @@ Net 62 "E1-" "E1-"
  J12 1
  TR2 D
 Net 63 "+5V" "+5V"
+ J1 1
+ J1 1
  R22 1
  R18 1
  J1 1
@@ -1199,75 +1201,73 @@ Net 63 "+5V" "+5V"
  J1 1
  J1 1
  J1 1
- J1 1
- J1 1
 Net 64 "" ""
  R20 1
- R18 2
  TR1 D
+ R18 2
 Net 65 "VSSA" "VSSA"
- C18 2
- P2 6
- J5 6
- J11 1
  J12 6
+ J11 1
+ J5 6
+ P2 6
  C19 2
+ C18 2
 Net 66 "AD0" "AD0"
- R21 2
- J5 5
  C19 1
  J1 34
+ R21 2
+ J5 5
 Net 67 "E2-" "E2-"
+ D7 2
+ TR4 D
  J5 2
  J5 1
- TR4 D
- D7 2
 Net 68 "" ""
- D6 1
  R65 1
+ D6 1
 Net 69 "" ""
- TR4 G
  R23 2
+ TR4 G
 Net 70 "" ""
  TR2 G
  R20 2
-Net 81 "AD12" "AD12"
- J1 39
+Net 75 "AD12" "AD12"
  J28 1
-Net 82 "E4_STEP" "E4_STEP"
- J1 45
- P1 4
-Net 93 "AD14" "AD14"
+ J1 39
+Net 84 "AD14" "AD14"
  J1 41
  J28 3
-Net 96 "E3_STEP" "E3_STEP"
- P1 3
+Net 88 "E3_STEP" "E3_STEP"
  J1 42
-Net 103 "E0_STOP_CONN" "E0_STOP_CONN"
+ P1 3
+Net 94 "E4_STEP" "E4_STEP"
+ P1 4
+ J1 45
+Net 102 "E0_STOP_CONN" "E0_STOP_CONN"
  J15 5
  J14 5
-Net 104 "E0_MOT_1A" "E0_MOT_1A"
- J15 2
+Net 103 "E0_MOT_1A" "E0_MOT_1A"
  J14 2
-Net 105 "E0_MOT_2B" "E0_MOT_2B"
- J14 4
- J15 4
-Net 106 "E0_MOT_2A" "E0_MOT_2A"
+ J15 2
+Net 104 "E0_MOT_2A" "E0_MOT_2A"
  J14 3
  J15 3
-Net 107 "E0_MOT_1B" "E0_MOT_1B"
- J14 1
+Net 105 "E0_MOT_1B" "E0_MOT_1B"
  J15 1
-Net 109 "E0_THERMISTOR" "E0_THERMISTOR"
+ J14 1
+Net 107 "E0_THERMISTOR" "E0_THERMISTOR"
  J11 2
  P2 5
-Net 110 "FAN0-" "FAN0-"
+Net 108 "FAN0-" "FAN0-"
  J13 2
  J10 1
-Net 111 "E0-" "E0-"
- P2 1
- P2 2
+Net 109 "E0_MOT_2B" "E0_MOT_2B"
+ J15 4
+ J14 4
+Net 110 "E0-" "E0-"
  J19 1
  J19 2
+ P2 2
+ P2 1
 }
 #End

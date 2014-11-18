@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 17 Nov 2014 09:49:25 GMT
+EESchema Schematic File Version 2  date Tue 18 Nov 2014 11:30:17 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 4 4
 Title "Duet"
-Date "17 nov 2014"
+Date "18 nov 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -325,10 +325,10 @@ F 1 "470R" V 6350 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L GND #PWR026
 U 1 1 50905416
 P 7400 4450
-F 0 "#PWR048" H 7400 4450 30  0001 C CNN
+F 0 "#PWR026" H 7400 4450 30  0001 C CNN
 F 1 "GND" H 7400 4380 30  0001 C CNN
 	1    7400 4450
 	1    0    0    -1  
@@ -464,10 +464,10 @@ E1 MOSFET CONTROL
 Text GLabel 3300 2200 2    60   Output ~ 0
 E1-
 $Comp
-L GND #PWR049
+L GND #PWR027
 U 1 1 5064BB75
 P 3300 4450
-F 0 "#PWR049" H 3300 4450 30  0001 C CNN
+F 0 "#PWR027" H 3300 4450 30  0001 C CNN
 F 1 "GND" H 3300 4380 30  0001 C CNN
 	1    3300 4450
 	1    0    0    -1  

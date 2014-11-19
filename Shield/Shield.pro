@@ -1,4 +1,4 @@
-update=Tue 18 Nov 2014 13:58:11 GMT
+update=Wed 19 Nov 2014 20:52:32 GMT
 version=1
 last_client=pcbnew
 [general]
@@ -45,21 +45,23 @@ LibName30=valves
 LibName31=FE
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=550
-PadDimV=550
-BoardThickness=630
-TxtPcbV=600
-TxtPcbH=600
-TxtModV=500
-TxtModH=500
-TxtModW=100
-VEgarde=100
-DrawLar=120
-EdgeLar=120
-TxtLar=120
-MSegLar=120
 LastNetListRead=Shield.net
+UseCmpFile=1
+PadDrill=0.500380000000
+PadDrillOvalY=0.500380000000
+PadSizeH=0.899160000000
+PadSizeV=0.899160000000
+PcbTextSizeV=1.524000000000
+PcbTextSizeH=1.524000000000
+PcbTextThickness=0.304800000000
+ModuleTextSizeV=1.270000000000
+ModuleTextSizeH=1.270000000000
+ModuleTextSizeThickness=0.254000000000
+SolderMaskClearance=0.254000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.304800000000
+BoardOutlineThickness=0.381000000000
+ModuleOutlineThickness=0.304800000000
 [pcbnew/libraries]
 LibDir=
 LibName1=FE Footprints

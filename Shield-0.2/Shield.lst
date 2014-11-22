@@ -1,0 +1,205 @@
+eeschema (2011-05-25)-stable  >> Creation date: Mon 17 Nov 2014 21:57:40 GMT
+
+#Cmp ( order = Reference )
+| C14        0u1         
+| C18        10u         
+| C19        10u         
+| C20        0u22        
+| C22        100u        
+| C24        0u1         
+| C26        0u22        
+| C30        0u22        
+| C32        100u        
+| C34        0u1         
+| C36        0u22        
+| C40        0u1         
+| C41        0u1         
+| C55        0u1         
+| C56        0u1         
+| C75        0u1         
+| C77        0u1         
+| C92        100u        
+| C94        100u        
+| D6         LED         
+| D7         LED         
+| D9         LED         
+| D12        LED         
+| J1         EXPANSION   
+| J2         PWR         
+| J3         VREF        
+| J4         PWR         
+| J5         E2 H&T      
+| J6         SPADE1      
+| J7         SPADE1      
+| J8         E2 MOT/STOP 
+| J9         E1 MOT/STOP 
+| J10        E0 COOL     
+| J11        E0 TEMP     
+| J12        E1 H&T      
+| J13        FAN_0       
+| J14        E0 MOT/STOP 
+| J15        E0 MOT/STOP 
+| J17        VREF        
+| J19        E0 HEAT     
+| J23        POWER IN    
+| J24        PWR         
+| J27        TP          
+| J28        Probe       
+| K1         E0 FAN      
+| L1         CM_CHOKE    
+| L8         CM_CHOKE    
+| L11        CM_CHOKE    
+| L12        CM_CHOKE    
+| P1         STEP        
+| P2         E0 H&T      
+| R18        470R        
+| R19        4K7         
+| R20        220R        
+| R21        4K7         
+| R22        470R        
+| R23        220R        
+| R26        100k        
+| R27        10k         
+| R30        0R          
+| R32        0R1         
+| R34        0R1         
+| R37        2k7         
+| R38        100k        
+| R39        10k         
+| R42        0R          
+| R44        0R1         
+| R46        0R1         
+| R50        4k7         
+| R51        4k7         
+| R56        100R        
+| R57        100R        
+| R65        4k7         
+| R66        10k         
+| R67        4k7         
+| R69        680R        
+| R72        680R        
+| R77        100k        
+| R78        100k        
+| SJ1        MS2         
+| SJ2        MS1         
+| SJ3        MS2         
+| SJ4        MS1         
+| SJ11       MS1         
+| SJ12       MS1         
+| SJ13       MS1         
+| SJ14       MS1         
+| SJ17       MS1         
+| SJ20       MS1         
+| SJ21       MS1         
+| SJ22       MS1         
+| TR1        BSH105      
+| TR2        IPD036N04L  
+| TR3        BSH105      
+| TR4        IPD036N04L  
+| U5         A4982SLPTR  
+| U7         A4982SLPTR  
+| U9         MCP44X1     
+#End Cmp
+
+#Cmp ( order = Value )
+| 0R           R30       
+| 0R           R42       
+| 0R1          R32       
+| 0R1          R34       
+| 0R1          R44       
+| 0R1          R46       
+| 0u1          C14       
+| 0u1          C24       
+| 0u1          C34       
+| 0u1          C40       
+| 0u1          C41       
+| 0u1          C55       
+| 0u1          C56       
+| 0u1          C75       
+| 0u1          C77       
+| 0u22         C20       
+| 0u22         C26       
+| 0u22         C30       
+| 0u22         C36       
+| 100k         R26       
+| 100k         R38       
+| 100k         R77       
+| 100k         R78       
+| 100R         R56       
+| 100R         R57       
+| 100u         C22       
+| 100u         C32       
+| 100u         C92       
+| 100u         C94       
+| 10k          R27       
+| 10k          R39       
+| 10k          R66       
+| 10u          C18       
+| 10u          C19       
+| 220R         R20       
+| 220R         R23       
+| 2k7          R37       
+| 470R         R18       
+| 470R         R22       
+| 4K7          R19       
+| 4K7          R21       
+| 4k7          R50       
+| 4k7          R51       
+| 4k7          R65       
+| 4k7          R67       
+| 680R         R69       
+| 680R         R72       
+| A4982SLPTR   U5        
+| A4982SLPTR   U7        
+| BSH105       TR1       
+| BSH105       TR3       
+| CM_CHOKE     L1        
+| CM_CHOKE     L8        
+| CM_CHOKE     L11       
+| CM_CHOKE     L12       
+| E0 COOL      J10       
+| E0 FAN       K1        
+| E0 H&T       P2        
+| E0 HEAT      J19       
+| E0 MOT/STOP  J14       
+| E0 MOT/STOP  J15       
+| E0 TEMP      J11       
+| E1 H&T       J12       
+| E1 MOT/STOP  J9        
+| E2 H&T       J5        
+| E2 MOT/STOP  J8        
+| EXPANSION    J1        
+| FAN_0        J13       
+| IPD036N04L   TR2       
+| IPD036N04L   TR4       
+| LED          D6        
+| LED          D7        
+| LED          D9        
+| LED          D12       
+| MCP44X1      U9        
+| MS1          SJ2       
+| MS1          SJ4       
+| MS1          SJ11      
+| MS1          SJ12      
+| MS1          SJ13      
+| MS1          SJ14      
+| MS1          SJ17      
+| MS1          SJ20      
+| MS1          SJ21      
+| MS1          SJ22      
+| MS2          SJ1       
+| MS2          SJ3       
+| POWER IN     J23       
+| Probe        J28       
+| PWR          J2        
+| PWR          J4        
+| PWR          J24       
+| SPADE1       J6        
+| SPADE1       J7        
+| STEP         P1        
+| TP           J27       
+| VREF         J3        
+| VREF         J17       
+#End Cmp
+
+#End List

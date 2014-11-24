@@ -1,4 +1,4 @@
-update=Wed 19 Nov 2014 20:52:32 GMT
+update=Mon 24 Nov 2014 12:57:37 GMT
 version=1
 last_client=pcbnew
 [general]
@@ -64,6 +64,7 @@ BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.304800000000
 [pcbnew/libraries]
 LibDir=
-LibName1=FE Footprints
-LibName2=Duet_logo_text_conv
-LibName3=connect
+LibName1=rrl-logo
+LibName2=FE Footprints
+LibName3=Duet_logo_text_conv
+LibName4=connect

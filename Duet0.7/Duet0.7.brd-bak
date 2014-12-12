@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Fri 12 Dec 2014 17:07:04 GMT
+PCBNEW-BOARD Version 2 date Fri 12 Dec 2014 17:06:11 GMT
 
 # Created by Pcbnew(2013-05-18 BZR 4017)-stable
 
@@ -70,7 +70,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 77.216 159.86252
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 284721159) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Duet0.7_CAM_DATA/))
+PcbPlotParams (pcbplotparams (layerselection 284721159) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory Duet0.7_CAM_DATA/))
 $EndSETUP
 
 $EQUIPOT

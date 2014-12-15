@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 17/07/2014 12:04:09
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Mon 15 Dec 2014 15:19:23 GMT
 
 BeginCmp
 TimeStamp = /50523307/509ADAE1;
@@ -785,6 +785,13 @@ IdModule  = PIN_ARRAY_25X2;
 EndCmp
 
 BeginCmp
+TimeStamp = /50656780/548F26D2;
+Reference = J2;
+ValeurCmp = CONN2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /505779E3/517D1776;
 Reference = J3;
 ValeurCmp = VREF;
@@ -794,50 +801,50 @@ EndCmp
 BeginCmp
 TimeStamp = /50656780/50656C44;
 Reference = J4;
-ValeurCmp = BED_HEATER;
+ValeurCmp = BED HEATER;
 IdModule  = TERM_2-WAY_6.35mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/50656C59;
 Reference = J5;
-ValeurCmp = BED_TEMP;
+ValeurCmp = BED TEMP;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/548F26E1;
+Reference = J6;
+ValeurCmp = CONN2;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/5092E0D3;
 Reference = J7;
-ValeurCmp = Z_MOT/STOP;
+ValeurCmp = Z MOT/STOP;
 IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/5092E0D9;
 Reference = J8;
-ValeurCmp = Y_MOT/STOP;
+ValeurCmp = Y MOT/STOP;
 IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/5092E0DC;
 Reference = J9;
-ValeurCmp = X_MOT/STOP;
+ValeurCmp = X MOT/STOP;
 IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/5092E0E0;
 Reference = J10;
-ValeurCmp = E0_MOT/STOP;
+ValeurCmp = E0 MOT/STOP;
 IdModule  = PIN_ARRAY_7X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/53C7AAE8;
-Reference = J11;
-ValeurCmp = E0_HEAT/TEMP/FAN;
-IdModule  = pin_array_10x1;
 EndCmp
 
 BeginCmp
@@ -899,14 +906,14 @@ EndCmp
 BeginCmp
 TimeStamp = /50656780/508859F9;
 Reference = J23;
-ValeurCmp = POWER_IN;
+ValeurCmp = POWER IN;
 IdModule  = TERM_2-WAY_6.35mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/53B03332;
 Reference = J24;
-ValeurCmp = GND__V_IN;
+ValeurCmp = GND  V_IN;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -946,16 +953,9 @@ IdModule  = JUMPER;
 EndCmp
 
 BeginCmp
-TimeStamp = /505779E3/53B05202;
-Reference = L1;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
 TimeStamp = /50577C6A/505F2B08;
 Reference = L2;
-ValeurCmp = Ferrite_Bead;
+ValeurCmp = Ferrite Bead;
 IdModule  = R_0603;
 EndCmp
 
@@ -995,52 +995,10 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /505779E3/53B05203;
-Reference = L8;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B04EF0;
-Reference = L9;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B04EF6;
-Reference = L10;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B0520D;
-Reference = L11;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B0520E;
-Reference = L12;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B051FC;
-Reference = L13;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B051FB;
-Reference = L14;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
+TimeStamp = /50656780/548F26C3;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
@@ -1053,14 +1011,14 @@ EndCmp
 BeginCmp
 TimeStamp = /50577C6A/505F7333;
 Reference = R2;
-ValeurCmp = 39R_1%;
+ValeurCmp = 39R 1%;
 IdModule  = R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50577C6A/505F7348;
 Reference = R3;
-ValeurCmp = 39R_1%;
+ValeurCmp = 39R 1%;
 IdModule  = R_0603;
 EndCmp
 
@@ -1144,7 +1102,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50577C6A/505F22DC;
 Reference = R15;
-ValeurCmp = 6k49__1%;
+ValeurCmp = 6k49  1%;
 IdModule  = R_0603;
 EndCmp
 
@@ -1634,7 +1592,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50523307/50F1C331;
 Reference = S2;
-ValeurCmp = MCU_ERASE;
+ValeurCmp = MCU ERASE;
 IdModule  = SW_6x6;
 EndCmp
 

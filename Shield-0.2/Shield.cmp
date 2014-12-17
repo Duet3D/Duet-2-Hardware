@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 17 Dec 2014 10:44:29 GMT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 17 Dec 2014 12:10:23 GMT
 
 BeginCmp
 TimeStamp = /505779E3/546B6771;
@@ -218,6 +218,34 @@ IdModule  = C_ELEC_6.3x7.7;
 EndCmp
 
 BeginCmp
+TimeStamp = /50577A22/54916E1F;
+Reference = D1;
+ValeurCmp = Blue LED;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916E46;
+Reference = D2;
+ValeurCmp = Green LED;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916E55;
+Reference = D3;
+ValeurCmp = red LED;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916FDD;
+Reference = D4;
+ValeurCmp = red LED;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /50577A22/509031C2;
 Reference = D6;
 ValeurCmp = LED;
@@ -404,6 +432,34 @@ TimeStamp = /50656780/5465FB04;
 Reference = P2;
 ValeurCmp = E0 H&T;
 IdModule  = PIN_ARRAY_6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916E25;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916E4C;
+Reference = R2;
+ValeurCmp = 330R;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916E5B;
+Reference = R3;
+ValeurCmp = 220R;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/54916FE3;
+Reference = R4;
+ValeurCmp = 220R;
+IdModule  = R_0603;
 EndCmp
 
 BeginCmp

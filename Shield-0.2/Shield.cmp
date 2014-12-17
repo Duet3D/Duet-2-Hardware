@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Tue 16 Dec 2014 18:19:21 GMT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 17 Dec 2014 10:44:29 GMT
 
 BeginCmp
 TimeStamp = /505779E3/546B6771;
@@ -351,6 +351,13 @@ IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /50656780/5491609A;
+Reference = J16;
+ValeurCmp = CONN2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /505779E3/517D175F;
 Reference = J17;
 ValeurCmp = VREF;
@@ -383,41 +390,6 @@ TimeStamp = /50656780/53C6F476;
 Reference = J28;
 ValeurCmp = Probe;
 IdModule  = PIN_ARRAY_4x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/5465FB61;
-Reference = K1;
-ValeurCmp = E0 FAN;
-IdModule  = PIN_ARRAY_3X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B05202;
-Reference = L1;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B05203;
-Reference = L8;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B0520D;
-Reference = L11;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/53B0520E;
-Reference = L12;
-ValeurCmp = CM_CHOKE;
-IdModule  = CMC;
 EndCmp
 
 BeginCmp
@@ -640,62 +612,6 @@ EndCmp
 BeginCmp
 TimeStamp = /505779E3/526126AB;
 Reference = SJ4;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B617B;
-Reference = SJ11;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B62D0;
-Reference = SJ12;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B62D5;
-Reference = SJ13;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B62DB;
-Reference = SJ14;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B64BB;
-Reference = SJ17;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B64CA;
-Reference = SJ20;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B64D0;
-Reference = SJ21;
-ValeurCmp = MS1;
-IdModule  = SJ;
-EndCmp
-
-BeginCmp
-TimeStamp = /505779E3/545B64D4;
-Reference = SJ22;
 ValeurCmp = MS1;
 IdModule  = SJ;
 EndCmp

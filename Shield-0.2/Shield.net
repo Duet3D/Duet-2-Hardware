@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/ensab/Desktop/RepRapPro/Git/Duet/Shield-0.2/Shield.sch)
-    (date "Wed 17 Dec 2014 15:51:43 GMT")
-    (tool "eeschema (2013-mar-13)-testing"))
+    (source /home/ensab/Pro/Git/Dev/Duet/Shield-0.2/Shield.sch)
+    (date "Wed 17 Dec 2014 21:02:39 GMT")
+    (tool "eeschema (2013-05-18 BZR 4017)-stable"))
   (components
     (comp (ref C5)
       (value 47n)
@@ -506,7 +506,7 @@
       (sheetpath (names "/Heater & Fan Control/") (tstamps /50577A22/))
       (tstamp 54916E46))
     (comp (ref R2)
-      (value 330R)
+      (value 680R)
       (libsource (lib device) (part R))
       (sheetpath (names "/Heater & Fan Control/") (tstamps /50577A22/))
       (tstamp 54916E4C))
@@ -516,7 +516,7 @@
       (sheetpath (names "/Heater & Fan Control/") (tstamps /50577A22/))
       (tstamp 54916E55))
     (comp (ref R3)
-      (value 220R)
+      (value 470R)
       (libsource (lib device) (part R))
       (sheetpath (names "/Heater & Fan Control/") (tstamps /50577A22/))
       (tstamp 54916E5B))
@@ -526,7 +526,7 @@
       (sheetpath (names "/Heater & Fan Control/") (tstamps /50577A22/))
       (tstamp 54916FDD))
     (comp (ref R4)
-      (value 220R)
+      (value 470R)
       (libsource (lib device) (part R))
       (sheetpath (names "/Heater & Fan Control/") (tstamps /50577A22/))
       (tstamp 54916FE3)))
@@ -539,7 +539,9 @@
         (fp C1-1))
       (fields
         (field (name Reference) C)
-        (field (name Value) C))
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -554,7 +556,9 @@
         (fp LEDV))
       (fields
         (field (name Reference) D)
-        (field (name Value) LED))
+        (field (name Value) LED)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -568,7 +572,9 @@
         (fp SM1206))
       (fields
         (field (name Reference) R)
-        (field (name Value) R))
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -815,9 +821,9 @@
         (pin (num 1) (name Vref) (type passive)))))
   (libraries
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+      (uri /usr/local/kicad/share/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+      (uri /usr/local/kicad/share/library/conn.lib))
     (library (logical FE)
       (uri FE.lib)))
   (nets

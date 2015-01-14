@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Wed 17 Dec 2014 21:03:59 GMT
+PCBNEW-BOARD Version 2 date Wed 14 Jan 2015 17:54:14 GMT
 
 # Created by Pcbnew(2013-05-18 BZR 4017)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Shield"
-Date "17 dec 2014"
+Date "14 jan 2015"
 Rev "1"
 Comp "RepRapPro"
 Comment1 ""
@@ -5498,22 +5498,22 @@ De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "CERN OSH Licence 1.2"
-Po 148.59 70.739 1 1 0.25 0
+Po 138.811 79.121 1 1 0.25 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "www.reprappro.com"
-Po 123.952 70.739 1 1 0.25 0
+Po 114.173 79.121 1 1 0.25 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "V0.2 Design: Adrian Bowyer, Andy Higston, Tony Lock"
-Po 137.033 68.961 1 1 0.25 0
+Po 127.254 77.343 1 1 0.25 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "Duet Shield"
-Po 129.286 66.04 3 3 0.3048 0
+Po 119.507 74.422 3 3 0.3048 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -5603,7 +5603,7 @@ De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "G"
-Po 139.192 62.484 2 2 0.3048 0
+Po 145.288 59.436 2 2 0.3048 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB

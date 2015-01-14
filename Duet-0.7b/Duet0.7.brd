@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Wed 17 Dec 2014 21:15:35 GMT
+PCBNEW-BOARD Version 2 date Wed 14 Jan 2015 22:50:50 GMT
 
 # Created by Pcbnew(2013-05-18 BZR 4017)-stable
 
@@ -7,11 +7,10 @@ encoding utf-8
 Units mm
 LayerCount 4
 EnabledLayers 10F88007
-VisibleLayers 10E88007
 Links 687
 NoConn 8
-Di 54.14137 34.544 203.92771 167.513001
-Ndraw 74
+Di 63.81877 34.544 203.92771 167.513001
+Ndraw 76
 Ntrack 4319
 Nzone 0
 BoardThickness 1.6002
@@ -22,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "17 dec 2014"
+Date "14 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -18170,6 +18169,18 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE D_0603
 $TEXTPCB
+Te "FAN"
+Po 78.74 149.479 0.8 0.8 0.2 900
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "V_IN"
+nl ""
+nl "FAN0-"
+Po 87.122 148.209 0.8 0.8 0.2 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
 Te "3"
 nl "v"
 nl "3"
@@ -18210,7 +18221,7 @@ nl ""
 nl "3V3"
 nl ""
 nl "GND"
-Po 85.1662 108.6358 0.8001 0.8001 0.14986 0
+Po 85.2932 110.2868 0.8001 0.8001 0.14986 0
 De 20 0 0 Normal R C
 $EndTEXTPCB
 $TEXTPCB
@@ -18227,7 +18238,7 @@ nl ""
 nl "3V3"
 nl ""
 nl "GND"
-Po 84.76996 88.40216 0.8001 0.8001 0.14986 0
+Po 85.15096 89.79916 0.8001 0.8001 0.14986 0
 De 20 0 0 Normal R C
 $EndTEXTPCB
 $TEXTPCB
@@ -18244,7 +18255,7 @@ nl ""
 nl "3V3"
 nl ""
 nl "GND"
-Po 84.49056 68.00596 0.8001 0.8001 0.14986 0
+Po 84.99856 69.52996 0.8001 0.8001 0.14986 0
 De 20 0 0 Normal R C
 $EndTEXTPCB
 $TEXTPCB
@@ -18261,7 +18272,7 @@ nl ""
 nl "3V3"
 nl ""
 nl "GND"
-Po 84.4042 48.1076 0.8001 0.8001 0.14986 0
+Po 85.0392 49.2506 0.8001 0.8001 0.14986 0
 De 20 0 0 Normal R C
 $EndTEXTPCB
 $DRAWSEGMENT
@@ -18709,31 +18720,25 @@ Po 158.69666 63.59652 0.8001 0.8001 0.14986 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "FAN           E0 TEMP      E0 HEATER"
-Po 78.4098 151.3078 0.8001 0.8001 0.14986 2700
+Te "E0 TEMP     E0 HEATER"
+Po 78.613 143.891 0.8001 0.8001 0.14986 2700
 De 20 0 0 Normal L C
 $EndTEXTPCB
 $TEXTPCB
-Te "E0-"
+Te "VIN"
+nl ""
+nl "VIN"
 nl ""
 nl "E0-"
 nl ""
-nl "VIN"
-nl ""
-nl "VIN"
-nl ""
-nl "R(th)"
+nl "E0-"
 nl ""
 nl "VSSA"
 nl ""
-nl "V_IN"
+nl "R(th)"
 nl ""
-nl "GND"
 nl ""
-nl "FAN-"
-nl ""
-nl "VIN"
-Po 84.26704 127.62992 0.8001 0.8001 0.14986 0
+Po 84.90204 130.29692 0.8001 0.8001 0.14986 0
 De 20 0 0 Normal R C
 $EndTEXTPCB
 $TEXTPCB
@@ -18757,7 +18762,7 @@ Po 78.34376 63.25616 0.8001 0.8001 0.14986 2700
 De 20 0 0 Normal L C
 $EndTEXTPCB
 $TEXTPCB
-Te "V0.7a      www.t3p3.com     CERN OSH License 1.2 "
+Te "V0.7b      www.t3p3.com     CERN OSH License 1.2 "
 nl "Design: Andy Hingston, Tony Lock & Adrian Bowyer"
 Po 170.95978 73.0123 0.8001 0.8001 0.17526 900
 De 21 1 0 Normal L C

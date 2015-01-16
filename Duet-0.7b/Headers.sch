@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 7
 Title "Duet"
-Date "17 dec 2014"
+Date "16 jan 2015"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"
@@ -911,7 +911,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 6450 4100 6400
 Wire Wire Line
-	4100 6400 4350 6400
+	3800 6400 4350 6400
 Wire Wire Line
 	4350 6400 4350 6500
 Wire Wire Line
@@ -930,4 +930,26 @@ Wire Wire Line
 	9850 5850 9850 5900
 Wire Wire Line
 	9450 6350 9850 6350
+$Comp
+L CP1 C1
+U 1 1 54B946B7
+P 3250 6550
+F 0 "C1" H 3300 6650 50  0000 L CNN
+F 1 "CP1" H 3300 6450 50  0000 L CNN
+F 2 "~" H 3250 6550 60  0000 C CNN
+F 3 "~" H 3250 6550 60  0000 C CNN
+	1    3250 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 6700 3600 6750
+Wire Wire Line
+	3600 6750 3250 6750
+Wire Wire Line
+	3800 6400 3800 6250
+Wire Wire Line
+	3800 6250 3250 6250
+Wire Wire Line
+	3250 6250 3250 6350
+Connection ~ 4100 6400
 $EndSCHEMATC

@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Fri 16 Jan 2015 16:39:21 GMT
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Fri 27 Feb 2015 15:00:20 GMT
 
 BeginCmp
 TimeStamp = /50656780/54B946B7;
 Reference = C1;
-ValeurCmp = CP1;
+ValeurCmp = 10u;
 IdModule  = C_0805;
 EndCmp
 
@@ -764,50 +764,29 @@ IdModule  = uSMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/53B03BD1;
+TimeStamp = /50522538/54EF3DE2;
 Reference = D15;
-ValeurCmp = VIN;
-IdModule  = D_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50522538/53B03C27;
-Reference = D16;
-ValeurCmp = 3.3V;
-IdModule  = D_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50522538/53B03C01;
-Reference = D17;
-ValeurCmp = 5V+;
-IdModule  = D_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50577A22/5491B59F;
-Reference = D18;
 ValeurCmp = blue LED;
 IdModule  = D_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50577A22/5491B5BB;
-Reference = D19;
+TimeStamp = /50522538/54EF3DF1;
+Reference = D16;
 ValeurCmp = green LED;
 IdModule  = D_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50577A22/5491B5CA;
-Reference = D20;
+TimeStamp = /50522538/54EF3E00;
+Reference = D17;
 ValeurCmp = red LED;
 IdModule  = D_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50577A22/5491B5D9;
-Reference = D21;
+TimeStamp = /50522538/54EF3E0F;
+Reference = D18;
 ValeurCmp = red LED;
 IdModule  = D_0603;
 EndCmp
@@ -834,10 +813,10 @@ IdModule  = Vref;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/50656C44;
+TimeStamp = /50656780/54EF55B2;
 Reference = J4;
-ValeurCmp = BED HEATER;
-IdModule  = TERM_2-WAY_6.35mm;
+ValeurCmp = V+;
+IdModule  = SPADE-4910;
 EndCmp
 
 BeginCmp
@@ -883,6 +862,34 @@ IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /50656780/54EF55AC;
+Reference = J11;
+ValeurCmp = BED-;
+IdModule  = SPADE-4910;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/54EF55CC;
+Reference = J12;
+ValeurCmp = V+;
+IdModule  = SPADE-4910;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/54EF55C6;
+Reference = J13;
+ValeurCmp = GND;
+IdModule  = SPADE-4910;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/54F06CF2;
+Reference = J14;
+ValeurCmp = BED POWER;
+IdModule  = TERM_2-WAY_24A_7.5mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /50577C6A/50F1DEC1;
 Reference = J15;
 ValeurCmp = uSDHC;
@@ -918,10 +925,10 @@ IdModule  = RJ45+MAG;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/5220C30B;
+TimeStamp = /50656780/54F06CF9;
 Reference = J20;
-ValeurCmp = 5V_PS;
-IdModule  = PIN_ARRAY_3X1;
+ValeurCmp = POWER IN;
+IdModule  = TERM_2-WAY_24A_7.5mm;
 EndCmp
 
 BeginCmp
@@ -939,10 +946,10 @@ IdModule  = uUSB_AB;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/508859F9;
+TimeStamp = /50656780/54F07B7A;
 Reference = J23;
-ValeurCmp = POWER IN;
-IdModule  = TERM_2-WAY_6.35mm;
+ValeurCmp = Z MOT 2;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
@@ -1034,6 +1041,13 @@ TimeStamp = /50656780/548F26C3;
 Reference = P1;
 ValeurCmp = CONN_4;
 IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50656780/54F07776;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
 EndCmp
 
 BeginCmp
@@ -1415,9 +1429,9 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/53B03BE9;
+TimeStamp = /50522538/54EF3DE8;
 Reference = R55;
-ValeurCmp = 2k7;
+ValeurCmp = 4k7;
 IdModule  = R_0603;
 EndCmp
 
@@ -1450,16 +1464,16 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/53B03C26;
+TimeStamp = /50522538/54EF3DF7;
 Reference = R60;
-ValeurCmp = 220R;
+ValeurCmp = 3K3;
 IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/53B03C00;
+TimeStamp = /50522538/54EF3E06;
 Reference = R61;
-ValeurCmp = 220R;
+ValeurCmp = 470R;
 IdModule  = R_0603;
 EndCmp
 
@@ -1618,29 +1632,8 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50577A22/5491B5A5;
+TimeStamp = /50522538/54EF3E15;
 Reference = R84;
-ValeurCmp = 4k7;
-IdModule  = D_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50577A22/5491B5C1;
-Reference = R85;
-ValeurCmp = 680R;
-IdModule  = D_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50577A22/5491B5D0;
-Reference = R86;
-ValeurCmp = 470R;
-IdModule  = D_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50577A22/5491B5DF;
-Reference = R87;
 ValeurCmp = 470R;
 IdModule  = D_0603;
 EndCmp

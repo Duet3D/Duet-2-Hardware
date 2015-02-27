@@ -54,7 +54,7 @@ Wire Wire Line
 	6000 4900 6000 4800
 Connection ~ 5250 1800
 Wire Wire Line
-	5250 1900 5250 1800
+	5250 1800 5250 1900
 Wire Wire Line
 	4100 2100 4100 2200
 Wire Wire Line
@@ -71,8 +71,6 @@ Wire Notes Line
 	5000 5800 5000 3650
 Wire Notes Line
 	5000 3650 7000 3650
-Wire Wire Line
-	6400 1800 6500 1800
 Wire Wire Line
 	5950 1300 5700 1300
 Connection ~ 5700 1800
@@ -116,12 +114,6 @@ Wire Wire Line
 	5250 2550 5250 2300
 Wire Wire Line
 	3200 2200 3200 3000
-Wire Wire Line
-	6500 2500 6500 2250
-Wire Wire Line
-	6500 1800 6500 1850
-Wire Wire Line
-	5000 1800 5800 1800
 Wire Wire Line
 	6600 5500 6600 5150
 Wire Wire Line
@@ -213,19 +205,6 @@ F 3 "" H 4100 1850 60  0001 C CNN
 	1    4100 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 6700 2100 0    60   ~ 0
-1A
-$Comp
-L DIODESCH D14
-U 1 1 5220D356
-P 6500 2050
-F 0 "D14" H 6500 2150 40  0000 C CNN
-F 1 "SS14M" H 6500 1950 40  0000 C CNN
-F 2 "" H 6500 2050 60  0001 C CNN
-F 3 "" H 6500 2050 60  0001 C CNN
-	1    6500 2050
-	0    -1   -1   0   
-$EndComp
 $Comp
 L BSH105 TR7
 U 1 1 5220C267
@@ -254,17 +233,6 @@ F 3 "" H 6600 5500 60  0001 C CNN
 $EndComp
 Text GLabel 6150 4050 0    60   Input ~ 0
 PS_ON_IN
-$Comp
-L JUMPER JP10
-U 1 1 5220B966
-P 6100 1800
-F 0 "JP10" H 6100 1950 60  0000 C CNN
-F 1 "ATX_5V_EN" H 6100 1720 40  0000 C CNN
-F 2 "" H 6100 1800 60  0001 C CNN
-F 3 "" H 6100 1800 60  0001 C CNN
-	1    6100 1800
-	1    0    0    -1  
-$EndComp
 Text Notes 5400 2150 0    60   ~ 0
 1A
 Text Notes 6000 3250 0    60   ~ 0
@@ -275,8 +243,6 @@ Text Notes 6000 3050 0    60   ~ 0
 at least 780mA
 Text Notes 6000 2950 0    60   ~ 0
 ATX Spec advises
-Text GLabel 6500 2500 3    60   Input ~ 0
-5V_IN
 Text Notes 4850 3050 0    60   ~ 0
 by the USB specification
 Text Notes 4850 2950 0    60   ~ 0
@@ -529,4 +495,6 @@ Text Notes 8300 3400 0    60   ~ 0
 Power indicator LEDS and signal LED
 Wire Wire Line
 	2000 5450 3850 5450
+Wire Wire Line
+	5700 1800 5000 1800
 $EndSCHEMATC

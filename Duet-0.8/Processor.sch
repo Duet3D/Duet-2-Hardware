@@ -83,10 +83,10 @@ Wire Wire Line
 Connection ~ 14800 14000
 Connection ~ 14800 13850
 Wire Wire Line
-	14800 13850 14800 14000
+	14800 13850 14800 14100
 Connection ~ 14800 7000
 Wire Wire Line
-	14800 6950 14800 7000
+	14800 6800 14800 7000
 Connection ~ 14800 7550
 Wire Wire Line
 	14800 7550 14800 7600
@@ -412,12 +412,6 @@ Wire Wire Line
 Wire Wire Line
 	14850 7000 14750 7000
 Wire Wire Line
-	14750 14100 14750 14000
-Wire Wire Line
-	14750 14000 14850 14000
-Wire Wire Line
-	14850 14000 14850 14100
-Wire Wire Line
 	14750 14600 14750 14700
 Wire Wire Line
 	14750 14700 14850 14700
@@ -684,7 +678,7 @@ F 3 "" H 14800 7250 60  0001 C CNN
 	1    14800 7250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 14800 6950 1    60   Input ~ 0
+Text GLabel 14800 6800 1    60   Input ~ 0
 +3.3V
 $Comp
 L C_SMALL C65
@@ -1280,4 +1274,17 @@ F 3 "" H 8250 6600 60  0001 C CNN
 	1    8250 6600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	14750 14000 14850 14000
+Wire Wire Line
+	14850 14000 14850 14100
+Wire Wire Line
+	14750 14000 14750 14100
+Wire Wire Line
+	14850 7000 14850 6900
+Wire Wire Line
+	14850 6900 14750 6900
+Wire Wire Line
+	14750 6900 14750 7000
+Connection ~ 14800 6900
 $EndSCHEMATC

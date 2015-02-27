@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 27 Feb 2015 15:34:56 GMT
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Fri 27 Feb 2015 22:09:43 GMT
 
 BeginCmp
 TimeStamp = /50656780/54B946B7;
@@ -757,13 +757,6 @@ IdModule  = uSMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/5220D356;
-Reference = D14;
-ValeurCmp = SS14M;
-IdModule  = uSMA;
-EndCmp
-
-BeginCmp
 TimeStamp = /50522538/54EF3DE2;
 Reference = D15;
 ValeurCmp = blue LED;
@@ -984,13 +977,6 @@ BeginCmp
 TimeStamp = /50522538/52209EAB;
 Reference = JP9;
 ValeurCmp = 5V_EN;
-IdModule  = JUMPER;
-EndCmp
-
-BeginCmp
-TimeStamp = /50522538/5220B966;
-Reference = JP10;
-ValeurCmp = ATX_5V_EN;
 IdModule  = JUMPER;
 EndCmp
 
@@ -1642,14 +1628,14 @@ BeginCmp
 TimeStamp = /50523307/5075E99F;
 Reference = S1;
 ValeurCmp = RESET;
-IdModule  = SW_6x6;
+IdModule  = SW_SIDE;
 EndCmp
 
 BeginCmp
 TimeStamp = /50523307/50F1C331;
 Reference = S2;
 ValeurCmp = MCU ERASE;
-IdModule  = SW_6x6;
+IdModule  = SW_SIDE;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 17 Dec 2014 15:52:02 GMT
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Thu 05 Mar 2015 23:06:15 GMT
 
 BeginCmp
 TimeStamp = /505779E3/546B6771;
@@ -444,21 +444,21 @@ EndCmp
 BeginCmp
 TimeStamp = /50577A22/54916E4C;
 Reference = R2;
-ValeurCmp = 330R;
+ValeurCmp = 680R;
 IdModule  = R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50577A22/54916E5B;
 Reference = R3;
-ValeurCmp = 220R;
+ValeurCmp = 470R;
 IdModule  = R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50577A22/54916FE3;
 Reference = R4;
-ValeurCmp = 220R;
+ValeurCmp = 470R;
 IdModule  = R_0603;
 EndCmp
 

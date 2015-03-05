@@ -1,13 +1,8 @@
-update=Mon 24 Nov 2014 12:57:37 GMT
+update=Thu 05 Mar 2015 23:07:59 GMT
 version=1
 last_client=pcbnew
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=./
@@ -43,6 +38,11 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=FE
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=Shield.net
@@ -57,14 +57,14 @@ PcbTextThickness=0.304800000000
 ModuleTextSizeV=1.270000000000
 ModuleTextSizeH=1.270000000000
 ModuleTextSizeThickness=0.254000000000
-SolderMaskClearance=0.254000000000
+SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.304800000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.304800000000
 [pcbnew/libraries]
 LibDir=
-LibName1=rrl-logo
-LibName2=FE Footprints
+LibName1=FE Footprints
+LibName2=rrl-logo
 LibName3=Duet_logo_text_conv
 LibName4=connect

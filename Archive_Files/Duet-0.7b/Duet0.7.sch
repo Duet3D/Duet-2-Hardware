@@ -30,15 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FE
-LIBS:Shield-cache
-LIBS:Duet0.8-cache
+LIBS:Duet0.7-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Duet"
-Date "18 mar 2015"
+Date "17 dec 2014"
 Rev "0.7"
 Comp "Think3DPrint3D, RepRapPro"
 Comment1 "CERN OSH License 1.2"

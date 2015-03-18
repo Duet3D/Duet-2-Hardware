@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Wed 18 Mar 2015 11:32:19 GMT
-
-BeginCmp
-TimeStamp = /50656780/54B946B7;
-Reference = C1;
-ValeurCmp = 10u;
-IdModule  = C_0805;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 17 Dec 2014 16:26:15 GMT
 
 BeginCmp
 TimeStamp = /50523307/509ADAE1;
@@ -757,36 +750,57 @@ IdModule  = uSMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/55096BA8;
+TimeStamp = /50522538/5220D356;
 Reference = D14;
 ValeurCmp = SS14M;
 IdModule  = uSMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3DE2;
+TimeStamp = /50522538/53B03BD1;
 Reference = D15;
+ValeurCmp = VIN;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50522538/53B03C27;
+Reference = D16;
+ValeurCmp = 3.3V;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50522538/53B03C01;
+Reference = D17;
+ValeurCmp = 5V+;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/5491B59F;
+Reference = D18;
 ValeurCmp = blue LED;
 IdModule  = D_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3DF1;
-Reference = D16;
+TimeStamp = /50577A22/5491B5BB;
+Reference = D19;
 ValeurCmp = green LED;
 IdModule  = D_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3E00;
-Reference = D17;
+TimeStamp = /50577A22/5491B5CA;
+Reference = D20;
 ValeurCmp = red LED;
 IdModule  = D_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3E0F;
-Reference = D18;
+TimeStamp = /50577A22/5491B5D9;
+Reference = D21;
 ValeurCmp = red LED;
 IdModule  = D_0603;
 EndCmp
@@ -813,10 +827,10 @@ IdModule  = Vref;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/54EF55B2;
+TimeStamp = /50656780/50656C44;
 Reference = J4;
-ValeurCmp = V+;
-IdModule  = SPADE-4910;
+ValeurCmp = BED HEATER;
+IdModule  = TERM_2-WAY_6.35mm;
 EndCmp
 
 BeginCmp
@@ -862,34 +876,6 @@ IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/54EF55AC;
-Reference = J11;
-ValeurCmp = BED-;
-IdModule  = SPADE-4910;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/54EF55CC;
-Reference = J12;
-ValeurCmp = V+;
-IdModule  = SPADE-4910;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/54EF55C6;
-Reference = J13;
-ValeurCmp = GND;
-IdModule  = SPADE-4910;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/54F06CF2;
-Reference = J14;
-ValeurCmp = BED POWER;
-IdModule  = TERM_2-WAY_24A_7.5mm;
-EndCmp
-
-BeginCmp
 TimeStamp = /50577C6A/50F1DEC1;
 Reference = J15;
 ValeurCmp = uSDHC;
@@ -925,10 +911,10 @@ IdModule  = RJ45+MAG;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/54F06CF9;
+TimeStamp = /50656780/5220C30B;
 Reference = J20;
-ValeurCmp = POWER IN;
-IdModule  = TERM_2-WAY_24A_7.5mm;
+ValeurCmp = 5V_PS;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -946,23 +932,16 @@ IdModule  = uUSB_AB;
 EndCmp
 
 BeginCmp
-TimeStamp = /50656780/54F07B7A;
+TimeStamp = /50656780/508859F9;
 Reference = J23;
-ValeurCmp = Z MOT 2;
-IdModule  = PIN_ARRAY_4x1;
+ValeurCmp = POWER IN;
+IdModule  = TERM_2-WAY_6.35mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /50656780/53B03332;
 Reference = J24;
 ValeurCmp = GND  V_IN;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50656780/55096978;
-Reference = J25;
-ValeurCmp = PS 5V;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -988,16 +967,16 @@ IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/55096BFF;
-Reference = JP1;
-ValeurCmp = EXT_5V_EN;
+TimeStamp = /50522538/52209EAB;
+Reference = JP9;
+ValeurCmp = 5V_EN;
 IdModule  = JUMPER;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/52209EAB;
-Reference = JP9;
-ValeurCmp = 5V_EN;
+TimeStamp = /50522538/5220B966;
+Reference = JP10;
+ValeurCmp = ATX_5V_EN;
 IdModule  = JUMPER;
 EndCmp
 
@@ -1429,9 +1408,9 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3DE8;
+TimeStamp = /50522538/53B03BE9;
 Reference = R55;
-ValeurCmp = 4k7;
+ValeurCmp = 2k7;
 IdModule  = R_0603;
 EndCmp
 
@@ -1464,16 +1443,16 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3DF7;
+TimeStamp = /50522538/53B03C26;
 Reference = R60;
-ValeurCmp = 3K3;
+ValeurCmp = 220R;
 IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3E06;
+TimeStamp = /50522538/53B03C00;
 Reference = R61;
-ValeurCmp = 470R;
+ValeurCmp = 220R;
 IdModule  = R_0603;
 EndCmp
 
@@ -1632,9 +1611,30 @@ IdModule  = R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /50522538/54EF3E15;
+TimeStamp = /50577A22/5491B5A5;
 Reference = R84;
-ValeurCmp = 470R;
+ValeurCmp = 4k7;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/5491B5C1;
+Reference = R85;
+ValeurCmp = 330R;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/5491B5D0;
+Reference = R86;
+ValeurCmp = 220R;
+IdModule  = D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50577A22/5491B5DF;
+Reference = R87;
+ValeurCmp = 220R;
 IdModule  = D_0603;
 EndCmp
 
@@ -1642,14 +1642,14 @@ BeginCmp
 TimeStamp = /50523307/5075E99F;
 Reference = S1;
 ValeurCmp = RESET;
-IdModule  = SW_SIDE;
+IdModule  = SW_6x6;
 EndCmp
 
 BeginCmp
 TimeStamp = /50523307/50F1C331;
 Reference = S2;
 ValeurCmp = MCU ERASE;
-IdModule  = SW_SIDE;
+IdModule  = SW_6x6;
 EndCmp
 
 BeginCmp

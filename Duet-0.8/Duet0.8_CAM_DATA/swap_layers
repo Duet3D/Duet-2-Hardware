@@ -1,3 +1,0 @@
-mv Duet0.8-Back.gbl x
-mv Duet0.8-Inner2.gbr Duet0.8-Back.gbl
-mv x Duet0.8-Inner2.gbr

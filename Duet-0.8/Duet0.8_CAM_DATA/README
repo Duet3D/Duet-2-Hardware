@@ -1,0 +1,1 @@
+The files Duet0.8-Back.gbl and Duet0.8-Inner2.gbr have been swapped so that the inner layer appears as the back layer.  This is a safer way to do it than trying to swap in Kicad, which just makes a mess according to various web forums.

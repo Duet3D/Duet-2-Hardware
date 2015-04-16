@@ -1,0 +1,28 @@
+Duet Shield Changelog
+
+5/11/14
+
+1. Copied Duet 0.7 design (AB)
+2. Renamed files Shield instead of Duet 0.7 (AB)
+3. Added Expansion Board global names to Expansion connector (AB)
+4. Modified global signals on the stepper sheet to X->E1, Y->E2, Z->E3, E0->E4 (AB)
+5. Modified global signals on the heater sheet to BED->E1, E0->E2 (AB)
+
+6/11/14
+
+6. Created signal names spreadsheet for cross-reference between sheets (AB)
+7. Cuttable links put in parrallel withe the stepper output chokes (AB)
+8. NB The Duet 0.7 replaces AD12 with VSSA on the expansion header.  Put back to AD12 for Duet 0.6 compatibility.  Also CTS1 & RTS1. 
+9. Added global names PROBE-SIG and PROBE-TRIG for clarity. (AB)
+10. Added E0 feedthrough for motor, stop, heater, and thermistor. (AB)
+11. Added E1 and E2 6-pin connectors (AB)
+12. Added 36-way ribbon header for all five extruder steppers. (AB)
+13. Added 4 way step pulse header for timing diagnostics (AB)
+14. Added EXPANSION2 connector.  NB AD12 and AD14 are shared with the probe. (AB)
+
+
+
+
+
+
+

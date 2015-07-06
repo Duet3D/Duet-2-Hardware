@@ -24,6 +24,7 @@ GPLv3
 #include <string.h>
 #include <SD_HSMCI.h>
 
+
 void performanceCheck(char const *testfile, uint32_t loop_counter,uint32_t buff_size)
 {
 	char const * test_file_name = testfile;
@@ -45,39 +46,54 @@ void performanceCheck(char const *testfile, uint32_t loop_counter,uint32_t buff_
 	//u_mount SD card
 	f_mount (LUN_ID_SD_MMC_0_MEM, NULL);
 	//mount SD card
-
 	if (f_mount(LUN_ID_SD_MMC_0_MEM, &fs) != FR_INVALID_DRIVE) {
 		//test_file_name[0] = LUN_ID_SD_MMC_0_MEM + '0'; //confirm the file is written to the mounted drive
 		if (f_open(&file_object,
 				(char const *)test_file_name,
 				FA_CREATE_ALWAYS | FA_WRITE) == FR_OK){
-			printf("File write check START\n");
+			SerialUSB.println("File write check START");
 			//start time
 			time_ms = millis();
 			for(uint32_t i = 0; i <TEST_FILE_LOOP; i++){
-				if (f_write(&file_object, WBuff, btw, &bw) != FR_OK) {
+                                res = f_write(&file_object, WBuff, btw, &bw);
+				if (res != FR_OK) {
+                                        SerialUSB.print("File write error: ");
+                                        SerialUSB.println(res);
 					break;
 				}
 			}
 			//Stop time
 			time_ms = millis()-time_ms;
-			printf("File write check FINISHED. Time %u ms\n",time_ms);
+			SerialUSB.print("File write check FINISHED. Time  ");
+                        SerialUSB.print(time_ms);
+                        SerialUSB.println(" ms");
 			f_close(&file_object);
 			if (f_open(&file_object, (char *) testfile, FA_OPEN_EXISTING | FA_READ) == FR_OK){
-				printf("File read check STARTED %s\n",(char *) testfile);
+				SerialUSB.print("File read check STARTED ");
+                                SerialUSB.println((char *) testfile);
 				//start time
 				time_ms = millis();
 				for (;;) {
 					res = f_read(&file_object, RBuff, btw, &br);	// Read a chunk of file
-					if (res || !br) break;			//Error or end of file
+				        if (res != FR_OK) {
+                                            SerialUSB.print("File read error: ");
+                                            SerialUSB.println(res);
+					    break;
+				        }
+					if (!br) break;			//end of file
 				}
 				//Stop time
 				time_ms = millis()-time_ms;
-			    printf("File read check FINISHED. Time %u ms, Size %u bytes\n",time_ms, file_object.fsize);
+			        SerialUSB.print("File read check FINISHED. Time ");
+                                SerialUSB.print(time_ms);
+                                SerialUSB.print(" ms, Size ");
+                                SerialUSB.println(file_object.fsize);
 				f_close(&file_object);
 			}
 	    }
 	}
+        else
+          SerialUSB.println("mounting failed");
 }
 
 /**
@@ -87,44 +103,34 @@ void performanceCheck(char const *testfile, uint32_t loop_counter,uint32_t buff_
  */
 void setup (void)
 {
-	 Serial.begin(115200);
-	 /* Configure HSMCI pins */
+	SerialUSB.begin(115200);
+        while(!SerialUSB){}
+        
+	SerialUSB.println("-- SD/MMC/SDIO Card Example on FatFs --");
+         
+         /* Configure HSMCI pins */
 	hsmciPinsinit();
-
-	printf("\n\r-- SD/MMC/SDIO Card Example on FatFs --\n\r");
-	printf("-- Compiled: %s %s --\n\r",__DATE__,__TIME__);
-
 
 	// Initialize SD MMC stack
 	sd_mmc_init();
-	printf("Please plug in a card.\n\r");
+	SerialUSB.println("Please plug in a card");
 	while (CTRL_NO_PRESENT == sd_mmc_check(0)) {
 	}
 	//print card info
-	printf("sd_mmc_card->capacity: %u bytes\n", sd_mmc_get_capacity(0));
-	printf("sd_mmc_card->clock %u Hz\n",	sd_mmc_get_bus_clock(0));
-	printf("sd_mmc_card->bus_width: %u \n", sd_mmc_get_bus_width(0));
-	//performance check
-	uint32_t buffer_size = 512;
-	printf("Performance Check\r\n");
-	char file1[] ="0:test1.txt";
-	printf("Write/Read: %s \n",file1);
-	performanceCheck((char const *)file1,10,buffer_size);
-	char file2[] ="0:test2.txt";
-	printf("Write/Read: %s \n",file2);
-	performanceCheck((char const *)file2,100,buffer_size);
-	char file3[] ="0:test3.txt";
-	printf("Write/Read: %s \n",file3);
-	performanceCheck((char const *)file3,1000,buffer_size);
-	char file4[] ="0:test4.txt";
-	printf("Write/Read: %s \n",file4);
-	performanceCheck((char const *)file4,10000,buffer_size);
-	char file5[] ="0:test5.txt";
-	printf("Write/Read: %s \n",file5);
-	performanceCheck((char const *)file5,100000,buffer_size);
-	printf("Performance Check complete\r\n");
+	SerialUSB.print("sd_mmc_card->capacity: "); SerialUSB.print(sd_mmc_get_capacity(0)); SerialUSB.println(" bytes");
+	SerialUSB.print("sd_mmc_card->clock "); SerialUSB.print(sd_mmc_get_bus_clock(0)); SerialUSB.println(" Hz");
+	SerialUSB.print("sd_mmc_card->bus_width: "); SerialUSB.println(sd_mmc_get_bus_width(0));
+
 }
 
 void loop(void){
+ 
+  	//performance check
+	uint32_t buffer_size = 512;
+	SerialUSB.println("Performance Checking, don't eject card");
+	char file[] ="0:test.txt";
+	performanceCheck((char const *)file,1000,buffer_size); //500Kb fle
+	SerialUSB.println("Performance Check complete");
+        delay(10000);
 }
 

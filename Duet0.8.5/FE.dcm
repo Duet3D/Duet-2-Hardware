@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 24/05/2015 12:15:31
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

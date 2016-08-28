@@ -9,18 +9,19 @@ DuetWifi
 Design by Tony Lock and David Crocker
 More info:
 https://www.duet3d.com/
+LICENSE: see the LICENSE file in the respository
 
 Duet 0.8.5
 Design by Tony Lock, based on the Duet 0.6
 More info here:
 http://blog.think3dprint3d.com/2015/08/new-duet-electronics-version-085.html
+LICENSE: http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt
 
 Duet 0.6:
 Design by Andy Hingston, Tony Lock, Adrian Bowyer with much advice from Chris Palmer.
 More info here:
 http://blog.think3dprint3d.com/2013/12/Duet-Arduino-Due-compatible-3DPrinter-controller.html
-
-All versions licesnsed under under the CERN OHW Licence v1.2, see LICENSE or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt
+LICENSE: http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt
 
 Developed in KiCAD: http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite
 

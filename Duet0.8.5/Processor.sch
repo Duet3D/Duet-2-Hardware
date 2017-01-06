@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:Duet0.85-rescue
 LIBS:power
-LIBS:device
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:FE
 LIBS:Duet0.85-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -496,6 +495,8 @@ $Comp
 L CSMALL C90
 U 1 1 53B059FA
 P 13600 12800
+AR Path="/53B059FA" Ref="C90"  Part="1" 
+AR Path="/50523307/53B059FA" Ref="C90"  Part="1" 
 F 0 "C90" H 13625 12850 30  0000 L CNN
 F 1 "10nF" H 13625 12750 30  0000 L CNN
 F 2 "" H 13600 12800 60  0001 C CNN
@@ -534,7 +535,7 @@ U 1 1 517573A8
 P 11500 10200
 F 0 "U1" H 11500 10850 60  0000 C CNN
 F 1 "ATSAM3X8E" H 11500 10700 60  0000 C CNN
-F 2 "LQFP100" H 11500 10550 60  0000 C CNN
+F 2 "LQFP144" H 11500 10550 60  0000 C CNN
 F 3 "" H 11500 10200 60  0001 C CNN
 	1    11500 10200
 	1    0    0    -1  

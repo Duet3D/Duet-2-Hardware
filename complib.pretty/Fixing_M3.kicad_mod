@@ -1,0 +1,10 @@
+(module Fixing_M3 locked (layer F.Cu) (tedit 587EA6A9)
+  (fp_text reference M10 (at -0.21 -3.06) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value "Fixing M3" (at 0 5.00126) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end -3.556 0) (layer F.SilkS) (width 0.127))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask F.SilkS))
+)

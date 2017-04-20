@@ -1,0 +1,10 @@
+(module Ziptie_small (layer F.Cu) (tedit 587E9E2D)
+  (fp_text reference M12 (at -0.14 -4.84) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value Ziptie (at 0 5.00126) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end -1.3 0) (layer F.SilkS) (width 0.127))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
+)

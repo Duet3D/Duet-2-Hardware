@@ -1,0 +1,11 @@
+(module WireConnection_2.00mmDrill (layer F.Cu) (tedit 58CB2EC9)
+  (descr "WireConnection with 2mm drill")
+  (fp_text reference JP1 (at 4.8514 0.2032) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 24V (at 5.08 3.81) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 4.0005 4.0005) (drill 1.99898) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 10.16 0) (size 4.0005 4.0005) (drill 1.99898) (layers *.Cu *.Mask))
+)

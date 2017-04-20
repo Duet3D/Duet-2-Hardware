@@ -1,0 +1,16 @@
+(module Probe_JUMPER locked (layer F.Cu) (tedit 57AB0F8F)
+  (descr "Connecteurs 2 pins")
+  (tags "CONN DEV")
+  (fp_text reference JP10 (at 0 -1.99898) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text value "E 5V EN" (at 3.21056 0.75184 90) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (pad 2 thru_hole oval (at 1.27 0) (size 2.25 4) (drill 1.75) (layers *.Cu *.Mask F.SilkS))
+  (model pin_array/pins_array_2x1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,10 @@
+(module Hole_3.2mm locked (layer F.Cu) (tedit 58D26174)
+  (fp_text reference M5 (at -0.21 -3.06) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value Mounting (at 0 5.00126) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask F.SilkS)
+    (clearance 1))
+)

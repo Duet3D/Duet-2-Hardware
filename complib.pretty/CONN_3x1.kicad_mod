@@ -1,0 +1,21 @@
+(module CONN_3x1 (layer F.Cu) (tedit 5777E719)
+  (tags CONN)
+  (fp_text reference J17 (at 0 -2.54) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value CA_2 (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_line (start 3.81 1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.1))
+  (fp_line (start 3.81 -1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.1))
+  (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.1))
+  (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer F.SilkS) (width 0.1))
+  (pad 1 thru_hole rect (at -2.54 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (model pin_array\pins_array_4x1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

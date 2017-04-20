@@ -1,0 +1,23 @@
+(module Probe_3.5MM_2X1_E0 locked (layer F.Cu) (tedit 57AB0E54)
+  (descr "Connecteurs 2 pins")
+  (tags "CONN DEV")
+  (fp_text reference J11 (at -0.03 -1.73) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text value "E0 HEAT" (at 0.02 3.9) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1)))
+  )
+  (fp_text user front (at -0.14 -3.07) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_line (start -3.6 -3.6) (end 3.6 -3.6) (layer F.SilkS) (width 0.14986))
+  (fp_line (start 3.6 -3.6) (end 3.6 3.0988) (layer F.SilkS) (width 0.14986))
+  (fp_line (start 3.6 3.0988) (end -3.6 3.0988) (layer F.SilkS) (width 0.14986))
+  (fp_line (start -3.6 3.0988) (end -3.6 -3.6) (layer F.SilkS) (width 0.14986))
+  (pad 2 thru_hole oval (at 1.75 0) (size 2.25 4) (drill 1.75) (layers *.Cu *.Mask F.SilkS))
+  (model pin_array/pins_array_2x1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

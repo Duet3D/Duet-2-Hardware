@@ -1,0 +1,10 @@
+(module via_0.6mm locked (layer F.Cu) (tedit 57F0E88A)
+  (fp_text reference "" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.01)))
+  )
+  (fp_text value E6_MOT_1A (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.01)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.39878) (layers *.Cu)
+    (zone_connect 2))
+)

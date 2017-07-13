@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GD65232PW
+D Multiple RS-232 Driver and Receiver, TSSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232PW
+D SN74HCT244 TSSOP-20
+K SN74HCT244
+F http://www.ti.com/lit/ds/symlink/sn74hct244.pdf
+$ENDCMP
+#
+$CMP SN74HCT244
+D SN74HCT244
+K SN74HCT244
+F http://www.ti.com/lit/ds/symlink/sn74hct244.pdf
+$ENDCMP
+#
+$CMP am26c31
+D am26c31
+K am26c31
+F http://www.ti.com/lit/ds/symlink/sn74hct244.pdf
+$ENDCMP
+#
+#End Doc Library

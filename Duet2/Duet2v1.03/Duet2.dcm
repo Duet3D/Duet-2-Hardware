@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSP149
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP CONN_02X04
+D Connector 02x04
+$ENDCMP
+#
+$CMP CONN_5
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_5X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_6
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_ALT_HEADER
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP MCP3204
+D Dual 12-bit Digital to Analog Converter, SPI Interface, PDIP-14
+K Dual DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP TLV431
+D TLV431x Low-Voltage Adjustable Precision Shunt Regulator
+F http://www.ti.com/lit/ds/symlink/tlv431a.pdf
+$ENDCMP
+#
+#End Doc Library

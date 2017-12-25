@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name logo1)(type Legacy)(uri "$(KIPRJMOD)/logo1.mod")(options "")(descr ""))
+  (lib (name "FE Footprints")(type Legacy)(uri "G:/My Drive/Duet/DuetWifi/FE Footprints.mod")(options "")(descr ""))
+)

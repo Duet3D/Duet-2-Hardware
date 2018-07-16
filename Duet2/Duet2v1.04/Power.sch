@@ -1,0 +1,1004 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DuetWifi
+LIBS:ATE
+LIBS:DuetWifi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "Duet Wifi"
+Date "2018-04-24"
+Rev "1.04"
+Comp "Think3DPrint3D, Escher 3D"
+Comment1 "CERN OSH License 1.2"
+Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D16
+U 1 1 53B03C27
+P 8350 4550
+F 0 "D16" H 8350 4650 50  0000 C CNN
+F 1 "3.3V" H 8350 4450 50  0000 C CNN
+F 2 "complib:D_0603" H 8350 4550 60  0001 C CNN
+F 3 "" H 8350 4550 60  0001 C CNN
+	1    8350 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D17
+U 1 1 53B03C01
+P 7900 4550
+F 0 "D17" H 7900 4650 50  0000 C CNN
+F 1 "5V+" H 8000 4400 50  0000 C CNN
+F 2 "complib:D_0603" H 7900 4550 60  0001 C CNN
+F 3 "" H 7900 4550 60  0001 C CNN
+	1    7900 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 53B03BFF
+P 7650 5550
+AR Path="/53B03BFF" Ref="#PWR023"  Part="1" 
+AR Path="/50522538/53B03BFF" Ref="#PWR49"  Part="1" 
+F 0 "#PWR49" H 7650 5550 30  0001 C CNN
+F 1 "GND" H 7650 5480 30  0001 C CNN
+F 2 "" H 7650 5550 60  0001 C CNN
+F 3 "" H 7650 5550 60  0001 C CNN
+	1    7650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D15
+U 1 1 53B03BD1
+P 7350 4550
+F 0 "D15" H 7350 4650 50  0000 C CNN
+F 1 "VIN" H 7450 4450 50  0000 C CNN
+F 2 "complib:D_0603" H 7350 4550 60  0001 C CNN
+F 3 "" H 7350 4550 60  0001 C CNN
+	1    7350 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L DB2W40300L D2
+U 1 1 53B02782
+P 6700 1750
+F 0 "D2" H 6700 1850 40  0000 C CNN
+F 1 "DB2W40300L" H 6700 1650 40  0000 C CNN
+F 2 "complib:D_SOD-123F" H 6700 1750 60  0001 C CNN
+F 3 "" H 6700 1750 60  0001 C CNN
+	1    6700 1750
+	0    -1   -1   0   
+$EndComp
+Text Notes 10500 1800 0    60   ~ 0
+1A
+$Comp
+L DIODESCH D14
+U 1 1 5220D356
+P 10300 1750
+F 0 "D14" H 10300 1850 40  0000 C CNN
+F 1 "SS14M" H 10300 1650 40  0000 C CNN
+F 2 "complib:uSMA" H 10300 1750 60  0001 C CNN
+F 3 "" H 10300 1750 60  0001 C CNN
+	1    10300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BSH105 TR7
+U 1 1 5220C267
+P 6200 4800
+F 0 "TR7" H 6150 4500 70  0000 C CNN
+F 1 "PMV40UN2" H 5850 5100 60  0000 C CNN
+F 2 "FE Footprints:SOT-23" H 6200 4800 60  0001 C CNN
+F 3 "" H 6200 4800 60  0001 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4800 0    60   Input ~ 0
+PS_ON
+Text Notes 4950 3850 0    60   ~ 0
+PS_ON Control
+$Comp
+L GND #PWR024
+U 1 1 5220BA8F
+P 6350 5500
+AR Path="/5220BA8F" Ref="#PWR024"  Part="1" 
+AR Path="/50522538/5220BA8F" Ref="#PWR48"  Part="1" 
+F 0 "#PWR48" H 6350 5500 30  0001 C CNN
+F 1 "GND" H 6350 5430 30  0001 C CNN
+F 2 "" H 6350 5500 60  0001 C CNN
+F 3 "" H 6350 5500 60  0001 C CNN
+	1    6350 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 4050 0    60   Input ~ 0
+PS_ON_IN
+$Comp
+L JUMPER JP10
+U 1 1 5220B966
+P 9900 1500
+F 0 "JP10" H 9900 1650 60  0000 C CNN
+F 1 "E 5V EN" H 9900 1420 40  0000 C CNN
+F 2 "complib:JUMPER" H 9900 1500 60  0001 C CNN
+F 3 "" H 9900 1500 60  0001 C CNN
+	1    9900 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 9250 1850 0    60   ~ 0
+1A
+Text Notes 9800 2950 0    60   ~ 0
+up to 1A
+Text Notes 9800 2850 0    60   ~ 0
+this design allows 
+Text Notes 9800 2750 0    60   ~ 0
+at least 780mA
+Text Notes 9800 2650 0    60   ~ 0
+ATX Spec advises
+Text GLabel 10300 2200 3    60   Input ~ 0
+5V_IN
+Text Notes 8650 2750 0    60   ~ 0
+by the USB specification
+Text Notes 8650 2650 0    60   ~ 0
+VBUS limited to 500mA 
+$Comp
+L JUMPER JP9
+U 1 1 52209EAB
+P 3350 2500
+F 0 "JP9" H 3350 2650 60  0000 C CNN
+F 1 "I 5V EN" H 3350 2420 40  0000 C CNN
+F 2 "complib:JUMPER" H 3350 2500 60  0001 C CNN
+F 3 "" H 3350 2500 60  0001 C CNN
+	1    3350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DB2W40300L D1
+U 1 1 5116BBAA
+P 2050 1100
+F 0 "D1" H 2050 1200 40  0000 C CNN
+F 1 "DB2W40300L" H 2050 1000 40  0000 C CNN
+F 2 "complib:D_SOD-123F" H 2050 1100 60  0001 C CNN
+F 3 "" H 2050 1100 60  0001 C CNN
+	1    2050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D13
+U 1 1 50F99BAC
+P 9050 1800
+F 0 "D13" H 9050 1900 40  0000 C CNN
+F 1 "SS14M" H 9050 1700 40  0000 C CNN
+F 2 "complib:uSMA" H 9050 1800 60  0001 C CNN
+F 3 "" H 9050 1800 60  0001 C CNN
+	1    9050 1800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9050 2250 3    60   Input ~ 0
+VBUS
+Text Notes 1250 3850 0    60   ~ 0
+5V Input, 3.3V 500mA Output\nLow Drop-Out Linear Regulator
+Text Notes 1500 850  0    60   ~ 0
+12-24V Input, 5V 2A Output\nPWM Buck Converter\n
+Text GLabel 4100 4250 2    60   Input ~ 0
++3.3V
+Text GLabel 1550 4250 0    60   Input ~ 0
++5V
+Text GLabel 1675 1100 0    60   Input ~ 0
+V_FUSED
+Text GLabel 9750 1000 2    60   Input ~ 0
++5V
+$Comp
+L GND #PWR025
+U 1 1 50522574
+P 1750 5550
+AR Path="/50522574" Ref="#PWR025"  Part="1" 
+AR Path="/50522538/50522574" Ref="#PWR46"  Part="1" 
+F 0 "#PWR46" H 1750 5550 30  0001 C CNN
+F 1 "GND" H 1750 5480 30  0001 C CNN
+F 2 "" H 1750 5550 60  0001 C CNN
+F 3 "" H 1750 5550 60  0001 C CNN
+	1    1750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 50522566
+P 1900 3250
+AR Path="/50522566" Ref="#PWR026"  Part="1" 
+AR Path="/50522538/50522566" Ref="#PWR47"  Part="1" 
+F 0 "#PWR47" H 1900 3250 30  0001 C CNN
+F 1 "GND" H 1900 3180 30  0001 C CNN
+F 2 "" H 1900 3250 60  0001 C CNN
+F 3 "" H 1900 3250 60  0001 C CNN
+	1    1900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L A4403 U3
+U 1 1 5543ACE6
+P 5150 2000
+F 0 "U3" H 5150 2050 70  0000 C CNN
+F 1 "A4403" H 5150 1900 70  0000 C CNN
+F 2 "FE Footprints:QFN16-4x4" H 5150 2000 60  0001 C CNN
+F 3 "" H 5150 2000 60  0000 C CNN
+	1    5150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_MINI L1
+U 1 1 5543AD1D
+P 6900 1500
+F 0 "L1" H 6825 1450 30  0000 C CNN
+F 1 "10uH" H 6900 1550 22  0000 C CNN
+F 2 "FE Footprints:L_6x6" H 6900 1500 60  0001 C CNN
+F 3 "" H 6900 1500 60  0000 C CNN
+	1    6900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_POL C3
+U 1 1 5543CA8D
+P 3050 1400
+F 0 "C3" H 3075 1475 50  0000 L CNN
+F 1 "100u 35V" V 2950 1100 50  0000 L CNN
+F 2 "complib:C_ELEC_6.3x7.7" H 3050 1400 60  0001 C CNN
+F 3 "" H 3050 1400 60  0000 C CNN
+	1    3050 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 2900 0    29   ~ 0
+C5 sets the soft start\ntime. Any value between\n20nf and 100nf is fine if\nC97 and C98 total 20uF
+Text Notes 7050 3850 0    60   ~ 0
+Power LEDs
+Text GLabel 8350 4250 1    60   Input ~ 0
++3.3V
+Text GLabel 7900 4200 1    60   Input ~ 0
++5V
+Text GLabel 7350 4200 1    60   Input ~ 0
+V_IN
+Text Notes 6950 4400 0    30   ~ 0
+Must be able to\nhandle 24V
+Text Notes 7150 4750 1    60   ~ 0
+Blue
+Text Notes 7700 4750 1    60   ~ 0
+Red
+Text Notes 8200 4750 1    60   ~ 0
+Green
+$Comp
+L C_SMALL C5
+U 1 1 5682A3E5
+P 3900 2550
+F 0 "C5" H 3925 2625 50  0000 L CNN
+F 1 "0u1" H 3900 2475 50  0000 L CNN
+F 2 "complib:C_0603" H 3900 2550 60  0001 C CNN
+F 3 "~" H 3900 2550 60  0000 C CNN
+	1    3900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_SMALL C1
+U 1 1 5682A437
+P 2800 1400
+F 0 "C1" H 2825 1475 50  0000 L CNN
+F 1 "10u 35V" V 2700 1100 50  0000 L CNN
+F 2 "complib:C_1206" H 2800 1400 60  0001 C CNN
+F 3 "~" H 2800 1400 60  0000 C CNN
+F 4 "~" H 2600 1200 60  0000 C CNN "Voltage"
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_SMALL C96
+U 1 1 5682A451
+P 6150 1200
+F 0 "C96" H 6175 1275 50  0000 L CNN
+F 1 "22nF" H 6150 1125 50  0000 L CNN
+F 2 "complib:C_0603" H 6150 1200 60  0001 C CNN
+F 3 "~" H 6150 1200 60  0000 C CNN
+	1    6150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_SMALL C4
+U 1 1 5682A502
+P 3600 4750
+F 0 "C4" H 3625 4825 50  0000 L CNN
+F 1 "10u 35V" H 3600 4675 50  0000 L CNN
+F 2 "complib:C_1206" H 3600 4750 60  0001 C CNN
+F 3 "~" H 3600 4750 60  0000 C CNN
+	1    3600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_SMALL C97
+U 1 1 5682A52A
+P 7250 1750
+F 0 "C97" H 7275 1825 50  0000 L CNN
+F 1 "10u 35V" V 7300 1325 50  0000 L CNN
+F 2 "complib:C_1206" H 7250 1750 60  0001 C CNN
+F 3 "~" H 7250 1750 60  0000 C CNN
+	1    7250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_SMALL C98
+U 1 1 5682A546
+P 7500 1750
+F 0 "C98" H 7525 1825 50  0000 L CNN
+F 1 "10u 35V" V 7550 1325 50  0000 L CNN
+F 2 "complib:C_1206" H 7500 1750 60  0001 C CNN
+F 3 "~" H 7500 1750 60  0000 C CNN
+	1    7500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R84
+U 1 1 5682A579
+P 4200 1500
+F 0 "R84" V 4275 1508 50  0000 C CNN
+F 1 "100K" V 4132 1512 50  0000 C CNN
+F 2 "complib:R_0603" H 4200 1500 60  0001 C CNN
+F 3 "~" H 4200 1500 60  0000 C CNN
+	1    4200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R54
+U 1 1 5682A5A4
+P 5400 5200
+F 0 "R54" V 5475 5208 50  0000 C CNN
+F 1 "4K7" V 5332 5212 50  0000 C CNN
+F 2 "complib:R_0603" H 5400 5200 60  0001 C CNN
+F 3 "~" H 5400 5200 60  0000 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R55
+U 1 1 5682A617
+P 7350 5000
+F 0 "R55" V 7425 5008 50  0000 C CNN
+F 1 "4K7" V 7282 5012 50  0000 C CNN
+F 2 "complib:R_0603" H 7350 5000 60  0001 C CNN
+F 3 "~" H 7350 5000 60  0000 C CNN
+	1    7350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R61
+U 1 1 5682A63C
+P 7900 5000
+F 0 "R61" V 7975 5008 50  0000 C CNN
+F 1 "2K2" V 7832 5012 50  0000 C CNN
+F 2 "complib:R_0603" H 7900 5000 60  0001 C CNN
+F 3 "~" H 7900 5000 60  0000 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R60
+U 1 1 5682A656
+P 8350 5000
+F 0 "R60" V 8425 5008 50  0000 C CNN
+F 1 "180R" V 8282 5012 50  0000 C CNN
+F 2 "complib:R_0603" H 8350 5000 60  0001 C CNN
+F 3 "~" H 8350 5000 60  0000 C CNN
+	1    8350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R88
+U 1 1 5682A83B
+P 7850 2650
+F 0 "R88" V 7925 2658 50  0000 C CNN
+F 1 "680R" V 7782 2662 50  0000 C CNN
+F 2 "complib:R_0603" H 7850 2650 60  0001 C CNN
+F 3 "~" H 7850 2650 60  0000 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R87
+U 1 1 5682A886
+P 7850 1800
+F 0 "R87" V 7925 1808 50  0000 C CNN
+F 1 "3K6" V 7782 1812 50  0000 C CNN
+F 2 "complib:R_0603" H 7850 1800 60  0001 C CNN
+F 3 "~" H 7850 1800 60  0000 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R85
+U 1 1 5682A8A0
+P 6400 2200
+F 0 "R85" V 6475 2208 50  0000 C CNN
+F 1 "0R13 0.33W" V 6332 2212 50  0000 C CNN
+F 2 "complib:R_0805" H 6400 2200 60  0001 C CNN
+F 3 "~" H 6400 2200 60  0000 C CNN
+	1    6400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_SMALL R86
+U 1 1 5682A8B0
+P 6400 2400
+F 0 "R86" V 6475 2408 50  0000 C CNN
+F 1 "0R13 0.33W" V 6332 2412 50  0000 C CNN
+F 2 "complib:R_0805" H 6400 2400 60  0001 C CNN
+F 3 "~" H 6400 2400 60  0000 C CNN
+	1    6400 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_MINI L2
+U 1 1 56847F52
+P 3300 1100
+F 0 "L2" H 3225 1050 30  0000 C CNN
+F 1 "1uH" H 3300 1150 22  0000 C CNN
+F 2 "complib:C_1210" H 3300 1100 60  0001 C CNN
+F 3 "" H 3300 1100 60  0000 C CNN
+F 4 "2A" H 3300 1000 60  0000 C CNN "Rating"
+	1    3300 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_SMALL C6
+U 1 1 56848254
+P 3725 1400
+F 0 "C6" H 3750 1475 50  0000 L CNN
+F 1 "10u 35V" V 3675 1000 50  0000 L CNN
+F 2 "complib:C_1206" H 3725 1400 60  0001 C CNN
+F 3 "~" H 3725 1400 60  0000 C CNN
+	1    3725 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5450 3600 5450
+Connection ~ 5400 4800
+Wire Wire Line
+	5400 5000 5400 4800
+Connection ~ 9050 1500
+Wire Wire Line
+	9050 1500 9050 1600
+Wire Wire Line
+	6350 4450 6350 4050
+Wire Wire Line
+	6350 4050 5900 4050
+Wire Notes Line
+	6750 5800 4750 5800
+Wire Notes Line
+	6750 5800 6750 3650
+Wire Notes Line
+	4750 5800 4750 3650
+Wire Notes Line
+	4750 3650 6750 3650
+Wire Wire Line
+	10200 1500 10300 1500
+Wire Wire Line
+	9750 1000 9500 1000
+Connection ~ 9500 1500
+Wire Wire Line
+	9500 1000 9500 1500
+Wire Wire Line
+	1750 5450 1750 5550
+Wire Notes Line
+	1100 3650 4600 3650
+Wire Notes Line
+	10650 650  1100 650 
+Wire Notes Line
+	10650 650  10650 3550
+Wire Notes Line
+	10650 3550 1100 3550
+Wire Notes Line
+	1100 3550 1100 650 
+Connection ~ 3600 4250
+Connection ~ 2500 5450
+Wire Wire Line
+	2500 4750 2500 5450
+Wire Notes Line
+	1100 3650 1100 5800
+Wire Wire Line
+	3600 4250 3600 4650
+Wire Notes Line
+	4600 3650 4600 5800
+Wire Wire Line
+	1550 4250 2100 4250
+Wire Notes Line
+	4600 5800 1100 5800
+Wire Wire Line
+	9050 2250 9050 2000
+Wire Wire Line
+	10300 2200 10300 1950
+Wire Wire Line
+	10300 1500 10300 1550
+Wire Wire Line
+	6350 5150 6350 5500
+Wire Wire Line
+	5300 4800 5450 4800
+Wire Wire Line
+	5400 5400 6350 5400
+Connection ~ 6350 5400
+Wire Wire Line
+	2900 4250 4100 4250
+Connection ~ 4000 4250
+Wire Wire Line
+	1675 1100 1850 1100
+Connection ~ 1800 1100
+Wire Wire Line
+	2250 1100 3200 1100
+Wire Wire Line
+	4900 1100 4900 1150
+Wire Wire Line
+	4200 1100 4200 1300
+Connection ~ 4200 1100
+Wire Wire Line
+	3050 1300 3050 1100
+Wire Wire Line
+	2800 1100 2800 1300
+Connection ~ 2800 1100
+Wire Wire Line
+	1650 3100 8650 3100
+Wire Wire Line
+	1900 3100 1900 3250
+Wire Wire Line
+	7850 3100 7850 2850
+Connection ~ 1900 3100
+Wire Wire Line
+	3350 2800 3350 3100
+Connection ~ 3350 3100
+Connection ~ 2800 3100
+Wire Wire Line
+	4200 1700 4300 1700
+Wire Wire Line
+	3350 2200 3350 2000
+Wire Wire Line
+	3350 2000 4300 2000
+Wire Wire Line
+	4300 2200 3900 2200
+Wire Wire Line
+	3900 2200 3900 2450
+Wire Wire Line
+	3900 2650 3900 3100
+Connection ~ 3900 3100
+Wire Wire Line
+	4650 2850 4650 3100
+Connection ~ 4650 3100
+Wire Wire Line
+	4750 2850 4750 3100
+Connection ~ 4750 3100
+Wire Wire Line
+	4950 2850 5450 2850
+Connection ~ 5050 2850
+Connection ~ 5150 2850
+Wire Wire Line
+	5250 2850 5250 3100
+Connection ~ 5250 3100
+Connection ~ 5250 2850
+Connection ~ 5350 2850
+Wire Wire Line
+	7600 2500 7600 2300
+Wire Wire Line
+	7600 2300 7850 2300
+Wire Wire Line
+	7850 2000 7850 2450
+Connection ~ 7850 2300
+Wire Wire Line
+	6150 2200 6150 3100
+Wire Wire Line
+	6700 2300 6650 2300
+Wire Wire Line
+	6700 1950 6700 2300
+Connection ~ 6650 2300
+Wire Wire Line
+	6700 2000 6000 2000
+Connection ~ 6700 2000
+Wire Wire Line
+	5400 1150 5400 1000
+Wire Wire Line
+	5400 1000 6150 1000
+Wire Wire Line
+	6150 1000 6150 1100
+Wire Wire Line
+	6000 1500 6800 1500
+Wire Wire Line
+	6150 1300 6150 1500
+Connection ~ 6150 1500
+Wire Wire Line
+	6700 1550 6700 1500
+Connection ~ 6700 1500
+Wire Wire Line
+	7250 1650 7250 1500
+Connection ~ 7250 1500
+Wire Wire Line
+	7500 1500 7500 1650
+Connection ~ 7500 1500
+Wire Wire Line
+	7850 1500 7850 1600
+Connection ~ 7850 1500
+Wire Notes Line
+	8850 5800 6850 5800
+Wire Notes Line
+	8850 5800 8850 3650
+Wire Notes Line
+	6850 5800 6850 3650
+Wire Notes Line
+	6850 3650 8850 3650
+Wire Wire Line
+	3600 5450 3600 4850
+Wire Wire Line
+	7350 4200 7350 4350
+Wire Wire Line
+	7900 4200 7900 4350
+Wire Wire Line
+	8350 4250 8350 4350
+Wire Wire Line
+	7350 5300 8350 5300
+Wire Wire Line
+	7650 5300 7650 5550
+Connection ~ 7650 5300
+Connection ~ 7900 5300
+Wire Wire Line
+	7350 4800 7350 4750
+Wire Wire Line
+	7900 4800 7900 4750
+Wire Wire Line
+	8350 4800 8350 4750
+Connection ~ 6150 3100
+Wire Wire Line
+	7250 1850 7250 3100
+Connection ~ 7250 3100
+Wire Wire Line
+	7500 3100 7500 1850
+Connection ~ 7500 3100
+Wire Wire Line
+	6000 2300 6150 2300
+Connection ~ 6150 2300
+Wire Wire Line
+	6150 2300 6150 2400
+Wire Wire Line
+	6650 2200 6650 2400
+Wire Wire Line
+	8350 5300 8350 5200
+Wire Wire Line
+	7900 5300 7900 5200
+Wire Wire Line
+	7350 5300 7350 5200
+Wire Wire Line
+	6150 2200 6200 2200
+Wire Wire Line
+	6600 2200 6650 2200
+Wire Wire Line
+	6650 2400 6600 2400
+Wire Wire Line
+	6150 2400 6200 2400
+Connection ~ 6150 2400
+Wire Wire Line
+	3050 1500 3050 1900
+Wire Wire Line
+	2800 1900 3950 1900
+Connection ~ 2800 1900
+Connection ~ 3050 1100
+Wire Wire Line
+	3725 1100 3725 1300
+Connection ~ 3725 1100
+Wire Wire Line
+	3725 1900 3725 1500
+Connection ~ 3050 1900
+Wire Wire Line
+	6000 2500 7600 2500
+Wire Wire Line
+	8350 1500 8350 1650
+Connection ~ 8350 1500
+Wire Wire Line
+	8350 3100 8350 1850
+Connection ~ 7850 3100
+$Comp
+L C_SMALL C7
+U 1 1 568486DB
+P 8650 1750
+F 0 "C7" H 8675 1825 50  0000 L CNN
+F 1 "10u 35V" V 8700 1350 50  0000 L CNN
+F 2 "complib:C_1206" H 8650 1750 60  0001 C CNN
+F 3 "~" H 8650 1750 60  0000 C CNN
+	1    8650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1500 8650 1650
+Connection ~ 8650 1500
+Wire Wire Line
+	8650 3100 8650 1850
+Connection ~ 8350 3100
+Wire Wire Line
+	7000 1500 8000 1500
+Wire Wire Line
+	8200 1500 9600 1500
+$Comp
+L L_MINI L3
+U 1 1 5684940F
+P 8100 1500
+F 0 "L3" H 8025 1450 30  0000 C CNN
+F 1 "220 ohm, 3 A" H 8100 1550 22  0000 C CNN
+F 2 "complib:R_0805" H 8100 1500 60  0001 C CNN
+F 3 "" H 8100 1500 60  0000 C CNN
+F 4 "MPZ2012S221A" H 8100 1400 60  0000 C CNN "Rating"
+	1    8100 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 1500 2800 3100
+$Comp
+L R_SMALL R15
+U 1 1 5684A68A
+P 2500 2000
+F 0 "R15" V 2575 2008 50  0000 C CNN
+F 1 "47K 1%" V 2400 1900 50  0000 C CNN
+F 2 "complib:R_0603" H 2500 2000 60  0001 C CNN
+F 3 "~" H 2500 2000 60  0000 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R16
+U 1 1 5684A690
+P 2500 2800
+F 0 "R16" V 2575 2808 50  0000 C CNN
+F 1 "4K7 1%" V 2432 2812 50  0000 C CNN
+F 2 "complib:R_0603" H 2500 2800 60  0001 C CNN
+F 3 "~" H 2500 2800 60  0000 C CNN
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 2450 0    60   Input ~ 0
+PWR_FAIL_DET1
+Wire Wire Line
+	2450 2450 2500 2450
+Wire Wire Line
+	2500 2200 2500 2600
+Connection ~ 2500 2450
+Wire Wire Line
+	2500 3000 2500 3100
+Connection ~ 2500 3100
+Wire Wire Line
+	2500 1800 2500 1100
+Connection ~ 2500 1100
+$Comp
+L C_POL C12
+U 1 1 5693ADFC
+P 3500 1450
+F 0 "C12" H 3525 1525 50  0000 L CNN
+F 1 "100u 35V" V 3400 1300 50  0000 L CNN
+F 2 "complib:C_ELEC_6.3x7.7" H 3500 1450 60  0001 C CNN
+F 3 "" H 3500 1450 60  0000 C CNN
+	1    3500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R80
+U 1 1 56945575
+P 1650 1550
+F 0 "R80" V 1725 1558 50  0000 C CNN
+F 1 "47K  1%" V 1582 1562 50  0000 C CNN
+F 2 "complib:R_0603" H 1650 1550 60  0001 C CNN
+F 3 "~" H 1650 1550 60  0000 C CNN
+	1    1650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R81
+U 1 1 5694557B
+P 1650 2150
+F 0 "R81" V 1725 2158 50  0000 C CNN
+F 1 "4K7 1%" V 1582 2162 50  0000 C CNN
+F 2 "complib:R_0603" H 1650 2150 60  0001 C CNN
+F 3 "~" H 1650 2150 60  0000 C CNN
+	1    1650 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 1850 2    60   Input ~ 0
+PWR_FAIL_DET2
+Wire Wire Line
+	1650 1750 1650 1950
+Connection ~ 1650 1850
+Wire Wire Line
+	1650 1350 1650 1250
+Wire Wire Line
+	1650 1250 1800 1250
+Wire Wire Line
+	1800 1250 1800 1100
+Wire Wire Line
+	1650 2350 1650 3100
+Wire Wire Line
+	1700 1850 1650 1850
+$Comp
+L C_SMALL C81
+U 1 1 56A121C4
+P 8050 1800
+F 0 "C81" H 8075 1875 50  0000 L CNN
+F 1 "0u01" H 8050 1725 50  0000 L CNN
+F 2 "complib:C_0603" H 8050 1800 60  0001 C CNN
+F 3 "~" H 8050 1800 60  0000 C CNN
+	1    8050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1700 8050 1600
+Wire Wire Line
+	8050 1600 7850 1600
+Wire Wire Line
+	7850 2000 8050 2000
+Wire Wire Line
+	8050 2000 8050 1900
+$Comp
+L C_SMALL C80
+U 1 1 56A12338
+P 2150 2800
+F 0 "C80" H 2175 2875 50  0000 L CNN
+F 1 "0u01" H 2150 2725 50  0000 L CNN
+F 2 "complib:C_0603" H 2150 2800 60  0001 C CNN
+F 3 "~" H 2150 2800 60  0000 C CNN
+	1    2150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2600 2150 2600
+Wire Wire Line
+	2150 2600 2150 2700
+Wire Wire Line
+	2150 2900 2150 3000
+Wire Wire Line
+	2150 3000 2500 3000
+$Comp
+L C_SMALL C79
+U 1 1 56A124BD
+P 1850 2150
+F 0 "C79" H 1875 2225 50  0000 L CNN
+F 1 "0u01" H 1850 2075 50  0000 L CNN
+F 2 "complib:C_0603" H 1850 2150 60  0001 C CNN
+F 3 "~" H 1850 2150 60  0000 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1950 1850 1950
+Wire Wire Line
+	1850 1950 1850 2050
+Wire Wire Line
+	1650 2350 1850 2350
+Wire Wire Line
+	1850 2350 1850 2250
+$Comp
+L R_SMALL R14
+U 1 1 589CABED
+P 5650 4800
+F 0 "R14" V 5725 4808 50  0000 C CNN
+F 1 "1K" V 5582 4812 50  0000 C CNN
+F 2 "complib:R_0603" H 5650 4800 60  0001 C CNN
+F 3 "~" H 5650 4800 60  0000 C CNN
+	1    5650 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 4800 5850 4800
+Wire Wire Line
+	3500 1550 3500 1900
+Connection ~ 3500 1900
+Wire Wire Line
+	3500 1350 3500 1100
+Connection ~ 3500 1100
+$Comp
+L AP7361C-33E-13 U2
+U 1 1 5ADF4805
+P 2500 4400
+F 0 "U2" H 2500 4700 60  0000 C CNN
+F 1 "AP7361C-33E-13" H 2550 4150 60  0000 L CNN
+F 2 "complib:SOT-223" H 2500 4400 60  0001 C CNN
+F 3 "" H 2500 4400 60  0000 C CNN
+	1    2500 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4750 2400 4900
+Wire Wire Line
+	2400 4900 2500 4900
+Connection ~ 2500 4900
+$Comp
+L C_SMALL C125
+U 1 1 5ADF5467
+P 3950 1400
+F 0 "C125" H 3975 1475 50  0000 L CNN
+F 1 "0u1 35V" V 3900 1000 50  0000 L CNN
+F 2 "complib:C_0603" H 3950 1400 60  0001 C CNN
+F 3 "~" H 3950 1400 60  0000 C CNN
+	1    3950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1900 3950 1500
+Connection ~ 3725 1900
+Wire Wire Line
+	3950 1100 3950 1300
+Connection ~ 3950 1100
+Wire Wire Line
+	3400 1100 4350 1100
+$Comp
+L R_SMALL R92
+U 1 1 5ADF5F9D
+P 4550 900
+F 0 "R92" V 4625 908 50  0000 C CNN
+F 1 "3R3 0.33W" V 4482 912 50  0000 C CNN
+F 2 "complib:R_0805" H 4550 900 60  0001 C CNN
+F 3 "~" H 4550 900 60  0000 C CNN
+	1    4550 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L L_MINI L4
+U 1 1 5ADF6065
+P 4550 1175
+F 0 "L4" H 4475 1125 30  0000 C CNN
+F 1 "MFB-201209-0011PW " H 4550 1225 22  0000 C CNN
+F 2 "complib:R_0805" H 4550 1175 60  0001 C CNN
+F 3 "" H 4550 1175 60  0000 C CNN
+	1    4550 1175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 900  4350 1175
+Wire Wire Line
+	4350 1175 4450 1175
+Connection ~ 4350 1100
+Wire Wire Line
+	4800 1175 4650 1175
+Wire Wire Line
+	4800 900  4800 1175
+Wire Wire Line
+	4800 900  4750 900 
+Wire Wire Line
+	4900 1100 4800 1100
+Connection ~ 4800 1100
+$Comp
+L C_POL C99
+U 1 1 5ADF7799
+P 8350 1750
+F 0 "C99" H 8375 1825 50  0000 L CNN
+F 1 "220u 25V" V 8400 1275 50  0000 L CNN
+F 2 "complib:C_ELEC_6.3x7.7" H 8350 1750 60  0001 C CNN
+F 3 "" H 8350 1750 60  0000 C CNN
+	1    8350 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 1300 4950 0    60   ~ 0
+U2 is close enough to\nC7 that a seperate\ndecoupling cap\nis not required
+$EndSCHEMATC

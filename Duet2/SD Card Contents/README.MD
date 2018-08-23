@@ -1,4 +1,4 @@
-This is the SD card contents distributed with Duet Generation 2 (Duet Wifi and Duet Ethernet) boards as at August 2017
+This is the SD card contents distributed with Duet Generation 2 (Duet Wifi and Duet Ethernet) boards as at August 2018
 
 The SD card contents are only a starting point and the files in the /sys directory should be updated to match a specific printer configuration. A good start point for this is the RepRapFirmware configurator:
 

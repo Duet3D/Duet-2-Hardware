@@ -1,11 +1,19 @@
-DUET WIFI LICENSE
-The Duet WIFI is licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
+DUET 2 WIFI and DUET 2 ETHERNET LICENSE
+The Duet WIFI/ DUET 2 WIFI and DUET ETHERNET are licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
 a. Attribution:
-  Any reproductions or modifications of the DuetWifi hardware must contain the following attribution on the silkscreen or packaging:
+  Any reproductions or modifications of the hardware must contain the following attribution on the silkscreen and packaging:
   "Based on the DuetWifi by Think3dPrint3d and Esher3d, see www.duet3d.com for the original DuetWifi information. This reproduction/modification is not endorsed or supported in any way by Think3dPrint3d or Escher3d".
 b. Logos:
-  No reproduction or modification of the DuetWifi hardware may contain the Think3dPrint3d, Escher3d or Duet3d logos.
+  No reproduction or modification of the Duet 2 Wifi or Ethernet hardware may contain the Think3dPrint3d, Escher3d or Duet3d logos.
 
+ DUET 2 MAESTRO LICENSE
+The Duet 2 Maestro is licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
+a. Attribution:
+  Any reproductions or modifications of the Duet 2 Maestro hardware must contain the following attribution on the silkscreen or packaging:
+  "Based on the Duet 2 Maestro by Think3dPrint3d and Esher3d, see www.duet3d.com for the original Duet 2 Maestro information. This reproduction/modification is not endorsed or supported in any way by Think3dPrint3d or Escher3d".
+b. Logos:
+  No reproduction or modification of the Duet 2 Maestro hardware may contain the Think3dPrint3d, Escher3d or Duet3d logos.
+  
 
 DUET 0.6 AND DUET 0.8.5 LICENSE
 The Duet 0.6 and 0.8.5 are licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text)

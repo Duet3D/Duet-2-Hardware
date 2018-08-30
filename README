@@ -5,7 +5,7 @@ The latest Duet hardware is the DuetWifi, see https://www.duet3d.com/ for more i
 The recommended firmware is DC42's branch of the RepRapFirmware:
 https://github.com/dc42/RepRapFirmware
 
-DuetWifi
+Duet 2 Wifi and Duet 2 Ethernet
 Design by Tony Lock and David Crocker
 More info:
 https://www.duet3d.com/

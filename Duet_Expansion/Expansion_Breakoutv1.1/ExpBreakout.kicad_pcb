@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 91)
     (no_connects 1)
-    (area -87.662361 0.742339 168.899841 159.938721)
+    (area -87.662361 0.742339 141.57686 133.993427)
     (thickness 1.6002)
     (drawings 26)
     (tracks 509)
@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (title "Duet WIFI")
+    (title "Expansion Breakout")
     (date 2016-09-29)
     (rev 1.1)
     (company "Escher3D, Think3DPrint3D")

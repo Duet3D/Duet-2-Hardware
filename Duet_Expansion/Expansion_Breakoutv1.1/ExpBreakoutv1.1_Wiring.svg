@@ -14,8 +14,8 @@
    height="13.749cm"
    viewBox="0 0 95210 54130 "
    id="svg2"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="ExpBreakoutv1.0_Wiring.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="ExpBreakoutv1.1_Wiring.svg"
    inkscape:export-filename="D:\00 - 3DPrinter\git\Duet\Duet_Expansion\Expansion_Breakoutv1.0\ExpBreakoutv1.0_wiring.png"
    inkscape:export-xdpi="242.56511"
    inkscape:export-ydpi="242.56511">
@@ -74,14 +74,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-height="1017"
      id="namedview1570"
      showgrid="false"
-     inkscape:zoom="2.2379497"
-     inkscape:cx="688.83711"
-     inkscape:cy="96.904328"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="1.5824694"
+     inkscape:cx="739.34001"
+     inkscape:cy="58.45472"
+     inkscape:window-x="-8"
+     inkscape:window-y="419"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <title
@@ -95,7 +95,9 @@
      height="24062.104"
      x="-96537.602"
      y="-53433.293"
-     transform="scale(-1,-1)" />
+     transform="scale(-1,-1)"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689" />
   <g
      style="fill:#000000; fill-opacity:1;stroke:#000000; stroke-opacity:1; stroke-linecap:round; stroke-linejoin:round; "
      transform="translate(0 0) scale(1 1)"
@@ -108,7 +110,9 @@
      id="g12" />
   <g
      style="fill:#840084; fill-opacity:0.0;  stroke:#840084; stroke-width:55.1181; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g14">
+     id="g14"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M85893 51179 L85539 51179 L85539 51095 L85556 51044 L85589 51010 L85623 50994 L85691 50977 L85741 50977 L85809 50994 L85842 51010 L85876 51044 L85893 51095 L85893 51179 "
        id="path16" />
@@ -163,7 +167,9 @@
      id="g48" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g50">
+     id="g50"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="69890,47303 69454,47303 69454,46513 69890,46513 69890,47303 "
@@ -339,7 +345,9 @@
      id="g136" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g138">
+     id="g138"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="87760.8"
        cy="46845.5"
@@ -351,7 +359,9 @@
      id="g142" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g144">
+     id="g144"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="56271,47343 55471,47343 55471,46543 56271,46543 56271,47343 "
@@ -367,7 +377,9 @@
      id="g150" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g152">
+     id="g152"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="55871"
        cy="44944"
@@ -379,7 +391,9 @@
      id="g156" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g158">
+     id="g158"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="84496,41675 85296,41675 85296,42475 84496,42475 84496,41675 "
@@ -395,7 +409,9 @@
      id="g164" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g166">
+     id="g166"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="84896.6"
        cy="44075.9"
@@ -407,7 +423,9 @@
      id="g170" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g172">
+     id="g172"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="84896.6"
        cy="45075.9"
@@ -419,7 +437,9 @@
      id="g176" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g178">
+     id="g178"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="84896.6"
        cy="46075.9"
@@ -431,7 +451,9 @@
      id="g182" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g184">
+     id="g184"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="84896.6"
        cy="47075.9"
@@ -443,7 +465,9 @@
      id="g188" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g190">
+     id="g190"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="77191,42387 77191,41587 77991,41587 77991,42387 77191,42387 "
@@ -459,7 +483,9 @@
      id="g196" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g198">
+     id="g198"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="79591.5"
        cy="41987.3"
@@ -471,7 +497,9 @@
      id="g202" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g204">
+     id="g204"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="80591.5"
        cy="41987.3"
@@ -483,7 +511,9 @@
      id="g208" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g210">
+     id="g210"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="81591.5"
        cy="41987.3"
@@ -495,7 +525,9 @@
      id="g214" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g216">
+     id="g216"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="82591.5"
        cy="41987.3"
@@ -507,7 +539,9 @@
      id="g220" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g222">
+     id="g222"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="70600,42387 70600,41587 71400,41587 71400,42387 70600,42387 "
@@ -523,7 +557,9 @@
      id="g228" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g230">
+     id="g230"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="73000.9"
        cy="41987.3"
@@ -535,7 +571,9 @@
      id="g234" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g236">
+     id="g236"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="74000.9"
        cy="41987.3"
@@ -547,7 +585,9 @@
      id="g240" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g242">
+     id="g242"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="75000.9"
        cy="41987.3"
@@ -559,7 +599,9 @@
      id="g246" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g248">
+     id="g248"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="76000.9"
        cy="41987.3"
@@ -571,7 +613,9 @@
      id="g252" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g254">
+     id="g254"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="64010,42387 64010,41587 64810,41587 64810,42387 64010,42387 "
@@ -587,7 +631,9 @@
      id="g260" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g262">
+     id="g262"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="66410.4"
        cy="41987.3"
@@ -599,7 +645,9 @@
      id="g266" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g268">
+     id="g268"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="67410.4"
        cy="41987.3"
@@ -611,7 +659,9 @@
      id="g272" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g274">
+     id="g274"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="68410.4"
        cy="41987.3"
@@ -623,7 +673,9 @@
      id="g278" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g280">
+     id="g280"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="69410.4"
        cy="41987.3"
@@ -635,7 +687,9 @@
      id="g284" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g286">
+     id="g286"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="57419,42387 57419,41587 58219,41587 58219,42387 57419,42387 "
@@ -651,7 +705,9 @@
      id="g292" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g294">
+     id="g294"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="59819.8"
        cy="41987.3"
@@ -663,7 +719,9 @@
      id="g298" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g300">
+     id="g300"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="60819.8"
        cy="41987.3"
@@ -675,7 +733,9 @@
      id="g304" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g306">
+     id="g306"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="61819.8"
        cy="41987.3"
@@ -687,7 +747,9 @@
      id="g310" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g312">
+     id="g312"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="62819.8"
        cy="41987.3"
@@ -699,7 +761,9 @@
      id="g316" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g318">
+     id="g318"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="58799,50753 58799,49953 59599,49953 59599,50753 58799,50753 "
@@ -715,7 +779,9 @@
      id="g324" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g326">
+     id="g326"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="64199.7"
        cy="50353.4"
@@ -727,7 +793,9 @@
      id="g330" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g332">
+     id="g332"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="60199.7"
        cy="49353.4"
@@ -739,7 +807,9 @@
      id="g336" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g338">
+     id="g338"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="65199.7"
        cy="50353.4"
@@ -751,7 +821,9 @@
      id="g342" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g344">
+     id="g344"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="61199.7"
        cy="49353.4"
@@ -763,7 +835,9 @@
      id="g348" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g350">
+     id="g350"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="66199.7"
        cy="50353.4"
@@ -775,7 +849,9 @@
      id="g354" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g356">
+     id="g356"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="62199.7"
        cy="49353.4"
@@ -787,7 +863,9 @@
      id="g360" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g362">
+     id="g362"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="67199.7"
        cy="50353.4"
@@ -799,7 +877,9 @@
      id="g366" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g368">
+     id="g368"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="63199.7"
        cy="49353.4"
@@ -811,7 +891,9 @@
      id="g372" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g374">
+     id="g374"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="68199.7"
        cy="50353.4"
@@ -823,7 +905,9 @@
      id="g378" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g380">
+     id="g380"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="64199.7"
        cy="49353.4"
@@ -835,7 +919,9 @@
      id="g384" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g386">
+     id="g386"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="69199.7"
        cy="50353.4"
@@ -847,7 +933,9 @@
      id="g390" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g392">
+     id="g392"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="65199.7"
        cy="49353.4"
@@ -859,7 +947,9 @@
      id="g396" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g398">
+     id="g398"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="70199.7"
        cy="50353.4"
@@ -871,7 +961,9 @@
      id="g402" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g404">
+     id="g404"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="66199.7"
        cy="49353.4"
@@ -883,7 +975,9 @@
      id="g408" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g410">
+     id="g410"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="71199.7"
        cy="50353.4"
@@ -895,7 +989,9 @@
      id="g414" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g416">
+     id="g416"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="67199.7"
        cy="49353.4"
@@ -907,7 +1003,9 @@
      id="g420" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g422">
+     id="g422"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="72199.7"
        cy="50353.4"
@@ -919,7 +1017,9 @@
      id="g426" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g428">
+     id="g428"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="68199.7"
        cy="49353.4"
@@ -931,7 +1031,9 @@
      id="g432" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g434">
+     id="g434"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="73199.7"
        cy="50353.4"
@@ -943,7 +1045,9 @@
      id="g438" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g440">
+     id="g440"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="69199.7"
        cy="49353.4"
@@ -955,7 +1059,9 @@
      id="g444" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g446">
+     id="g446"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="74199.7"
        cy="50353.4"
@@ -967,7 +1073,9 @@
      id="g450" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g452">
+     id="g452"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="70199.7"
        cy="49353.4"
@@ -979,7 +1087,9 @@
      id="g456" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g458">
+     id="g458"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="71199.7"
        cy="49353.4"
@@ -991,7 +1101,9 @@
      id="g462" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g464">
+     id="g464"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="75199.7"
        cy="50353.4"
@@ -1003,7 +1115,9 @@
      id="g468" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g470">
+     id="g470"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="72199.7"
        cy="49353.4"
@@ -1015,7 +1129,9 @@
      id="g474" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g476">
+     id="g476"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="74199.7"
        cy="49353.4"
@@ -1027,7 +1143,9 @@
      id="g480" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g482">
+     id="g482"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="75199.7"
        cy="49353.4"
@@ -1039,7 +1157,9 @@
      id="g486" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g488">
+     id="g488"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="76199.7"
        cy="49353.4"
@@ -1051,7 +1171,9 @@
      id="g492" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g494">
+     id="g494"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="77199.7"
        cy="49353.4"
@@ -1063,7 +1185,9 @@
      id="g498" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g500">
+     id="g500"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="76199.7"
        cy="50353.4"
@@ -1075,7 +1199,9 @@
      id="g504" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g506">
+     id="g506"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="77199.7"
        cy="50353.4"
@@ -1087,7 +1213,9 @@
      id="g510" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g512">
+     id="g512"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="60199.7"
        cy="50353.4"
@@ -1099,7 +1227,9 @@
      id="g516" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g518">
+     id="g518"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="61199.7"
        cy="50353.4"
@@ -1111,7 +1241,9 @@
      id="g522" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g524">
+     id="g524"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="62199.7"
        cy="50353.4"
@@ -1123,7 +1255,9 @@
      id="g528" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g530">
+     id="g530"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="63199.7"
        cy="50353.4"
@@ -1135,7 +1269,9 @@
      id="g534" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g536">
+     id="g536"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="78199.7"
        cy="50353.4"
@@ -1147,7 +1283,9 @@
      id="g540" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g542">
+     id="g542"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="78199.7"
        cy="49353.4"
@@ -1159,7 +1297,9 @@
      id="g546" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g548">
+     id="g548"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="73199.7"
        cy="49353.4"
@@ -1171,7 +1311,9 @@
      id="g552" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g554">
+     id="g554"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="79199.7"
        cy="50353.4"
@@ -1183,7 +1325,9 @@
      id="g558" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g560">
+     id="g560"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="79199.7"
        cy="49353.4"
@@ -1195,7 +1339,9 @@
      id="g564" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g566">
+     id="g566"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="80199.7"
        cy="50353.4"
@@ -1207,7 +1353,9 @@
      id="g570" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g572">
+     id="g572"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="80199.7"
        cy="49353.4"
@@ -1219,7 +1367,9 @@
      id="g576" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g578">
+     id="g578"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="81199.7"
        cy="50353.4"
@@ -1231,7 +1381,9 @@
      id="g582" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g584">
+     id="g584"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="81199.7"
        cy="49353.4"
@@ -1243,7 +1395,9 @@
      id="g588" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g590">
+     id="g590"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="82199.7"
        cy="50353.4"
@@ -1255,7 +1409,9 @@
      id="g594" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g596">
+     id="g596"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="82199.7"
        cy="49353.4"
@@ -1267,7 +1423,9 @@
      id="g600" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g602">
+     id="g602"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="83199.7"
        cy="50353.4"
@@ -1279,7 +1437,9 @@
      id="g606" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g608">
+     id="g608"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="83199.7"
        cy="49353.4"
@@ -1291,7 +1451,9 @@
      id="g612" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g614">
+     id="g614"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="55785.8"
        cy="50089.6"
@@ -1303,7 +1465,9 @@
      id="g618" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g620">
+     id="g620"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="55785.8"
        cy="42215.6"
@@ -1315,7 +1479,9 @@
      id="g624" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g626">
+     id="g626"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="87642.7"
        cy="50089.6"
@@ -1327,7 +1493,9 @@
      id="g630" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g632">
+     id="g632"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="87642.7"
        cy="42215.6"
@@ -1339,7 +1507,9 @@
      id="g636" />
   <g
      style="fill:#840000; fill-opacity:1.0;  stroke:#840000; stroke-width:0; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g638">
+     id="g638"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <polyline
        style="fill-rule:evenodd;"
        points="75500,47303 75064,47303 75064,46513 75500,46513 75500,47303 "
@@ -1544,7 +1714,9 @@
      id="g740" />
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g742">
+     id="g742"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M71093 43865 L71109 43825 L71109 43760 L71093 43733 L71077 43720 L71045 43707 L71013 43707 L70981 43720 L70965 43733 L70949 43760 L70933 43812 L70917 43838 L70901 43852 L70869 43865 L70838 43865 L70806 43852 L70790 43838 L70774 43812 L70774 43747 L70790 43707 "
        id="path744" />
@@ -1808,7 +1980,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59.0551; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g916">
+     id="g916"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M69424 46662 L69434 46662 "
        id="path918" />
@@ -1833,7 +2007,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g932">
+     id="g932"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M79948 45428 L79628 45428 "
        id="path934" />
@@ -1927,7 +2103,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:50; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g994">
+     id="g994"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="80416.3"
        cy="46445.5"
@@ -1948,7 +2126,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1006">
+     id="g1006"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M88980 44254 L88980 47436 "
        id="path1008" />
@@ -1964,7 +2144,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:60; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1016">
+     id="g1016"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M87260 44345 L88260 44345 "
        id="path1018" />
@@ -1983,7 +2165,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1028">
+     id="g1028"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M54651 47534 L54651 44352 "
        id="path1030" />
@@ -1999,7 +2183,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:60; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1038">
+     id="g1038"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M56371 47443 L55371 47443 "
        id="path1040" />
@@ -2018,7 +2204,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1050">
+     id="g1050"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M86116 41484 L86116 47666 "
        id="path1052" />
@@ -2034,7 +2222,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:100; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1060">
+     id="g1060"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M84396 47575 L84396 41575 "
        id="path1062" />
@@ -2050,7 +2240,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1070">
+     id="g1070"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M77000 40767 L83182 40767 "
        id="path1072" />
@@ -2066,7 +2258,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:100; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1080">
+     id="g1080"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M83091 42487 L77091 42487 "
        id="path1082" />
@@ -2082,7 +2276,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1090">
+     id="g1090"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M70409 40767 L76591 40767 "
        id="path1092" />
@@ -2098,7 +2294,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:100; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1100">
+     id="g1100"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M76500 42487 L70500 42487 "
        id="path1102" />
@@ -2114,7 +2312,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1110">
+     id="g1110"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M63819 40767 L70001 40767 "
        id="path1112" />
@@ -2130,7 +2330,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:100; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1120">
+     id="g1120"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M69910 42487 L63910 42487 "
        id="path1122" />
@@ -2146,7 +2348,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1130">
+     id="g1130"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M57228 40767 L63410 40767 "
        id="path1132" />
@@ -2162,7 +2366,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:100; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1140">
+     id="g1140"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M63319 42487 L57319 42487 "
        id="path1142" />
@@ -2178,7 +2384,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:78.7402; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1150">
+     id="g1150"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M72085 51428 L72085 51625 "
        id="path1152" />
@@ -2191,7 +2399,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1158">
+     id="g1158"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M57183 51644 L57183 48062 "
        id="path1160" />
@@ -2207,7 +2417,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:150; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1168">
+     id="g1168"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M58699 50853 L58699 48853 "
        id="path1170" />
@@ -2223,7 +2435,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:50; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1178">
+     id="g1178"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="55785.8"
        cy="50089.6"
@@ -2247,7 +2461,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1188">
+     id="g1188"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="75300.1"
        cy="46357.3"
@@ -2256,7 +2472,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59.0551; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1192">
+     id="g1192"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M75034 46662 L75044 46662 "
        id="path1194" />
@@ -2281,7 +2499,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1208">
+     id="g1208"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="58863.1"
        cy="46357.3"
@@ -2290,7 +2510,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59.0551; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1212">
+     id="g1212"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M58597 46662 L58607 46662 "
        id="path1214" />
@@ -2315,7 +2537,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1228">
+     id="g1228"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <circle
        cx="64276.5"
        cy="46357.3"
@@ -2324,7 +2548,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59.0551; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1232">
+     id="g1232"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M64010 46662 L64020 46662 "
        id="path1234" />
@@ -2355,7 +2581,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:35.4331; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1252">
+     id="g1252"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M79882 44890 L79891 44899 L79901 44927 L79901 44946 L79891 44974 L79872 44993 L79854 45002 L79816 45012 L79788 45012 L79751 45002 L79732 44993 L79713 44974 L79704 44946 L79704 44927 L79713 44899 L79722 44890 "
        id="path1254" />
@@ -2395,7 +2623,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1278">
+     id="g1278"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M82253 45933 L82412 45933 L82431 45923 L82440 45914 L82450 45895 L82450 45858 L82440 45839 L82431 45830 L82412 45820 L82253 45820 "
        id="path1280" />
@@ -2405,7 +2635,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1284">
+     id="g1284"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M86898 48033 L86898 47757 "
        id="path1286" />
@@ -2457,7 +2689,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:80; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1318">
+     id="g1318"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M84693 41139 L84826 41139 "
        id="path1320" />
@@ -2509,7 +2743,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:48; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1352">
+     id="g1352"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M57923 51087 L57923 50982 "
        id="path1354" />
@@ -2549,7 +2785,9 @@
   </g>
   <g
      style="fill:#008484; fill-opacity:0.0;  stroke:#008484; stroke-width:59.0551; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1378">
+     id="g1378"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M75167 46106 L75485 46106 L75523 46087 L75542 46068 L75560 46031 L75560 45956 L75542 45918 L75523 45899 L75485 45881 L75167 45881 "
        id="path1380" />
@@ -2589,7 +2827,9 @@
      id="g1558" />
   <g
      style="fill:#C2C200; fill-opacity:0.0;  stroke:#C2C200; stroke-width:150; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
-     id="g1560">
+     id="g1560"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <path
        d="M89138 51664 L54296 51664 "
        id="path1562" />
@@ -2605,32 +2845,34 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-size:1333.33544922px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
      x="57195.301"
      y="30695.816"
      id="text3768"
-     sodipodi:linespacing="125%"
-     inkscape:export-xdpi="402.10608"
-     inkscape:export-ydpi="402.10608"><tspan
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689"><tspan
        sodipodi:role="line"
        id="tspan3770"
        x="57195.301"
-       y="30695.816">Wiring: Duet Expansion Breakout Board v1.0</tspan></text>
+       y="30695.816"
+       style="font-size:1333.33544922px;line-height:1.25;font-family:sans-serif">Wiring: Duet Expansion Breakout Board v1.1</tspan></text>
   <text
-     inkscape:export-ydpi="402.10608"
-     inkscape:export-xdpi="402.10608"
-     sodipodi:linespacing="125%"
+     inkscape:export-ydpi="151.10689"
+     inkscape:export-xdpi="151.10689"
      id="text5507"
      y="52863.863"
      x="59471.227"
-     style="font-size:1111.11291504px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
        y="52863.863"
        x="59471.227"
        sodipodi:role="line"
-       id="tspan5511">Duet Wifi/ Duet Ethernet expansion header</tspan></text>
+       id="tspan5511"
+       style="font-size:1111.11291504px;line-height:1.25;font-family:sans-serif">Duet Wifi/ Duet Ethernet expansion header</tspan></text>
   <g
-     id="g6395">
+     id="g6395"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <rect
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
@@ -2714,72 +2956,69 @@
        id="rect6674"
        style="opacity:0.98000003999999996;fill:none;stroke:#ff0000;stroke-width:111.11129124;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:333.33387372,111.11129124;stroke-dashoffset:0;display:inline" />
     <text
-       transform="matrix(0,-1,1,0,0,0)"
+       transform="rotate(-90)"
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       sodipodi:linespacing="145%"
        id="text11876"
        y="58221.074"
        x="-38886.336"
-       style="font-size:653.73468018000017000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:145%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         style="text-align:start;line-height:145%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan11884"
          y="58221.074"
          x="-38886.336"
          sodipodi:role="line">Step +</tspan><tspan
          id="tspan5617"
-         style="text-align:start;line-height:145%;text-anchor:start"
-         y="59162.453"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
+         y="59168.988"
          x="-38886.336"
          sodipodi:role="line">Step -</tspan><tspan
          id="tspan5619"
-         style="text-align:start;line-height:145%;text-anchor:start"
-         y="60103.832"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
+         y="60116.906"
          x="-38886.336"
          sodipodi:role="line">Dir +</tspan><tspan
          id="tspan5621"
-         style="text-align:start;line-height:145%;text-anchor:start"
-         y="61045.207"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
+         y="61064.82"
          x="-38886.336"
          sodipodi:role="line">Dir -</tspan><tspan
          id="tspan5623"
-         style="text-align:start;line-height:145%;text-anchor:start"
-         y="61986.586"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
+         y="62012.734"
          x="-38886.336"
          sodipodi:role="line">Enable +</tspan><tspan
          id="tspan5625"
-         style="text-align:start;line-height:145%;text-anchor:start"
-         y="62927.965"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
+         y="62960.652"
          x="-38886.336"
          sodipodi:role="line">Enable-</tspan></text>
     <text
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       sodipodi:linespacing="125%"
        id="text11894"
        y="35649.602"
        x="58560.613"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="35649.602"
          x="58560.613"
          id="tspan11896"
          sodipodi:role="line"
-         style="font-weight:bold">E2 MOTOR</tspan></text>
+         style="font-weight:bold;font-size:653.73468018px;line-height:1.25;font-family:sans-serif">E2 MOTOR</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text5117"
        y="34614.656"
        x="58688.008"
-       style="font-size:840.51605225px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"><tspan
-         style="font-size:840.51605225px;font-weight:bold;fill:#0000ff"
+         style="font-weight:bold;font-size:840.51605225px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
          y="34614.656"
          x="58688.008"
          id="tspan5119"
@@ -2787,7 +3026,9 @@
   </g>
   <g
      id="g6415"
-     transform="translate(6670.317,-52.660398)">
+     transform="translate(6670.317,-52.660398)"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <rect
        transform="matrix(0,1,-1,0,0,0)"
        ry="162.24176"
@@ -2872,56 +3113,54 @@
        inkscape:export-ydpi="151.10689" />
     <text
        xml:space="preserve"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:145.00000477%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        x="-38886.336"
        y="58221.074"
        id="text6431"
-       sodipodi:linespacing="145%"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
+       transform="rotate(-90)"><tspan
          sodipodi:role="line"
          x="-38886.336"
          y="58221.074"
          id="tspan6433"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start">Step +</tspan><tspan
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start">Step +</tspan><tspan
          sodipodi:role="line"
          x="-38886.336"
          y="59168.988"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6435">Step -</tspan><tspan
          sodipodi:role="line"
          x="-38886.336"
          y="60116.906"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6437">Dir +</tspan><tspan
          sodipodi:role="line"
          x="-38886.336"
          y="61064.82"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6439">Dir -</tspan><tspan
          sodipodi:role="line"
          x="-38886.336"
          y="62012.734"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6441">Enable +</tspan><tspan
          sodipodi:role="line"
          x="-38886.336"
          y="62960.652"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6443">Enable-</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        x="58560.613"
        y="35649.602"
        id="text6445"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"><tspan
-         style="font-weight:bold"
+         style="font-weight:bold;font-size:653.73468018px;line-height:1.25;font-family:sans-serif"
          sodipodi:role="line"
          id="tspan6447"
          x="58560.613"
@@ -2931,20 +3170,21 @@
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        xml:space="preserve"
-       style="font-size:840.51605225px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
        x="58688.008"
        y="34614.656"
-       id="text6449"
-       sodipodi:linespacing="125%"><tspan
+       id="text6449"><tspan
          sodipodi:role="line"
          id="tspan6451"
          x="58688.008"
          y="34614.656"
-         style="font-size:840.51605225px;font-weight:bold;fill:#0000ff">Drive 6</tspan></text>
+         style="font-weight:bold;font-size:840.51605225px;line-height:1.25;font-family:sans-serif;fill:#0000ff">Drive 6</tspan></text>
   </g>
   <g
      transform="translate(13287.974,-87.76733)"
-     id="g6453">
+     id="g6453"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <rect
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
@@ -3028,43 +3268,42 @@
        id="rect6467"
        style="opacity:0.98000004;fill:none;stroke:#ff0000;stroke-width:111.11128998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:333.33387372, 111.11129124;stroke-dashoffset:0;display:inline" />
     <text
-       transform="matrix(0,-1,1,0,0,0)"
+       transform="rotate(-90)"
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       sodipodi:linespacing="145%"
        id="text6469"
        y="58221.074"
        x="-38886.336"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:145.00000477%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6471"
          y="58221.074"
          x="-38886.336"
          sodipodi:role="line">Step +</tspan><tspan
          id="tspan6473"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="59168.988"
          x="-38886.336"
          sodipodi:role="line">Step -</tspan><tspan
          id="tspan6475"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="60116.906"
          x="-38886.336"
          sodipodi:role="line">Dir +</tspan><tspan
          id="tspan6477"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="61064.82"
          x="-38886.336"
          sodipodi:role="line">Dir -</tspan><tspan
          id="tspan6479"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="62012.734"
          x="-38886.336"
          sodipodi:role="line">Enable +</tspan><tspan
          id="tspan6481"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="62960.652"
          x="-38886.336"
          sodipodi:role="line">Enable-</tspan></text>
@@ -3072,28 +3311,26 @@
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       sodipodi:linespacing="125%"
        id="text6483"
        y="35649.602"
        x="58560.613"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="35649.602"
          x="58560.613"
          id="tspan6485"
          sodipodi:role="line"
-         style="font-weight:bold">E4 MOTOR</tspan></text>
+         style="font-weight:bold;font-size:653.73468018px;line-height:1.25;font-family:sans-serif">E4 MOTOR</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text6487"
        y="34614.656"
        x="58688.008"
-       style="font-size:840.51605225px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"><tspan
-         style="font-size:840.51605225px;font-weight:bold;fill:#0000ff"
+         style="font-weight:bold;font-size:840.51605225px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
          y="34614.656"
          x="58688.008"
          id="tspan6489"
@@ -3101,7 +3338,9 @@
   </g>
   <g
      transform="translate(19852.97,-87.76733)"
-     id="g6567">
+     id="g6567"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <rect
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
@@ -3185,43 +3424,42 @@
        id="rect6581"
        style="opacity:0.98000004;fill:none;stroke:#ff0000;stroke-width:111.11128998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:333.33387372, 111.11129124;stroke-dashoffset:0;display:inline" />
     <text
-       transform="matrix(0,-1,1,0,0,0)"
+       transform="rotate(-90)"
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       sodipodi:linespacing="145%"
        id="text6583"
        y="58221.074"
        x="-38886.336"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:145.00000477%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6585"
          y="58221.074"
          x="-38886.336"
          sodipodi:role="line">Step +</tspan><tspan
          id="tspan6587"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="59168.988"
          x="-38886.336"
          sodipodi:role="line">Step -</tspan><tspan
          id="tspan6589"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="60116.906"
          x="-38886.336"
          sodipodi:role="line">Dir +</tspan><tspan
          id="tspan6591"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="61064.82"
          x="-38886.336"
          sodipodi:role="line">Dir -</tspan><tspan
          id="tspan6593"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="62012.734"
          x="-38886.336"
          sodipodi:role="line">Enable +</tspan><tspan
          id="tspan6595"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          y="62960.652"
          x="-38886.336"
          sodipodi:role="line">Enable-</tspan></text>
@@ -3229,28 +3467,26 @@
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       sodipodi:linespacing="125%"
        id="text6597"
        y="35649.602"
        x="58560.613"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="35649.602"
          x="58560.613"
          id="tspan6599"
          sodipodi:role="line"
-         style="font-weight:bold">E5 MOTOR</tspan></text>
+         style="font-weight:bold;font-size:653.73468018px;line-height:1.25;font-family:sans-serif">E5 MOTOR</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text6601"
        y="34614.656"
        x="58688.008"
-       style="font-size:840.51605225px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"><tspan
-         style="font-size:840.51605225px;font-weight:bold;fill:#0000ff"
+         style="font-weight:bold;font-size:840.51605225px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
          y="34614.656"
          x="58688.008"
          id="tspan6603"
@@ -3258,7 +3494,9 @@
   </g>
   <g
      id="g6661"
-     transform="translate(-5808.8978,-3872.5985)">
+     transform="translate(-5808.8978,-3872.5985)"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689">
     <rect
        transform="scale(-1,-1)"
        ry="162.24176"
@@ -3344,11 +3582,10 @@
        inkscape:export-ydpi="151.10689" />
     <text
        xml:space="preserve"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:145.00000477%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        x="93904.695"
        y="38693.047"
        id="text6621"
-       sodipodi:linespacing="145%"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"><tspan
@@ -3356,64 +3593,62 @@
          x="93904.695"
          y="38693.047"
          id="tspan6623"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start">Step +</tspan><tspan
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start">Step +</tspan><tspan
          sodipodi:role="line"
          x="93904.695"
          y="39640.961"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6625">Step -</tspan><tspan
          sodipodi:role="line"
          x="93904.695"
          y="40588.879"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6627">Dir +</tspan><tspan
          sodipodi:role="line"
          x="93904.695"
          y="41536.793"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6629">Dir -</tspan><tspan
          sodipodi:role="line"
          x="93904.695"
          y="42484.707"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6631">Enable +</tspan><tspan
          sodipodi:role="line"
          x="93904.695"
          y="43432.625"
-         style="text-align:start;line-height:145.00000477%;text-anchor:start"
+         style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan6633">Enable-</tspan></text>
     <text
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        xml:space="preserve"
-       style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        x="39032.586"
        y="-97141.43"
        id="text6635"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689"><tspan
-         style="font-weight:bold"
+         style="font-weight:bold;font-size:653.73468018px;line-height:1.25;font-family:sans-serif"
          sodipodi:role="line"
          id="tspan6637"
          x="39032.586"
          y="-97141.43">E6 MOTOR</tspan></text>
     <text
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        xml:space="preserve"
-       style="font-size:840.51605225px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
        x="39159.98"
        y="-98176.375"
-       id="text6639"
-       sodipodi:linespacing="125%"><tspan
+       id="text6639"><tspan
          sodipodi:role="line"
          id="tspan6641"
          x="39159.98"
          y="-98176.375"
-         style="font-size:840.51605225px;font-weight:bold;fill:#0000ff">Drive 9</tspan></text>
+         style="font-weight:bold;font-size:840.51605225px;line-height:1.25;font-family:sans-serif;fill:#0000ff">Drive 9</tspan></text>
   </g>
   <rect
      inkscape:export-ydpi="151.10689"
@@ -3463,24 +3698,23 @@
      inkscape:export-ydpi="151.10689"
      inkscape:export-xdpi="151.10689"
      inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-     sodipodi:linespacing="145%"
      id="text6697"
      y="45250.367"
      x="52682.078"
-     style="font-size:653.73468018px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:145.00000477%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
-       style="text-align:end;line-height:145.00000477%;text-anchor:end"
+       style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:end;text-anchor:end"
        id="tspan6699"
        y="45250.367"
        x="52682.078"
        sodipodi:role="line">5V+</tspan><tspan
-       style="text-align:end;line-height:145.00000477%;text-anchor:end"
+       style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:end;text-anchor:end"
        y="46198.281"
        x="52682.078"
        sodipodi:role="line"
        id="tspan6737">GND</tspan><tspan
        id="tspan6709"
-       style="text-align:end;line-height:145.00000477%;text-anchor:end"
+       style="font-size:653.73468018px;line-height:145.00000477%;font-family:sans-serif;text-align:end;text-anchor:end"
        y="47146.199"
        x="52682.078"
        sodipodi:role="line">HEATER6 PWM</tspan></text>
@@ -3535,24 +3769,23 @@
      inkscape:export-ydpi="151.10689"
      inkscape:export-xdpi="151.10689"
      inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-     sodipodi:linespacing="145%"
      id="text6697-5"
      y="45127.949"
      x="90978.891"
-     style="font-size:653.73498535px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:145.00000477%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
-       style="text-align:start;line-height:145.00000477%;text-anchor:start"
+       style="font-size:653.73498535px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
        id="tspan6699-5"
        y="45127.949"
        x="90978.891"
        sodipodi:role="line">HEATER7 PWM</tspan><tspan
-       style="text-align:start;line-height:145.00000477%;text-anchor:start"
+       style="font-size:653.73498535px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
        y="46075.863"
        x="90978.891"
        sodipodi:role="line"
        id="tspan6737-1">GND</tspan><tspan
        id="tspan6709-7"
-       style="text-align:start;line-height:145.00000477%;text-anchor:start"
+       style="font-size:653.73498535px;line-height:145.00000477%;font-family:sans-serif;text-align:start;text-anchor:start"
        y="47023.781"
        x="90978.891"
        sodipodi:role="line">5V+</tspan></text>
@@ -3560,7 +3793,9 @@
      style="fill:none;stroke:#ff0000;stroke-width:111.11129124000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:333.33387371999999000, 111.11129124000000000;stroke-dashoffset:0"
      d="m 86468.373,36576.537 -2069.016,0 0,4744.102"
      id="path6808"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="151.10689"
+     inkscape:export-ydpi="151.10689" />
   <rect
      transform="matrix(0,1,-1,0,0,0)"
      style="opacity:0.98000003999999996;fill:none;stroke:#ff0000;stroke-width:111.11129124;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:333.33387372,111.11129124;stroke-dashoffset:0;display:inline"

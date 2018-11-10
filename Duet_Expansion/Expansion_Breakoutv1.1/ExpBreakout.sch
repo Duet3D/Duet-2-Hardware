@@ -33,9 +33,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Duet Wifi"
+Title "Expansion Breakout"
 Date "02 Jul 2016"
-Rev "1.0"
+Rev "1.1"
 Comp "Think3DPrint3D, Escher 3D"
 Comment1 "CERN OSH License 1.2"
 Comment2 "http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt"
@@ -920,7 +920,7 @@ Connection ~ 5790 8430
 NoConn ~ 6490 8180
 NoConn ~ 6490 8080
 $Comp
-L CONN_01X06 P1
+L Conn_01x06 P1
 U 1 1 5899A6E8
 P 9300 2000
 F 0 "P1" H 9300 2350 50  0000 C CNN
@@ -971,7 +971,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 1950 9100 1950
 $Comp
-L CONN_01X06 P2
+L Conn_01x06 P2
 U 1 1 5899C06D
 P 9300 3050
 F 0 "P2" H 9300 3400 50  0000 C CNN
@@ -1022,7 +1022,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 3000 9100 3000
 $Comp
-L CONN_01X06 P3
+L Conn_01x06 P3
 U 1 1 5899C0E8
 P 9300 4150
 F 0 "P3" H 9300 4500 50  0000 C CNN
@@ -1073,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 4100 9100 4100
 $Comp
-L CONN_01X06 P4
+L Conn_01x06 P4
 U 1 1 5899C163
 P 9300 5200
 F 0 "P4" H 9300 5550 50  0000 C CNN
@@ -1124,7 +1124,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 5150 9100 5150
 $Comp
-L CONN_01X06 P5
+L Conn_01x06 P5
 U 1 1 5899C3DB
 P 9300 6250
 F 0 "P5" H 9300 6600 50  0000 C CNN
@@ -1186,7 +1186,7 @@ F 3 "" H 6010 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P7
+L Conn_01x03 P7
 U 1 1 58C9053E
 P 9270 9220
 F 0 "P7" H 9270 9420 50  0000 C CNN
@@ -1197,7 +1197,7 @@ F 3 "" H 9270 9220 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P6
+L Conn_01x03 P6
 U 1 1 58C90747
 P 9260 8460
 F 0 "P6" H 9260 8660 50  0000 C CNN

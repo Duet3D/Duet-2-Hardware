@@ -1,4 +1,4 @@
-; Configuration file for factory testing Duet Ethernet and Wifi with V2.01 firmware
+; Configuration file for factory testing Duet Ethernet and Wifi with V2.02 firmware
 
 *******************************************************************************************************************
 FOR TESTING ONLY! USE https://configurator.reprapfirmware.org/ to generate configuration files for your printer!

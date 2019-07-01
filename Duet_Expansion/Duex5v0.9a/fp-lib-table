@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "FE Footprints")(type Legacy)(uri "$(KIPRJMOD)/FE Footprints.mod")(options "")(descr ""))
+)

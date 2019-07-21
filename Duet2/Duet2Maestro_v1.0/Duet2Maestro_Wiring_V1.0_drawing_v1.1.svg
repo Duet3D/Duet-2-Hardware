@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="Duet2Maestro_connections_V1.0_drawing_v1.0.svg"
+   sodipodi:docname="Duet2Maestro_Wiring_V1.0_drawing_v1.1.svg"
    inkscape:export-filename="G:\My Drive\Duet\Duet2Maestro\documentation\wiring diagrams and dimensions\Duet2Maestro_Wiring_Diagram.png"
    inkscape:export-xdpi="127.48436"
    inkscape:export-ydpi="127.48436">
@@ -1637,16 +1637,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.17073534"
-     inkscape:cx="1081.8654"
-     inkscape:cy="1061.7108"
+     inkscape:zoom="0.68294136"
+     inkscape:cx="1393.1537"
+     inkscape:cy="714.87082"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="419"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-left="0.1"
      fit-margin-top="0.1"
@@ -1663,7 +1663,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4924,6 +4924,16 @@
          x="147.87222"
          y="1198.7341" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1875.6176"
+       y="1787.4069"
+       id="text3815"><tspan
+         sodipodi:role="line"
+         id="tspan3813"
+         x="1875.6176"
+         y="1799.4169"></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -7738,12 +7748,12 @@
            y="-1451.4816"
            x="1806.7188"
            sodipodi:role="line"
-           style="font-size:26.66666603px;line-height:1.25;font-family:sans-serif"> 9)CS4</tspan><tspan
+           style="font-size:26.66666603px;line-height:1.25;font-family:sans-serif"> 9)TWD0</tspan><tspan
            id="tspan4597"
            y="-1418.1482"
            x="1806.7188"
            sodipodi:role="line"
-           style="font-size:26.66666603px;line-height:1.25;font-family:sans-serif"> 7)CS3</tspan><tspan
+           style="font-size:26.66666603px;line-height:1.25;font-family:sans-serif"> 7)TWCK0</tspan><tspan
            id="tspan4599"
            y="-1384.8149"
            x="1806.7188"
@@ -7753,7 +7763,7 @@
            y="-1351.4816"
            x="1806.7188"
            sodipodi:role="line"
-           style="font-size:26.66666603px;line-height:1.25;font-family:sans-serif"> 3)SPI0_CS0</tspan><tspan
+           style="font-size:26.66666603px;line-height:1.25;font-family:sans-serif"> 3)SPI0_CS1</tspan><tspan
            id="tspan4603"
            y="-1318.1482"
            x="1806.7188"
@@ -8327,12 +8337,12 @@
            y="2002.3584"
            x="1496.827"
            sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif">drawing version 1.</tspan><tspan
+           style="font-size:28px;line-height:1.25;font-family:sans-serif">drawing version 1.1</tspan><tspan
            id="tspan12342"
            y="2037.3584"
            x="1496.827"
            sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif">(c) Think3dPrint3d CC-BY-SA</tspan><tspan
+           style="font-size:28px;line-height:1.25;font-family:sans-serif">(c) Duet3D CC-BY-SA</tspan><tspan
            id="tspan4260"
            y="2072.3584"
            x="1496.827"

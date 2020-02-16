@@ -1,19 +1,26 @@
 DUET 2 WIFI and DUET 2 ETHERNET LICENSE
-The Duet WIFI/ DUET 2 WIFI and DUET ETHERNET are licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
+The Duet WIFI/ DUET 2 WIFI and DUET 2 ETHERNET are licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
 a. Attribution:
   Any reproductions or modifications of the hardware must contain the following attribution on the silkscreen and packaging:
-  "Based on the DuetWifi by Think3dPrint3d and Esher3d, see www.duet3d.com for the original DuetWifi information. This reproduction/modification is not endorsed or supported in any way by Think3dPrint3d or Escher3d".
+  "Based on the Duet 2 Wifi and Duet 2 Ethernet by Duet3D, see www.duet3d.com for the original Duet 2 Wifi or Duet 2 Ethernet information. This reproduction/modification is not endorsed or supported in any way by Duet3D".
 b. Logos:
-  No reproduction or modification of the Duet 2 Wifi or Ethernet hardware may contain the Think3dPrint3d, Escher3d or Duet3d logos.
+  No reproduction or modification of the Duet 2 Wifi or Ethernet hardware may contain the Think3dPrint3d, Escher3d or Duet3D logos.
 
  DUET 2 MAESTRO LICENSE
 The Duet 2 Maestro is licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
 a. Attribution:
-  Any reproductions or modifications of the Duet 2 Maestro hardware must contain the following attribution on the silkscreen or packaging:
-  "Based on the Duet 2 Maestro by Think3dPrint3d and Esher3d, see www.duet3d.com for the original Duet 2 Maestro information. This reproduction/modification is not endorsed or supported in any way by Think3dPrint3d or Escher3d".
+  Any reproductions or modifications of the Duet 2 Maestro hardware must contain the following attribution on the silkscreen and packaging:
+  "Based on the Duet 2 Maestro by Think3dPrint3d and Esher3d, see www.duet3d.com for the original Duet 2 Maestro information. This reproduction/modification is not endorsed or supported in any way by Duet3D".
 b. Logos:
-  No reproduction or modification of the Duet 2 Maestro hardware may contain the Think3dPrint3d, Escher3d or Duet3d logos.
+  No reproduction or modification of the Duet 2 Maestro hardware may contain the Think3dPrint3d, Escher3d or Duet3D logos.
   
+  DUEX 5 and DUEX 2 LICENSE
+The Duex5 and Duex 2 are licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text) will the following additional conditions:
+a. Attribution:
+  Any reproductions or modifications of the Duex5 or Duex 2 hardware must contain the following attribution on the silkscreen and packaging:
+  "Based on the Duex5 and Duex 2 by Duex3D, see www.duet3d.com for the original Duex 5 and Duex 2 information. This reproduction/modification is not endorsed or supported in any way by Duet3D".
+b. Logos:
+  No reproduction or modification of the Duex5 and Duex 2 hardware may contain the Think3dPrint3d, Escher3d or Duet3d logos.  
 
 DUET 0.6 AND DUET 0.8.5 LICENSE
 The Duet 0.6 and 0.8.5 are licensed under the terms of the CERL OHL 1.2 (see below or http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt for full text)

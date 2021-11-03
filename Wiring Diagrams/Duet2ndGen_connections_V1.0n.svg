@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="Duet2ndGen_connections_V1.0n.svg"
-   inkscape:export-filename="G:\My Drive\Duet\Documentation\images\Wiring Diagrams &amp; dimensions\Duet2\Duet2ndGen_connections_v1.0-1.4_d2.0.png"
+   inkscape:export-filename="G:\My Drive\Duet\Documentation\images\Wiring Diagrams &amp; dimensions\Duet2\Duet2ndGen_connections_v1.0-1.5_d2.1.png"
    inkscape:export-xdpi="151.10689"
    inkscape:export-ydpi="151.10689">
   <defs
@@ -1491,11 +1491,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.59090439"
-     inkscape:cx="923.65678"
-     inkscape:cy="722.76613"
+     inkscape:zoom="0.4178325"
+     inkscape:cx="1351.7607"
+     inkscape:cy="2066.9151"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1137"
@@ -3789,145 +3789,6 @@
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:0.98;fill:#000000;fill-opacity:1;stroke:none"
-       x="-870.85541"
-       y="478.02795"
-       id="text10465-8"
-       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       inkscape:export-xdpi="151.10689"
-       inkscape:export-ydpi="151.10689"><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="478.02795"
-         style="font-weight:bold;font-size:28px;line-height:1.25;font-family:sans-serif"
-         id="tspan5992">JTAG (connector</tspan><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="513.02795"
-         style="font-weight:bold;font-size:28px;line-height:1.25;font-family:sans-serif"
-         id="tspan5996">not populated)</tspan><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="548.02795"
-         id="tspan4559-0"
-         style="font-size:28px;line-height:1.25;font-family:sans-serif">1)3.3V    2)TMS</tspan><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="583.02795"
-         id="tspan5944"
-         style="font-size:28px;line-height:1.25;font-family:sans-serif">3)GND    4)TCK</tspan><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="618.02795"
-         id="tspan5946"
-         style="font-size:28px;line-height:1.25;font-family:sans-serif">5)GND    6)TDO</tspan><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="653.02795"
-         id="tspan5948"
-         style="font-size:28px;line-height:1.25;font-family:sans-serif">7)NC       8)TDI</tspan><tspan
-         sodipodi:role="line"
-         x="-870.85541"
-         y="688.02795"
-         id="tspan5950"
-         style="font-size:28px;line-height:1.25;font-family:sans-serif">9)GND  10)RST</tspan></text>
-    <g
-       style="display:inline"
-       id="g5900-0"
-       transform="matrix(0.5004682,0,0,0.58988326,-315.61583,133.44687)"
-       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       inkscape:export-xdpi="151.10689"
-       inkscape:export-ydpi="151.10689">
-      <rect
-         style="fill:#000000;fill-opacity:1;stroke:none"
-         id="rect5866-6"
-         width="158.03683"
-         height="68.772148"
-         x="131.00116"
-         y="748.36804" />
-      <rect
-         y="761.41467"
-         x="202.26131"
-         height="14.142134"
-         width="14.142132"
-         id="rect5868-1"
-         style="fill:#b7a702;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#b7a702;fill-opacity:1;stroke:none"
-         id="rect5870-3"
-         width="14.142132"
-         height="14.142134"
-         x="143.82983"
-         y="761.41467" />
-      <rect
-         style="fill:#b7a702;fill-opacity:1;stroke:none"
-         id="rect5872-8"
-         width="14.142132"
-         height="14.142134"
-         x="173.04558"
-         y="761.41467" />
-      <rect
-         style="fill:#b7a702;fill-opacity:1;stroke:none"
-         id="rect5886-9"
-         width="14.142132"
-         height="14.142134"
-         x="231.47704"
-         y="761.41467" />
-      <rect
-         y="761.41467"
-         x="260.69275"
-         height="14.142134"
-         width="14.142132"
-         id="rect5888-3"
-         style="fill:#b7a702;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#b7a702;fill-opacity:1;stroke:none"
-         id="rect5890-4"
-         width="14.142132"
-         height="14.142134"
-         x="202.72704"
-         y="790.45654" />
-      <rect
-         y="790.45654"
-         x="144.29558"
-         height="14.142134"
-         width="14.142132"
-         id="rect5892-4"
-         style="fill:#b7a702;fill-opacity:1;stroke:none" />
-      <rect
-         y="790.45654"
-         x="173.51131"
-         height="14.142134"
-         width="14.142132"
-         id="rect5894-6"
-         style="fill:#b7a702;fill-opacity:1;stroke:none" />
-      <rect
-         y="790.45654"
-         x="231.94276"
-         height="14.142134"
-         width="14.142132"
-         id="rect5896-0"
-         style="fill:#b7a702;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#b7a702;fill-opacity:1;stroke:none"
-         id="rect5898-6"
-         width="14.142132"
-         height="14.142134"
-         x="261.15848"
-         y="790.45654" />
-    </g>
-    <rect
-       y="573.33087"
-       x="-251.47375"
-       height="43.911064"
-       width="82.245583"
-       id="rect6580-6"
-       style="display:inline;opacity:0.98000004;fill:none;stroke:#ff0000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:15, 5;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       inkscape:export-xdpi="151.10689"
-       inkscape:export-ydpi="151.10689" />
     <g
        id="g9438">
       <rect
@@ -5732,24 +5593,6 @@
        inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
        inkscape:export-xdpi="151.10689"
        inkscape:export-ydpi="151.10689" />
-    <rect
-       inkscape:export-ydpi="151.10689"
-       inkscape:export-xdpi="151.10689"
-       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       y="442.8277"
-       x="-880.89087"
-       height="265.48782"
-       width="250.49391"
-       id="rect5998"
-       style="fill:none;stroke:#ff0000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:15, 5;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       inkscape:export-ydpi="151.10689"
-       inkscape:export-xdpi="151.10689"
-       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-       inkscape:connector-curvature="0"
-       id="path6087"
-       d="m -626.15547,617.13299 h 296.33037 v -35.13978 h 77.67882"
-       style="fill:none;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:15, 5;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        inkscape:export-ydpi="151.10689"
        inkscape:export-xdpi="151.10689"
@@ -8739,22 +8582,22 @@
            sodipodi:role="line"
            style="font-size:26.6667px;line-height:1.25;font-family:sans-serif">10) N/C</tspan><tspan
            id="tspan4553"
-           y="290.48831"
+           y="290.48834"
            x="1326.911"
            sodipodi:role="line"
            style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 8) +3.3V</tspan><tspan
            id="tspan4555"
-           y="323.82162"
+           y="323.82172"
            x="1326.911"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 6) SPI0_MISO</tspan><tspan
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 6) SPI_MISO</tspan><tspan
            id="tspan4557"
-           y="357.15497"
+           y="357.15509"
            x="1326.911"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 4) SPI0_SCK</tspan><tspan
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 4) SPI_SCK</tspan><tspan
            id="tspan4559"
-           y="390.48831"
+           y="390.48846"
            x="1326.911"
            sodipodi:role="line"
            style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 2) GND</tspan></text>
@@ -8772,27 +8615,27 @@
            y="257.15497"
            x="1561.8064"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 9)CS4</tspan><tspan
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 9)SPI_CS4</tspan><tspan
            id="tspan4597"
-           y="290.48831"
+           y="290.48834"
            x="1561.8064"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 7)CS3</tspan><tspan
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 7)SPI_CS3</tspan><tspan
            id="tspan4599"
-           y="323.82162"
+           y="323.82172"
            x="1561.8064"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 5)SPI0_MOSI</tspan><tspan
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 5)SPI_MOSI</tspan><tspan
            id="tspan4601"
-           y="357.15497"
+           y="357.15509"
            x="1561.8064"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 3)SPI0_CS1</tspan><tspan
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 3)SPI_CS1</tspan><tspan
            id="tspan4603"
-           y="390.48831"
+           y="390.48846"
            x="1561.8064"
            sodipodi:role="line"
-           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 1)SPI0_CS2</tspan></text>
+           style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"> 1)SPI_CS2</tspan></text>
       <text
          inkscape:export-ydpi="151.10689"
          inkscape:export-xdpi="151.10689"
@@ -9071,12 +8914,12 @@
            y="-1313.2625"
            x="1271.8038"
            sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 6) SPI0_MISO</tspan><tspan
+           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 6) SPI_MISO</tspan><tspan
            id="tspan4399"
            y="-1278.2625"
            x="1271.8038"
            sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 4) SPI0_SCK</tspan><tspan
+           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 4) SPI_SCK</tspan><tspan
            id="tspan4401"
            y="-1243.2625"
            x="1271.8038"
@@ -9106,12 +8949,12 @@
            y="-1313.2625"
            x="1513.5009"
            sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 5)SPI0_MOSI</tspan><tspan
+           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 5)SPI_MOSI</tspan><tspan
            id="tspan4435"
            y="-1278.2625"
            x="1513.5009"
            sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 3)SPI0_CS0</tspan><tspan
+           style="font-size:28px;line-height:1.25;font-family:sans-serif"> 3)SPI_CS0</tspan><tspan
            id="tspan4437"
            y="-1243.2625"
            x="1513.5009"
@@ -10520,7 +10363,7 @@
          x="-837.10815"
          y="-419.89307"
          style="font-size:72px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-         id="tspan2329">v1.0 to v1.04</tspan></text>
+         id="tspan2329">v1.0 to v1.05</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
@@ -10533,49 +10376,45 @@
          x="1224.2539"
          y="1535.1702"
          style="font-size:28px;line-height:1.25;font-family:sans-serif"> </tspan></text>
-    <g
-       id="g10995"
-       transform="translate(57.052177,14.701461)">
-      <text
-         inkscape:export-ydpi="151.10689"
-         inkscape:export-xdpi="151.10689"
-         inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-         id="text12334"
-         y="1967.3584"
-         x="1496.827"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           id="tspan12340"
-           y="1967.3584"
-           x="1496.827"
-           sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif">Duet2 WiFi/Ethernet version 1.04</tspan><tspan
-           id="tspan4361"
-           y="2002.3584"
-           x="1496.827"
-           sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif">drawing version 2.0</tspan><tspan
-           id="tspan12342"
-           y="2037.3584"
-           x="1496.827"
-           sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif">(c) Duet3D CC-BY-SA</tspan><tspan
-           id="tspan4260"
-           y="2072.3584"
-           x="1496.827"
-           sodipodi:role="line"
-           style="font-size:28px;line-height:1.25;font-family:sans-serif">www.duet3d.com</tspan></text>
-      <rect
-         inkscape:export-ydpi="151.10689"
-         inkscape:export-xdpi="151.10689"
-         inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
-         y="1940.0731"
-         x="1488.6815"
-         height="144.53125"
-         width="491.61176"
-         id="rect12344"
-         style="fill:none;stroke:#000000;stroke-width:1.26802838;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1535.8792"
+       y="1982.0598"
+       id="text12334"
+       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
+       inkscape:export-xdpi="151.10689"
+       inkscape:export-ydpi="151.10689"><tspan
+         style="font-size:28px;line-height:1.25;font-family:sans-serif"
+         sodipodi:role="line"
+         x="1535.8792"
+         y="1982.0598"
+         id="tspan12340">Duet2 WiFi/Ethernet version 1- 1.05</tspan><tspan
+         style="font-size:28px;line-height:1.25;font-family:sans-serif"
+         sodipodi:role="line"
+         x="1535.8792"
+         y="2017.0598"
+         id="tspan4361">drawing version 2.1</tspan><tspan
+         style="font-size:28px;line-height:1.25;font-family:sans-serif"
+         sodipodi:role="line"
+         x="1535.8792"
+         y="2052.0598"
+         id="tspan12342">(c) Duet3D CC-BY-SA</tspan><tspan
+         style="font-size:28px;line-height:1.25;font-family:sans-serif"
+         sodipodi:role="line"
+         x="1535.8792"
+         y="2087.0598"
+         id="tspan4260">www.duet3d.com</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.26803;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12344"
+       width="514.34814"
+       height="144.53125"
+       x="1527.7338"
+       y="1954.7745"
+       inkscape:export-filename="D:\00 - 3DPrinter\products\Duet\DuetWifi\Documentation\DuetWifi_connectionsv1.0.png"
+       inkscape:export-xdpi="151.10689"
+       inkscape:export-ydpi="151.10689" />
     <g
        id="g12493">
       <rect
@@ -11476,10 +11315,8 @@
          y="180.74249"
          style="font-size:28px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
          id="tspan2394"><tspan
-   style="font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;text-anchor:start"
-   id="tspan2396"><tspan
-     style="font-weight:bold"
-     id="tspan2398">7.5A</tspan></tspan>(v1.04 only)</tspan></text>
+   style="font-weight:bold;font-size:28px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;text-anchor:start"
+   id="tspan2396">7.5A</tspan>(v1.04 only)</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path2410"

@@ -18,7 +18,7 @@ body:
       https://docs.duet3d.com/Duet3D_hardware/Duet_2_family
 
       #### Have you checked the GCODE Wiki?
-     https://docs.duet3d.com/en/User_manual/Reference/Gcodes
+      https://docs.duet3d.com/en/User_manual/Reference/Gcodes
 
       #### Have you checked the firmware release notes?
       RRF2: https://github.com/Duet3D/RepRapFirmware/wiki/Changelog-RRF-1.x-&-2.x

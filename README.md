@@ -1,11 +1,14 @@
 # Duet-2-Hardware
 
-The Duet 3D Printer Controller design files repository.
+The Duet 2 3D Printer Controller design files repository.
 
-The latest Duet hardware is the DuetWifi, see https://www.duet3d.com/ for more information
+For hardware ourhcases see https://www.duet3d.com/
 
-The recommended firmware is DC42's branch of the RepRapFirmware:
-https://github.com/dc42/RepRapFirmware
+Duet Hardware runs RepRapFirmware:
+https://github.com/Duet3D/RepRapFirmware
+
+Documentation:
+https://docs.duet3d.com/Duet3D_hardware/Duet_2_family
 
 ## Duet 2 Wifi and Duet 2 Ethernet
 

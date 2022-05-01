@@ -1,0 +1,2490 @@
+EESchema Schematic File Version 4
+LIBS:Duex5-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 4
+Title "Duex5"
+Date "2021-06-24"
+Rev "0.11"
+Comp "Duet3D"
+Comment1 "Duet3D license (based on CERN OSH License 1.2)"
+Comment2 "https://github.com/duet3d/hardware"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Duex5-rescue:GND #PWR038
+U 1 1 53B03391
+P 2025 2225
+F 0 "#PWR038" H 2025 2225 30  0001 C CNN
+F 1 "GND" H 2025 2155 30  0001 C CNN
+F 2 "" H 2025 2225 60  0001 C CNN
+F 3 "" H 2025 2225 60  0001 C CNN
+	1    2025 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:GND #PWR039
+U 1 1 5220B9D2
+P 1545 1105
+F 0 "#PWR039" H 1545 1105 30  0001 C CNN
+F 1 "GND" H 1545 1035 30  0001 C CNN
+F 2 "" H 1545 1105 60  0001 C CNN
+F 3 "" H 1545 1105 60  0001 C CNN
+	1    1545 1105
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 6850 0    60   BiDi ~ 0
+VSSA
+$Comp
+L Duex5-rescue:CONN2X25 J16
+U 1 1 51052F54
+P 8350 4600
+F 0 "J16" H 8350 670 60  0000 C CNN
+F 1 "INPUT" H 8350 8270 60  0000 C CNN
+F 2 "complib:PIN_ARRAY_25X2" H 8350 4600 60  0001 C CNN
+F 3 "" H 8350 4600 60  0001 C CNN
+	1    8350 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 5800 0    60   BiDi ~ 0
+SPI1_MOSI_BUFF
+Text GLabel 6655 5950 0    60   BiDi ~ 0
+SPI1_MISO
+Text GLabel 7710 1000 0    60   Output ~ 0
++5V
+Text GLabel 7700 8200 0    60   BiDi ~ 0
+SPI0_MISO
+Text GLabel 7700 8050 0    60   BiDi ~ 0
+SPI0_MOSI
+Text GLabel 7700 7450 0    60   Input ~ 0
+RESET
+Text Notes 2900 1300 2    60   ~ 0
+High Current\nScrew Term
+Text GLabel 4110 5905 0    60   Input ~ 0
+VSSA
+Text GLabel 4110 5355 0    60   Input ~ 0
+VSSA
+Text GLabel 1400 1350 0    60   Input ~ 0
+V_IN
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 508859F9
+P 1950 1250
+F 0 "J2" H 1950 1350 40  0000 C CNN
+F 1 "VIN" V 2100 1300 40  0000 C CNN
+F 2 "complib:TERM_2-WAY_6.35mm" H 1950 1250 60  0001 C CNN
+F 3 "" H 1950 1250 60  0001 C CNN
+	1    1950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:GND #PWR040
+U 1 1 50659578
+P 1000 10900
+F 0 "#PWR040" H 1000 10900 30  0001 C CNN
+F 1 "GND" H 1000 10830 30  0001 C CNN
+F 2 "" H 1000 10900 60  0001 C CNN
+F 3 "" H 1000 10900 60  0001 C CNN
+	1    1000 10900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 8200 1    60   Input ~ 0
+ES_V
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 50656C59
+P 4360 5355
+F 0 "J19" H 4350 5150 40  0000 C CNN
+F 1 "E2 TEMP" V 4510 5405 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 4360 5355 60  0001 C CNN
+F 3 "" H 4360 5355 60  0001 C CNN
+	1    4360 5355
+	1    0    0    1   
+$EndComp
+Text GLabel 7700 7750 0    60   Input ~ 0
+TWCK0
+Text GLabel 7700 7600 0    60   Input ~ 0
+TWD0
+Text GLabel 1450 3975 0    60   Input ~ 0
+E6-
+Text GLabel 1350 5375 0    60   Input ~ 0
+V_FAN
+Text GLabel 1100 3825 1    60   Input ~ 0
+V_FUSED
+Text GLabel 1350 5225 0    60   Input ~ 0
+FAN3-
+Text GLabel 1450 4775 0    60   Input ~ 0
+E2-
+Text GLabel 4110 5205 0    60   Input ~ 0
+THERMISTOR3
+Text GLabel 4110 5755 0    60   Input ~ 0
+THERMISTOR4
+Text GLabel 1950 8400 0    60   Input ~ 0
+E2_STOP_CONN
+Text GLabel 1950 10000 0    60   Input ~ 0
+E5_STOP_CONN
+Text GLabel 1950 8900 0    60   Input ~ 0
+E3_STOP_CONN
+Text GLabel 1950 9450 0    60   Input ~ 0
+E4_STOP_CONN
+Text GLabel 4250 1300 0    60   Output ~ 0
+E2_MOT_1A
+Text GLabel 4250 1155 0    60   Output ~ 0
+E2_MOT_1B
+Text GLabel 4250 1450 0    60   Output ~ 0
+E2_MOT_2A
+Text GLabel 4255 1585 0    60   Output ~ 0
+E2_MOT_2B
+Text GLabel 4250 3725 0    60   Output ~ 0
+E5_MOT_2B
+Text GLabel 4250 3575 0    60   Output ~ 0
+E5_MOT_2A
+Text GLabel 4250 3275 0    60   Output ~ 0
+E5_MOT_1B
+Text GLabel 4250 3425 0    60   Output ~ 0
+E5_MOT_1A
+Text GLabel 4250 2025 0    60   Output ~ 0
+E3_MOT_1A
+Text GLabel 4250 1875 0    60   Output ~ 0
+E3_MOT_1B
+Text GLabel 4250 2175 0    60   Output ~ 0
+E3_MOT_2A
+Text GLabel 4250 2325 0    60   Output ~ 0
+E3_MOT_2B
+Text GLabel 4250 3025 0    60   Output ~ 0
+E4_MOT_2B
+Text GLabel 4250 2875 0    60   Output ~ 0
+E4_MOT_2A
+Text GLabel 4250 2575 0    60   Output ~ 0
+E4_MOT_1B
+Text GLabel 4250 2725 0    60   Output ~ 0
+E4_MOT_1A
+Text GLabel 7700 1300 0    60   Output ~ 0
++3.3V
+Text GLabel 1950 10550 0    60   Input ~ 0
+E6_STOP_CONN
+Text GLabel 4250 4425 0    60   Output ~ 0
+E6_MOT_2B
+Text GLabel 4250 4275 0    60   Output ~ 0
+E6_MOT_2A
+Text GLabel 4250 3975 0    60   Output ~ 0
+E6_MOT_1B
+Text GLabel 4250 4125 0    60   Output ~ 0
+E6_MOT_1A
+$Comp
+L Connector_Generic:Conn_01x02 J21
+U 1 1 5547E95B
+P 4360 5855
+F 0 "J21" H 4350 5650 40  0000 C CNN
+F 1 "E3 TEMP" V 4510 5905 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 4360 5855 60  0001 C CNN
+F 3 "" H 4360 5855 60  0001 C CNN
+	1    4360 5855
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 5547EAD4
+P 1700 5325
+F 0 "J20" H 1700 5150 40  0000 C CNN
+F 1 "FAN/LED 3" V 1850 5375 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1700 5325 60  0001 C CNN
+F 3 "" H 1700 5325 60  0001 C CNN
+	1    1700 5325
+	1    0    0    1   
+$EndComp
+Text GLabel 1350 5775 0    60   Input ~ 0
+V_FAN
+Text GLabel 1350 5625 0    60   Input ~ 0
+FAN4-
+$Comp
+L Connector_Generic:Conn_01x02 J23
+U 1 1 5547EC20
+P 1700 5725
+F 0 "J23" H 1700 5525 40  0000 C CNN
+F 1 "FAN/LED 4" V 1850 5775 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1700 5725 60  0001 C CNN
+F 3 "" H 1700 5725 60  0001 C CNN
+	1    1700 5725
+	1    0    0    1   
+$EndComp
+Text GLabel 4110 6355 0    60   Input ~ 0
+VSSA
+Text GLabel 1450 4575 0    60   Input ~ 0
+E3-
+Text GLabel 4110 6205 0    60   Input ~ 0
+THERMISTOR5
+$Comp
+L Connector_Generic:Conn_01x02 J24
+U 1 1 5547EE93
+P 4360 6305
+F 0 "J24" H 4350 6125 40  0000 C CNN
+F 1 "E4 TEMP" V 4510 6355 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 4360 6305 60  0001 C CNN
+F 3 "" H 4360 6305 60  0001 C CNN
+	1    4360 6305
+	1    0    0    1   
+$EndComp
+Text GLabel 7700 3850 0    60   Input ~ 0
+E5_STEP
+Text GLabel 7700 4000 0    60   Input ~ 0
+E5_DIR
+Text GLabel 7700 4150 0    60   Input ~ 0
+E5_EN
+Text GLabel 7700 4300 0    60   Input ~ 0
+HEATER6
+Text GLabel 7700 1600 0    60   Input ~ 0
+E2_STEP
+Text GLabel 7700 1750 0    60   Input ~ 0
+E2_DIR
+Text GLabel 7700 2050 0    60   Input ~ 0
+HEATER3
+Text GLabel 7700 2800 0    60   Input ~ 0
+HEATER4
+Text GLabel 7700 3550 0    60   Input ~ 0
+HEATER5
+Text GLabel 7700 1900 0    60   Input ~ 0
+E2_EN
+Text GLabel 7150 5650 0    60   BiDi ~ 0
+SPI1_SCK_BUFF_EXP
+Text GLabel 7700 6550 0    60   Output ~ 0
+THERMISTOR6
+Text GLabel 7700 6100 0    60   Output ~ 0
+THERMISTOR3
+Text GLabel 7700 6250 0    60   Output ~ 0
+THERMISTOR4
+Text GLabel 7700 6400 0    60   Output ~ 0
+THERMISTOR5
+Text GLabel 7700 2350 0    60   Input ~ 0
+E3_STEP
+Text GLabel 7700 3100 0    60   Input ~ 0
+E4_STEP
+Text GLabel 7700 2500 0    60   Input ~ 0
+E3_DIR
+Text GLabel 7700 3250 0    60   Input ~ 0
+E4_DIR
+Text GLabel 7700 2650 0    60   Input ~ 0
+E3_EN
+Text GLabel 7700 3400 0    60   Input ~ 0
+E4_EN
+Text GLabel 7700 5500 0    60   BiDi ~ 0
+HEATER7
+Text GLabel 7700 7900 0    60   BiDi ~ 0
+SPI0_SCK
+$Comp
+L Connector_Generic:Conn_01x03 J39
+U 1 1 5684491A
+P 2300 10650
+F 0 "J39" H 2300 10875 50  0000 C CNN
+F 1 "E6_STOP" V 2450 10650 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 2300 10650 60  0001 C CNN
+F 3 "" H 2300 10650 60  0001 C CNN
+	1    2300 10650
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J38
+U 1 1 56844970
+P 2300 10100
+F 0 "J38" H 2300 10325 50  0000 C CNN
+F 1 "E5_STOP" V 2450 10100 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 2300 10100 60  0001 C CNN
+F 3 "" H 2300 10100 60  0001 C CNN
+	1    2300 10100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J37
+U 1 1 568449A8
+P 2300 9550
+F 0 "J37" H 2300 9775 50  0000 C CNN
+F 1 "E4_STOP" V 2450 9550 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 2300 9550 60  0001 C CNN
+F 3 "" H 2300 9550 60  0001 C CNN
+	1    2300 9550
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J36
+U 1 1 568449AE
+P 2300 9000
+F 0 "J36" H 2300 9200 50  0000 C CNN
+F 1 "E3_STOP" V 2450 9000 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 2300 9000 60  0001 C CNN
+F 3 "" H 2300 9000 60  0001 C CNN
+	1    2300 9000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J35
+U 1 1 568449B4
+P 2300 8500
+F 0 "J35" H 2300 8725 50  0000 C CNN
+F 1 "E2_STOP" V 2450 8500 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 2300 8500 60  0001 C CNN
+F 3 "" H 2300 8500 60  0001 C CNN
+	1    2300 8500
+	1    0    0    1   
+$EndComp
+Text Notes 1100 850  2    60   ~ 0
+POWER
+Text Notes 800  3225 0    60   ~ 0
+Heater and Fans
+Text Notes 3410 4805 0    60   ~ 0
+Temperature
+Text Notes 3350 850  0    60   ~ 0
+Motors
+Text Notes 750  7600 0    60   ~ 0
+Endstops
+Text Notes 6200 830  0    60   ~ 0
+Input header (expansion on DuexWifi)
+$Comp
+L Duex5-rescue:GND #PWR041
+U 1 1 56846E9B
+P 5085 7765
+F 0 "#PWR041" H 5085 7765 30  0001 C CNN
+F 1 "GND" H 5085 7695 30  0001 C CNN
+F 2 "" H 5085 7765 60  0001 C CNN
+F 3 "" H 5085 7765 60  0001 C CNN
+	1    5085 7765
+	1    0    0    -1  
+$EndComp
+Text GLabel 5085 7965 2    60   BiDi ~ 0
+SPI0_SCK
+Text GLabel 5085 8115 2    60   BiDi ~ 0
+SPI0_MISO
+Text GLabel 5085 8265 2    60   Output ~ 0
++3.3V
+$Comp
+L Duex5-rescue:GND #PWR042
+U 1 1 5686D8F2
+P 6550 1000
+F 0 "#PWR042" H 6550 1000 30  0001 C CNN
+F 1 "GND" H 6550 930 30  0001 C CNN
+F 2 "" H 6550 1000 60  0001 C CNN
+F 3 "" H 6550 1000 60  0001 C CNN
+	1    6550 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3985 8115 0    60   BiDi ~ 0
+SPI0_MOSI
+$Comp
+L Duex5-rescue:CONN_5X2 J33
+U 1 1 568FF45C
+P 4535 8115
+F 0 "J33" H 4535 8415 60  0000 C CNN
+F 1 "SPI0" V 4535 8115 50  0000 C CNN
+F 2 "complib:MAX_TEMP_DB" H 4535 8115 60  0001 C CNN
+F 3 "~" H 4535 8115 60  0000 C CNN
+	1    4535 8115
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4935 8315
+Text GLabel 7700 4450 0    60   Input ~ 0
+SX1509_INT
+Text GLabel 7700 4600 0    60   Input ~ 0
+E6_STEP
+Text GLabel 7700 4750 0    60   Input ~ 0
+E6_DIR
+Text GLabel 7700 4900 0    60   Input ~ 0
+E6_EN
+Text GLabel 7700 5050 0    60   Input ~ 0
+ENN
+Text GLabel 7700 7300 0    60   Output ~ 0
++3.3V
+$Comp
+L Duex5-rescue:GND #PWR043
+U 1 1 5714D0D9
+P 6950 7000
+F 0 "#PWR043" H 6950 7000 30  0001 C CNN
+F 1 "GND" H 6950 6930 30  0001 C CNN
+F 2 "" H 6950 7000 60  0001 C CNN
+F 3 "" H 6950 7000 60  0001 C CNN
+	1    6950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:GND #PWR044
+U 1 1 5714D332
+P 6850 5300
+F 0 "#PWR044" H 6850 5300 30  0001 C CNN
+F 1 "GND" H 6850 5230 30  0001 C CNN
+F 2 "" H 6850 5300 60  0001 C CNN
+F 3 "" H 6850 5300 60  0001 C CNN
+	1    6850 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 7000 0    60   Input ~ 0
+ADVREF
+Text GLabel 7700 6700 0    60   Output ~ 0
+THERMISTOR7
+Text GLabel 1350 6125 0    60   Input ~ 0
+V_FAN
+Text GLabel 1350 5975 0    60   Input ~ 0
+FAN5-
+$Comp
+L Connector_Generic:Conn_01x02 J25
+U 1 1 571B8385
+P 1700 6075
+F 0 "J25" H 1700 5900 40  0000 C CNN
+F 1 "FAN/LED 5" V 1850 6125 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1700 6075 60  0001 C CNN
+F 3 "" H 1700 6075 60  0001 C CNN
+	1    1700 6075
+	1    0    0    1   
+$EndComp
+Text GLabel 7700 5200 0    60   BiDi ~ 0
+PB6/TMS
+Text Notes 14500 875  0    60   ~ 0
+Test Points
+$Comp
+L Duex5-rescue:FID M1
+U 1 1 57CB8559
+P 12035 9545
+F 0 "M1" H 12035 9445 60  0000 C CNN
+F 1 "FID" H 12035 9645 60  0000 C CNN
+F 2 "complib:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 12035 9545 60  0001 C CNN
+F 3 "" H 12035 9545 60  0000 C CNN
+	1    12035 9545
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:FID M2
+U 1 1 57CB8560
+P 12235 9545
+F 0 "M2" H 12235 9445 60  0000 C CNN
+F 1 "FID" H 12235 9645 60  0000 C CNN
+F 2 "complib:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 12235 9545 60  0001 C CNN
+F 3 "" H 12235 9545 60  0000 C CNN
+	1    12235 9545
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:FID M3
+U 1 1 57CB8567
+P 12435 9545
+F 0 "M3" H 12435 9445 60  0000 C CNN
+F 1 "FID" H 12435 9645 60  0000 C CNN
+F 2 "complib:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 12435 9545 60  0001 C CNN
+F 3 "" H 12435 9545 60  0000 C CNN
+	1    12435 9545
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:Mounting M4
+U 1 1 57CB856E
+P 12835 9545
+F 0 "M4" H 12835 9445 60  0000 C CNN
+F 1 "MOUNTING" H 12835 9645 60  0000 C CNN
+F 2 "complib:Fixing_M4" H 12835 9545 60  0001 C CNN
+F 3 "" H 12835 9545 60  0000 C CNN
+	1    12835 9545
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:Mounting M5
+U 1 1 57CB8575
+P 13335 9545
+F 0 "M5" H 13335 9445 60  0000 C CNN
+F 1 "MOUNTING" H 13335 9645 60  0000 C CNN
+F 2 "complib:Fixing_M4" H 13335 9545 60  0001 C CNN
+F 3 "" H 13335 9545 60  0000 C CNN
+	1    13335 9545
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:Mounting M6
+U 1 1 57CB857C
+P 13785 9545
+F 0 "M6" H 13785 9445 60  0000 C CNN
+F 1 "MOUNTING" H 13785 9645 60  0000 C CNN
+F 2 "complib:Fixing_M4" H 13785 9545 60  0001 C CNN
+F 3 "" H 13785 9545 60  0000 C CNN
+	1    13785 9545
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:Mounting M7
+U 1 1 57CB8583
+P 14235 9545
+F 0 "M7" H 14235 9445 60  0000 C CNN
+F 1 "MOUNTING" H 14235 9645 60  0000 C CNN
+F 2 "complib:Fixing_M4" H 14235 9545 60  0001 C CNN
+F 3 "" H 14235 9545 60  0000 C CNN
+	1    14235 9545
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 4375 0    60   Input ~ 0
+E4-
+Text GLabel 1450 4175 0    60   Input ~ 0
+E5-
+Text GLabel 1350 6500 0    60   Input ~ 0
+V_FAN
+Text GLabel 1350 6350 0    60   Input ~ 0
+FAN6-
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 57CC8C93
+P 1700 6450
+F 0 "J28" H 1700 6275 40  0000 C CNN
+F 1 "FAN/LED 6" V 1850 6500 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1700 6450 60  0001 C CNN
+F 3 "" H 1700 6450 60  0001 C CNN
+	1    1700 6450
+	1    0    0    1   
+$EndComp
+Text GLabel 1350 6825 0    60   Input ~ 0
+V_FAN
+Text GLabel 1350 6675 0    60   Input ~ 0
+FAN7-
+$Comp
+L Connector_Generic:Conn_01x02 J31
+U 1 1 57CC8D92
+P 1700 6775
+F 0 "J31" H 1700 6600 40  0000 C CNN
+F 1 "FAN/LED 7" V 1850 6825 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1700 6775 60  0001 C CNN
+F 3 "" H 1700 6775 60  0001 C CNN
+	1    1700 6775
+	1    0    0    1   
+$EndComp
+Text GLabel 4110 6730 0    60   Input ~ 0
+VSSA
+Text GLabel 4110 6580 0    60   Input ~ 0
+THERMISTOR6
+$Comp
+L Connector_Generic:Conn_01x02 J27
+U 1 1 57CCAB58
+P 4360 6680
+F 0 "J27" H 4350 6475 40  0000 C CNN
+F 1 "E5 TEMP" V 4510 6730 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 4360 6680 60  0001 C CNN
+F 3 "" H 4360 6680 60  0001 C CNN
+	1    4360 6680
+	1    0    0    1   
+$EndComp
+Text GLabel 4110 7180 0    60   Input ~ 0
+VSSA
+Text GLabel 4110 7030 0    60   Input ~ 0
+THERMISTOR7
+$Comp
+L Connector_Generic:Conn_01x02 J29
+U 1 1 57CCAB63
+P 4360 7130
+F 0 "J29" H 4350 6950 40  0000 C CNN
+F 1 "E6 TEMP" V 4510 7180 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 4360 7130 60  0001 C CNN
+F 3 "" H 4360 7130 60  0001 C CNN
+	1    4360 7130
+	1    0    0    1   
+$EndComp
+Text GLabel 3985 8415 0    60   Input ~ 0
+CS8
+Text GLabel 3985 8265 0    60   Input ~ 0
+CS7
+Text GLabel 3985 7965 0    60   Input ~ 0
+CS5
+Text GLabel 7700 2200 0    60   Input ~ 0
+CS6
+$Comp
+L Duex5-rescue:R_SMALL R31
+U 1 1 57D34069
+P 7400 5600
+F 0 "R31" V 7300 5700 50  0000 C CNN
+F 1 "22R" V 7300 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Wbry" H 7400 5600 60  0001 C CNN
+F 3 "~" H 7400 5600 60  0000 C CNN
+	1    7400 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Duex5-rescue:GND #PWR045
+U 1 1 57D8E8C2
+P 9150 8450
+F 0 "#PWR045" H 9150 8450 30  0001 C CNN
+F 1 "GND" H 9150 8380 30  0001 C CNN
+F 2 "" H 9150 8450 60  0001 C CNN
+F 3 "" H 9150 8450 60  0001 C CNN
+	1    9150 8450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 5750 1    60   Input ~ 0
+5V_S_F
+$Comp
+L Connector_Generic:Conn_01x03 J34
+U 1 1 57D8E8CE
+P 10050 8200
+F 0 "J34" H 10050 8400 50  0000 C CNN
+F 1 "PWM_5" V 10200 8200 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 10050 8200 60  0001 C CNN
+F 3 "" H 10050 8200 60  0001 C CNN
+	1    10050 8200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J32
+U 1 1 57D8E8D4
+P 10050 7650
+F 0 "J32" H 10050 7850 50  0000 C CNN
+F 1 "PWM_4" V 10200 7650 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 10050 7650 60  0001 C CNN
+F 3 "" H 10050 7650 60  0001 C CNN
+	1    10050 7650
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J30
+U 1 1 57D8E8DA
+P 10050 7100
+F 0 "J30" H 10050 7300 50  0000 C CNN
+F 1 "PWM_3" V 10200 7100 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 10050 7100 60  0001 C CNN
+F 3 "" H 10050 7100 60  0001 C CNN
+	1    10050 7100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J26
+U 1 1 57D8E8E0
+P 10050 6550
+F 0 "J26" H 10050 6725 50  0000 C CNN
+F 1 "PWM_2" V 10200 6550 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 10050 6550 60  0001 C CNN
+F 3 "" H 10050 6550 60  0001 C CNN
+	1    10050 6550
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J22
+U 1 1 57D8E8E6
+P 10050 6050
+F 0 "J22" H 10050 6250 50  0000 C CNN
+F 1 "PWM_1" V 10200 6050 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)" H 10050 6050 60  0001 C CNN
+F 3 "" H 10050 6050 60  0001 C CNN
+	1    10050 6050
+	1    0    0    1   
+$EndComp
+Text Notes 9100 5300 0    60   ~ 0
+Servos/PWM\nCommoned with heater PWM
+Text GLabel 15150 1325 0    60   Input ~ 0
+E2_STEP
+Text GLabel 15150 1175 0    60   Input ~ 0
+E2_DIR
+Text GLabel 15100 1475 0    60   Input ~ 0
+E2_EN
+Text GLabel 15150 1825 0    60   Input ~ 0
+E3_STEP
+Text GLabel 15150 1675 0    60   Input ~ 0
+E3_DIR
+Text GLabel 15150 1975 0    60   Input ~ 0
+E3_EN
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 57D97307
+P 12550 1325
+F 0 "J7" H 12550 1025 50  0000 C CNN
+F 1 "D7 S/D/E" V 12700 1325 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900511121-1x05_P2.54mm_Vertical(Molex_KK-254_AE-6410-05A_Compatibe)" H 12550 1325 60  0001 C CNN
+F 3 "" H 12550 1325 60  0001 C CNN
+	1    12550 1325
+	1    0    0    -1  
+$EndComp
+Text GLabel 12225 1225 0    60   Input ~ 0
+E4_STEP
+Text GLabel 12225 1075 0    60   Input ~ 0
+E4_DIR
+Text GLabel 12225 1375 0    60   Input ~ 0
+E4_EN
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 57D97578
+P 12550 2050
+F 0 "J8" H 12525 1750 50  0000 C CNN
+F 1 "D8 S/D/E" V 12700 2050 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900511121-1x05_P2.54mm_Vertical(Molex_KK-254_AE-6410-05A_Compatibe)" H 12550 2050 60  0001 C CNN
+F 3 "" H 12550 2050 60  0001 C CNN
+	1    12550 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 12225 1950 0    60   Input ~ 0
+E5_STEP
+Text GLabel 12225 1800 0    60   Input ~ 0
+E5_DIR
+Text GLabel 12225 2100 0    60   Input ~ 0
+E5_EN
+$Comp
+L Connector_Generic:Conn_01x05 J10
+U 1 1 57D97672
+P 12550 2800
+F 0 "J10" H 12550 2500 50  0000 C CNN
+F 1 "D9 S/D/E" V 12700 2800 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900511121-1x05_P2.54mm_Vertical(Molex_KK-254_AE-6410-05A_Compatibe)" H 12550 2800 60  0001 C CNN
+F 3 "" H 12550 2800 60  0001 C CNN
+	1    12550 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 12250 2700 0    60   Input ~ 0
+E6_STEP
+Text GLabel 12250 2550 0    60   Input ~ 0
+E6_DIR
+Text GLabel 12250 2850 0    60   Input ~ 0
+E6_EN
+Text GLabel 9700 3900 0    60   Input ~ 0
+GPIO1
+Text GLabel 9700 4050 0    60   Input ~ 0
+GPIO2
+Text GLabel 9700 4200 0    60   Input ~ 0
+GPIO3
+$Comp
+L Duex5-rescue:GND #PWR046
+U 1 1 57DA119B
+P 10000 4800
+F 0 "#PWR046" H 10000 4800 30  0001 C CNN
+F 1 "GND" H 10000 4730 30  0001 C CNN
+F 2 "" H 10000 4800 60  0001 C CNN
+F 3 "" H 10000 4800 60  0001 C CNN
+	1    10000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 3600 0    60   Input ~ 0
++5V
+Text GLabel 9700 3750 0    60   Input ~ 0
++3.3V
+Text Notes 9150 3200 0    60   ~ 0
+Port Expander IO
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 57DAC600
+P 2225 2075
+F 0 "J6" H 2225 1875 40  0000 C CNN
+F 1 "5V_AUX_IN" V 2375 2125 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 2225 2075 60  0001 C CNN
+F 3 "" H 2225 2075 60  0001 C CNN
+	1    2225 2075
+	1    0    0    1   
+$EndComp
+Text GLabel 1700 1675 2    60   Output ~ 0
++5V
+$Comp
+L Connector_Generic:Conn_01x03 JP1
+U 1 1 57ECAB0F
+P 1325 1775
+F 0 "JP1" H 1325 1575 50  0000 C CNN
+F 1 "5V AUX Select" V 1475 1775 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1325 1775 60  0001 C CNN
+F 3 "" H 1325 1775 60  0001 C CNN
+	1    1325 1775
+	-1   0    0    1   
+$EndComp
+Text GLabel 1700 1825 2    60   Output ~ 0
+5V_S_F
+Text GLabel 9700 5950 0    60   Input ~ 0
+E2_PWM
+Text GLabel 9700 6450 0    60   Input ~ 0
+E3_PWM
+Text GLabel 9700 7000 0    60   Input ~ 0
+E4_PWM
+Text GLabel 9700 7550 0    60   Input ~ 0
+E5_PWM
+Text GLabel 9700 8100 0    60   Input ~ 0
+E6_PWM
+$Comp
+L Duex5-rescue:CONN_01X10 J11
+U 1 1 57F2DB94
+P 1800 4425
+F 0 "J11" H 1800 4975 50  0000 C CNN
+F 1 "CONN_01X10" V 1900 4425 50  0000 C CNN
+F 2 "complib:TerminalBlock_Pheonix_PT-3.5mm_10pol" H 1800 4425 50  0001 C CNN
+F 3 "" H 1800 4425 50  0000 C CNN
+	1    1800 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J13
+U 1 1 57F39145
+P 10200 4150
+F 0 "J13" H 10200 4700 50  0000 C CNN
+F 1 "CONN_01X10" V 10300 4150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10200 4150 50  0001 C CNN
+F 3 "" H 10200 4150 50  0000 C CNN
+	1    10200 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 4800 0    60   Input ~ 0
+TWCK0
+Text GLabel 9700 4650 0    60   Input ~ 0
+TWD0
+Text GLabel 9700 4500 0    60   BiDi ~ 0
+PB6/TMS
+$Comp
+L Duex5-rescue:R_SMALL R69
+U 1 1 57F67D10
+P 14175 6425
+F 0 "R69" V 14250 6433 50  0000 C CNN
+F 1 "0R15 0.33W" V 14107 6437 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 14175 6425 60  0001 C CNN
+F 3 "" H 14175 6425 60  0000 C CNN
+	1    14175 6425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C64
+U 1 1 57F67FE5
+P 12025 6675
+F 0 "C64" H 12050 6750 50  0000 L CNN
+F 1 "0u1" H 12025 6600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Wbry" H 12025 6675 60  0001 C CNN
+F 3 "" H 12025 6675 60  0000 C CNN
+	1    12025 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C58
+U 1 1 57F6871D
+P 11875 5600
+F 0 "C58" V 11825 5650 50  0000 L CNN
+F 1 "10u 35V" V 11825 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 11875 5600 60  0001 C CNN
+F 3 "" H 11875 5600 60  0000 C CNN
+	1    11875 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:C_POL C56
+U 1 1 57F68B5A
+P 11375 5600
+F 0 "C56" V 11430 5675 50  0000 L CNN
+F 1 "100u 35V" V 11440 5150 50  0000 L CNN
+F 2 "complib:C_ELEC_6.3x7.7" H 11375 5600 60  0001 C CNN
+F 3 "" H 11375 5600 60  0000 C CNN
+	1    11375 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:JUMPER JP2
+U 1 1 57F68CF2
+P 11700 6575
+F 0 "JP2" H 11700 6725 60  0000 C CNN
+F 1 "12V_EN" H 11700 6495 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11700 6575 60  0001 C CNN
+F 3 "" H 11700 6575 60  0000 C CNN
+	1    11700 6575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Duex5-rescue:DB2W40300L D7
+U 1 1 57F69BA7
+P 14375 5950
+F 0 "D7" H 14375 6050 40  0000 C CNN
+F 1 "DB2W40300L" H 14250 5850 40  0000 C CNN
+F 2 "complib:D_SOD-123F" H 14375 5950 60  0001 C CNN
+F 3 "" H 14375 5950 60  0000 C CNN
+	1    14375 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C60
+U 1 1 57F69E0F
+P 14875 5875
+F 0 "C60" H 14900 5950 50  0000 L CNN
+F 1 "10u 25V" V 14825 5525 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14875 5875 60  0001 C CNN
+F 3 "" H 14875 5875 60  0000 C CNN
+	1    14875 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:R_SMALL R68
+U 1 1 57F69EF3
+P 15100 5975
+F 0 "R68" V 15175 5983 50  0000 C CNN
+F 1 "10.5K 1%" V 15032 5987 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Wbry" H 15100 5975 60  0001 C CNN
+F 3 "" H 15100 5975 60  0000 C CNN
+	1    15100 5975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Duex5-rescue:L_MINI L2
+U 1 1 57F6AA97
+P 14550 5725
+F 0 "L2" H 14475 5675 30  0000 C CNN
+F 1 "10uH" H 14550 5775 22  0000 C CNN
+F 2 "FE Footprints:L_6x6" H 14550 5725 60  0001 C CNN
+F 3 "" H 14550 5725 60  0000 C CNN
+	1    14550 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:R_SMALL R70
+U 1 1 57F6C575
+P 14175 6625
+F 0 "R70" V 14250 6633 50  0000 C CNN
+F 1 "0R15 0.33W" V 14107 6637 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 14175 6625 60  0001 C CNN
+F 3 "" H 14175 6625 60  0000 C CNN
+	1    14175 6625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Duex5-rescue:R_SMALL R71
+U 1 1 57F6C800
+P 15100 6725
+F 0 "R71" V 15175 6733 50  0000 C CNN
+F 1 "750R 1%" V 15032 6737 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Wbry" H 15100 6725 60  0001 C CNN
+F 3 "" H 15100 6725 60  0000 C CNN
+	1    15100 6725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C55
+U 1 1 57F6EAB9
+P 11175 5600
+F 0 "C55" H 11025 5670 50  0000 L CNN
+F 1 "10u 35V" V 11075 5220 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 11175 5600 60  0001 C CNN
+F 3 "" H 11175 5600 60  0000 C CNN
+	1    11175 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C54
+U 1 1 57F70840
+P 13925 5500
+F 0 "C54" H 13950 5575 50  0000 L CNN
+F 1 "22nF" H 13925 5425 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Wbry" H 13925 5500 60  0001 C CNN
+F 3 "" H 13925 5500 60  0000 C CNN
+	1    13925 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C59
+U 1 1 57F71192
+P 14700 5875
+F 0 "C59" H 14725 5950 50  0000 L CNN
+F 1 "10u 25V" V 14650 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14700 5875 60  0001 C CNN
+F 3 "" H 14700 5875 60  0000 C CNN
+	1    14700 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:C_SMALL C63
+U 1 1 57F713E3
+P 15800 5975
+F 0 "C63" H 15825 6050 50  0000 L CNN
+F 1 "10u 25V" V 15875 5575 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 15800 5975 60  0001 C CNN
+F 3 "" H 15800 5975 60  0000 C CNN
+	1    15800 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:R_SMALL R46
+U 1 1 57F7263A
+P 12175 5650
+F 0 "R46" V 12125 5475 50  0000 C CNN
+F 1 "200K" V 12107 5662 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Wbry" H 12175 5650 60  0001 C CNN
+F 3 "" H 12175 5650 60  0000 C CNN
+	1    12175 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Duex5-rescue:L_MINI L1
+U 1 1 57F73899
+P 11600 5250
+F 0 "L1" H 11525 5200 30  0000 C CNN
+F 1 "1uH" H 11600 5300 22  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 11600 5250 60  0001 C CNN
+F 3 "" H 11600 5250 60  0000 C CNN
+	1    11600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:DB2W40300L D6
+U 1 1 57F77D87
+P 11075 5050
+F 0 "D6" H 11075 5150 40  0000 C CNN
+F 1 "DB2W40300L" H 11075 4950 40  0000 C CNN
+F 2 "complib:D_SOD-123F" H 11075 5050 60  0001 C CNN
+F 3 "" H 11075 5050 60  0000 C CNN
+	1    11075 5050
+	0    1    1    0   
+$EndComp
+Text GLabel 11075 4750 1    60   Input ~ 0
+V_FUSED
+Wire Wire Line
+	4160 5755 4110 5755
+Wire Wire Line
+	4110 5355 4160 5355
+Wire Wire Line
+	1545 1105 1545 955 
+Wire Wire Line
+	1545 955  1745 955 
+Wire Wire Line
+	7700 1900 7950 1900
+Wire Wire Line
+	7950 1600 7700 1600
+Wire Wire Line
+	7700 1300 7950 1300
+Wire Wire Line
+	6655 5950 6715 5950
+Wire Wire Line
+	7700 8200 7950 8200
+Wire Wire Line
+	7700 6400 7950 6400
+Wire Wire Line
+	7700 6100 7950 6100
+Wire Wire Line
+	7600 5650 7950 5650
+Wire Wire Line
+	7700 5050 7950 5050
+Wire Wire Line
+	7700 4750 7950 4750
+Wire Wire Line
+	7700 4450 7950 4450
+Wire Wire Line
+	7700 4150 7950 4150
+Wire Wire Line
+	7700 3850 7950 3850
+Wire Wire Line
+	7700 2950 7950 2950
+Wire Wire Line
+	7700 2500 7950 2500
+Wire Wire Line
+	1350 5375 1500 5375
+Wire Wire Line
+	1750 1350 1400 1350
+Wire Wire Line
+	4250 1300 4645 1300
+Wire Wire Line
+	4350 1400 4645 1400
+Wire Wire Line
+	1500 5225 1350 5225
+Wire Wire Line
+	7710 1000 7950 1000
+Wire Wire Line
+	7700 2650 7950 2650
+Wire Wire Line
+	7700 3700 7950 3700
+Wire Wire Line
+	7700 4000 7950 4000
+Wire Wire Line
+	7700 4300 7950 4300
+Wire Wire Line
+	7700 4900 7950 4900
+Wire Wire Line
+	7700 5200 7950 5200
+Wire Wire Line
+	7700 6250 7950 6250
+Wire Wire Line
+	7700 6550 7950 6550
+Wire Wire Line
+	7700 8350 7950 8350
+Wire Wire Line
+	7700 2800 7950 2800
+Wire Wire Line
+	7700 1450 7950 1450
+Wire Wire Line
+	7700 1750 7950 1750
+Wire Wire Line
+	7700 2050 7950 2050
+Wire Wire Line
+	7700 2350 7950 2350
+Wire Wire Line
+	7700 8050 7950 8050
+Wire Wire Line
+	7700 7750 7950 7750
+Wire Wire Line
+	7150 7150 7950 7150
+Wire Wire Line
+	7700 7000 7950 7000
+Wire Wire Line
+	7700 6700 7950 6700
+Wire Wire Line
+	7700 5800 7950 5800
+Wire Wire Line
+	7700 7600 7950 7600
+Wire Wire Line
+	7700 7900 7950 7900
+Wire Wire Line
+	7700 7450 7950 7450
+Wire Wire Line
+	4110 5205 4160 5205
+Wire Wire Line
+	4160 5205 4160 5255
+Wire Wire Line
+	4110 5905 4160 5905
+Wire Wire Line
+	4160 5905 4160 5855
+Wire Wire Line
+	1500 5375 1500 5325
+Wire Wire Line
+	1350 5775 1500 5775
+Wire Wire Line
+	1500 5625 1350 5625
+Wire Wire Line
+	1500 5775 1500 5725
+Wire Wire Line
+	4160 6205 4110 6205
+Wire Wire Line
+	4110 6355 4160 6355
+Wire Wire Line
+	4160 6355 4160 6305
+Wire Wire Line
+	7950 2200 7700 2200
+Wire Wire Line
+	7700 3550 7950 3550
+Wire Wire Line
+	7950 3400 7700 3400
+Wire Wire Line
+	7950 3100 7700 3100
+Wire Wire Line
+	7700 3250 7950 3250
+Wire Wire Line
+	7950 4600 7700 4600
+Wire Wire Line
+	7700 6850 7950 6850
+Wire Wire Line
+	6550 950  6750 950 
+Wire Wire Line
+	6750 950  6750 1150
+Wire Wire Line
+	6750 1150 7950 1150
+Wire Wire Line
+	1000 8600 1000 9100
+Wire Wire Line
+	1000 10750 2100 10750
+Wire Wire Line
+	1000 10200 2100 10200
+Connection ~ 1000 10750
+Wire Wire Line
+	1000 9650 2100 9650
+Connection ~ 1000 10200
+Wire Wire Line
+	1000 9100 2100 9100
+Connection ~ 1000 9650
+Wire Wire Line
+	1000 8600 2100 8600
+Connection ~ 1000 9100
+Wire Wire Line
+	1100 8200 1100 8500
+Wire Wire Line
+	1100 8500 2100 8500
+Wire Wire Line
+	1100 9000 2100 9000
+Connection ~ 1100 8500
+Wire Wire Line
+	1100 9550 2100 9550
+Connection ~ 1100 9000
+Wire Wire Line
+	1100 10100 2100 10100
+Connection ~ 1100 9550
+Wire Wire Line
+	1100 10650 2100 10650
+Connection ~ 1100 10100
+Wire Wire Line
+	1950 10550 2100 10550
+Wire Wire Line
+	1950 10000 2100 10000
+Wire Wire Line
+	1950 9450 2100 9450
+Wire Wire Line
+	1950 8900 2100 8900
+Wire Wire Line
+	1950 8400 2100 8400
+Wire Wire Line
+	4550 2325 4550 2175
+Wire Wire Line
+	4550 2175 4625 2175
+Wire Wire Line
+	4450 2025 4450 1975
+Wire Wire Line
+	4450 1975 4625 1975
+Wire Wire Line
+	4500 2175 4500 2075
+Wire Wire Line
+	4500 2075 4625 2075
+Wire Wire Line
+	4250 1875 4625 1875
+Wire Wire Line
+	4250 2025 4450 2025
+Wire Wire Line
+	4250 2175 4500 2175
+Wire Wire Line
+	4250 2325 4550 2325
+Wire Wire Line
+	4550 3025 4550 2875
+Wire Wire Line
+	4550 2875 4625 2875
+Wire Wire Line
+	4450 2725 4450 2675
+Wire Wire Line
+	4450 2675 4625 2675
+Wire Wire Line
+	4500 2875 4500 2775
+Wire Wire Line
+	4500 2775 4625 2775
+Wire Wire Line
+	4250 2575 4625 2575
+Wire Wire Line
+	4250 2725 4450 2725
+Wire Wire Line
+	4250 2875 4500 2875
+Wire Wire Line
+	4250 3025 4550 3025
+Wire Wire Line
+	4550 3725 4550 3575
+Wire Wire Line
+	4550 3575 4625 3575
+Wire Wire Line
+	4450 3425 4450 3375
+Wire Wire Line
+	4450 3375 4625 3375
+Wire Wire Line
+	4500 3575 4500 3475
+Wire Wire Line
+	4500 3475 4625 3475
+Wire Wire Line
+	4250 3275 4625 3275
+Wire Wire Line
+	4250 3425 4450 3425
+Wire Wire Line
+	4250 3575 4500 3575
+Wire Wire Line
+	4250 3725 4550 3725
+Wire Wire Line
+	4550 4425 4550 4275
+Wire Wire Line
+	4550 4275 4625 4275
+Wire Wire Line
+	4450 4125 4450 4075
+Wire Wire Line
+	4450 4075 4625 4075
+Wire Wire Line
+	4500 4275 4500 4175
+Wire Wire Line
+	4500 4175 4625 4175
+Wire Wire Line
+	4250 3975 4625 3975
+Wire Wire Line
+	4250 4125 4450 4125
+Wire Wire Line
+	4250 4275 4500 4275
+Wire Wire Line
+	4250 4425 4550 4425
+Wire Notes Line
+	700  700  3100 700 
+Wire Notes Line
+	3100 700  3100 2975
+Wire Notes Line
+	3100 2975 700  2975
+Wire Notes Line
+	700  2975 700  700 
+Wire Notes Line
+	700  3075 3100 3075
+Wire Notes Line
+	3100 3075 3100 7400
+Wire Notes Line
+	3100 7400 700  7400
+Wire Notes Line
+	700  7400 700  3075
+Wire Notes Line
+	3310 4655 3310 8680
+Wire Notes Line
+	3310 8680 5910 8680
+Wire Notes Line
+	5910 8680 5910 4655
+Wire Notes Line
+	5910 4655 3310 4655
+Wire Notes Line
+	3300 700  3300 4575
+Wire Notes Line
+	3300 4575 5900 4575
+Wire Notes Line
+	5900 4575 5900 700 
+Wire Notes Line
+	5900 700  3300 700 
+Wire Notes Line
+	700  7450 3100 7450
+Wire Notes Line
+	3100 7450 3100 11050
+Wire Notes Line
+	3100 11050 700  11050
+Wire Notes Line
+	700  11050 700  7450
+Wire Notes Line
+	6100 700  6100 8650
+Wire Notes Line
+	6100 8650 8830 8650
+Wire Notes Line
+	8830 8650 8830 700 
+Wire Notes Line
+	8830 700  6100 700 
+Wire Wire Line
+	4250 1450 4350 1450
+Wire Wire Line
+	4350 1450 4350 1400
+Wire Wire Line
+	4400 1500 4645 1500
+Wire Wire Line
+	4400 1200 4645 1200
+Wire Wire Line
+	6550 950  6550 1000
+Wire Wire Line
+	4135 7815 4135 7915
+Wire Wire Line
+	4935 7915 4935 7665
+Wire Wire Line
+	4935 7665 5085 7665
+Wire Wire Line
+	5085 8265 4985 8265
+Wire Wire Line
+	4985 8265 4985 8215
+Wire Wire Line
+	4985 8215 4935 8215
+Wire Wire Line
+	5085 7965 4985 7965
+Wire Wire Line
+	4985 7965 4985 8015
+Wire Wire Line
+	4985 8015 4935 8015
+Wire Wire Line
+	5085 8115 4935 8115
+Wire Wire Line
+	5085 7665 5085 7765
+Wire Wire Line
+	6950 6950 7150 6950
+Wire Wire Line
+	7150 6950 7150 7150
+Wire Wire Line
+	6950 6950 6950 7000
+Wire Wire Line
+	6850 5300 6850 5150
+Wire Wire Line
+	6850 5150 7050 5150
+Wire Wire Line
+	7050 5150 7050 5350
+Wire Wire Line
+	7050 5350 7950 5350
+Wire Wire Line
+	7700 5500 7950 5500
+Wire Wire Line
+	7950 7300 7700 7300
+Wire Wire Line
+	1350 6125 1500 6125
+Wire Wire Line
+	1500 5975 1350 5975
+Wire Wire Line
+	1500 6125 1500 6075
+Wire Notes Line
+	14400 725  14400 3950
+Wire Notes Line
+	14400 3950 15950 3950
+Wire Notes Line
+	15950 3950 15950 725 
+Wire Notes Line
+	15950 725  14400 725 
+Wire Wire Line
+	4250 1155 4400 1155
+Wire Wire Line
+	4400 1155 4400 1200
+Wire Wire Line
+	4255 1585 4400 1585
+Wire Wire Line
+	4400 1585 4400 1500
+Wire Wire Line
+	1350 6500 1500 6500
+Wire Wire Line
+	1500 6350 1350 6350
+Wire Wire Line
+	1500 6500 1500 6450
+Wire Wire Line
+	1350 6825 1500 6825
+Wire Wire Line
+	1500 6675 1350 6675
+Wire Wire Line
+	1500 6825 1500 6775
+Wire Wire Line
+	4160 6580 4110 6580
+Wire Wire Line
+	4110 6730 4160 6730
+Wire Wire Line
+	4160 6730 4160 6680
+Wire Wire Line
+	4160 7030 4110 7030
+Wire Wire Line
+	4110 7180 4160 7180
+Wire Wire Line
+	4160 7180 4160 7130
+Wire Wire Line
+	4135 8415 4135 8315
+Wire Wire Line
+	3985 8415 4135 8415
+Wire Wire Line
+	4085 8215 4135 8215
+Wire Wire Line
+	4085 8265 4085 8215
+Wire Wire Line
+	3985 8265 4085 8265
+Wire Wire Line
+	3985 8115 4135 8115
+Wire Wire Line
+	4085 8015 4135 8015
+Wire Wire Line
+	4085 7965 4085 8015
+Wire Wire Line
+	3985 7965 4085 7965
+Wire Wire Line
+	3985 7815 4135 7815
+Wire Wire Line
+	7600 5650 7600 5600
+Wire Wire Line
+	7200 5600 7200 5650
+Wire Wire Line
+	7200 5650 7150 5650
+Wire Wire Line
+	9150 6150 9150 6650
+Wire Wire Line
+	9150 8300 9850 8300
+Wire Wire Line
+	9150 7750 9850 7750
+Connection ~ 9150 8300
+Wire Wire Line
+	9150 7200 9850 7200
+Connection ~ 9150 7750
+Wire Wire Line
+	9150 6650 9850 6650
+Connection ~ 9150 7200
+Wire Wire Line
+	9150 6150 9850 6150
+Connection ~ 9150 6650
+Wire Wire Line
+	9250 5750 9250 6050
+Wire Wire Line
+	9250 6050 9850 6050
+Wire Wire Line
+	9250 6550 9850 6550
+Connection ~ 9250 6050
+Wire Wire Line
+	9250 7100 9850 7100
+Connection ~ 9250 6550
+Wire Wire Line
+	9250 7650 9850 7650
+Connection ~ 9250 7100
+Wire Wire Line
+	9250 8200 9850 8200
+Connection ~ 9250 7650
+Wire Wire Line
+	9700 8100 9850 8100
+Wire Wire Line
+	9700 7550 9850 7550
+Wire Wire Line
+	9700 7000 9850 7000
+Wire Wire Line
+	9700 6450 9850 6450
+Wire Wire Line
+	9700 5950 9850 5950
+Wire Notes Line
+	9050 5050 10650 5050
+Wire Notes Line
+	10650 5050 10650 8650
+Wire Notes Line
+	10650 8650 9050 8650
+Wire Notes Line
+	9050 8650 9050 5050
+Wire Wire Line
+	15150 1175 15200 1175
+Wire Wire Line
+	15200 1175 15200 1225
+Wire Wire Line
+	15100 1475 15200 1475
+Wire Wire Line
+	15200 1475 15200 1425
+Wire Wire Line
+	15150 1675 15200 1675
+Wire Wire Line
+	15200 1675 15200 1725
+Wire Wire Line
+	15150 1975 15200 1975
+Wire Wire Line
+	15200 1975 15200 1925
+Wire Wire Line
+	9650 3600 10000 3600
+Wire Wire Line
+	10000 3600 10000 3750
+Wire Wire Line
+	9700 3750 9900 3750
+Wire Wire Line
+	9900 3750 9900 3850
+Wire Wire Line
+	9900 3850 10000 3850
+Wire Wire Line
+	9700 3900 9850 3900
+Wire Wire Line
+	9850 3900 9850 3950
+Wire Wire Line
+	9850 3950 10000 3950
+Wire Wire Line
+	9700 4050 10000 4050
+Wire Wire Line
+	9700 4200 9750 4200
+Wire Wire Line
+	9750 4200 9750 4150
+Wire Wire Line
+	9750 4150 10000 4150
+Wire Wire Line
+	9700 4500 9850 4500
+Wire Wire Line
+	9850 4500 9850 4350
+Wire Wire Line
+	9850 4350 10000 4350
+Wire Notes Line
+	9050 4950 10650 4950
+Wire Notes Line
+	10650 4950 10650 3100
+Wire Notes Line
+	10650 3100 9050 3100
+Wire Notes Line
+	9050 3100 9050 4950
+Wire Wire Line
+	1100 3825 1100 4075
+Wire Wire Line
+	1100 4075 1600 4075
+Wire Wire Line
+	1100 4275 1600 4275
+Connection ~ 1100 4075
+Wire Wire Line
+	1100 4475 1600 4475
+Connection ~ 1100 4275
+Wire Wire Line
+	1100 4675 1600 4675
+Connection ~ 1100 4475
+Wire Wire Line
+	1100 4875 1600 4875
+Connection ~ 1100 4675
+Wire Wire Line
+	1450 4775 1600 4775
+Wire Wire Line
+	1450 4575 1600 4575
+Wire Wire Line
+	1450 4375 1600 4375
+Wire Wire Line
+	1450 4175 1600 4175
+Wire Wire Line
+	1450 3975 1600 3975
+Wire Wire Line
+	10000 4450 9900 4450
+Wire Wire Line
+	9900 4450 9900 4650
+Wire Wire Line
+	9900 4650 9700 4650
+Wire Wire Line
+	10000 4550 9950 4550
+Wire Wire Line
+	9950 4550 9950 4800
+Wire Wire Line
+	9950 4800 9700 4800
+Wire Wire Line
+	10000 4650 10000 4800
+Wire Wire Line
+	11075 4750 11075 4850
+Wire Wire Line
+	11075 5250 11175 5250
+Wire Wire Line
+	11175 5500 11175 5250
+Connection ~ 11175 5250
+Wire Wire Line
+	11375 5500 11375 5250
+Connection ~ 11375 5250
+Wire Wire Line
+	11175 5700 11175 5825
+Wire Wire Line
+	11375 5825 11375 5700
+Wire Wire Line
+	11875 5825 11875 5700
+Connection ~ 11375 5825
+Wire Wire Line
+	11175 7650 11700 7650
+Wire Wire Line
+	12675 7650 12675 7075
+Connection ~ 11175 5825
+Wire Wire Line
+	12575 7075 12575 7650
+Connection ~ 12575 7650
+Connection ~ 13075 7075
+Connection ~ 13175 7075
+Wire Wire Line
+	13175 7650 13175 7075
+Connection ~ 12675 7650
+Wire Wire Line
+	12025 6575 12025 6425
+Wire Wire Line
+	12025 6425 12225 6425
+Wire Wire Line
+	12025 6775 12025 7650
+Connection ~ 12025 7650
+Wire Wire Line
+	12225 6225 11700 6225
+Wire Wire Line
+	11700 6225 11700 6275
+Wire Wire Line
+	11700 6875 11700 7650
+Connection ~ 11700 7650
+Wire Wire Line
+	12225 5925 12175 5925
+Wire Wire Line
+	12175 5925 12175 5850
+Wire Wire Line
+	11875 5250 11875 5500
+Wire Wire Line
+	12175 5250 12175 5450
+Connection ~ 11875 5250
+Wire Wire Line
+	12825 5250 12825 5375
+Connection ~ 12175 5250
+Wire Wire Line
+	13925 5725 13925 5600
+Wire Wire Line
+	13925 5400 13925 5275
+Wire Wire Line
+	13925 5275 13325 5275
+Wire Wire Line
+	13325 5275 13325 5375
+Wire Wire Line
+	13925 5725 14375 5725
+Wire Wire Line
+	14375 6150 14375 6225
+Connection ~ 14375 6425
+Wire Wire Line
+	13925 6225 14375 6225
+Connection ~ 14375 6225
+Wire Wire Line
+	14375 5725 14375 5750
+Connection ~ 14375 5725
+Connection ~ 13175 7650
+Wire Wire Line
+	13925 6525 13975 6525
+Wire Wire Line
+	13975 6425 13975 6525
+Connection ~ 13975 6525
+Connection ~ 13975 6625
+$Comp
+L Duex5-rescue:C_SMALL C61
+U 1 1 57F84746
+P 15300 5975
+F 0 "C61" H 15325 6050 50  0000 L CNN
+F 1 "0u01 35V" V 15400 5625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Wbry" H 15300 5975 60  0001 C CNN
+F 3 "" H 15300 5975 60  0000 C CNN
+	1    15300 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 5725 14700 5725
+Wire Wire Line
+	14700 5725 14700 5775
+Wire Wire Line
+	14875 5725 14875 5775
+Connection ~ 14700 5725
+Wire Wire Line
+	15100 5725 15100 5775
+Connection ~ 14875 5725
+$Comp
+L Duex5-rescue:L_MINI L3
+U 1 1 57F87A96
+P 15275 5725
+F 0 "L3" H 15200 5675 30  0000 C CNN
+F 1 "220 ohm, 3 A" H 15275 5775 22  0000 C CNN
+F 2 "complib:R_0805" H 15275 5725 60  0001 C CNN
+F 3 "MPZ2012S221A" H 15250 5825 39  0000 C CNN
+	1    15275 5725
+	1    0    0    -1  
+$EndComp
+Connection ~ 15100 5725
+Wire Wire Line
+	15100 5775 15300 5775
+Wire Wire Line
+	15300 5775 15300 5875
+Wire Wire Line
+	15100 6175 15300 6175
+Wire Wire Line
+	15300 6175 15300 6075
+Wire Wire Line
+	15375 5725 15600 5725
+Wire Wire Line
+	15600 5725 15600 5875
+Wire Wire Line
+	15800 5300 15800 5725
+Connection ~ 15600 5725
+Connection ~ 15800 5725
+Text GLabel 15800 5300 1    60   Input ~ 0
+12V
+Wire Wire Line
+	13925 6725 14550 6725
+Wire Wire Line
+	14550 6725 14550 6350
+Wire Wire Line
+	14550 6350 15100 6350
+Wire Wire Line
+	15100 6175 15100 6350
+Connection ~ 15100 6350
+Wire Wire Line
+	15100 7650 15100 6925
+Connection ~ 13975 7650
+Wire Wire Line
+	15600 7650 15600 6075
+Connection ~ 15100 7650
+Wire Wire Line
+	15800 7650 15800 6075
+Connection ~ 15600 7650
+Wire Wire Line
+	14700 5975 14700 7650
+Connection ~ 14700 7650
+Wire Wire Line
+	14875 5975 14875 7650
+Connection ~ 14875 7650
+$Comp
+L Duex5-rescue:GND #PWR047
+U 1 1 57F9C6CA
+P 13500 7800
+F 0 "#PWR047" H 13500 7800 30  0001 C CNN
+F 1 "GND" H 13500 7730 30  0001 C CNN
+F 2 "" H 13500 7800 60  0001 C CNN
+F 3 "" H 13500 7800 60  0001 C CNN
+	1    13500 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 7800 13500 7650
+Connection ~ 13500 7650
+Text Notes 11325 4350 0    60   ~ 0
+12V Switching power supply
+Wire Notes Line
+	10875 4200 10875 7975
+Wire Notes Line
+	10875 7975 15975 7975
+Wire Notes Line
+	15975 7975 15975 4200
+Wire Notes Line
+	15975 4200 10875 4200
+Wire Wire Line
+	11175 5825 11375 5825
+Text GLabel 7700 8350 0    60   Input ~ 0
+CS5
+Text GLabel 7700 1450 0    60   Input ~ 0
+SG_TST
+Text GLabel 3985 7815 0    60   Input ~ 0
+CS6
+Text GLabel 7700 2950 0    60   Input ~ 0
+CS7
+Text GLabel 7700 3700 0    60   Input ~ 0
+CS8
+Wire Wire Line
+	1745 955  1745 1250
+Wire Wire Line
+	1745 1250 1750 1250
+Text GLabel 15025 2350 0    60   Input ~ 0
+OSCIO
+$Comp
+L Connector_Generic:Conn_01x03 JP3
+U 1 1 57F83386
+P 1925 7875
+F 0 "JP3" H 1925 8075 50  0000 C CNN
+F 1 "Endstop Voltage Select" V 2075 7875 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1925 7875 60  0001 C CNN
+F 3 "" H 1925 7875 60  0001 C CNN
+	1    1925 7875
+	1    0    0    -1  
+$EndComp
+Text GLabel 1575 7875 0    60   Input ~ 0
+ES_V
+Text GLabel 1575 7725 0    60   Input ~ 0
++5V
+Text GLabel 1575 8025 0    60   Input ~ 0
++3.3V
+Wire Wire Line
+	1575 7725 1675 7725
+Wire Wire Line
+	1675 7725 1675 7775
+Wire Wire Line
+	1675 7775 1725 7775
+Wire Wire Line
+	1575 7875 1725 7875
+Wire Wire Line
+	1575 8025 1675 8025
+Wire Wire Line
+	1675 8025 1675 7975
+Wire Wire Line
+	1675 7975 1725 7975
+$Comp
+L Duex5-rescue:CONN_01X01 TP3
+U 1 1 57FAEF05
+P 15450 2350
+F 0 "TP3" H 15450 2450 50  0000 C CNN
+F 1 "OSCIO" V 15550 2350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 15450 2350 50  0001 C CNN
+F 3 "" H 15450 2350 50  0000 C CNN
+	1    15450 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15025 2350 15250 2350
+$Comp
+L Duex5-rescue:FID M9
+U 1 1 57F5EF06
+P 11870 9540
+F 0 "M9" H 11870 9440 60  0000 C CNN
+F 1 "FID" H 11870 9640 60  0000 C CNN
+F 2 "complib:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 11870 9540 60  0001 C CNN
+F 3 "" H 11870 9540 60  0000 C CNN
+	1    11870 9540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:FID M10
+U 1 1 58339CCE
+P 11855 9840
+F 0 "M10" H 11855 9740 60  0000 C CNN
+F 1 "FID" H 11855 9940 60  0000 C CNN
+F 2 "complib:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 11855 9840 60  0001 C CNN
+F 3 "" H 11855 9840 60  0000 C CNN
+	1    11855 9840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:FID M11
+U 1 1 58339F00
+P 12010 9845
+F 0 "M11" H 12010 9745 60  0000 C CNN
+F 1 "FID" H 12010 9945 60  0000 C CNN
+F 2 "complib:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 12010 9845 60  0001 C CNN
+F 3 "" H 12010 9845 60  0000 C CNN
+	1    12010 9845
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:R_SMALL R22
+U 1 1 583A7F34
+P 6540 5210
+F 0 "R22" V 6615 5218 50  0000 C CNN
+F 1 "3K3" V 6472 5222 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Wbry" H 6540 5210 60  0001 C CNN
+F 3 "" H 6540 5210 60  0000 C CNN
+	1    6540 5210
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6540 5410 6715 5410
+Wire Wire Line
+	6715 5410 6715 5950
+Connection ~ 6715 5950
+Text GLabel 6540 4780 1    60   Output ~ 0
++3.3V
+Wire Wire Line
+	6540 5010 6540 4780
+Text GLabel 1350 7195 0    60   Input ~ 0
+V_FAN
+Text GLabel 1350 7045 0    60   Input ~ 0
+FAN8-
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 58EDC01F
+P 1700 7145
+F 0 "J15" H 1700 6950 40  0000 C CNN
+F 1 "FAN/LED 8" V 1850 7195 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1700 7145 60  0001 C CNN
+F 3 "" H 1700 7145 60  0001 C CNN
+	1    1700 7145
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1350 7195 1500 7195
+Wire Wire Line
+	1500 7045 1350 7045
+Wire Wire Line
+	1500 7195 1500 7145
+Text GLabel 9700 4350 0    60   Input ~ 0
+GPIO4
+Wire Wire Line
+	10000 4250 9790 4250
+Wire Wire Line
+	9790 4250 9790 4350
+Wire Wire Line
+	9790 4350 9700 4350
+Text GLabel 13650 4700 0    60   Input ~ 0
+12V
+$Comp
+L Duex5-rescue:GND #PWR048
+U 1 1 59ED4DDD
+P 13750 4950
+F 0 "#PWR048" H 13750 4950 30  0001 C CNN
+F 1 "GND" H 13750 4880 30  0001 C CNN
+F 2 "" H 13750 4950 60  0001 C CNN
+F 3 "" H 13750 4950 60  0001 C CNN
+	1    13750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 4950 13750 4800
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 59ED5182
+P 13950 4700
+F 0 "J17" H 13950 4800 40  0000 C CNN
+F 1 "12V" V 14100 4750 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 13950 4700 60  0001 C CNN
+F 3 "" H 13950 4700 60  0000 C CNN
+	1    13950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 4700 13750 4700
+$Comp
+L Duex5-rescue:C_POL C16
+U 1 1 59ECCD8B
+P 11725 5600
+F 0 "C16" V 11675 5675 50  0000 L CNN
+F 1 "100u 35V" V 11650 5175 50  0000 L CNN
+F 2 "complib:C_ELEC_6.3x7.7" H 11725 5600 60  0001 C CNN
+F 3 "" H 11725 5600 60  0000 C CNN
+	1    11725 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:C_POL C62
+U 1 1 59ECCEE0
+P 15600 5975
+F 0 "C62" H 15625 6050 50  0000 L CNN
+F 1 "100u 25V" V 15675 5575 50  0000 L CNN
+F 2 "complib:C_ELEC_6.3x7.7" H 15600 5975 60  0001 C CNN
+F 3 "EEEFTE221XAP" H 15600 5975 60  0001 C CNN
+	1    15600 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11725 5500 11725 5250
+Connection ~ 11725 5250
+Wire Wire Line
+	11725 5700 11725 5825
+Connection ~ 11725 5825
+$Comp
+L Duex5-rescue:C_SMALL C17
+U 1 1 5AE13590
+P 12050 5600
+F 0 "C17" V 12075 5450 50  0000 L CNN
+F 1 "0u1 35V" V 12100 5750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Wbry" H 12050 5600 60  0001 C CNN
+F 3 "" H 12050 5600 60  0000 C CNN
+	1    12050 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12050 5825 12050 5700
+Connection ~ 11875 5825
+Wire Wire Line
+	12050 5500 12050 5250
+Connection ~ 12050 5250
+$Comp
+L Duex5-rescue:R_SMALL R74
+U 1 1 5AE14B72
+P 12525 5025
+F 0 "R74" V 12600 5033 50  0000 C CNN
+F 1 "2R2 0.33W" V 12457 5037 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 12525 5025 60  0001 C CNN
+F 3 "" H 12525 5025 60  0000 C CNN
+	1    12525 5025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Duex5-rescue:L_MINI L4
+U 1 1 5AE1500D
+P 12475 5300
+F 0 "L4" H 12500 5350 30  0000 C CNN
+F 1 "MFB-201209-0011PW " H 12475 5225 22  0000 C CNN
+F 2 "complib:R_0805" H 12475 5300 60  0001 C CNN
+F 3 "" H 12475 5300 60  0000 C CNN
+	1    12475 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12725 5025 12725 5250
+Wire Wire Line
+	12325 5025 12325 5250
+Wire Wire Line
+	12325 5300 12375 5300
+Wire Wire Line
+	12725 5300 12575 5300
+Connection ~ 12725 5250
+Wire Wire Line
+	11700 5250 11725 5250
+Connection ~ 12325 5250
+Wire Wire Line
+	12725 5250 12825 5250
+$Comp
+L Duet3:Logo_Duet3d_New M8
+U 1 1 5AE6AA56
+P 14775 9725
+F 0 "M8" H 14775 9625 60  0001 C CNN
+F 1 "LOGO Duet3D" H 14775 9825 60  0001 C CNN
+F 2 "complib:LOGO_NEW_Duet3D_vertical" H 14775 9725 60  0001 C CNN
+F 3 "" H 14775 9725 60  0001 C CNN
+	1    14775 9725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 10750 1000 10900
+Wire Wire Line
+	1000 10200 1000 10750
+Wire Wire Line
+	1000 9650 1000 10200
+Wire Wire Line
+	1000 9100 1000 9650
+Wire Wire Line
+	1100 8500 1100 9000
+Wire Wire Line
+	1100 9000 1100 9550
+Wire Wire Line
+	1100 9550 1100 10100
+Wire Wire Line
+	1100 10100 1100 10650
+Wire Wire Line
+	9150 8300 9150 8450
+Wire Wire Line
+	9150 7750 9150 8300
+Wire Wire Line
+	9150 7200 9150 7750
+Wire Wire Line
+	9150 6650 9150 7200
+Wire Wire Line
+	9250 6050 9250 6550
+Wire Wire Line
+	9250 6550 9250 7100
+Wire Wire Line
+	9250 7100 9250 7650
+Wire Wire Line
+	9250 7650 9250 8200
+Wire Wire Line
+	1100 4075 1100 4275
+Wire Wire Line
+	1100 4275 1100 4475
+Wire Wire Line
+	1100 4475 1100 4675
+Wire Wire Line
+	1100 4675 1100 4875
+Wire Wire Line
+	11175 5250 11375 5250
+Wire Wire Line
+	11375 5250 11500 5250
+Wire Wire Line
+	11375 5825 11725 5825
+Wire Wire Line
+	11175 5825 11175 7650
+Wire Wire Line
+	12575 7650 12675 7650
+Wire Wire Line
+	13075 7075 13175 7075
+Wire Wire Line
+	12675 7650 13175 7650
+Wire Wire Line
+	12025 7650 12575 7650
+Wire Wire Line
+	11700 7650 12025 7650
+Wire Wire Line
+	11875 5250 12050 5250
+Wire Wire Line
+	12175 5250 12325 5250
+Wire Wire Line
+	14375 6425 14375 6625
+Wire Wire Line
+	14375 6225 14375 6425
+Wire Wire Line
+	14375 5725 14450 5725
+Wire Wire Line
+	13175 7650 13500 7650
+Wire Wire Line
+	13975 6525 13975 6625
+Wire Wire Line
+	13975 6625 13975 7650
+Wire Wire Line
+	14700 5725 14875 5725
+Wire Wire Line
+	14875 5725 15100 5725
+Wire Wire Line
+	15100 5725 15175 5725
+Wire Wire Line
+	15600 5725 15800 5725
+Wire Wire Line
+	15800 5725 15800 5875
+Wire Wire Line
+	15100 6350 15100 6525
+Wire Wire Line
+	13975 7650 14700 7650
+Wire Wire Line
+	15100 7650 15600 7650
+Wire Wire Line
+	15600 7650 15800 7650
+Wire Wire Line
+	14700 7650 14875 7650
+Wire Wire Line
+	14875 7650 15100 7650
+Wire Wire Line
+	13500 7650 13975 7650
+Wire Wire Line
+	6715 5950 7950 5950
+Wire Wire Line
+	11725 5250 11875 5250
+Wire Wire Line
+	11725 5825 11875 5825
+Wire Wire Line
+	11875 5825 12050 5825
+Wire Wire Line
+	12050 5250 12175 5250
+Wire Wire Line
+	12725 5250 12725 5300
+Wire Wire Line
+	12325 5250 12325 5300
+$Comp
+L Duex5-rescue:Mounting M14
+U 1 1 5FCF118F
+P 15525 9125
+F 0 "M14" H 15525 9025 60  0000 C CNN
+F 1 "LOGO OH" H 15525 9225 60  0000 C CNN
+F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 15525 9125 60  0001 C CNN
+F 3 "" H 15525 9125 60  0000 C CNN
+	1    15525 9125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:Mounting M13
+U 1 1 5FCF2434
+P 14975 9125
+F 0 "M13" H 14975 9025 60  0000 C CNN
+F 1 "LOGO RepRap" H 14975 9225 60  0000 C CNN
+F 2 "complib:Logo_RepRap" H 14975 9125 60  0001 C CNN
+F 3 "" H 14975 9125 60  0000 C CNN
+	1    14975 9125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 60D24568
+P 1900 2550
+F 0 "J18" H 1900 2650 40  0000 C CNN
+F 1 "VIN OUT" V 2050 2600 40  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)" H 1900 2550 60  0001 C CNN
+F 3 "" H 1900 2550 60  0001 C CNN
+	1    1900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duex5-rescue:GND #PWR074
+U 1 1 60E05484
+P 1700 2825
+F 0 "#PWR074" H 1700 2825 30  0001 C CNN
+F 1 "GND" H 1700 2755 30  0001 C CNN
+F 2 "" H 1700 2825 60  0001 C CNN
+F 3 "" H 1700 2825 60  0001 C CNN
+	1    1700 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2650 1700 2825
+Text GLabel 1500 2550 0    60   Input ~ 0
+V_FUSED
+Wire Wire Line
+	1700 2550 1500 2550
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 57D95F47
+P 15550 1825
+F 0 "J4" H 15550 1625 50  0000 C CNN
+F 1 "D6tp" V 15700 1825 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15550 1825 60  0001 C CNN
+F 3 "" H 15550 1825 60  0001 C CNN
+	1    15550 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 57D92535
+P 15550 1325
+F 0 "J1" H 15550 1125 50  0000 C CNN
+F 1 "D5tp" V 15700 1325 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15550 1325 60  0001 C CNN
+F 3 "" H 15550 1325 60  0001 C CNN
+	1    15550 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duet3:Logo_CE M12
+U 1 1 6190237B
+P 15550 9825
+F 0 "M12" H 15550 9785 60  0001 C CNN
+F 1 "Logo_CE" H 15550 9865 60  0001 C CNN
+F 2 "complib:Logo_CE_5mm" H 15550 9825 60  0001 C CNN
+F 3 "" H 15550 9825 60  0001 C CNN
+	1    15550 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Duet3:Logo_UKCA G1
+U 1 1 61902E9F
+P 15175 9825
+F 0 "G1" H 15175 9757 60  0001 C CNN
+F 1 "Logo_UKCA" H 15175 9893 60  0001 C CNN
+F 2 "complib:Logo_UKCA_5mm" H 15175 9825 60  0001 C CNN
+F 3 "" H 15175 9825 60  0001 C CNN
+F 4 "DNP Virtual Component" H 15175 9825 60  0001 C CNN "Part Number"
+	1    15175 9825
+	1    0    0    -1  
+$EndComp
+Text Label 11275 5250 0    8    ~ 0
+12v_in
+Text Label 11950 5250 0    8    ~ 0
+12vin
+Wire Wire Line
+	13275 7075 13375 7075
+Wire Wire Line
+	13175 7075 13275 7075
+Connection ~ 13275 7075
+Connection ~ 12975 7075
+Wire Wire Line
+	12975 7075 13075 7075
+Wire Wire Line
+	12875 7075 12975 7075
+$Comp
+L Duex5-rescue:A4403 U11
+U 1 1 57F67B4E
+P 13075 6225
+F 0 "U11" H 13075 6275 70  0000 C CNN
+F 1 "A4403" H 13075 6125 70  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm" H 13075 6225 60  0001 C CNN
+F 3 "" H 13075 6225 60  0000 C CNN
+	1    13075 6225
+	1    0    0    -1  
+$EndComp
+Text Label 14375 6325 0    8    ~ 0
+isen
+Text Label 14475 6725 0    8    ~ 0
+FB
+Text Label 14150 5725 0    8    ~ 0
+LX
+Text Label 14950 5725 0    8    ~ 0
+12vout
+Text Label 12825 5300 0    8    ~ 0
+U11vin
+Text Label 12175 5875 0    8    ~ 0
+ton
+Text Label 11925 6225 0    8    ~ 0
+12en
+Text Label 12175 6425 0    8    ~ 0
+12ss
+Wire Wire Line
+	2025 2075 2025 2225
+Wire Wire Line
+	1525 1975 1525 1875
+Wire Wire Line
+	1700 1825 1600 1825
+Wire Wire Line
+	1600 1825 1600 1775
+Wire Wire Line
+	1600 1775 1525 1775
+Wire Wire Line
+	1525 1675 1700 1675
+Text Label 1525 1950 0    8    ~ 0
+5vauxin
+Wire Wire Line
+	15200 1225 15350 1225
+Wire Wire Line
+	15150 1325 15350 1325
+Wire Wire Line
+	15350 1425 15200 1425
+Wire Wire Line
+	15200 1725 15350 1725
+Wire Wire Line
+	15150 1825 15350 1825
+Wire Wire Line
+	15200 1925 15350 1925
+Text GLabel 12225 1500 0    60   Input ~ 0
+E4_STOP_CONN
+Text GLabel 12225 2250 0    60   Input ~ 0
+E5_STOP_CONN
+Text GLabel 12250 3000 0    60   Input ~ 0
+E6_STOP_CONN
+Text Notes 14525 2825 0    60   ~ 0
+All test points are DNP
+Text Notes 11350 850  0    60   ~ 0
+External driver connections
+Wire Notes Line
+	11275 725  11275 3950
+Wire Notes Line
+	11275 3950 14275 3950
+Wire Notes Line
+	14275 3950 14275 725 
+Wire Notes Line
+	11275 725  14275 725 
+$Comp
+L Duex5-rescue:GND #PWR0101
+U 1 1 615626BD
+P 12350 1600
+F 0 "#PWR0101" H 12350 1600 30  0001 C CNN
+F 1 "GND" H 12350 1530 30  0001 C CNN
+F 2 "" H 12350 1600 60  0001 C CNN
+F 3 "" H 12350 1600 60  0001 C CNN
+	1    12350 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 1600 12350 1525
+Wire Wire Line
+	12275 1425 12350 1425
+Wire Wire Line
+	12250 1325 12350 1325
+Wire Wire Line
+	12275 1500 12275 1425
+Wire Wire Line
+	12225 1500 12275 1500
+Wire Wire Line
+	12225 1375 12250 1375
+Wire Wire Line
+	12250 1375 12250 1325
+Wire Wire Line
+	12225 1225 12350 1225
+Wire Wire Line
+	12350 1125 12250 1125
+Wire Wire Line
+	12250 1125 12250 1075
+Wire Wire Line
+	12250 1075 12225 1075
+$Comp
+L Duex5-rescue:GND #PWR0102
+U 1 1 618D6A99
+P 12350 2325
+F 0 "#PWR0102" H 12350 2325 30  0001 C CNN
+F 1 "GND" H 12350 2255 30  0001 C CNN
+F 2 "" H 12350 2325 60  0001 C CNN
+F 3 "" H 12350 2325 60  0001 C CNN
+	1    12350 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 2325 12350 2250
+$Comp
+L Duex5-rescue:GND #PWR0103
+U 1 1 61904FAD
+P 12350 3075
+F 0 "#PWR0103" H 12350 3075 30  0001 C CNN
+F 1 "GND" H 12350 3005 30  0001 C CNN
+F 2 "" H 12350 3075 60  0001 C CNN
+F 3 "" H 12350 3075 60  0001 C CNN
+	1    12350 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 3075 12350 3000
+Wire Wire Line
+	12225 1800 12275 1800
+Wire Wire Line
+	12275 1800 12275 1850
+Wire Wire Line
+	12275 1850 12350 1850
+Wire Wire Line
+	12225 1950 12350 1950
+Wire Wire Line
+	12225 2100 12250 2100
+Wire Wire Line
+	12250 2100 12250 2050
+Wire Wire Line
+	12250 2050 12350 2050
+Wire Wire Line
+	12350 2150 12275 2150
+Wire Wire Line
+	12275 2150 12275 2250
+Wire Wire Line
+	12275 2250 12225 2250
+Wire Wire Line
+	12250 3000 12300 3000
+Wire Wire Line
+	12300 3000 12300 2900
+Wire Wire Line
+	12300 2900 12350 2900
+Wire Wire Line
+	12250 2850 12275 2850
+Wire Wire Line
+	12275 2850 12275 2800
+Wire Wire Line
+	12275 2800 12350 2800
+Wire Wire Line
+	12250 2700 12350 2700
+Wire Wire Line
+	12250 2550 12275 2550
+Wire Wire Line
+	12275 2550 12275 2600
+Wire Wire Line
+	12275 2600 12350 2600
+$Comp
+L Connector_Generic:Conn_01x04 J14
+U 1 1 568448F7
+P 4825 4175
+F 0 "J14" H 4825 4425 50  0000 C CNN
+F 1 "D9" V 4975 4175 50  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900411121-1x04_P2.54mm_Vertical(Molex_KK-254_AE-6410-04A_Compatible)" H 4825 4175 60  0001 C CNN
+F 3 "" H 4825 4175 60  0001 C CNN
+	1    4825 4175
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 56845A17
+P 4825 3475
+F 0 "J12" H 4825 3725 50  0000 C CNN
+F 1 "D8" V 4975 3475 50  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900411121-1x04_P2.54mm_Vertical(Molex_KK-254_AE-6410-04A_Compatible)" H 4825 3475 60  0001 C CNN
+F 3 "" H 4825 3475 60  0001 C CNN
+	1    4825 3475
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 56845A1D
+P 4825 2775
+F 0 "J9" H 4825 3025 50  0000 C CNN
+F 1 "D7" V 4975 2775 50  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900411121-1x04_P2.54mm_Vertical(Molex_KK-254_AE-6410-04A_Compatible)" H 4825 2775 60  0001 C CNN
+F 3 "" H 4825 2775 60  0001 C CNN
+	1    4825 2775
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 56845A23
+P 4825 2075
+F 0 "J5" H 4825 2325 50  0000 C CNN
+F 1 "D6" V 4975 2075 50  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900411121-1x04_P2.54mm_Vertical(Molex_KK-254_AE-6410-04A_Compatible)" H 4825 2075 60  0001 C CNN
+F 3 "" H 4825 2075 60  0001 C CNN
+	1    4825 2075
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 56845A29
+P 4845 1400
+F 0 "J3" H 4845 1650 50  0000 C CNN
+F 1 "D5" V 4995 1400 50  0000 C CNN
+F 2 "Connector_Molex:Wurth_61900411121-1x04_P2.54mm_Vertical(Molex_KK-254_AE-6410-04A_Compatible)" H 4845 1400 60  0001 C CNN
+F 3 "" H 4845 1400 60  0001 C CNN
+	1    4845 1400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1525 1975 2025 1975
+$EndSCHEMATC

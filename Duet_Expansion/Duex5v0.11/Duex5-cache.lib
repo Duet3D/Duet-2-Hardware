@@ -213,11 +213,11 @@ P 71 0 0 1 28 43 50 26 72 8 97 8 98 9 97 9 92 14 90 15 88 17 84 19 83 21 79 23 7
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_74HCT02
+# Duex5-rescue_74HCT02-Duex5-rescue
 #
-DEF Duex5-rescue_74HCT02 U 0 40 Y Y 1 F N
+DEF Duex5-rescue_74HCT02-Duex5-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "Duex5-rescue_74HCT02" 0 -50 60 H V C CNN
+F1 "Duex5-rescue_74HCT02-Duex5-rescue" 0 -50 60 H V C CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
 DRAW
@@ -239,11 +239,11 @@ X 3B 9 -750 -300 300 R 60 60 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_A4403
+# Duex5-rescue_A4403-Duex5-rescue
 #
-DEF Duex5-rescue_A4403 U 0 40 Y Y 1 F N
+DEF Duex5-rescue_A4403-Duex5-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 70 H V C CNN
-F1 "Duex5-rescue_A4403" 0 -100 70 H V C CNN
+F1 "Duex5-rescue_A4403-Duex5-rescue" 0 -100 70 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -268,11 +268,11 @@ X SGND 9 850 -300 300 L 60 60 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_BSH105
+# Duex5-rescue_BSH105-Duex5-rescue
 #
-DEF Duex5-rescue_BSH105 TR 0 30 Y N 1 F N
+DEF Duex5-rescue_BSH105-Duex5-rescue TR 0 30 Y N 1 F N
 F0 "TR" -97 250 70 H V C CNN
-F1 "Duex5-rescue_BSH105" -147 -297 60 H V C CNN
+F1 "Duex5-rescue_BSH105-Duex5-rescue" -147 -297 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -288,11 +288,11 @@ X S S 150 -350 250 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_CONN2X25
+# Duex5-rescue_CONN2X25-Duex5-rescue
 #
-DEF Duex5-rescue_CONN2X25 J 0 40 Y Y 1 F N
+DEF Duex5-rescue_CONN2X25-Duex5-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 -3850 60 H V C CNN
-F1 "Duex5-rescue_CONN2X25" 0 3750 60 H V C CNN
+F1 "Duex5-rescue_CONN2X25-Duex5-rescue" 0 3750 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -448,11 +448,11 @@ X ~ 9 -400 2400 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_CONN_01X01
+# Duex5-rescue_CONN_01X01-Duex5-rescue
 #
-DEF Duex5-rescue_CONN_01X01 P 0 40 Y N 1 F N
+DEF Duex5-rescue_CONN_01X01-Duex5-rescue P 0 40 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
-F1 "Duex5-rescue_CONN_01X01" 100 0 50 V V C CNN
+F1 "Duex5-rescue_CONN_01X01-Duex5-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -468,11 +468,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_CONN_01X10
+# Duex5-rescue_CONN_01X10-Duex5-rescue
 #
-DEF Duex5-rescue_CONN_01X10 P 0 40 Y N 1 F N
+DEF Duex5-rescue_CONN_01X10-Duex5-rescue P 0 40 Y N 1 F N
 F0 "P" 0 550 50 H V C CNN
-F1 "Duex5-rescue_CONN_01X10" 100 0 50 V V C CNN
+F1 "Duex5-rescue_CONN_01X10-Duex5-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -506,11 +506,11 @@ X P9 9 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_CONN_02X03
+# Duex5-rescue_CONN_02X03-Duex5-rescue
 #
-DEF Duex5-rescue_CONN_02X03 P 0 1 Y N 1 F N
+DEF Duex5-rescue_CONN_02X03-Duex5-rescue P 0 1 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "Duex5-rescue_CONN_02X03" 0 -200 50 H V C CNN
+F1 "Duex5-rescue_CONN_02X03-Duex5-rescue" 0 -200 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -536,11 +536,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_CONN_5X2
+# Duex5-rescue_CONN_5X2-Duex5-rescue
 #
-DEF Duex5-rescue_CONN_5X2 P 0 40 Y Y 1 F N
+DEF Duex5-rescue_CONN_5X2-Duex5-rescue P 0 40 Y Y 1 F N
 F0 "P" 0 300 60 H V C CNN
-F1 "Duex5-rescue_CONN_5X2" 0 0 50 V V C CNN
+F1 "Duex5-rescue_CONN_5X2-Duex5-rescue" 0 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -558,11 +558,11 @@ X ~ 9 -400 -200 300 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_C_POL
+# Duex5-rescue_C_POL-Duex5-rescue
 #
-DEF Duex5-rescue_C_POL C 0 10 N Y 1 F N
+DEF Duex5-rescue_C_POL-Duex5-rescue C 0 10 N Y 1 F N
 F0 "C" 25 75 50 H V L CNN
-F1 "Duex5-rescue_C_POL" 0 -75 50 H V L CNN
+F1 "Duex5-rescue_C_POL-Duex5-rescue" 0 -75 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -579,11 +579,11 @@ X ~ 2 0 -100 75 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_C_SMALL
+# Duex5-rescue_C_SMALL-Duex5-rescue
 #
-DEF Duex5-rescue_C_SMALL C 0 10 N Y 1 F N
+DEF Duex5-rescue_C_SMALL-Duex5-rescue C 0 10 N Y 1 F N
 F0 "C" 25 75 50 H V L CNN
-F1 "Duex5-rescue_C_SMALL" 0 -75 50 H V L CNN
+F1 "Duex5-rescue_C_SMALL-Duex5-rescue" 0 -75 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -599,11 +599,11 @@ X ~ 2 0 -100 75 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_DB2W40300L
+# Duex5-rescue_DB2W40300L-Duex5-rescue
 #
-DEF Duex5-rescue_DB2W40300L D 0 40 N N 1 F N
+DEF Duex5-rescue_DB2W40300L-Duex5-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "Duex5-rescue_DB2W40300L" 0 -100 40 H V C CNN
+F1 "Duex5-rescue_DB2W40300L-Duex5-rescue" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -618,11 +618,11 @@ X A 2 -200 0 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_DIODE
+# Duex5-rescue_DIODE-Duex5-rescue
 #
-DEF Duex5-rescue_DIODE D 0 40 N N 1 F N
+DEF Duex5-rescue_DIODE-Duex5-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "Duex5-rescue_DIODE" 0 -100 40 H V C CNN
+F1 "Duex5-rescue_DIODE-Duex5-rescue" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -637,11 +637,11 @@ X A 2 -200 0 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_FID
+# Duex5-rescue_FID-Duex5-rescue
 #
-DEF Duex5-rescue_FID M 0 40 Y Y 1 F N
+DEF Duex5-rescue_FID-Duex5-rescue M 0 40 Y Y 1 F N
 F0 "M" 0 -100 60 H V C CNN
-F1 "Duex5-rescue_FID" 0 100 60 H V C CNN
+F1 "Duex5-rescue_FID-Duex5-rescue" 0 100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -649,11 +649,11 @@ C 0 0 50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_GND
+# Duex5-rescue_GND-Duex5-rescue
 #
-DEF Duex5-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF Duex5-rescue_GND-Duex5-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Duex5-rescue_GND" 0 -150 50 H V C CNN
+F1 "Duex5-rescue_GND-Duex5-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -662,11 +662,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_IPD036N04L
+# Duex5-rescue_IPD036N04L-Duex5-rescue
 #
-DEF Duex5-rescue_IPD036N04L TR 0 30 Y N 1 F N
+DEF Duex5-rescue_IPD036N04L-Duex5-rescue TR 0 30 Y N 1 F N
 F0 "TR" -97 250 70 H V C CNN
-F1 "Duex5-rescue_IPD036N04L" -147 -297 60 H V C CNN
+F1 "Duex5-rescue_IPD036N04L-Duex5-rescue" -147 -297 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -682,11 +682,11 @@ X S S 150 -350 250 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_JUMPER
+# Duex5-rescue_JUMPER-Duex5-rescue
 #
-DEF Duex5-rescue_JUMPER JP 0 30 Y N 1 F N
+DEF Duex5-rescue_JUMPER-Duex5-rescue JP 0 30 Y N 1 F N
 F0 "JP" 0 150 60 H V C CNN
-F1 "Duex5-rescue_JUMPER" 0 -80 40 H V C CNN
+F1 "Duex5-rescue_JUMPER-Duex5-rescue" 0 -80 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -698,11 +698,11 @@ X 2 2 300 0 165 L 60 60 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_L_MINI
+# Duex5-rescue_L_MINI-Duex5-rescue
 #
-DEF Duex5-rescue_L_MINI L 0 0 N N 1 F N
+DEF Duex5-rescue_L_MINI-Duex5-rescue L 0 0 N N 1 F N
 F0 "L" -75 -50 30 H V C CNN
-F1 "Duex5-rescue_L_MINI" 0 50 22 H V C CNN
+F1 "Duex5-rescue_L_MINI-Duex5-rescue" 0 50 22 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -714,11 +714,11 @@ X B 2 100 0 25 L 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_Mounting
+# Duex5-rescue_Mounting-Duex5-rescue
 #
-DEF Duex5-rescue_Mounting M 0 40 Y Y 1 F N
+DEF Duex5-rescue_Mounting-Duex5-rescue M 0 40 Y Y 1 F N
 F0 "M" -100 -100 60 H V C CNN
-F1 "Duex5-rescue_Mounting" 0 100 60 H V C CNN
+F1 "Duex5-rescue_Mounting-Duex5-rescue" 0 100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -726,11 +726,11 @@ C 0 0 50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_R_SMALL
+# Duex5-rescue_R_SMALL-Duex5-rescue
 #
-DEF Duex5-rescue_R_SMALL R 0 0 N Y 1 F N
+DEF Duex5-rescue_R_SMALL-Duex5-rescue R 0 0 N Y 1 F N
 F0 "R" 75 8 50 V V C CNN
-F1 "Duex5-rescue_R_SMALL" -68 12 50 V V C CNN
+F1 "Duex5-rescue_R_SMALL-Duex5-rescue" -68 12 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -747,11 +747,11 @@ X ~ 2 0 -200 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_SX1509B
+# Duex5-rescue_SX1509B-Duex5-rescue
 #
-DEF Duex5-rescue_SX1509B U 0 40 Y Y 1 F N
+DEF Duex5-rescue_SX1509B-Duex5-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "Duex5-rescue_SX1509B" 0 -147 60 H V C CNN
+F1 "Duex5-rescue_SX1509B-Duex5-rescue" 0 -147 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -818,11 +818,11 @@ X VCC1 VCC1 -250 1500 300 D 50 50 1 2 P
 ENDDRAW
 ENDDEF
 #
-# Duex5-rescue_TMC2660
+# Duex5-rescue_TMC2660-Duex5-rescue
 #
-DEF Duex5-rescue_TMC2660 U 0 40 Y Y 1 F N
+DEF Duex5-rescue_TMC2660-Duex5-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 350 60 H V C CNN
-F1 "Duex5-rescue_TMC2660" 0 -250 60 H V C CNN
+F1 "Duex5-rescue_TMC2660-Duex5-rescue" 0 -250 60 H V C CNN
 F2 "" 0 -50 60 H V C CNN
 F3 "" 0 -50 60 H V C CNN
 DRAW

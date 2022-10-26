@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Duex5-rescue:BSH105-Duex5-rescue TR6
+L Duex5-rescue:BSH105 TR6
 U 1 1 50905421
 P 2235 4545
 F 0 "TR6" H 2138 4795 70  0000 C CNN
@@ -28,7 +28,7 @@ $EndComp
 Text GLabel 2385 4095 0    60   Input ~ 0
 FAN3-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR049
+L Duex5-rescue:GND #PWR049
 U 1 1 5090541F
 P 2385 5545
 F 0 "#PWR049" H 2385 5545 30  0001 C CNN
@@ -45,7 +45,7 @@ V_FUSED
 Text GLabel 1110 2825 0    60   Input ~ 0
 E2_PWM
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR050
+L Duex5-rescue:GND #PWR050
 U 1 1 50905416
 P 2200 3305
 F 0 "#PWR050" H 2200 3305 30  0001 C CNN
@@ -88,7 +88,7 @@ E6 MOSFET CONTROL
 Text GLabel 13175 1585 2    60   Input ~ 0
 E6-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR051
+L Duex5-rescue:GND #PWR051
 U 1 1 5064BB75
 P 13175 3305
 F 0 "#PWR051" H 13175 3305 30  0001 C CNN
@@ -124,7 +124,7 @@ $EndComp
 Text Notes 3150 3780 0    60   ~ 0
 FAN 4 MOSFET CONTROL
 $Comp
-L Duex5-rescue:BSH105-Duex5-rescue TR8
+L Duex5-rescue:BSH105 TR8
 U 1 1 5547E893
 P 6460 4565
 F 0 "TR8" H 6363 4815 70  0000 C CNN
@@ -137,7 +137,7 @@ $EndComp
 Text GLabel 4485 4130 0    60   Input ~ 0
 FAN4-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR052
+L Duex5-rescue:GND #PWR052
 U 1 1 5547E89A
 P 4485 5430
 F 0 "#PWR052" H 4485 5430 30  0001 C CNN
@@ -158,7 +158,7 @@ HEATER5
 Text GLabel 11975 2835 0    60   Input ~ 0
 E6_PWM
 $Comp
-L Duex5-rescue:74HCT02-Duex5-rescue U10
+L Duex5-rescue:74HCT02 U10
 U 1 1 5681867D
 P 2305 9745
 F 0 "U10" H 2305 9795 60  0000 C CNN
@@ -175,7 +175,7 @@ E3_PWM
 Text GLabel 3155 10295 2    60   Input ~ 0
 E4_PWM
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR053
+L Duex5-rescue:GND #PWR053
 U 1 1 568188CF
 P 2305 10845
 F 0 "#PWR053" H 2305 10845 30  0001 C CNN
@@ -186,7 +186,7 @@ F 3 "" H 2305 10845 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R36
+L Duex5-rescue:R_SMALL R36
 U 1 1 56818966
 P 12875 1585
 F 0 "R36" V 12950 1593 50  0000 C CNN
@@ -197,7 +197,7 @@ F 3 "~" H 12875 1585 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R35
+L Duex5-rescue:R_SMALL R35
 U 1 1 568189E9
 P 1900 1575
 F 0 "R35" V 1975 1583 50  0000 C CNN
@@ -208,7 +208,7 @@ F 3 "~" H 1900 1575 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R32
+L Duex5-rescue:R_SMALL R32
 U 1 1 568189EF
 P 4750 1550
 F 0 "R32" V 4825 1558 50  0000 C CNN
@@ -219,7 +219,7 @@ F 3 "~" H 4750 1550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R41
+L Duex5-rescue:R_SMALL R41
 U 1 1 56818A42
 P 12275 2835
 F 0 "R41" V 12350 2843 50  0000 C CNN
@@ -234,7 +234,7 @@ Text GLabel 2305 8845 1    60   Input ~ 0
 Text Notes 2400 10985 0    39   ~ 0
 This is a safety feature: if 3.3V gets shorted to ground,\nthe mosfets don't turn on.
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R40
+L Duex5-rescue:R_SMALL R40
 U 1 1 5683FE33
 P 1400 2825
 F 0 "R40" V 1475 2833 50  0000 C CNN
@@ -245,7 +245,7 @@ F 3 "~" H 1400 2825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R37
+L Duex5-rescue:R_SMALL R37
 U 1 1 5683FE3E
 P 4175 2800
 F 0 "R37" V 4250 2808 50  0000 C CNN
@@ -256,7 +256,7 @@ F 3 "~" H 4175 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R55
+L Duex5-rescue:R_SMALL R55
 U 1 1 56818A28
 P 1235 4945
 F 0 "R55" V 1310 4953 50  0000 C CNN
@@ -267,7 +267,7 @@ F 3 "~" H 1235 4945 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR054
+L Duex5-rescue:GND #PWR054
 U 1 1 56943D05
 P 3055 9045
 F 0 "#PWR054" H 3055 9045 30  0001 C CNN
@@ -278,7 +278,7 @@ F 3 "" H 3055 9045 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C52
+L Duex5-rescue:C_SMALL C52
 U 1 1 56943D12
 P 3055 8845
 F 0 "C52" H 3080 8920 50  0000 L CNN
@@ -289,7 +289,7 @@ F 3 "~" H 3055 8845 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:IPD036N04L-Duex5-rescue TR5
+L Duex5-rescue:IPD036N04L TR5
 U 1 1 5065705B
 P 13025 2835
 F 0 "TR5" H 13475 2935 70  0000 C CNN
@@ -300,7 +300,7 @@ F 3 "" H 13025 2835 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR055
+L Duex5-rescue:GND #PWR055
 U 1 1 56F6B8E3
 P 2850 2625
 F 0 "#PWR055" H 2850 2625 30  0001 C CNN
@@ -311,7 +311,7 @@ F 3 "" H 2850 2625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR056
+L Duex5-rescue:GND #PWR056
 U 1 1 56F6BC87
 P 5025 3225
 F 0 "#PWR056" H 5025 3225 30  0001 C CNN
@@ -322,7 +322,7 @@ F 3 "" H 5025 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R47
+L Duex5-rescue:R_SMALL R47
 U 1 1 5713C9E5
 P 1585 4545
 F 0 "R47" V 1660 4553 50  0000 C CNN
@@ -333,7 +333,7 @@ F 3 "~" H 1585 4545 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R49
+L Duex5-rescue:R_SMALL R49
 U 1 1 5713CB18
 P 3735 4580
 F 0 "R49" V 3810 4588 50  0000 C CNN
@@ -344,7 +344,7 @@ F 3 "~" H 3735 4580 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:IPD036N04L-Duex5-rescue TR1
+L Duex5-rescue:IPD036N04L TR1
 U 1 1 571B7F28
 P 2050 2825
 F 0 "TR1" H 2500 2925 70  0000 C CNN
@@ -355,7 +355,7 @@ F 3 "" H 2050 2825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:IPD036N04L-Duex5-rescue TR2
+L Duex5-rescue:IPD036N04L TR2
 U 1 1 571B7F50
 P 4875 2800
 F 0 "TR2" H 5325 2900 70  0000 C CNN
@@ -368,7 +368,7 @@ $EndComp
 Text Notes 5595 3765 0    60   ~ 0
 FAN 5 MOSFET CONTROL
 $Comp
-L Duex5-rescue:BSH105-Duex5-rescue TR9
+L Duex5-rescue:BSH105 TR9
 U 1 1 571B800D
 P 8645 4545
 F 0 "TR9" H 8548 4795 70  0000 C CNN
@@ -381,7 +381,7 @@ $EndComp
 Text GLabel 6610 4015 0    60   Input ~ 0
 FAN5-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR057
+L Duex5-rescue:GND #PWR057
 U 1 1 571B8014
 P 6610 5415
 F 0 "#PWR057" H 6610 5415 30  0001 C CNN
@@ -394,7 +394,7 @@ $EndComp
 Text GLabel 5560 4565 0    60   Input ~ 0
 FAN5
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R50
+L Duex5-rescue:R_SMALL R50
 U 1 1 571B801B
 P 5860 4565
 F 0 "R50" V 5935 4573 50  0000 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 7385 2100 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R33
+L Duex5-rescue:R_SMALL R33
 U 1 1 57CE6815
 P 7385 1550
 F 0 "R33" V 7460 1558 50  0000 C CNN
@@ -445,7 +445,7 @@ F 3 "~" H 7385 1550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R38
+L Duex5-rescue:R_SMALL R38
 U 1 1 57CE6821
 P 6835 2800
 F 0 "R38" V 6910 2808 50  0000 C CNN
@@ -456,7 +456,7 @@ F 3 "~" H 6835 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR058
+L Duex5-rescue:GND #PWR058
 U 1 1 57CE6828
 P 7685 3225
 F 0 "#PWR058" H 7685 3225 30  0001 C CNN
@@ -467,7 +467,7 @@ F 3 "" H 7685 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:IPD036N04L-Duex5-rescue TR3
+L Duex5-rescue:IPD036N04L TR3
 U 1 1 57CE682E
 P 7535 2800
 F 0 "TR3" H 7985 2900 70  0000 C CNN
@@ -497,7 +497,7 @@ F 3 "" H 10060 2100 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R34
+L Duex5-rescue:R_SMALL R34
 U 1 1 57CE731C
 P 10060 1550
 F 0 "R34" V 10135 1558 50  0000 C CNN
@@ -508,7 +508,7 @@ F 3 "~" H 10060 1550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R39
+L Duex5-rescue:R_SMALL R39
 U 1 1 57CE7328
 P 9510 2800
 F 0 "R39" V 9585 2808 50  0000 C CNN
@@ -519,7 +519,7 @@ F 3 "~" H 9510 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR059
+L Duex5-rescue:GND #PWR059
 U 1 1 57CE732F
 P 10360 3225
 F 0 "#PWR059" H 10360 3225 30  0001 C CNN
@@ -530,7 +530,7 @@ F 3 "" H 10360 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:IPD036N04L-Duex5-rescue TR4
+L Duex5-rescue:IPD036N04L TR4
 U 1 1 57CE7335
 P 10210 2800
 F 0 "TR4" H 10660 2900 70  0000 C CNN
@@ -543,7 +543,7 @@ $EndComp
 Text Notes 7785 3745 0    60   ~ 0
 FAN 6 MOSFET CONTROL
 $Comp
-L Duex5-rescue:BSH105-Duex5-rescue TR10
+L Duex5-rescue:BSH105 TR10
 U 1 1 57CEC8BF
 P 2230 6880
 F 0 "TR10" H 2133 7130 70  0000 C CNN
@@ -556,7 +556,7 @@ $EndComp
 Text GLabel 8795 4045 0    60   Input ~ 0
 FAN6-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR060
+L Duex5-rescue:GND #PWR060
 U 1 1 57CEC8C6
 P 8795 5395
 F 0 "#PWR060" H 8795 5395 30  0001 C CNN
@@ -569,7 +569,7 @@ $EndComp
 Text GLabel 7745 4545 0    60   Input ~ 0
 FAN6
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R51
+L Duex5-rescue:R_SMALL R51
 U 1 1 57CEC8CD
 P 8045 4545
 F 0 "R51" V 8120 4553 50  0000 C CNN
@@ -582,7 +582,7 @@ $EndComp
 Text Notes 780  6080 0    60   ~ 0
 FAN 7 MOSFET CONTROL
 $Comp
-L Duex5-rescue:BSH105-Duex5-rescue TR7
+L Duex5-rescue:BSH105 TR7
 U 1 1 57CECA0B
 P 4335 4580
 F 0 "TR7" H 4238 4830 70  0000 C CNN
@@ -595,7 +595,7 @@ $EndComp
 Text GLabel 2380 6380 0    60   Input ~ 0
 FAN7-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR061
+L Duex5-rescue:GND #PWR061
 U 1 1 57CECA12
 P 2380 7730
 F 0 "#PWR061" H 2380 7730 30  0001 C CNN
@@ -608,7 +608,7 @@ $EndComp
 Text GLabel 1330 6880 0    60   Input ~ 0
 FAN7
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R48
+L Duex5-rescue:R_SMALL R48
 U 1 1 57CECA19
 P 1630 6880
 F 0 "R48" V 1705 6888 50  0000 C CNN
@@ -619,7 +619,7 @@ F 3 "~" H 1630 6880 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R56
+L Duex5-rescue:R_SMALL R56
 U 1 1 57CECA21
 P 1430 7230
 F 0 "R56" V 1505 7238 50  0000 C CNN
@@ -636,7 +636,7 @@ Text GLabel 4270 8960 0    60   Input ~ 0
 Text GLabel 4620 9910 0    60   Input ~ 0
 HEATER7
 $Comp
-L Duex5-rescue:74HCT02-Duex5-rescue U9
+L Duex5-rescue:74HCT02 U9
 U 1 1 57CEF16C
 P 5470 9760
 F 0 "U9" H 5470 9810 60  0000 C CNN
@@ -651,7 +651,7 @@ E5_PWM
 Text GLabel 6320 10010 2    60   Input ~ 0
 E6_PWM
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR062
+L Duex5-rescue:GND #PWR062
 U 1 1 57CEF179
 P 5470 10860
 F 0 "#PWR062" H 5470 10860 30  0001 C CNN
@@ -664,7 +664,7 @@ $EndComp
 Text GLabel 5470 8860 1    60   Input ~ 0
 +5V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR063
+L Duex5-rescue:GND #PWR063
 U 1 1 57CEF18E
 P 6220 9060
 F 0 "#PWR063" H 6220 9060 30  0001 C CNN
@@ -675,7 +675,7 @@ F 3 "" H 6220 9060 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C51
+L Duex5-rescue:C_SMALL C51
 U 1 1 57CEF194
 P 6220 8860
 F 0 "C51" H 6245 8935 50  0000 L CNN
@@ -693,7 +693,7 @@ THERMISTOR7
 Text GLabel 8160 9090 0    60   Input ~ 0
 ADVREF
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R61
+L Duex5-rescue:R_SMALL R61
 U 1 1 57D02559
 P 8310 9340
 F 0 "R61" V 8385 9348 50  0000 C CNN
@@ -704,7 +704,7 @@ F 3 "" H 8310 9340 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R62
+L Duex5-rescue:R_SMALL R62
 U 1 1 57D02E0D
 P 8510 9490
 F 0 "R62" V 8585 9498 50  0000 C CNN
@@ -715,7 +715,7 @@ F 3 "" H 8510 9490 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R63
+L Duex5-rescue:R_SMALL R63
 U 1 1 57D02EDA
 P 8710 9640
 F 0 "R63" V 8785 9648 50  0000 C CNN
@@ -726,7 +726,7 @@ F 3 "" H 8710 9640 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R64
+L Duex5-rescue:R_SMALL R64
 U 1 1 57D02F8A
 P 8910 9790
 F 0 "R64" V 8985 9798 50  0000 C CNN
@@ -737,7 +737,7 @@ F 3 "" H 8910 9790 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R65
+L Duex5-rescue:R_SMALL R65
 U 1 1 57D03437
 P 9110 9940
 F 0 "R65" V 9185 9948 50  0000 C CNN
@@ -758,7 +758,7 @@ Thermistor Pullups
 Text GLabel 10600 4250 0    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR064
+L Duex5-rescue:GND #PWR064
 U 1 1 57D0DF8A
 P 12950 7400
 F 0 "#PWR064" H 12950 7150 50  0001 C CNN
@@ -773,7 +773,7 @@ Text GLabel 14820 3860 1    60   Input ~ 0
 Text GLabel 13900 6500 2    60   Input ~ 0
 FAN3
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R58
+L Duex5-rescue:R_SMALL R58
 U 1 1 57CEC8D5
 P 7845 4895
 F 0 "R58" V 7920 4903 50  0000 C CNN
@@ -784,7 +784,7 @@ F 3 "~" H 7845 4895 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R57
+L Duex5-rescue:R_SMALL R57
 U 1 1 571B841E
 P 5660 4915
 F 0 "R57" V 5735 4923 50  0000 C CNN
@@ -795,7 +795,7 @@ F 3 "~" H 5660 4915 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R59
+L Duex5-rescue:R_SMALL R59
 U 1 1 57D19F5E
 P 3495 4980
 F 0 "R59" V 3570 4988 50  0000 C CNN
@@ -818,7 +818,7 @@ TWCK0
 Text GLabel 10575 5050 0    60   Input ~ 0
 TWD0
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R52
+L Duex5-rescue:R_SMALL R52
 U 1 1 57D22185
 P 11400 4700
 F 0 "R52" V 11500 4700 50  0000 C CNN
@@ -829,7 +829,7 @@ F 3 "" H 11400 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R53
+L Duex5-rescue:R_SMALL R53
 U 1 1 57D2218B
 P 11650 4700
 F 0 "R53" V 11750 4700 50  0000 C CNN
@@ -840,7 +840,7 @@ F 3 "" H 11650 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C50
+L Duex5-rescue:C_SMALL C50
 U 1 1 57D256FE
 P 12100 4450
 F 0 "C50" H 12125 4525 50  0000 L CNN
@@ -851,7 +851,7 @@ F 3 "" H 12100 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR066
+L Duex5-rescue:GND #PWR066
 U 1 1 57D25CD3
 P 12100 4600
 F 0 "#PWR066" H 12100 4350 50  0001 C CNN
@@ -862,7 +862,7 @@ F 3 "" H 12100 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R54
+L Duex5-rescue:R_SMALL R54
 U 1 1 57D72FE2
 P 11900 4700
 F 0 "R54" V 12000 4700 50  0000 C CNN
@@ -883,7 +883,7 @@ GPIO3
 Text Notes 10900 3700 0    60   ~ 0
 Port Expander
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR067
+L Duex5-rescue:GND #PWR067
 U 1 1 57EC35EC
 P 15050 7550
 F 0 "#PWR067" H 15050 7300 50  0001 C CNN
@@ -894,7 +894,7 @@ F 3 "" H 15050 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R66
+L Duex5-rescue:R_SMALL R66
 U 1 1 57ED4706
 P 15050 7150
 F 0 "R66" V 15150 7150 50  0000 C CNN
@@ -907,7 +907,7 @@ $EndComp
 Text GLabel 10825 5350 0    60   Input ~ 0
 SX1509_INT
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R42
+L Duex5-rescue:R_SMALL R42
 U 1 1 57F517EE
 P 14950 4180
 F 0 "R42" V 15025 4188 50  0000 C CNN
@@ -918,7 +918,7 @@ F 3 "" H 14950 4180 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R43
+L Duex5-rescue:R_SMALL R43
 U 1 1 57F51A28
 P 14710 4180
 F 0 "R43" V 14785 4188 50  0000 C CNN
@@ -1361,7 +1361,7 @@ Wire Wire Line
 Text GLabel 15540 8660 2    60   Input ~ 0
 12V
 $Comp
-L Duex5-rescue:CONN_02X03-Duex5-rescue J40
+L Duex5-rescue:CONN_02X03 J40
 U 1 1 57F63369
 P 15190 8660
 F 0 "J40" H 15190 8860 50  0000 C CNN
@@ -1403,7 +1403,7 @@ E4_STOP
 Text GLabel 13905 6650 2    60   Input ~ 0
 E6_STOP
 $Comp
-L Duex5-rescue:SX1509B-Duex5-rescue U8
+L Duex5-rescue:SX1509B U8
 U 1 1 57D6D65A
 P 12950 5850
 AR Path="/57D6D65A" Ref="U8"  Part="1" 
@@ -1426,7 +1426,7 @@ OSCIO
 Wire Wire Line
 	12100 5700 11990 5700
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R3
+L Duex5-rescue:R_SMALL R3
 U 1 1 57F9BA5F
 P 11100 4700
 F 0 "R3" V 11200 4700 50  0000 C CNN
@@ -1443,7 +1443,7 @@ Wire Wire Line
 	11100 4900 11100 5350
 Connection ~ 11100 5350
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R45
+L Duex5-rescue:R_SMALL R45
 U 1 1 57F51E59
 P 14460 4180
 F 0 "R45" V 14535 4188 50  0000 C CNN
@@ -1460,7 +1460,7 @@ Wire Wire Line
 	14710 4380 14710 6200
 Connection ~ 14710 6200
 $Comp
-L Duex5-rescue:BSH105-Duex5-rescue TR11
+L Duex5-rescue:BSH105 TR11
 U 1 1 58ED3FFC
 P 4610 6790
 F 0 "TR11" H 4513 7040 70  0000 C CNN
@@ -1475,7 +1475,7 @@ FAN 8 MOSFET CONTROL
 Text GLabel 4760 6290 0    60   Input ~ 0
 FAN8-
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR068
+L Duex5-rescue:GND #PWR068
 U 1 1 58ED4004
 P 4760 7640
 F 0 "#PWR068" H 4760 7640 30  0001 C CNN
@@ -1488,7 +1488,7 @@ $EndComp
 Text GLabel 3710 6790 0    60   Input ~ 0
 FAN8
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R72
+L Duex5-rescue:R_SMALL R72
 U 1 1 58ED400B
 P 4010 6790
 F 0 "R72" V 4085 6798 50  0000 C CNN
@@ -1499,7 +1499,7 @@ F 3 "~" H 4010 6790 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R67
+L Duex5-rescue:R_SMALL R67
 U 1 1 58ED4011
 P 3810 7140
 F 0 "R67" V 3885 7148 50  0000 C CNN
@@ -1529,7 +1529,7 @@ Wire Wire Line
 Text GLabel 2940 4095 2    60   Input ~ 0
 V_FAN
 $Comp
-L Duex5-rescue:DIODE-Duex5-rescue D15
+L Duex5-rescue:DIODE D15
 U 1 1 58EE940B
 P 2655 4095
 F 0 "D15" H 2655 4195 40  0000 C CNN
@@ -1546,7 +1546,7 @@ Wire Wire Line
 Text GLabel 5040 4130 2    60   Input ~ 0
 V_FAN
 $Comp
-L Duex5-rescue:DIODE-Duex5-rescue D16
+L Duex5-rescue:DIODE D16
 U 1 1 58EEC360
 P 4755 4130
 F 0 "D16" H 4755 4230 40  0000 C CNN
@@ -1563,7 +1563,7 @@ Wire Wire Line
 Text GLabel 7165 4015 2    60   Input ~ 0
 V_FAN
 $Comp
-L Duex5-rescue:DIODE-Duex5-rescue D12
+L Duex5-rescue:DIODE D12
 U 1 1 58EED343
 P 6880 4015
 F 0 "D12" H 6880 4115 40  0000 C CNN
@@ -1580,7 +1580,7 @@ Wire Wire Line
 Text GLabel 9350 4045 2    60   Input ~ 0
 V_FAN
 $Comp
-L Duex5-rescue:DIODE-Duex5-rescue D14
+L Duex5-rescue:DIODE D14
 U 1 1 58EEDF31
 P 9065 4045
 F 0 "D14" H 9065 4145 40  0000 C CNN
@@ -1597,7 +1597,7 @@ Wire Wire Line
 Text GLabel 2935 6380 2    60   Input ~ 0
 V_FAN
 $Comp
-L Duex5-rescue:DIODE-Duex5-rescue D18
+L Duex5-rescue:DIODE D18
 U 1 1 58EF1D66
 P 2650 6380
 F 0 "D18" H 2650 6480 40  0000 C CNN
@@ -1614,7 +1614,7 @@ Wire Wire Line
 Text GLabel 5315 6290 2    60   Input ~ 0
 V_FAN
 $Comp
-L Duex5-rescue:DIODE-Duex5-rescue D17
+L Duex5-rescue:DIODE D17
 U 1 1 58EF2C4E
 P 5030 6290
 F 0 "D17" H 5030 6390 40  0000 C CNN
@@ -1631,7 +1631,7 @@ Wire Wire Line
 Text GLabel 15390 5900 2    60   Input ~ 0
 GPIO4
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R44
+L Duex5-rescue:R_SMALL R44
 U 1 1 58EEA097
 P 15160 4180
 F 0 "R44" V 15235 4188 50  0000 C CNN
@@ -1659,7 +1659,7 @@ Connection ~ 14950 6350
 Text Notes 5080 6860 0    60   ~ 0
 Always populate R67, even on Duex2
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R60
+L Duex5-rescue:R_SMALL R60
 U 1 1 58F911B7
 P 11400 6100
 F 0 "R60" V 11500 6100 50  0000 C CNN
@@ -1676,7 +1676,7 @@ Wire Wire Line
 Wire Wire Line
 	11930 6020 11930 6110
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR069
+L Duex5-rescue:GND #PWR069
 U 1 1 58F92C76
 P 11930 6110
 F 0 "#PWR069" H 11930 5860 50  0001 C CNN
@@ -1703,7 +1703,7 @@ Wire Notes Line
 Text GLabel 13300 8675 2    60   Input ~ 0
 V_FUSED
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue F1
+L Duex5-rescue:R_SMALL F1
 U 1 1 5AE49C41
 P 12850 8675
 F 0 "F1" V 12950 8675 50  0000 C CNN
@@ -1718,7 +1718,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 8675 13050 8675
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C47
+L Duex5-rescue:C_SMALL C47
 U 1 1 5AE5E4F1
 P 2850 2075
 F 0 "C47" H 2875 2150 50  0000 L CNN
@@ -1729,7 +1729,7 @@ F 3 "~" H 2850 2075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C49
+L Duex5-rescue:C_SMALL C49
 U 1 1 5AE5F13E
 P 13675 2085
 F 0 "C49" H 13700 2160 50  0000 L CNN
@@ -1873,7 +1873,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 7100 11400 7150
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R73
+L Duex5-rescue:R_SMALL R73
 U 1 1 58F91374
 P 11400 6900
 F 0 "R73" V 11500 6900 50  0000 C CNN
@@ -1884,7 +1884,7 @@ F 3 "" H 11400 6900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR065
+L Duex5-rescue:GND #PWR065
 U 1 1 57D0E1DB
 P 11400 7150
 F 0 "#PWR065" H 11400 6900 50  0001 C CNN

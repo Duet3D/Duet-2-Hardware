@@ -73,7 +73,7 @@ E2_STOP
 Text GLabel 20145 4295 1    39   Input ~ 0
 ES_V
 $Comp
-L Duex5-rescue:C_POL-Duex5-rescue C2
+L Duex5-rescue:C_POL C2
 U 1 1 50659B49
 P 2650 1375
 F 0 "C2" H 2675 1450 50  0000 L CNN
@@ -118,7 +118,7 @@ V_FUSED
 Text GLabel 3800 1225 1    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR01
+L Duex5-rescue:GND #PWR01
 U 1 1 505794D5
 P 2650 1775
 F 0 "#PWR01" H 2650 1775 30  0001 C CNN
@@ -129,7 +129,7 @@ F 3 "" H 2650 1775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR02
+L Duex5-rescue:GND #PWR02
 U 1 1 5057946D
 P 4300 2025
 F 0 "#PWR02" H 4300 2025 30  0001 C CNN
@@ -140,7 +140,7 @@ F 3 "" H 4300 2025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR03
+L Duex5-rescue:GND #PWR03
 U 1 1 5057917D
 P 1950 5400
 F 0 "#PWR03" H 1950 5400 30  0001 C CNN
@@ -170,7 +170,7 @@ E6_STOP
 Text GLabel 20295 8195 2    39   Output ~ 0
 E6_STOP_CONN
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C10
+L Duex5-rescue:C_SMALL C10
 U 1 1 5682AB4C
 P 4300 1625
 F 0 "C10" H 4325 1700 50  0000 L CNN
@@ -181,7 +181,7 @@ F 3 "~" H 4300 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C1
+L Duex5-rescue:C_SMALL C1
 U 1 1 5682AC4E
 P 2400 1375
 F 0 "C1" H 2425 1450 50  0000 L CNN
@@ -192,7 +192,7 @@ F 3 "~" H 2400 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C3
+L Duex5-rescue:C_SMALL C3
 U 1 1 5682ACBC
 P 3350 1375
 F 0 "C3" H 3375 1450 50  0000 L CNN
@@ -203,7 +203,7 @@ F 3 "~" H 3350 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C13
+L Duex5-rescue:C_SMALL C13
 U 1 1 5682B9C2
 P 4000 1825
 F 0 "C13" H 4025 1900 50  0000 L CNN
@@ -214,7 +214,7 @@ F 3 "~" H 4000 1825 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C18
+L Duex5-rescue:C_SMALL C18
 U 1 1 5682BAC3
 P 5725 3625
 F 0 "C18" H 5750 3700 50  0000 L CNN
@@ -225,7 +225,7 @@ F 3 "~" H 5725 3625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C21
+L Duex5-rescue:C_SMALL C21
 U 1 1 5682BB38
 P 4600 4625
 F 0 "C21" H 4625 4700 50  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "~" H 4600 4625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R11
+L Duex5-rescue:R_SMALL R11
 U 1 1 5682C366
 P 4950 4525
 F 0 "R11" V 5025 4533 50  0000 C CNN
@@ -247,7 +247,7 @@ F 3 "~" H 4950 4525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R5
+L Duex5-rescue:R_SMALL R5
 U 1 1 5682C473
 P 6125 3425
 F 0 "R5" V 6200 3433 50  0000 C CNN
@@ -258,7 +258,7 @@ F 3 "~" H 6125 3425 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R16
+L Duex5-rescue:R_SMALL R16
 U 1 1 5682C574
 P 4950 5025
 F 0 "R16" V 5025 5033 50  0000 C CNN
@@ -269,7 +269,7 @@ F 3 "~" H 4950 5025 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R8
+L Duex5-rescue:R_SMALL R8
 U 1 1 5682C58E
 P 6125 3975
 F 0 "R8" V 6200 3983 50  0000 C CNN
@@ -280,7 +280,7 @@ F 3 "~" H 6125 3975 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R2
+L Duex5-rescue:R_SMALL R2
 U 1 1 5682C675
 P 22045 2145
 F 0 "R2" V 22120 2153 50  0000 C CNN
@@ -291,7 +291,7 @@ F 3 "~" H 22045 2145 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R1
+L Duex5-rescue:R_SMALL R1
 U 1 1 5682C685
 P 20145 2145
 F 0 "R1" V 20220 2153 50  0000 C CNN
@@ -302,7 +302,7 @@ F 3 "~" H 20145 2145 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R14
+L Duex5-rescue:R_SMALL R14
 U 1 1 5682C69F
 P 20145 4745
 F 0 "R14" V 20220 4753 50  0000 C CNN
@@ -313,7 +313,7 @@ F 3 "~" H 20145 4745 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R15
+L Duex5-rescue:R_SMALL R15
 U 1 1 5682C6AA
 P 21950 4800
 F 0 "R15" V 22025 4808 50  0000 C CNN
@@ -324,7 +324,7 @@ F 3 "~" H 21950 4800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R21
+L Duex5-rescue:R_SMALL R21
 U 1 1 5682C6C9
 P 20045 7395
 F 0 "R21" V 20120 7403 50  0000 C CNN
@@ -338,7 +338,7 @@ NoConn ~ 2750 3875
 NoConn ~ 2750 2425
 NoConn ~ 2750 2625
 $Comp
-L Duex5-rescue:C_POL-Duex5-rescue C5
+L Duex5-rescue:C_POL C5
 U 1 1 56EF0034
 P 8600 1375
 F 0 "C5" H 8625 1450 50  0000 L CNN
@@ -361,7 +361,7 @@ V_FUSED
 Text GLabel 9750 1225 1    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR04
+L Duex5-rescue:GND #PWR04
 U 1 1 56EF0044
 P 8600 1775
 F 0 "#PWR04" H 8600 1775 30  0001 C CNN
@@ -372,7 +372,7 @@ F 3 "" H 8600 1775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR05
+L Duex5-rescue:GND #PWR05
 U 1 1 56EF004A
 P 10250 2025
 F 0 "#PWR05" H 10250 2025 30  0001 C CNN
@@ -383,7 +383,7 @@ F 3 "" H 10250 2025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR06
+L Duex5-rescue:GND #PWR06
 U 1 1 56EF0050
 P 7900 5375
 F 0 "#PWR06" H 7900 5375 30  0001 C CNN
@@ -394,7 +394,7 @@ F 3 "" H 7900 5375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C11
+L Duex5-rescue:C_SMALL C11
 U 1 1 56EF0056
 P 10250 1625
 F 0 "C11" H 10275 1700 50  0000 L CNN
@@ -405,7 +405,7 @@ F 3 "~" H 10250 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C4
+L Duex5-rescue:C_SMALL C4
 U 1 1 56EF005C
 P 8350 1375
 F 0 "C4" H 8375 1450 50  0000 L CNN
@@ -416,7 +416,7 @@ F 3 "~" H 8350 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C6
+L Duex5-rescue:C_SMALL C6
 U 1 1 56EF0062
 P 9300 1375
 F 0 "C6" H 9325 1450 50  0000 L CNN
@@ -427,7 +427,7 @@ F 3 "~" H 9300 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C14
+L Duex5-rescue:C_SMALL C14
 U 1 1 56EF0068
 P 9950 1825
 F 0 "C14" H 9975 1900 50  0000 L CNN
@@ -438,7 +438,7 @@ F 3 "~" H 9950 1825 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C19
+L Duex5-rescue:C_SMALL C19
 U 1 1 56EF006E
 P 11575 3625
 F 0 "C19" H 11600 3700 50  0000 L CNN
@@ -449,7 +449,7 @@ F 3 "~" H 11575 3625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C22
+L Duex5-rescue:C_SMALL C22
 U 1 1 56EF0074
 P 10550 4625
 F 0 "C22" H 10575 4700 50  0000 L CNN
@@ -460,7 +460,7 @@ F 3 "~" H 10550 4625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R12
+L Duex5-rescue:R_SMALL R12
 U 1 1 56EF007A
 P 10900 4525
 F 0 "R12" V 10975 4533 50  0000 C CNN
@@ -471,7 +471,7 @@ F 3 "~" H 10900 4525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R6
+L Duex5-rescue:R_SMALL R6
 U 1 1 56EF0080
 P 11975 3425
 F 0 "R6" V 12050 3433 50  0000 C CNN
@@ -482,7 +482,7 @@ F 3 "~" H 11975 3425 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R17
+L Duex5-rescue:R_SMALL R17
 U 1 1 56EF0086
 P 10900 5025
 F 0 "R17" V 10975 5033 50  0000 C CNN
@@ -493,7 +493,7 @@ F 3 "~" H 10900 5025 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R9
+L Duex5-rescue:R_SMALL R9
 U 1 1 56EF008C
 P 11975 3975
 F 0 "R9" V 12050 3983 50  0000 C CNN
@@ -504,7 +504,7 @@ F 3 "~" H 11975 3975 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:TMC2660-Duex5-rescue U2
+L Duex5-rescue:TMC2660 U2
 U 1 1 56EF0092
 P 9600 3325
 F 0 "U2" H 9600 3675 60  0000 C CNN
@@ -526,7 +526,7 @@ NoConn ~ 8700 2625
 Text Notes 18550 875  2    60   ~ 0
 Extruder 4 Stepper Driver
 $Comp
-L Duex5-rescue:C_POL-Duex5-rescue C8
+L Duex5-rescue:C_POL C8
 U 1 1 56EF01EB
 P 14750 1375
 F 0 "C8" H 14775 1450 50  0000 L CNN
@@ -549,7 +549,7 @@ V_FUSED
 Text GLabel 15900 1225 1    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR07
+L Duex5-rescue:GND #PWR07
 U 1 1 56EF01FA
 P 14750 1775
 F 0 "#PWR07" H 14750 1775 30  0001 C CNN
@@ -560,7 +560,7 @@ F 3 "" H 14750 1775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR08
+L Duex5-rescue:GND #PWR08
 U 1 1 56EF0200
 P 16400 2025
 F 0 "#PWR08" H 16400 2025 30  0001 C CNN
@@ -571,7 +571,7 @@ F 3 "" H 16400 2025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR09
+L Duex5-rescue:GND #PWR09
 U 1 1 56EF0206
 P 14050 5400
 F 0 "#PWR09" H 14050 5400 30  0001 C CNN
@@ -582,7 +582,7 @@ F 3 "" H 14050 5400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C12
+L Duex5-rescue:C_SMALL C12
 U 1 1 56EF020C
 P 16400 1625
 F 0 "C12" H 16425 1700 50  0000 L CNN
@@ -593,7 +593,7 @@ F 3 "~" H 16400 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C7
+L Duex5-rescue:C_SMALL C7
 U 1 1 56EF0212
 P 14500 1375
 F 0 "C7" H 14525 1450 50  0000 L CNN
@@ -604,7 +604,7 @@ F 3 "~" H 14500 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C9
+L Duex5-rescue:C_SMALL C9
 U 1 1 56EF0218
 P 15450 1375
 F 0 "C9" H 15475 1450 50  0000 L CNN
@@ -615,7 +615,7 @@ F 3 "~" H 15450 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C15
+L Duex5-rescue:C_SMALL C15
 U 1 1 56EF021E
 P 16100 1825
 F 0 "C15" H 16125 1900 50  0000 L CNN
@@ -626,7 +626,7 @@ F 3 "~" H 16100 1825 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C20
+L Duex5-rescue:C_SMALL C20
 U 1 1 56EF0224
 P 17950 3625
 F 0 "C20" H 17975 3700 50  0000 L CNN
@@ -637,7 +637,7 @@ F 3 "~" H 17950 3625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C23
+L Duex5-rescue:C_SMALL C23
 U 1 1 56EF022A
 P 16700 4625
 F 0 "C23" H 16725 4700 50  0000 L CNN
@@ -648,7 +648,7 @@ F 3 "~" H 16700 4625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R13
+L Duex5-rescue:R_SMALL R13
 U 1 1 56EF0230
 P 17050 4525
 F 0 "R13" V 17125 4533 50  0000 C CNN
@@ -659,7 +659,7 @@ F 3 "~" H 17050 4525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R7
+L Duex5-rescue:R_SMALL R7
 U 1 1 56EF0236
 P 18350 3425
 F 0 "R7" V 18425 3433 50  0000 C CNN
@@ -670,7 +670,7 @@ F 3 "~" H 18350 3425 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R18
+L Duex5-rescue:R_SMALL R18
 U 1 1 56EF023C
 P 17050 5025
 F 0 "R18" V 17125 5033 50  0000 C CNN
@@ -681,7 +681,7 @@ F 3 "~" H 17050 5025 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R10
+L Duex5-rescue:R_SMALL R10
 U 1 1 56EF0242
 P 18350 3975
 F 0 "R10" V 18425 3983 50  0000 C CNN
@@ -692,7 +692,7 @@ F 3 "~" H 18350 3975 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:TMC2660-Duex5-rescue U3
+L Duex5-rescue:TMC2660 U3
 U 1 1 56EF0248
 P 15750 3325
 F 0 "U3" H 15750 3675 60  0000 C CNN
@@ -712,7 +712,7 @@ NoConn ~ 14850 3875
 NoConn ~ 14850 2425
 NoConn ~ 14850 2625
 $Comp
-L Duex5-rescue:TMC2660-Duex5-rescue U1
+L Duex5-rescue:TMC2660 U1
 U 1 1 56DF8E7E
 P 3650 3325
 F 0 "U1" H 3650 3675 60  0000 C CNN
@@ -723,7 +723,7 @@ F 3 "" H 3650 3275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_POL-Duex5-rescue C28
+L Duex5-rescue:C_POL C28
 U 1 1 56EF390F
 P 2650 6375
 F 0 "C28" H 2675 6450 50  0000 L CNN
@@ -748,7 +748,7 @@ V_FUSED
 Text GLabel 3800 6225 1    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR010
+L Duex5-rescue:GND #PWR010
 U 1 1 56EF3920
 P 2650 6775
 F 0 "#PWR010" H 2650 6775 30  0001 C CNN
@@ -759,7 +759,7 @@ F 3 "" H 2650 6775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR011
+L Duex5-rescue:GND #PWR011
 U 1 1 56EF3926
 P 4300 7025
 F 0 "#PWR011" H 4300 7025 30  0001 C CNN
@@ -770,7 +770,7 @@ F 3 "" H 4300 7025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR012
+L Duex5-rescue:GND #PWR012
 U 1 1 56EF392C
 P 1950 10500
 F 0 "#PWR012" H 1950 10500 30  0001 C CNN
@@ -781,7 +781,7 @@ F 3 "" H 1950 10500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C33
+L Duex5-rescue:C_SMALL C33
 U 1 1 56EF3932
 P 4300 6625
 F 0 "C33" H 4325 6700 50  0000 L CNN
@@ -792,7 +792,7 @@ F 3 "~" H 4300 6625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C27
+L Duex5-rescue:C_SMALL C27
 U 1 1 56EF3938
 P 2400 6375
 F 0 "C27" H 2425 6450 50  0000 L CNN
@@ -803,7 +803,7 @@ F 3 "~" H 2400 6375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C29
+L Duex5-rescue:C_SMALL C29
 U 1 1 56EF393E
 P 3350 6375
 F 0 "C29" H 3375 6450 50  0000 L CNN
@@ -814,7 +814,7 @@ F 3 "~" H 3350 6375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C35
+L Duex5-rescue:C_SMALL C35
 U 1 1 56EF3944
 P 4000 6825
 F 0 "C35" H 4025 6900 50  0000 L CNN
@@ -825,7 +825,7 @@ F 3 "~" H 4000 6825 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C39
+L Duex5-rescue:C_SMALL C39
 U 1 1 56EF394A
 P 5725 8625
 F 0 "C39" H 5750 8700 50  0000 L CNN
@@ -836,7 +836,7 @@ F 3 "~" H 5725 8625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C41
+L Duex5-rescue:C_SMALL C41
 U 1 1 56EF3950
 P 4600 9625
 F 0 "C41" H 4625 9700 50  0000 L CNN
@@ -847,7 +847,7 @@ F 3 "~" H 4600 9625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R27
+L Duex5-rescue:R_SMALL R27
 U 1 1 56EF3956
 P 4950 9525
 F 0 "R27" V 5025 9533 50  0000 C CNN
@@ -858,7 +858,7 @@ F 3 "~" H 4950 9525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R23
+L Duex5-rescue:R_SMALL R23
 U 1 1 56EF395C
 P 6125 8425
 F 0 "R23" V 6200 8433 50  0000 C CNN
@@ -869,7 +869,7 @@ F 3 "~" H 6125 8425 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R29
+L Duex5-rescue:R_SMALL R29
 U 1 1 56EF3962
 P 4950 10025
 F 0 "R29" V 5025 10033 50  0000 C CNN
@@ -880,7 +880,7 @@ F 3 "~" H 4950 10025 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R25
+L Duex5-rescue:R_SMALL R25
 U 1 1 56EF3968
 P 6125 8975
 F 0 "R25" V 6200 8983 50  0000 C CNN
@@ -902,7 +902,7 @@ C14 between pin 13 and 17
 NoConn ~ 2750 7425
 NoConn ~ 2750 7625
 $Comp
-L Duex5-rescue:C_POL-Duex5-rescue C31
+L Duex5-rescue:C_POL C31
 U 1 1 56EF39CD
 P 8600 6375
 F 0 "C31" H 8625 6450 50  0000 L CNN
@@ -931,7 +931,7 @@ V_FUSED
 Text GLabel 9750 6225 1    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR013
+L Duex5-rescue:GND #PWR013
 U 1 1 56EF39DC
 P 8600 6775
 F 0 "#PWR013" H 8600 6775 30  0001 C CNN
@@ -942,7 +942,7 @@ F 3 "" H 8600 6775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR014
+L Duex5-rescue:GND #PWR014
 U 1 1 56EF39E2
 P 10250 7025
 F 0 "#PWR014" H 10250 7025 30  0001 C CNN
@@ -953,7 +953,7 @@ F 3 "" H 10250 7025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR015
+L Duex5-rescue:GND #PWR015
 U 1 1 56EF39E8
 P 7900 10450
 F 0 "#PWR015" H 7900 10450 30  0001 C CNN
@@ -964,7 +964,7 @@ F 3 "" H 7900 10450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C34
+L Duex5-rescue:C_SMALL C34
 U 1 1 56EF39EE
 P 10250 6625
 F 0 "C34" H 10275 6700 50  0000 L CNN
@@ -975,7 +975,7 @@ F 3 "~" H 10250 6625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C30
+L Duex5-rescue:C_SMALL C30
 U 1 1 56EF39F4
 P 8350 6375
 F 0 "C30" H 8375 6450 50  0000 L CNN
@@ -986,7 +986,7 @@ F 3 "~" H 8350 6375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C32
+L Duex5-rescue:C_SMALL C32
 U 1 1 56EF39FA
 P 9300 6375
 F 0 "C32" H 9325 6450 50  0000 L CNN
@@ -997,7 +997,7 @@ F 3 "~" H 9300 6375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C36
+L Duex5-rescue:C_SMALL C36
 U 1 1 56EF3A00
 P 9950 6825
 F 0 "C36" H 9975 6900 50  0000 L CNN
@@ -1008,7 +1008,7 @@ F 3 "~" H 9950 6825 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C40
+L Duex5-rescue:C_SMALL C40
 U 1 1 56EF3A06
 P 11575 8625
 F 0 "C40" H 11600 8700 50  0000 L CNN
@@ -1019,7 +1019,7 @@ F 3 "~" H 11575 8625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C42
+L Duex5-rescue:C_SMALL C42
 U 1 1 56EF3A0C
 P 10550 9625
 F 0 "C42" H 10575 9700 50  0000 L CNN
@@ -1030,7 +1030,7 @@ F 3 "~" H 10550 9625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R28
+L Duex5-rescue:R_SMALL R28
 U 1 1 56EF3A12
 P 10900 9525
 F 0 "R28" V 10975 9533 50  0000 C CNN
@@ -1041,7 +1041,7 @@ F 3 "~" H 10900 9525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R24
+L Duex5-rescue:R_SMALL R24
 U 1 1 56EF3A18
 P 11975 8425
 F 0 "R24" V 12050 8433 50  0000 C CNN
@@ -1052,7 +1052,7 @@ F 3 "~" H 11975 8425 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R26
+L Duex5-rescue:R_SMALL R26
 U 1 1 56EF3A24
 P 11975 8975
 F 0 "R26" V 12050 8983 50  0000 C CNN
@@ -1063,7 +1063,7 @@ F 3 "~" H 11975 8975 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:TMC2660-Duex5-rescue U6
+L Duex5-rescue:TMC2660 U6
 U 1 1 56EF3A2A
 P 9600 8325
 F 0 "U6" H 9600 8675 60  0000 C CNN
@@ -1083,7 +1083,7 @@ NoConn ~ 8700 8875
 NoConn ~ 8700 7425
 NoConn ~ 8700 7625
 $Comp
-L Duex5-rescue:TMC2660-Duex5-rescue U5
+L Duex5-rescue:TMC2660 U5
 U 1 1 56EF3A7F
 P 3650 8325
 F 0 "U5" H 3650 8675 60  0000 C CNN
@@ -1992,7 +1992,7 @@ Wire Wire Line
 	8600 8625 8600 10275
 Connection ~ 8600 10275
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C38
+L Duex5-rescue:C_SMALL C38
 U 1 1 5AE552B7
 P 4800 2400
 F 0 "C38" H 4825 2475 50  0000 L CNN
@@ -2003,7 +2003,7 @@ F 3 "~" H 4800 2400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR018
+L Duex5-rescue:GND #PWR018
 U 1 1 5AE55B74
 P 5025 2450
 F 0 "#PWR018" H 5025 2450 30  0001 C CNN
@@ -2021,7 +2021,7 @@ Wire Wire Line
 	4700 2400 4700 2325
 Connection ~ 4700 2325
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C57
+L Duex5-rescue:C_SMALL C57
 U 1 1 5AE562BD
 P 4800 2800
 F 0 "C57" H 4825 2875 50  0000 L CNN
@@ -2032,7 +2032,7 @@ F 3 "~" H 4800 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR019
+L Duex5-rescue:GND #PWR019
 U 1 1 5AE562C3
 P 5025 2850
 F 0 "#PWR019" H 5025 2850 30  0001 C CNN
@@ -2050,7 +2050,7 @@ Wire Wire Line
 	4700 2800 4700 2725
 Connection ~ 4700 2725
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C65
+L Duex5-rescue:C_SMALL C65
 U 1 1 5AE5688D
 P 4825 3500
 F 0 "C65" H 4850 3575 50  0000 L CNN
@@ -2061,7 +2061,7 @@ F 3 "~" H 4825 3500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR020
+L Duex5-rescue:GND #PWR020
 U 1 1 5AE56893
 P 5050 3550
 F 0 "#PWR020" H 5050 3550 30  0001 C CNN
@@ -2079,7 +2079,7 @@ Wire Wire Line
 	4725 3500 4725 3425
 Connection ~ 4725 3425
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C66
+L Duex5-rescue:C_SMALL C66
 U 1 1 5AE56BCE
 P 4825 3900
 F 0 "C66" H 4850 3975 50  0000 L CNN
@@ -2090,7 +2090,7 @@ F 3 "~" H 4825 3900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR021
+L Duex5-rescue:GND #PWR021
 U 1 1 5AE56BD4
 P 5050 3950
 F 0 "#PWR021" H 5050 3950 30  0001 C CNN
@@ -2108,7 +2108,7 @@ Wire Wire Line
 	4725 3900 4725 3825
 Connection ~ 4725 3825
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C24
+L Duex5-rescue:C_SMALL C24
 U 1 1 5AE57A94
 P 4725 7400
 F 0 "C24" H 4750 7475 50  0000 L CNN
@@ -2119,7 +2119,7 @@ F 3 "~" H 4725 7400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR022
+L Duex5-rescue:GND #PWR022
 U 1 1 5AE57A9A
 P 4950 7450
 F 0 "#PWR022" H 4950 7450 30  0001 C CNN
@@ -2137,7 +2137,7 @@ Wire Wire Line
 	4625 7400 4625 7325
 Connection ~ 4625 7325
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C25
+L Duex5-rescue:C_SMALL C25
 U 1 1 5AE57CD7
 P 4725 7800
 F 0 "C25" H 4750 7875 50  0000 L CNN
@@ -2148,7 +2148,7 @@ F 3 "~" H 4725 7800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR023
+L Duex5-rescue:GND #PWR023
 U 1 1 5AE57CDD
 P 4950 7850
 F 0 "#PWR023" H 4950 7850 30  0001 C CNN
@@ -2166,7 +2166,7 @@ Wire Wire Line
 	4625 7800 4625 7725
 Connection ~ 4625 7725
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C37
+L Duex5-rescue:C_SMALL C37
 U 1 1 5AE57DFE
 P 4750 8500
 F 0 "C37" H 4775 8575 50  0000 L CNN
@@ -2177,7 +2177,7 @@ F 3 "~" H 4750 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR024
+L Duex5-rescue:GND #PWR024
 U 1 1 5AE57E04
 P 4975 8550
 F 0 "#PWR024" H 4975 8550 30  0001 C CNN
@@ -2195,7 +2195,7 @@ Wire Wire Line
 	4650 8500 4650 8425
 Connection ~ 4650 8425
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C26
+L Duex5-rescue:C_SMALL C26
 U 1 1 5AE57F21
 P 4725 8900
 F 0 "C26" H 4750 8975 50  0000 L CNN
@@ -2206,7 +2206,7 @@ F 3 "~" H 4725 8900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR025
+L Duex5-rescue:GND #PWR025
 U 1 1 5AE57F27
 P 4950 8950
 F 0 "#PWR025" H 4950 8950 30  0001 C CNN
@@ -2224,7 +2224,7 @@ Wire Wire Line
 	4625 8900 4625 8825
 Connection ~ 4625 8825
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C75
+L Duex5-rescue:C_SMALL C75
 U 1 1 5AE5817B
 P 16875 2400
 F 0 "C75" H 16900 2475 50  0000 L CNN
@@ -2235,7 +2235,7 @@ F 3 "~" H 16875 2400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR026
+L Duex5-rescue:GND #PWR026
 U 1 1 5AE58181
 P 17100 2450
 F 0 "#PWR026" H 17100 2450 30  0001 C CNN
@@ -2253,7 +2253,7 @@ Wire Wire Line
 	16775 2400 16775 2325
 Connection ~ 16775 2325
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C76
+L Duex5-rescue:C_SMALL C76
 U 1 1 5AE5818B
 P 16875 2800
 F 0 "C76" H 16900 2875 50  0000 L CNN
@@ -2264,7 +2264,7 @@ F 3 "~" H 16875 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR027
+L Duex5-rescue:GND #PWR027
 U 1 1 5AE58191
 P 17100 2850
 F 0 "#PWR027" H 17100 2850 30  0001 C CNN
@@ -2282,7 +2282,7 @@ Wire Wire Line
 	16775 2800 16775 2725
 Connection ~ 16775 2725
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C78
+L Duex5-rescue:C_SMALL C78
 U 1 1 5AE5819B
 P 16900 3500
 F 0 "C78" H 16925 3575 50  0000 L CNN
@@ -2293,7 +2293,7 @@ F 3 "~" H 16900 3500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR028
+L Duex5-rescue:GND #PWR028
 U 1 1 5AE581A1
 P 17125 3550
 F 0 "#PWR028" H 17125 3550 30  0001 C CNN
@@ -2311,7 +2311,7 @@ Wire Wire Line
 	16800 3500 16800 3425
 Connection ~ 16800 3425
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C77
+L Duex5-rescue:C_SMALL C77
 U 1 1 5AE581AB
 P 16875 3900
 F 0 "C77" H 16900 3975 50  0000 L CNN
@@ -2322,7 +2322,7 @@ F 3 "~" H 16875 3900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR029
+L Duex5-rescue:GND #PWR029
 U 1 1 5AE581B1
 P 17100 3950
 F 0 "#PWR029" H 17100 3950 30  0001 C CNN
@@ -2340,7 +2340,7 @@ Wire Wire Line
 	16775 3900 16775 3825
 Connection ~ 16775 3825
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C70
+L Duex5-rescue:C_SMALL C70
 U 1 1 5AE5ACE1
 P 10625 2400
 F 0 "C70" H 10650 2475 50  0000 L CNN
@@ -2351,7 +2351,7 @@ F 3 "~" H 10625 2400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR030
+L Duex5-rescue:GND #PWR030
 U 1 1 5AE5ACE7
 P 10850 2450
 F 0 "#PWR030" H 10850 2450 30  0001 C CNN
@@ -2369,7 +2369,7 @@ Wire Wire Line
 	10525 2400 10525 2325
 Connection ~ 10525 2325
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C71
+L Duex5-rescue:C_SMALL C71
 U 1 1 5AE5ACF1
 P 10625 2800
 F 0 "C71" H 10650 2875 50  0000 L CNN
@@ -2380,7 +2380,7 @@ F 3 "~" H 10625 2800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR031
+L Duex5-rescue:GND #PWR031
 U 1 1 5AE5ACF7
 P 10850 2850
 F 0 "#PWR031" H 10850 2850 30  0001 C CNN
@@ -2398,7 +2398,7 @@ Wire Wire Line
 	10525 2800 10525 2725
 Connection ~ 10525 2725
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C74
+L Duex5-rescue:C_SMALL C74
 U 1 1 5AE5AD01
 P 10650 3500
 F 0 "C74" H 10675 3575 50  0000 L CNN
@@ -2409,7 +2409,7 @@ F 3 "~" H 10650 3500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR032
+L Duex5-rescue:GND #PWR032
 U 1 1 5AE5AD07
 P 10875 3550
 F 0 "#PWR032" H 10875 3550 30  0001 C CNN
@@ -2427,7 +2427,7 @@ Wire Wire Line
 	10550 3500 10550 3425
 Connection ~ 10550 3425
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C72
+L Duex5-rescue:C_SMALL C72
 U 1 1 5AE5AD11
 P 10625 3900
 F 0 "C72" H 10650 3975 50  0000 L CNN
@@ -2438,7 +2438,7 @@ F 3 "~" H 10625 3900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR033
+L Duex5-rescue:GND #PWR033
 U 1 1 5AE5AD17
 P 10850 3950
 F 0 "#PWR033" H 10850 3950 30  0001 C CNN
@@ -2456,7 +2456,7 @@ Wire Wire Line
 	10525 3900 10525 3825
 Connection ~ 10525 3825
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C67
+L Duex5-rescue:C_SMALL C67
 U 1 1 5AE5B461
 P 10600 7400
 F 0 "C67" H 10625 7475 50  0000 L CNN
@@ -2467,7 +2467,7 @@ F 3 "~" H 10600 7400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR034
+L Duex5-rescue:GND #PWR034
 U 1 1 5AE5B467
 P 10825 7450
 F 0 "#PWR034" H 10825 7450 30  0001 C CNN
@@ -2485,7 +2485,7 @@ Wire Wire Line
 	10500 7400 10500 7325
 Connection ~ 10500 7325
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C68
+L Duex5-rescue:C_SMALL C68
 U 1 1 5AE5B471
 P 10600 7800
 F 0 "C68" H 10625 7875 50  0000 L CNN
@@ -2496,7 +2496,7 @@ F 3 "~" H 10600 7800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR035
+L Duex5-rescue:GND #PWR035
 U 1 1 5AE5B477
 P 10825 7850
 F 0 "#PWR035" H 10825 7850 30  0001 C CNN
@@ -2514,7 +2514,7 @@ Wire Wire Line
 	10500 7800 10500 7725
 Connection ~ 10500 7725
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C73
+L Duex5-rescue:C_SMALL C73
 U 1 1 5AE5B481
 P 10625 8500
 F 0 "C73" H 10650 8575 50  0000 L CNN
@@ -2525,7 +2525,7 @@ F 3 "~" H 10625 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR036
+L Duex5-rescue:GND #PWR036
 U 1 1 5AE5B487
 P 10850 8550
 F 0 "#PWR036" H 10850 8550 30  0001 C CNN
@@ -2543,7 +2543,7 @@ Wire Wire Line
 	10525 8500 10525 8425
 Connection ~ 10525 8425
 $Comp
-L Duex5-rescue:C_SMALL-Duex5-rescue C69
+L Duex5-rescue:C_SMALL C69
 U 1 1 5AE5B491
 P 10600 8900
 F 0 "C69" H 10625 8975 50  0000 L CNN
@@ -2554,7 +2554,7 @@ F 3 "~" H 10600 8900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR037
+L Duex5-rescue:GND #PWR037
 U 1 1 5AE5B497
 P 10825 8950
 F 0 "#PWR037" H 10825 8950 30  0001 C CNN
@@ -2810,7 +2810,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 6125 8350 6125
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5E560CC0
 P 1375 2725
 AR Path="/50577A22/5E560CC0" Ref="R?"  Part="1" 
@@ -2832,7 +2832,7 @@ Connection ~ 1375 2975
 Wire Wire Line
 	1375 2975 2700 2975
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5E6E0C43
 P 7325 2700
 AR Path="/50577A22/5E6E0C43" Ref="R?"  Part="1" 
@@ -2854,7 +2854,7 @@ Connection ~ 7325 2975
 Wire Wire Line
 	7325 2975 8650 2975
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5E81C916
 P 13225 2675
 AR Path="/50577A22/5E81C916" Ref="R?"  Part="1" 
@@ -2876,7 +2876,7 @@ Connection ~ 13225 2975
 Wire Wire Line
 	13225 2975 14800 2975
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5EA8C3BB
 P 7325 7675
 AR Path="/50577A22/5EA8C3BB" Ref="R?"  Part="1" 
@@ -2985,7 +2985,7 @@ Connection ~ 4950 9825
 Connection ~ 6125 3775
 Connection ~ 6125 8775
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5F57302A
 P 2075 2475
 AR Path="/50577A22/5F57302A" Ref="R?"  Part="1" 
@@ -3001,7 +3001,7 @@ Connection ~ 2075 2675
 Wire Wire Line
 	2075 2675 2700 2675
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR016
+L Duex5-rescue:GND #PWR016
 U 1 1 5F573616
 P 2250 2275
 F 0 "#PWR016" H 2250 2275 30  0001 C CNN
@@ -3018,7 +3018,7 @@ Wire Wire Line
 Wire Wire Line
 	2075 2225 2075 2275
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5F5DDD05
 P 8000 2475
 AR Path="/50577A22/5F5DDD05" Ref="R?"  Part="1" 
@@ -3031,7 +3031,7 @@ F 3 "~" H 8000 2475 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR070
+L Duex5-rescue:GND #PWR070
 U 1 1 5F5DDD0F
 P 8175 2275
 F 0 "#PWR070" H 8175 2275 30  0001 C CNN
@@ -3066,7 +3066,7 @@ Wire Wire Line
 Text GLabel 1375 7400 1    60   Input ~ 0
 +3.3V
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5E94FCF4
 P 1375 7675
 AR Path="/50577A22/5E94FCF4" Ref="R?"  Part="1" 
@@ -3085,7 +3085,7 @@ E5_STEP
 Text GLabel 2600 7825 0    60   Input ~ 0
 E5_DIR
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5FAA1089
 P 14000 2475
 AR Path="/50577A22/5FAA1089" Ref="R?"  Part="1" 
@@ -3098,7 +3098,7 @@ F 3 "~" H 14000 2475 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR072
+L Duex5-rescue:GND #PWR072
 U 1 1 5FAA1093
 P 14175 2275
 F 0 "#PWR072" H 14175 2275 30  0001 C CNN
@@ -3118,7 +3118,7 @@ Connection ~ 14000 2675
 Wire Wire Line
 	14000 2675 14800 2675
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5FB159A2
 P 2100 7475
 AR Path="/50577A22/5FB159A2" Ref="R?"  Part="1" 
@@ -3131,7 +3131,7 @@ F 3 "~" H 2100 7475 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR017
+L Duex5-rescue:GND #PWR017
 U 1 1 5FB159AC
 P 2275 7275
 F 0 "#PWR017" H 2275 7275 30  0001 C CNN
@@ -3151,7 +3151,7 @@ Connection ~ 2100 7675
 Wire Wire Line
 	2100 7675 2700 7675
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 5FB910E6
 P 8075 7475
 AR Path="/50577A22/5FB910E6" Ref="R?"  Part="1" 
@@ -3164,7 +3164,7 @@ F 3 "~" H 8075 7475 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR071
+L Duex5-rescue:GND #PWR071
 U 1 1 5FB910F0
 P 8250 7275
 F 0 "#PWR071" H 8250 7275 30  0001 C CNN
@@ -3184,7 +3184,7 @@ Connection ~ 8075 7675
 Wire Wire Line
 	8075 7675 8650 7675
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R30
+L Duex5-rescue:R_SMALL R30
 U 1 1 56EF3A1E
 P 10900 10025
 F 0 "R30" V 10975 10033 50  0000 C CNN
@@ -3221,7 +3221,7 @@ Wire Notes Line
 Wire Notes Line
 	12535 7690 12535 5790
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 610FA408
 P 14125 7175
 AR Path="/50577A22/610FA408" Ref="R?"  Part="1" 
@@ -3234,7 +3234,7 @@ F 3 "" H 14125 7175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:GND-Duex5-rescue #PWR?
+L Duex5-rescue:GND #PWR?
 U 1 1 610FA40E
 P 13700 7450
 AR Path="/50577A22/610FA40E" Ref="#PWR?"  Part="1" 
@@ -3257,7 +3257,7 @@ E5_DIR
 Text GLabel 13150 6850 0    60   Input ~ 0
 E6_DIR
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 611BA583
 P 13500 7175
 AR Path="/50577A22/611BA583" Ref="R?"  Part="1" 
@@ -3270,7 +3270,7 @@ F 3 "" H 13500 7175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 611BAE9A
 P 13700 7175
 AR Path="/50577A22/611BAE9A" Ref="R?"  Part="1" 
@@ -3283,7 +3283,7 @@ F 3 "" H 13700 7175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 611BB1BA
 P 13900 7175
 AR Path="/50577A22/611BB1BA" Ref="R?"  Part="1" 
@@ -3296,7 +3296,7 @@ F 3 "" H 13900 7175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Duex5-rescue:R_SMALL-Duex5-rescue R?
+L Duex5-rescue:R_SMALL R?
 U 1 1 611BB3BF
 P 13300 7175
 AR Path="/50577A22/611BB3BF" Ref="R?"  Part="1" 

@@ -3,7 +3,7 @@ description: Suggest an idea for this project
 title: "[FeatureRequest]: "
 labels: [FeatureRequest]
 assignees:
-- x0rtrunks
+- droftarts
 body:
 - type: markdown
   attributes:
